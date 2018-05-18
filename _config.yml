@@ -15,7 +15,7 @@ words_per_minute         : 200
 # Site Author
 author:
   name             : "Dr. Simon Harrer"
-  avatar           : "simon-avatar.jpg"
+  avatar           : "/simon-avatar.jpg"
   bio              : "I am an amazing person."
   location         : "Bamberg, Germany"
   email            : "simon.harrer@gmail.com"
