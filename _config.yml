@@ -2,6 +2,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 url: "https://simonharrer.com" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
 locale                   : "en-US"
 title                    : "Dr. Simon Harrer"
 title_separator          : "-"
