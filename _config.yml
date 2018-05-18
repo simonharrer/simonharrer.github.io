@@ -2,3 +2,44 @@ remote_theme: "mmistakes/minimal-mistakes"
 url: "https://simonharrer.com" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
+locale                   : "en-US"
+title                    : "Dr. Simon Harrer"
+title_separator          : "-"
+name                     : "Dr. Simon Harrer"
+description              : "My personal homepage."
+breadcrumbs              : true
+words_per_minute         : 200
+
+
+# Site Author
+author:
+  name             : "Dr. Simon Harrer"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an amazing person."
+  location         : "Bamberg, Germany"
+  email            : "simon.harrer@gmail.com"
+  uri              :
+  home             : # null (default), "absolute or relative url to link to author home"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         : "simonharrer"
+  foursquare       :
+  github           : "simonharrer"
+  gitlab           : "simonharrer"
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  tumblr           :
+  twitter          : "simonharrer"
+  vine             :
+  weibo            :
+  xing             : "Simon_Harrer"
+  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
