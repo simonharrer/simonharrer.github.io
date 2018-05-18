@@ -14,7 +14,7 @@ words_per_minute         : 200
 
 # Site Author
 author:
-  name             : "Dr. Simon Harrer"
+  name : "Dr. Simon Harrer"
   avatar           : "/simon-avatar.jpg"
   bio              : "I am an amazing person."
   location         : "Bamberg, Germany"
@@ -33,10 +33,10 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "simonharrer" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "simonharrer" 
   pinterest        :
   soundcloud       :
-  stackoverflow    : "428536/simonh" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  stackoverflow    : "428536/simonh"
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          : "https://twitter.com/simonharrer"
