@@ -1,3 +1,5 @@
+---
 permalink: /talks/
+---
 
 # Talks
