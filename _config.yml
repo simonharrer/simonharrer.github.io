@@ -18,6 +18,20 @@ search_full_content      : true
 twitter:
   username               : simonharrer
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
+
 # Site Author
 author:
   name : "Dr. Simon Harrer"
