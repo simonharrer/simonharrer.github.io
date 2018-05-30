@@ -1,5 +1,5 @@
 remote_theme: "mmistakes/minimal-mistakes"
-url: "https://simonharrer.com" # the base hostname & protocol for your site
+url: "https://simonharrer.github.io" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
   - jekyll-feed

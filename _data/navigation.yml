@@ -1,13 +1,13 @@
 main:
   - title: "About me"
-    url: /about
+    url: /about/
   - title: "Talks"
-    url: /talks
+    url: /talks/
   - title: "Books"
-    url: /books
+    url: /books/
   - title: "Open Source"
-    url: /opensource
+    url: /opensource/
   - title: "Imprint"
-    url: /imprint
+    url: /imprint/
   - title: "Privacy"
-    url: /privacy
+    url: /privacy/
