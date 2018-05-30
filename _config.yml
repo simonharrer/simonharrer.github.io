@@ -1,4 +1,5 @@
 remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "mint"
 url: "https://simonharrer.github.io" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
@@ -11,6 +12,11 @@ description              : "My personal homepage."
 breadcrumbs              : true
 words_per_minute         : 200
 include: ["_pages"]
+search                   : true
+search_full_content      : true
+
+twitter:
+  username               : simonharrer
 
 # Site Author
 author:

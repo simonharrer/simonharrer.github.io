@@ -1,5 +1,5 @@
 ---
-permalink: /Books/
+permalink: /books/
 ---
 
 # Books
