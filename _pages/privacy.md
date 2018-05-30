@@ -1,1 +1,3 @@
-privacy
+permalink: /privacy/
+
+# Privacy

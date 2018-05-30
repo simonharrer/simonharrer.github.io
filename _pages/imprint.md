@@ -1,1 +1,3 @@
-imprint
+permalink: /imprint/
+
+# Imprint

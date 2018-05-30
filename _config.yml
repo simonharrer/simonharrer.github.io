@@ -10,7 +10,7 @@ name                     : "Dr. Simon Harrer"
 description              : "My personal homepage."
 breadcrumbs              : true
 words_per_minute         : 200
-
+include: ["_pages"]
 
 # Site Author
 author:
