@@ -1,6 +1,0 @@
----
-permalink: /books/
----
-
-# Books
-
