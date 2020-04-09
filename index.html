@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Simon Harrer">
-    <title>./sh publish</title>
+    <title>./sh -c "ls projects"</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="album.css">
@@ -46,7 +46,7 @@
           <path fill-rule="evenodd" d="M3.214 1.072C4.813.752 6.916.71 8.354 2.146A.5.5 0 018.5 2.5v11a.5.5 0 01-.854.354c-.843-.844-2.115-1.059-3.47-.92-1.344.14-2.66.617-3.452 1.013A.5.5 0 010 13.5v-11a.5.5 0 01.276-.447L.5 2.5l-.224-.447.002-.001.004-.002.013-.006a5.017 5.017 0 01.22-.103 12.958 12.958 0 012.7-.869zM1 2.82v9.908c.846-.343 1.944-.672 3.074-.788 1.143-.118 2.387-.023 3.426.56V2.718c-1.063-.929-2.631-.956-4.09-.664A11.958 11.958 0 001 2.82z" clip-rule="evenodd"/>
           <path fill-rule="evenodd" d="M12.786 1.072C11.188.752 9.084.71 7.646 2.146A.5.5 0 007.5 2.5v11a.5.5 0 00.854.354c.843-.844 2.115-1.059 3.47-.92 1.344.14 2.66.617 3.452 1.013A.5.5 0 0016 13.5v-11a.5.5 0 00-.276-.447L15.5 2.5l.224-.447-.002-.001-.004-.002-.013-.006-.047-.023a12.582 12.582 0 00-.799-.34 12.96 12.96 0 00-2.073-.609zM15 2.82v9.908c-.846-.343-1.944-.672-3.074-.788-1.143-.118-2.387-.023-3.426.56V2.718c1.063-.929 2.631-.956 4.09-.664A11.956 11.956 0 0115 2.82z" clip-rule="evenodd"/>
         </svg>        
-        <strong style="margin-left: .5em;">./sh show projects</strong>
+        <strong style="margin-left: .5em;">./sh -c "ls projects"</strong>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -61,131 +61,86 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
+        <div class="col-md-6">
+          <div class="card mb-6 shadow-sm">
             <img src="remotemobprogramming.png" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail"/>
             <div class="card-body">
-              <h5 class="card-title">Remote Mob Programming Site</h5>
+              <h5 class="card-title">Remote Mob Programming</h5>
               <p class="card-text">
                 Remote Mob Programming: home but not alone. I don't want to work differently anymore. Here's why.
               </p>
               <div class="d-flex justify-content-between align-items-center">
-                <a href="https://remotemobprogramming.org" class="btn btn-sm btn-outline-secondary">Learn why</a>
-                <small class="text-muted">written with <a href="https://twitter.com/jochen_christ">Jochen</a> &amp; <a href="https://twitter.com/waterback">Martin</a></small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="remotemobprogramming-book.png" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail"/>
-            <div class="card-body">
-              <h5 class="card-title">Remote Mob Programming Book</h5>
-              <p class="card-text">Our book on Remote Mob Programming sharing our experiences of working like this for two years.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <a href="https://leanpub.com/remotemobprogramming" class="btn btn-sm btn-outline-secondary">Get free eBook</a>
-                <small class="text-muted">written with <a href="https://twitter.com/jochen_christ">Jochen</a> &amp; <a href="https://twitter.com/waterback">Martin</a></small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="mob.svg" style="padding-top:76px;padding-bottom:76px;" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail"/>
-            <div class="card-body">
-              <h5 class="card-title">mob tool</h5>
-              <p class="card-text">Swift git handovers for teams doing remote mob programming with the cli tool 'mob'. It uses WIP commits on a dedicated branch.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <a href="https://github.com/remotemobprogramming/mob" class="btn btn-sm btn-outline-secondary">Try it out</a>
-                <small class="text-muted">Open Source</small>
+                <div class="btn-group">
+                  <a href="https://remotemobprogramming.org" class="btn btn-sm btn-outline-secondary">Website</a>
+                  <a href="https://www.amazon.de/gp/product/3982112605/" class="btn btn-sm btn-outline-secondary">Paperback</a>
+                  <a href="https://leanpub.com/remotemobprogramming" class="btn btn-sm btn-outline-secondary">eBook</a>
+                  <a href="https://github.com/remotemobprogramming/mob" class="btn btn-sm btn-outline-secondary">'mob' Tool</a>
+                </div>
+                <small class="text-muted">with <a href="https://twitter.com/jochen_christ">Jochen</a> &amp; <a href="https://twitter.com/waterback">Martin</a></small>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="javabycomparison.png" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail"/>
+        <div class="col-md-6">
+          <div class="card mb-6 shadow-sm">
+            <img src="javabycomparison.jpeg" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail"/>
             <div class="card-body">
-              <h5 class="card-title">Java by Comparison Book</h5>
+              <h5 class="card-title">Java by Comparison</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
-                <a href="https://java.by-comparison.com" class="btn btn-sm btn-outline-secondary">Get the book</a>
-                <small class="text-muted">written with <a href="https://twitter.com/Lynyus">Linus</a>  &amp; Jörg</small>
+                <div class="btn-group">
+                  <a href="https://www.amazon.de/dp/1680502875/" class="btn btn-sm btn-outline-secondary">Paperback</a>
+                  <a href="https://pragprog.com/books/javacomp" class="btn btn-sm btn-outline-secondary">eBook</a>
+                  <a href="https://java.by-comparison.com/kata" class="btn btn-sm btn-outline-secondary">Kata</a>
+                  <a href="https://java.by-comparison.com/game" class="btn btn-sm btn-outline-secondary">Jeopardy</a>
+                </div>
+                <small class="text-muted">with <a href="https://twitter.com/Lynyus">Linus</a>  &amp; <a href="https://www.linkedin.com/in/joerglenhard/">Jörg</a></small>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="comparisonjeopardy.png" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail"/>
-            <div class="card-body">
-              <h5 class="card-title">Comparison Jeopardy</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <a href="https://java.by-comparison.com/game" class="btn btn-sm btn-outline-secondary">Play it</a>
-                <small class="text-muted">written with <a href="https://twitter.com/Lynyus">Linus</a></small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="javabycomparison-kata.png" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail"/>
-            <div class="card-body">
-              <h5 class="card-title">Java by Comparison Kata</h5>
-              <p class="card-text">
-                Code katas are a perfect way to learn clean coding. 
-                Ours is designed as a two-hour team exercise and workshop. 
-                The objective is to use the Java by Comparison method to clean up our fictitious, specially-uglified legacy code.
-              </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <a href="https://java.by-comparison.com/kata" class="btn btn-sm btn-outline-secondary">Do the kata</a>
-                <small class="text-muted">written with <a href="https://twitter.com/Lynyus">Linus</a></small>
-              </div>
-            </div>
-          </div>
-        </div>
+      </div>
+        <div class="row" style="margin-top: 2em;">
 
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
+        <div class="col-md-6">
+          <div class="card mb-6 shadow-sm">
             <img src="effectivehomeoffice.jpg" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail"/>
             <div class="card-body">
               <h5 class="card-title">Effective Home Office</h5>
               <p class="card-text">An opinionated and free guide to effectively work from home.</p>
               <div class="d-flex justify-content-between align-items-center">
-                <a href="https://effectivehomeoffice.com" class="btn btn-sm btn-outline-secondary">Read guide</a>
-                <small class="text-muted">written with <a href="https://twitter.com/jochen_christ">Jochen</a></small>
+                <a href="https://effectivehomeoffice.com" class="btn btn-sm btn-outline-secondary">Guide</a>
+                <small class="text-muted">with <a href="https://twitter.com/jochen_christ">Jochen</a></small>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="gitops.png" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail"/>
-            <div class="card-body">
-              <h5 class="card-title">GitOps Site</h5>
-              <p class="card-text">An opinionated and free guide to effectively work from home.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <a href="https://gitops.tech" class="btn btn-sm btn-outline-secondary">Learn about GitOps</a>
-                <small class="text-muted">written with <a href="https://twitter.com/fbeetz_">Florian</a>  &amp; Anja</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
+
+        <div class="col-md-6">
+          <div class="card mb-6 shadow-sm">
             <img src="gitops-book.png" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail"/>
             <div class="card-body">
-              <h5 class="card-title">GitOps Book</h5>
-              <p class="card-text">An opinionated and free guide to effectively work from home.</p>
+              <h5 class="card-title">GitOps</h5>
+              <p class="card-text">I had a lot of questions on GitOps.
+                What is GitOps?
+                Why should I use GitOps?
+                How does GitOps work? 
+                Trying to answer all of those questions.           
+              </p>
               <div class="d-flex justify-content-between align-items-center">
-                <a href="https://leanpub.com/gitops" class="btn btn-sm btn-outline-secondary">Get free eBook</a>
-                <small class="text-muted">written with <a href="https://twitter.com/fbeetz_">Florian</a>  &amp; Anja</small>
+                <div class="btn-group">
+                  <a href="https://gitops.tech" class="btn btn-sm btn-outline-secondary">Website</a>
+                  <a href="https://leanpub.com/gitops" class="btn btn-sm btn-outline-secondary">eBook</a>
+                  <a href="https://gitops.tech/tutorial" class="btn btn-sm btn-outline-secondary">Tutorial</a>
+                </div>
+                <small class="text-muted">with <a href="https://twitter.com/fbeetz_">Florian</a>  &amp; <a href="https://www.linkedin.com/in/anja-kammer-berlin/">Anja</a></small>
               </div>
             </div>
           </div>
         </div>
+
+
 
       </div>
     </div>
