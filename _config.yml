@@ -1,0 +1,4 @@
+plugins:
+  - jekyll-sitemap
+markdown: kramdown
+title: Simon's Projects
