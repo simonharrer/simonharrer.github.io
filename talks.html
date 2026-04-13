@@ -16,38 +16,49 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <style>
-      .talk-header { cursor: pointer; }
+      .talk-header { cursor: pointer; padding-right: 2rem; }
       .talk-header:hover { background: #f1f3f5; }
       .talk-header .talk-meta { color: #6c757d; font-size: 0.875rem; }
       .talk-header .talk-title { font-weight: 600; }
       .talk-header .flag { margin-right: .35em; }
-      .talk-header .badge { margin-right: .4em; vertical-align: middle; }
+      .talk-header .badge { margin-right: .4em; vertical-align: middle; margin-bottom: .15em; }
       .badge-keynote { background: #ffc107; color: #212529; font-weight: 700; box-shadow: 0 0 0 2px rgba(255,193,7,.35); }
       .badge-upcoming { background: #28a745; color: #fff; margin-left: .35em; }
       .badge-online { background: #17a2b8; color: #fff; }
-      .talk-header::after { content: "\25BE"; float: right; color: #6c757d; }
+      .talk-header::after { content: "\25BE"; position: absolute; right: 1rem; top: 1rem; color: #6c757d; }
       .talk-header.collapsed::after { content: "\25B8"; }
+      .talk-header { position: relative; }
       h2.year { margin-top: 2rem; border-bottom: 1px solid #dee2e6; padding-bottom: .25rem; }
+      @media (max-width: 575.98px) {
+        h1 { font-size: 1.75rem; }
+        .talk-header .talk-title { font-size: .95rem; }
+        .talk-header .talk-meta { font-size: .8rem; }
+      }
     </style>
   </head>
 <body>
 
 <header>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container d-flex justify-content-between">
-      <a href="index.html" class="navbar-brand d-flex align-items-center">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
         <strong>Dr. Simon Harrer</strong>
       </a>
-      <div>
-        <a href="books.html" class="text-white mr-3">Books</a>
-        <a href="open-source.html" class="text-white mr-3">Open Source</a>
-        <a href="talks.html" class="text-white mr-3">Talks</a>
-        <a href="podcasts.html" class="text-white mr-3">Podcasts</a>
-        <a href="research.html" class="text-white mr-3">Research</a>
-        <a href="bio.html" class="text-white">Bio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="books.html">Books</a></li>
+          <li class="nav-item"><a class="nav-link" href="open-source.html">Open Source</a></li>
+          <li class="nav-item"><a class="nav-link" href="talks.html">Talks</a></li>
+          <li class="nav-item"><a class="nav-link" href="podcasts.html">Podcasts</a></li>
+          <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="bio.html">Bio</a></li>
+        </ul>
       </div>
     </div>
-  </div>
+  </nav>
 </header>
 
 <main role="main">
