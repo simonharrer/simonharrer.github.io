@@ -7,13 +7,20 @@
     <meta name="author" content="Simon Harrer">
     <title>Talks &mdash; Simon Harrer</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
     <link rel="stylesheet" href="album.css">
-    <link rel="icon" type="image/svg+xml" href="https://simonharrer.com/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="vendor/bootstrap.bundle.min.js" defer></script>
+
+    <link rel="canonical" href="https://simonharrer.com/talks.html">
+    <meta property="og:url" content="https://simonharrer.com/talks.html">
+    <meta property="og:site_name" content="Simon Harrer">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Talks — Simon Harrer">
+    <meta property="og:description" content="Talks given by Dr. Simon Harrer">
+    <meta property="og:image" content="https://simonharrer.com/simon-harrer-1024.jpg">
 
     <style>
       .talk-header { cursor: pointer; padding-right: 2rem; }
@@ -44,11 +51,11 @@
       <a href="index.html" class="navbar-brand">
         <strong>Dr. Simon Harrer</strong>
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarMain">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="books.html">Books</a></li>
           <li class="nav-item"><a class="nav-link" href="open-source.html">Open Source</a></li>
           <li class="nav-item"><a class="nav-link" href="talks.html">Talks</a></li>
@@ -66,7 +73,7 @@
     <div class="container">
 
       <h1>Talks</h1>
-      <p class="text-muted">Selected talks I've given at conferences, meetups, and company events. Click any talk to expand. <span title="German">🇩🇪</span> German, <span title="English">🇺🇸</span> English &middot; <span class="badge badge-secondary">Talk</span> <span class="badge badge-info">Workshop</span> <span class="badge badge-keynote">Keynote</span> <span class="badge badge-online">Online</span></p>
+      <p class="text-muted">Selected talks I've given at conferences, meetups, and company events. Click any talk to expand. <span title="German">🇩🇪</span> German, <span title="English">🇺🇸</span> English &middot; <span class="badge bg-secondary">Talk</span> <span class="badge bg-info">Workshop</span> <span class="badge badge-keynote">Keynote</span> <span class="badge badge-online">Online</span></p>
 
       <div class="alert alert-primary mt-3" role="alert">
         <strong>Want me to speak at your event?</strong> Reach out at <a href="mailto:simon.harrer@entropy-data.com" class="alert-link">simon.harrer@entropy-data.com</a>. A press photo and bio in English and German are available on the <a href="bio.html" class="alert-link">Bio page</a>.
@@ -75,8 +82,8 @@
       <h2 class="year">2026</h2>
 
       <div class="card mb-2" data-date="2026-06-30">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2026-9">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Chat with your Enterprise Data</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-9">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Chat with your Enterprise Data</span><br>
           <span class="talk-meta">30 June 2026 &middot; SummerSOC 2026, Crete, Greece (15:30–16:00)</span>
         </div>
         <div id="talk-2026-9" class="collapse">
@@ -88,8 +95,8 @@
       </div>
 
       <div class="card mb-2" data-date="2026-06-30">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2026-8">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Overview on Standards for Data Products</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-8">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Overview on Standards for Data Products</span><br>
           <span class="talk-meta">30 June 2026 &middot; SummerSOC 2026, Crete, Greece (10:00–11:00)</span>
         </div>
         <div id="talk-2026-8" class="collapse">
@@ -101,8 +108,8 @@
       </div>
 
       <div class="card mb-2" data-date="2026-06-23">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2026-4">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Offene Standards für Datenprodukte</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-4">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Offene Standards für Datenprodukte</span><br>
           <span class="talk-meta">23. Juni 2026 &middot; TDWI München 2026, MOC München (Vortrag Di 4.3, 14:30–15:30)</span>
         </div>
         <div id="talk-2026-4" class="collapse">
@@ -114,8 +121,8 @@
       </div>
 
       <div class="card mb-2" data-date="2026-06-11">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2026-2">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data-first or Contract-first?</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-2">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data-first or Contract-first?</span><br>
           <span class="talk-meta">11–12 June 2026 &middot; Data Mesh Live 2026, Queen Elisabeth Hall, Antwerpen</span><br>
           <span class="talk-meta">with <a href="https://www.linkedin.com/in/jochen-christ/">Jochen Christ</a></span>
         </div>
@@ -128,8 +135,8 @@
       </div>
 
       <div class="card mb-2" data-date="2026-06-11">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2026-3">
-          <span class="badge badge-info">Workshop</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Getting started with Data Contracts using Open Source Tools</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-3">
+          <span class="badge bg-info">Workshop</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Getting started with Data Contracts using Open Source Tools</span><br>
           <span class="talk-meta">11–12 June 2026 &middot; Data Mesh Live 2026, Queen Elisabeth Hall, Antwerpen</span>
         </div>
         <div id="talk-2026-3" class="collapse">
@@ -141,8 +148,8 @@
       </div>
 
       <div class="card mb-2" data-date="2026-05-07">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2026-1">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Datenarchitektur: Das neue Rückgrat moderner Software?</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-1">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Datenarchitektur: Das neue Rückgrat moderner Software?</span><br>
           <span class="talk-meta">7. Mai 2026 &middot; JAX 2026, Rheingoldhalle, Mainz</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/gernotstarke/">Dr. Gernot Starke</a></span>
         </div>
@@ -155,8 +162,8 @@
       </div>
 
       <div class="card mb-2" data-date="2026-04-21">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2026-5">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Open Standards for Data Mesh</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-5">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Open Standards for Data Mesh</span><br>
           <span class="talk-meta">21 April 2026 &middot; Data Mesh Belgium Meetup #7, AE Office, Leuven</span>
         </div>
         <div id="talk-2026-5" class="collapse">
@@ -168,7 +175,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2026-6">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-6">
           <span class="badge badge-keynote">Keynote</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Agentic AI ist der nächste große Schritt der generativen KI</span><br>
           <span class="talk-meta">11. März 2026 &middot; Software Architecture Summit 2026, Kopernikus 3, MOC München</span>
         </div>
@@ -183,8 +190,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2026-7">
-          <span class="badge badge-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Mit Data Contracts Vertrauen in Daten herstellen</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-7">
+          <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Mit Data Contracts Vertrauen in Daten herstellen</span><br>
           <span class="talk-meta">11. März 2026 &middot; Software Architecture Summit 2026, Kopernikus 3, MOC München</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/arifwider/">Prof. Dr. Arif Wider</a> (HTW Berlin / Thoughtworks)</span>
         </div>
@@ -200,8 +207,8 @@
       <h2 class="year">2025</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2025-1">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Governance mit GenAI automatisieren</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-1">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Governance mit GenAI automatisieren</span><br>
           <span class="talk-meta">5. November 2025 &middot; data2day, IHK Karlsruhe</span>
         </div>
         <div id="talk-2025-1" class="collapse">
@@ -216,8 +223,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2025-2">
-          <span class="badge badge-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts in der Praxis (Workshop)</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-2">
+          <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts in der Praxis (Workshop)</span><br>
           <span class="talk-meta">3. November 2025 &middot; data2day, IHK Karlsruhe</span>
         </div>
         <div id="talk-2025-2" class="collapse">
@@ -229,8 +236,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2025-3">
-          <span class="badge badge-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Mit Data Contracts Vertrauen in Daten herstellen</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-3">
+          <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Mit Data Contracts Vertrauen in Daten herstellen</span><br>
           <span class="talk-meta">15. Oktober 2025 &middot; Software Architecture Summit, NH Berlin Alexanderplatz</span>
         </div>
         <div id="talk-2025-3" class="collapse">
@@ -242,8 +249,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2025-10">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Products with Data Contracts: Open Standards and Implementations</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-10">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Products with Data Contracts: Open Standards and Implementations</span><br>
           <span class="talk-meta">17 June 2025 &middot; SummerSOC 2025, Crete, Greece (10:00–11:15)</span>
         </div>
         <div id="talk-2025-10" class="collapse">
@@ -255,8 +262,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2025-7">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Contracts: Treating Data as APIs</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-7">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Contracts: Treating Data as APIs</span><br>
           <span class="talk-meta">22–24 September 2025 &middot; apidays London, Convene 155 Bishopsgate</span>
         </div>
         <div id="talk-2025-7" class="collapse">
@@ -268,8 +275,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2025-9">
-          <span class="badge badge-info">Workshop</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Product Platform Standardisation</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-9">
+          <span class="badge bg-info">Workshop</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Product Platform Standardisation</span><br>
           <span class="talk-meta">19 September 2025 &middot; POA Summit, Universität Stuttgart</span><br>
           <span class="talk-meta">with <a href="https://www.linkedin.com/in/arifwider/">Prof. Dr. Arif Wider</a></span>
         </div>
@@ -282,8 +289,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2025-8">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Product MCP: Enable AI to answer any business question</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-8">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Product MCP: Enable AI to answer any business question</span><br>
           <span class="talk-meta">18 September 2025 &middot; POA Summit, Universität Stuttgart</span>
         </div>
         <div id="talk-2025-8" class="collapse">
@@ -295,8 +302,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2025-4">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts sind die APIs für Daten</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-4">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts sind die APIs für Daten</span><br>
           <span class="talk-meta">16. Juli 2025 &middot; Java User Group Berlin-Brandenburg, INNOQ Berlin</span>
         </div>
         <div id="talk-2025-4" class="collapse">
@@ -308,8 +315,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2025-6">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Federated Computational Governance with AI</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-6">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Federated Computational Governance with AI</span><br>
           <span class="talk-meta">6 June 2025 &middot; Data Mesh Live 2025, Queen Elisabeth Hall, Antwerpen</span><br>
           <span class="talk-meta">with <a href="https://www.linkedin.com/in/arifwider/">Prof. Dr. Arif Wider</a> (HTW Berlin)</span>
         </div>
@@ -322,8 +329,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2025-5">
-          <span class="badge badge-info">Workshop</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Contract Workshop using Open Source Tooling</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-5">
+          <span class="badge bg-info">Workshop</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Contract Workshop using Open Source Tooling</span><br>
           <span class="talk-meta">6 June 2025 &middot; Data Mesh Live 2025, Queen Elisabeth Hall, Antwerpen</span><br>
           <span class="talk-meta">with <a href="https://www.linkedin.com/in/jochen-christ/">Jochen Christ</a></span>
         </div>
@@ -338,8 +345,8 @@
       <h2 class="year">2024</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2024-1">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Contracts &mdash; Like OpenAPI, but for Data</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-1">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Contracts &mdash; Like OpenAPI, but for Data</span><br>
           <span class="talk-meta">26 September 2024 &middot; WoMM Developer Conference, Aarhus Congress Center, Aarhus</span>
         </div>
         <div id="talk-2024-1" class="collapse">
@@ -351,8 +358,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2024-2">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Was ist ein Datenprodukt?</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-2">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Was ist ein Datenprodukt?</span><br>
           <span class="talk-meta">12. Juni 2024 &middot; TDWI München 2024, MOC, München</span>
         </div>
         <div id="talk-2024-2" class="collapse">
@@ -364,8 +371,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2024-3">
-          <span class="badge badge-secondary">Talk</span><span class="badge badge-online">Online</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts sind die API für Daten</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-3">
+          <span class="badge bg-secondary">Talk</span><span class="badge badge-online">Online</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts sind die API für Daten</span><br>
           <span class="talk-meta">16. Mai 2024 &middot; betterCode() API</span>
         </div>
         <div id="talk-2024-3" class="collapse">
@@ -378,8 +385,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2024-4">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts sind die APIs für Daten</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-4">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts sind die APIs für Daten</span><br>
           <span class="talk-meta">24. April 2024 &middot; JAX, Rheingoldhalle, Mainz</span>
         </div>
         <div id="talk-2024-4" class="collapse">
@@ -391,8 +398,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2024-7">
-          <span class="badge badge-secondary">Talk</span><span class="badge badge-online">Online</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh Manager</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-7">
+          <span class="badge bg-secondary">Talk</span><span class="badge badge-online">Online</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh Manager</span><br>
           <span class="talk-meta">10. April 2024 &middot; INNOQ Technology Lunch 04/24</span>
         </div>
         <div id="talk-2024-7" class="collapse">
@@ -404,8 +411,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2024-5">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Mesh Manager: Data Products, Data Contracts and Policies</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-5">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Mesh Manager: Data Products, Data Contracts and Policies</span><br>
           <span class="talk-meta">19 March 2024 &middot; BARC Data Festival, Muffatwerk, München</span>
         </div>
         <div id="talk-2024-5" class="collapse">
@@ -417,8 +424,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2024-6">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh: 2019, 2023 und 2024</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-6">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh: 2019, 2023 und 2024</span><br>
           <span class="talk-meta">8. März 2024 &middot; BATbern52, Zentrum Paul Klee, Bern</span>
         </div>
         <div id="talk-2024-6" class="collapse">
@@ -432,8 +439,8 @@
       <h2 class="year">2023</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2023-1">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">OpenAPI for Your Data Mesh: An Introduction to Data Contracts</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-1">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">OpenAPI for Your Data Mesh: An Introduction to Data Contracts</span><br>
           <span class="talk-meta">6 December 2023 &middot; apidays Paris, CNIT, Paris</span>
         </div>
         <div id="talk-2023-1" class="collapse">
@@ -445,8 +452,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2023-2">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Test-driven Development mit dbt</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-2">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Test-driven Development mit dbt</span><br>
           <span class="talk-meta">12. Oktober 2023 &middot; data2day, IHK Haus der Wirtschaft, Karlsruhe</span>
         </div>
         <div id="talk-2023-2" class="collapse">
@@ -459,8 +466,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2023-3">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh Governance</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-3">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh Governance</span><br>
           <span class="talk-meta">28. September 2023 &middot; 18. Data &amp; Analytics Meetup, Würzburg</span>
         </div>
         <div id="talk-2023-3" class="collapse">
@@ -472,8 +479,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2023-4">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh &amp; Governance</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-4">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh &amp; Governance</span><br>
           <span class="talk-meta">4. Juli 2023 &middot; The Datapreneurs Club, München</span>
         </div>
         <div id="talk-2023-4" class="collapse">
@@ -485,8 +492,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2023-5">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh Governance</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-5">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh Governance</span><br>
           <span class="talk-meta">20. Juni 2023 &middot; TDWI München, MOC, München</span>
         </div>
         <div id="talk-2023-5" class="collapse">
@@ -498,8 +505,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2023-6">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">dbt: das „Spring Boot" für Daten</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-6">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">dbt: das „Spring Boot" für Daten</span><br>
           <span class="talk-meta">21. März 2023 &middot; JavaLand 2023, Phantasialand, Brühl</span>
         </div>
         <div id="talk-2023-6" class="collapse">
@@ -512,8 +519,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2023-7">
-          <span class="badge badge-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Die „Java by Comparison" Kata</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-7">
+          <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Die „Java by Comparison" Kata</span><br>
           <span class="talk-meta">20. März 2023 &middot; JavaLand 2023, Phantasialand, Brühl</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/sebastian-rose-9b0617ab/">Sebastian Rose</a> &amp; <a href="https://www.linkedin.com/in/falk-sippach/">Falk Sippach</a></span>
         </div>
@@ -526,8 +533,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2023-8">
-          <span class="badge badge-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-8">
+          <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh</span><br>
           <span class="talk-meta">14. März 2023 &middot; Software Architecture Summit 2023, Holiday Inn Unterhaching, München</span>
         </div>
         <div id="talk-2023-8" class="collapse">
@@ -542,8 +549,8 @@
       <h2 class="year">2021</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2021-1">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Remote Mob Programming</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2021-1">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Remote Mob Programming</span><br>
           <span class="talk-meta">7. Juli 2021 &middot; Konzept Informationssysteme GmbH</span>
         </div>
         <div id="talk-2021-1" class="collapse">
@@ -555,8 +562,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2021-2">
-          <span class="badge badge-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Mob-Programming Dojo</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2021-2">
+          <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Mob-Programming Dojo</span><br>
           <span class="talk-meta">17. März 2021 &middot; JavaLand 2021</span>
         </div>
         <div id="talk-2021-2" class="collapse">
@@ -570,8 +577,8 @@
       <h2 class="year">2022</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2022-1">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Remote Mob Programming: Teamgefühl trotz Homeoffice</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2022-1">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Remote Mob Programming: Teamgefühl trotz Homeoffice</span><br>
           <span class="talk-meta">5. Oktober 2022 &middot; Tech Talks @jambit, Birketweg, München</span>
         </div>
         <div id="talk-2022-1" class="collapse">
@@ -584,8 +591,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2022-2">
-          <span class="badge badge-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Workshop: Data Mesh Architektur</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2022-2">
+          <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Workshop: Data Mesh Architektur</span><br>
           <span class="talk-meta">13. September 2022 &middot; Software Architecture Summit 2022, Berlin &amp; online</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/larysavisenger/">Dr. Larysa Visengeriyeva</a></span>
         </div>
@@ -599,8 +606,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2022-3">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Gut gemeint! Warum dauert Software-Entwicklung immer länger?</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2022-3">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Gut gemeint! Warum dauert Software-Entwicklung immer länger?</span><br>
           <span class="talk-meta">15. März 2022 &middot; JavaLand 2022, Phantasialand, Brühl</span>
         </div>
         <div id="talk-2022-3" class="collapse">
@@ -616,8 +623,8 @@
       <h2 class="year">2019</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2019-1">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Eine Therapiesitzung zu Namen</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-1">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Eine Therapiesitzung zu Namen</span><br>
           <span class="talk-meta">26. Juni 2019 &middot; DWX – Developer Week 2019, Messe Nürnberg</span><br>
           <span class="talk-meta">mit <a href="https://de.linkedin.com/in/benjaminwolf1985">Benjamin Wolf</a> (INNOQ)</span>
         </div>
@@ -630,7 +637,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2019-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-2">
           <span class="badge badge-keynote">Keynote</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">One Kubernetes to rule them all</span><br>
           <span class="talk-meta">15 February 2019 &middot; ZEUS Workshop, University of Bayreuth</span><br>
           <span class="talk-meta">with <a href="https://www.linkedin.com/in/tvanlessen/">Tammo van Lessen</a></span>
@@ -644,8 +651,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2019-3">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-3">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
           <span class="talk-meta">2019 Book Tour: Softwerkskammer (Ruhrgebiet, Düsseldorf, Leipzig, Köln, Nürnberg), JUG Mainz, Lightweight JUG München, WIAI PraxisReport</span>
         </div>
         <div id="talk-2019-3" class="collapse">
@@ -667,8 +674,8 @@
       <h2 class="year">2018</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2018-2">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2018-2">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
           <span class="talk-meta">15. Mai 2018 &middot; Hackerkegeln (DATEV SCC), Kegelbahn der DATEV, Nürnberg</span>
         </div>
         <div id="talk-2018-2" class="collapse">
@@ -680,8 +687,8 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-toggle="collapse" data-target="#talk-2018-1">
-          <span class="badge badge-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Domain-driven Design with Kotlin</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2018-1">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Domain-driven Design with Kotlin</span><br>
           <span class="talk-meta">21 November 2018 &middot; ØREDEV 2018, Malmö Mässan, Malmö</span>
         </div>
         <div id="talk-2018-1" class="collapse">
@@ -698,8 +705,8 @@
 
 <footer class="text-muted">
   <div class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>Dr. Simon Harrer &copy; 2026</p>
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>Dr. Simon Harrer &copy; <span id="year">2026</span></p>
     <p><a href="legal.html">Legal Notice and Privacy Policy</a></p>
   </div>
 </footer>
@@ -722,6 +729,6 @@
     });
   })();
 </script>
-
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body>
 </html>

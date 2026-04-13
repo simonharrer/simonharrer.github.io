@@ -1,0 +1,9 @@
+[data-copy-card] { cursor: pointer; transition: box-shadow .15s, background-color .3s; }
+.card[data-copy-card]:hover { box-shadow: 0 .25rem .75rem rgba(0,0,0,.1) !important; }
+.input-group[data-copy-card] .form-control,
+.input-group[data-copy-card] .input-group-text { cursor: pointer; }
+.input-group[data-copy-card]:hover .form-control,
+.input-group[data-copy-card]:hover .input-group-text { background-color: #f1f3f5; }
+[data-copy-card].copy-flash { background-color: #d4edda !important; }
+[data-copy-card].copy-flash .form-control,
+[data-copy-card].copy-flash .input-group-text { background-color: #d4edda !important; }

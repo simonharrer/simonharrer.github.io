@@ -7,14 +7,23 @@
     <meta name="author" content="Simon Harrer">
     <title>Research &mdash; Simon Harrer</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
     <link rel="stylesheet" href="album.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-    <link rel="icon" type="image/svg+xml" href="https://simonharrer.com/favicon.svg">
+    <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="copyable.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="vendor/bootstrap.bundle.min.js" defer></script>
+    <script src="copyable.js" defer></script>
+
+    <link rel="canonical" href="https://simonharrer.com/research.html">
+    <meta property="og:url" content="https://simonharrer.com/research.html">
+    <meta property="og:site_name" content="Simon Harrer">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Research — Simon Harrer">
+    <meta property="og:description" content="Research by Dr. Simon Harrer">
+    <meta property="og:image" content="https://simonharrer.com/simon-harrer-1024.jpg">
   </head>
 <body>
 
@@ -24,11 +33,11 @@
       <a href="index.html" class="navbar-brand">
         <strong>Dr. Simon Harrer</strong>
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarMain">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="books.html">Books</a></li>
           <li class="nav-item"><a class="nav-link" href="open-source.html">Open Source</a></li>
           <li class="nav-item"><a class="nav-link" href="talks.html">Talks</a></li>
@@ -50,9 +59,9 @@
       <p class="lead">Applied research on data governance, data products, and AI — published in peer-reviewed venues and turned into open source.</p>
 
       <p>
-        <a href="https://scholar.google.com/citations?user=LLb291wAAAAJ&hl=de" class="btn btn-sm btn-outline-secondary mr-1"><i class="bi bi-mortarboard"></i> Google Scholar</a>
-        <a href="https://dblp.org/pid/35/7525.html" class="btn btn-sm btn-outline-secondary mr-1"><i class="bi bi-journal-text"></i> DBLP</a>
-        <a href="https://www.entropy-data.com/research" class="btn btn-sm btn-outline-secondary mr-1"><i class="bi bi-building"></i> Entropy Data Research</a>
+        <a href="https://scholar.google.com/citations?user=LLb291wAAAAJ&hl=de" class="btn btn-sm btn-outline-secondary me-1"><i class="bi bi-mortarboard"></i> Google Scholar</a>
+        <a href="https://dblp.org/pid/35/7525.html" class="btn btn-sm btn-outline-secondary me-1"><i class="bi bi-journal-text"></i> DBLP</a>
+        <a href="https://www.entropy-data.com/research" class="btn btn-sm btn-outline-secondary me-1"><i class="bi bi-building"></i> Entropy Data Research</a>
       </p>
 
       <h2 class="mt-4">Current focus</h2>
@@ -69,23 +78,15 @@
           <p class="text-muted mb-2"><small>AAAI/ACM Conference on AI, Ethics, and Society (AIES) 2025 &middot; with <a href="https://www.linkedin.com/in/linus-dietz-767604148/">Linus W. Dietz</a>, <a href="https://www.linkedin.com/in/arifwider/">Arif Wider</a></small></p>
           <p class="card-text">Uses LLMs to evaluate natural-language governance rules against metadata. Generated 3.6× more warnings than human experts while catching all compliance concerns; 80% of AI-generated warnings were correct on review.</p>
           <a href="https://ojs.aaai.org/index.php/AIES/article/view/36587" class="btn btn-sm btn-outline-secondary mb-2">Paper</a>
-          <div class="input-group input-group-sm mb-2">
-            <div class="input-group-prepend">
-              <span class="input-group-text" style="min-width: 3.5rem;">PDF</span>
-            </div>
+          <div class="input-group input-group-sm mb-2" data-copy-card="paper1-pdf">
+            <span class="input-group-text" style="min-width: 3.5rem;">PDF</span>
             <input type="text" id="paper1-pdf" class="form-control" readonly value="https://ojs.aaai.org/index.php/AIES/article/view/36587/38725">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button" data-copy-target="paper1-pdf" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
-            </div>
+            <button class="btn btn-outline-secondary" type="button" data-copy-target="paper1-pdf" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
           </div>
-          <div class="input-group input-group-sm">
-            <div class="input-group-prepend">
-              <span class="input-group-text" style="min-width: 3.5rem;">DOI</span>
-            </div>
+          <div class="input-group input-group-sm" data-copy-card="paper1-doi">
+            <span class="input-group-text" style="min-width: 3.5rem;">DOI</span>
             <input type="text" id="paper1-doi" class="form-control" readonly value="10.1609/aies.v8i1.36587">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button" data-copy-target="paper1-doi" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
-            </div>
+            <button class="btn btn-outline-secondary" type="button" data-copy-target="paper1-doi" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
           </div>
         </div>
       </div>
@@ -96,23 +97,15 @@
           <p class="text-muted mb-2"><small>arXiv preprint, 2026 &middot; with <a href="https://www.linkedin.com/in/marco-tonnarelli/">Marco Tonnarelli</a>, <a href="https://www.linkedin.com/in/filippo-scaramuzza/">Filippo Scaramuzza</a>, <a href="https://www.linkedin.com/in/linus-dietz-767604148/">Linus W. Dietz</a></small></p>
           <p class="card-text">An MCP server that bridges enterprise data products and LLM-based assistants while preserving governance and access controls.</p>
           <a href="https://arxiv.org/abs/2601.08687" class="btn btn-sm btn-outline-secondary mb-2">Paper</a>
-          <div class="input-group input-group-sm mb-2">
-            <div class="input-group-prepend">
-              <span class="input-group-text" style="min-width: 3.5rem;">PDF</span>
-            </div>
+          <div class="input-group input-group-sm mb-2" data-copy-card="paper2-pdf">
+            <span class="input-group-text" style="min-width: 3.5rem;">PDF</span>
             <input type="text" id="paper2-pdf" class="form-control" readonly value="https://arxiv.org/pdf/2601.08687">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button" data-copy-target="paper2-pdf" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
-            </div>
+            <button class="btn btn-outline-secondary" type="button" data-copy-target="paper2-pdf" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
           </div>
-          <div class="input-group input-group-sm">
-            <div class="input-group-prepend">
-              <span class="input-group-text" style="min-width: 3.5rem;">DOI</span>
-            </div>
+          <div class="input-group input-group-sm" data-copy-card="paper2-doi">
+            <span class="input-group-text" style="min-width: 3.5rem;">DOI</span>
             <input type="text" id="paper2-doi" class="form-control" readonly value="10.48550/arXiv.2601.08687">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button" data-copy-target="paper2-doi" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
-            </div>
+            <button class="btn btn-outline-secondary" type="button" data-copy-target="paper2-doi" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
           </div>
         </div>
       </div>
@@ -126,14 +119,10 @@
           <p class="text-muted mb-2"><small>IEEE Software, 2022 &middot; with <a href="https://www.linkedin.com/in/florian-beetz/">Florian Beetz</a></small></p>
           <p class="card-text">Examines whether GitOps is truly an evolution of DevOps by analyzing and comparing their key elements, since neither has a standard definition. Identifies how GitOps extends DevOps practices through declarative, Git-centered continuous deployment.</p>
           <a href="https://ieeexplore.ieee.org/document/9565152/" class="btn btn-sm btn-outline-secondary mb-2">Paper</a>
-          <div class="input-group input-group-sm">
-            <div class="input-group-prepend">
-              <span class="input-group-text" style="min-width: 3.5rem;">DOI</span>
-            </div>
+          <div class="input-group input-group-sm" data-copy-card="paper3-doi">
+            <span class="input-group-text" style="min-width: 3.5rem;">DOI</span>
             <input type="text" id="paper3-doi" class="form-control" readonly value="10.1109/MS.2021.3119106">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button" data-copy-target="paper3-doi" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
-            </div>
+            <button class="btn btn-outline-secondary" type="button" data-copy-target="paper3-doi" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
           </div>
         </div>
       </div>
@@ -144,14 +133,10 @@
           <p class="text-muted mb-2"><small>Future Generation Computer Systems, 2018 &middot; with <a href="https://www.linkedin.com/in/matthias-geiger-33774b3b/">Matthias Geiger</a>, <a href="https://www.linkedin.com/in/joerglenhard/">Jörg Lenhard</a>, <a href="https://www.linkedin.com/in/guidowirtz/">Guido Wirtz</a></small></p>
           <p class="card-text">Investigates how BPMN 2.0 implementers deal with the standard. Only three of 47 BPMS support the execution format defined in the spec, although all claim compliance. Tracks camunda BPM, jBPM and activiti over more than three years and finds feature support has plateaued at roughly half of BPMN's features.</p>
           <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167739X17300250" class="btn btn-sm btn-outline-secondary mb-2">Paper</a>
-          <div class="input-group input-group-sm">
-            <div class="input-group-prepend">
-              <span class="input-group-text" style="min-width: 3.5rem;">DOI</span>
-            </div>
+          <div class="input-group input-group-sm" data-copy-card="paper4-doi">
+            <span class="input-group-text" style="min-width: 3.5rem;">DOI</span>
             <input type="text" id="paper4-doi" class="form-control" readonly value="10.1016/j.future.2017.01.006">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button" data-copy-target="paper4-doi" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
-            </div>
+            <button class="btn btn-outline-secondary" type="button" data-copy-target="paper4-doi" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
           </div>
         </div>
       </div>
@@ -162,23 +147,15 @@
           <p class="text-muted mb-2"><small>EuroPLoP 2017 &middot; with <a href="https://www.linkedin.com/in/joerglenhard/">Jörg Lenhard</a>, <a href="https://www.linkedin.com/in/oliverkopp/">Oliver Kopp</a>, <a href="https://www.linkedin.com/in/vincenzoferme/">Vincenzo Ferme</a>, <a href="https://www.linkedin.com/in/cesarepautasso/">Cesare Pautasso</a></small></p>
           <p class="card-text">Captures common solutions for recurring problems in workflow engine conformance and performance benchmarking — test identification, benchmarking procedure validation, automatic engine interaction, and workflow execution observation — as a pattern language to help future benchmark authors.</p>
           <a href="https://dl.acm.org/doi/10.1145/3147704.3147705" class="btn btn-sm btn-outline-secondary mb-2">Paper</a>
-          <div class="input-group input-group-sm mb-2">
-            <div class="input-group-prepend">
-              <span class="input-group-text" style="min-width: 3.5rem;">PDF</span>
-            </div>
+          <div class="input-group input-group-sm mb-2" data-copy-card="paper5-pdf">
+            <span class="input-group-text" style="min-width: 3.5rem;">PDF</span>
             <input type="text" id="paper5-pdf" class="form-control" readonly value="http://pautasso.org/biblio-pdf/benchflow-EuroPLoP2017.pdf">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button" data-copy-target="paper5-pdf" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
-            </div>
+            <button class="btn btn-outline-secondary" type="button" data-copy-target="paper5-pdf" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
           </div>
-          <div class="input-group input-group-sm">
-            <div class="input-group-prepend">
-              <span class="input-group-text" style="min-width: 3.5rem;">DOI</span>
-            </div>
+          <div class="input-group input-group-sm" data-copy-card="paper5-doi">
+            <span class="input-group-text" style="min-width: 3.5rem;">DOI</span>
             <input type="text" id="paper5-doi" class="form-control" readonly value="10.1145/3147704.3147705">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button" data-copy-target="paper5-doi" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
-            </div>
+            <button class="btn btn-outline-secondary" type="button" data-copy-target="paper5-doi" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
           </div>
         </div>
       </div>
@@ -189,14 +166,10 @@
           <p class="text-muted mb-2"><small>SE Workshops (CEUR Vol-2308), 2019 &middot; with <a href="https://www.linkedin.com/in/linus-dietz-767604148/">Linus W. Dietz</a>, <a href="https://www.linkedin.com/in/robin-lichtenth%C3%A4ler-53a326131/">Robin Lichtenthäler</a>, <a href="https://www.linkedin.com/in/adam-tornhill-71759b48/">Adam Tornhill</a></small></p>
           <p class="card-text">Applies behavioral code analysis (commit-based process metrics like churn and complexity trends) to student programming assignments to give actionable feedback beyond functional correctness, and to detect quality regressions early in coursework.</p>
           <a href="https://ceur-ws.org/Vol-2308/isee2019paper05.pdf" class="btn btn-sm btn-outline-secondary mb-2">Paper</a>
-          <div class="input-group input-group-sm">
-            <div class="input-group-prepend">
-              <span class="input-group-text" style="min-width: 3.5rem;">PDF</span>
-            </div>
+          <div class="input-group input-group-sm" data-copy-card="paper6-pdf">
+            <span class="input-group-text" style="min-width: 3.5rem;">PDF</span>
             <input type="text" id="paper6-pdf" class="form-control" readonly value="https://ceur-ws.org/Vol-2308/isee2019paper05.pdf">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button" data-copy-target="paper6-pdf" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
-            </div>
+            <button class="btn btn-outline-secondary" type="button" data-copy-target="paper6-pdf" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
           </div>
         </div>
       </div>
@@ -207,14 +180,10 @@
           <p class="text-muted mb-2"><small>SE Workshops (CEUR Vol-2066), 2018 &middot; with <a href="https://www.linkedin.com/in/linus-dietz-767604148/">Linus W. Dietz</a>, <a href="https://www.linkedin.com/in/johannes-manner-3ba33125b/">Johannes Manner</a>, <a href="https://www.linkedin.com/in/joerglenhard/">Jörg Lenhard</a></small></p>
           <p class="card-text">Presents a feedback-driven teaching concept for second- and third-year university students focused on clean and maintainable code, refined over more than six years of practice and recognized with the faculty's teaching award.</p>
           <a href="https://ceur-ws.org/Vol-2066/isee2018paper06.pdf" class="btn btn-sm btn-outline-secondary mb-2">Paper</a>
-          <div class="input-group input-group-sm">
-            <div class="input-group-prepend">
-              <span class="input-group-text" style="min-width: 3.5rem;">PDF</span>
-            </div>
+          <div class="input-group input-group-sm" data-copy-card="paper7-pdf">
+            <span class="input-group-text" style="min-width: 3.5rem;">PDF</span>
             <input type="text" id="paper7-pdf" class="form-control" readonly value="https://ceur-ws.org/Vol-2066/isee2018paper06.pdf">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button" data-copy-target="paper7-pdf" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
-            </div>
+            <button class="btn btn-outline-secondary" type="button" data-copy-target="paper7-pdf" title="Copy" aria-label="Copy"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg></button>
           </div>
         </div>
       </div>
@@ -224,28 +193,14 @@
 
 </main>
 
-<script>
-  var checkSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#28a745" viewBox="0 0 16 16"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/></svg>';
-  document.querySelectorAll('[data-copy-target]').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var el = document.getElementById(btn.dataset.copyTarget);
-      var text = el.tagName === 'INPUT' ? el.value : el.innerText;
-      navigator.clipboard.writeText(text).then(function () {
-        var original = btn.innerHTML;
-        btn.innerHTML = checkSvg;
-        setTimeout(function () { btn.innerHTML = original; }, 1500);
-      });
-    });
-  });
-</script>
-
 <footer class="text-muted">
   <div class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>Dr. Simon Harrer &copy; 2026</p>
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>Dr. Simon Harrer &copy; <span id="year">2026</span></p>
     <p><a href="legal.html">Legal Notice and Privacy Policy</a></p>
   </div>
 </footer>
 
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body>
 </html>
