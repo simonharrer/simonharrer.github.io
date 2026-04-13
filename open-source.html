@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="album.css">
     <link rel="icon" type="image/svg+xml" href="https://simonharrer.com/favicon.svg">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <style>
       .project-image {
         height: 220px;
@@ -30,21 +34,26 @@
 <body>
 
 <header>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container d-flex justify-content-between">
-      <a href="index.html" class="navbar-brand d-flex align-items-center">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
         <strong>Dr. Simon Harrer</strong>
       </a>
-      <div>
-        <a href="books.html" class="text-white mr-3">Books</a>
-        <a href="open-source.html" class="text-white mr-3">Open Source</a>
-        <a href="talks.html" class="text-white mr-3">Talks</a>
-        <a href="podcasts.html" class="text-white mr-3">Podcasts</a>
-        <a href="research.html" class="text-white mr-3">Research</a>
-        <a href="bio.html" class="text-white">Bio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="books.html">Books</a></li>
+          <li class="nav-item"><a class="nav-link" href="open-source.html">Open Source</a></li>
+          <li class="nav-item"><a class="nav-link" href="talks.html">Talks</a></li>
+          <li class="nav-item"><a class="nav-link" href="podcasts.html">Podcasts</a></li>
+          <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="bio.html">Bio</a></li>
+        </ul>
       </div>
     </div>
-  </div>
+  </nav>
 </header>
 
 <main role="main">
@@ -59,7 +68,7 @@
 
         <div class="col mb-4">
           <div class="card shadow-sm h-100">
-            <a href="https://github.com/datacontract/datacontract-cli"><img src="datacontract-cli.png" class="card-img-top project-image" alt="Data Contract CLI"></a>
+            <a href="https://github.com/datacontract/datacontract-cli"><picture><source srcset="datacontract-cli.webp" type="image/webp"><img src="datacontract-cli.png" class="card-img-top project-image" alt="Data Contract CLI"></picture></a>
             <div class="card-body">
               <h5 class="card-title">Data Contract CLI <a href="https://www.thoughtworks.com/radar/tools/data-contract-cli" class="badge badge-info text-decoration-none align-middle" style="font-size: .65em;">Thoughtworks Tech Radar</a> <a href="https://github.com/datacontract/datacontract-cli/stargazers" class="badge badge-light border text-decoration-none align-middle stat-badge" title="Measured on 2026-04-13"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>850+ stars</a></h5>
               <p class="card-text">A CLI tool to validate, test, document, and export data contracts based on the Open Data Contract Standard. Supports 15+ data sources including Snowflake, Databricks, BigQuery, and Postgres.</p>
@@ -74,7 +83,7 @@
 
         <div class="col mb-4">
           <div class="card shadow-sm h-100">
-            <a href="https://github.com/datacontract/datacontract-editor"><img src="datacontract-editor.png" class="card-img-top project-image" alt="Data Contract Editor"></a>
+            <a href="https://github.com/datacontract/datacontract-editor"><picture><source srcset="datacontract-editor.webp" type="image/webp"><img src="datacontract-editor.png" class="card-img-top project-image" alt="Data Contract Editor"></picture></a>
             <div class="card-body">
               <h5 class="card-title">Data Contract Editor <a href="https://github.com/datacontract/datacontract-editor/stargazers" class="badge badge-light border text-decoration-none align-middle stat-badge" title="Measured on 2026-04-13"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>80+ stars</a></h5>
               <p class="card-text">Web-based visual editor for ODCS data contracts. Authoring, validation, and previewing in the browser — no install required.</p>
