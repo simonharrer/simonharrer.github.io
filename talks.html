@@ -23,7 +23,7 @@
     <meta property="og:image" content="https://simonharrer.com/simon-harrer-1024.jpg">
 
     <style>
-      .talk-header { cursor: pointer; padding-right: 2rem; }
+      .talk-header { cursor: pointer; padding-left: 5rem; padding-right: 2rem; padding-top: .75rem; padding-bottom: .75rem; position: relative; min-height: 72px; }
       .talk-header:hover { background: #f1f3f5; }
       .talk-header .talk-meta { color: #6c757d; font-size: 0.875rem; }
       .talk-header .talk-title { font-weight: 600; }
@@ -32,12 +32,14 @@
       .badge-keynote { background: #ffc107; color: #212529; font-weight: 700; box-shadow: 0 0 0 2px rgba(255,193,7,.35); }
       .badge-upcoming { background: #28a745; color: #fff; margin-left: .35em; }
       .badge-online { background: #17a2b8; color: #fff; }
-      .talk-header::after { content: "\25BE"; position: absolute; right: 1rem; top: 1rem; color: #6c757d; }
+      .talk-header::after { content: "\25BE"; position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); color: #6c757d; }
       .talk-header.collapsed::after { content: "\25B8"; }
-      .talk-header { position: relative; }
+      .conf-icon { position: absolute; left: .75rem; top: 50%; transform: translateY(-50%); width: 56px; height: 56px; object-fit: contain; background: #fff; border: 1px solid #dee2e6; border-radius: 6px; padding: 3px; }
       h2.year { margin-top: 2rem; border-bottom: 1px solid #dee2e6; padding-bottom: .25rem; }
       @media (max-width: 575.98px) {
         h1 { font-size: 1.75rem; }
+        .talk-header { padding-left: 3.75rem; min-height: 60px; }
+        .talk-header .conf-icon { width: 40px; height: 40px; left: .5rem; }
         .talk-header .talk-title { font-size: .95rem; }
         .talk-header .talk-meta { font-size: .8rem; }
       }
@@ -57,11 +59,13 @@
       <div class="collapse navbar-collapse" id="navbarMain">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="books.html">Books</a></li>
+          <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
           <li class="nav-item"><a class="nav-link" href="open-source.html">Open Source</a></li>
           <li class="nav-item"><a class="nav-link" href="talks.html">Talks</a></li>
           <li class="nav-item"><a class="nav-link" href="podcasts.html">Podcasts</a></li>
           <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
           <li class="nav-item"><a class="nav-link" href="bio.html">Bio</a></li>
+          <li class="nav-item"><a class="nav-link" href="now.html">Now</a></li>
         </ul>
       </div>
     </div>
@@ -82,7 +86,7 @@
       <h2 class="year">2026</h2>
 
       <div class="card mb-2" data-date="2026-06-30">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-9">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-9"><img class="conf-icon" src="conf-icons/summersoc.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Chat with your Enterprise Data</span><br>
           <span class="talk-meta">30 June 2026 &middot; SummerSOC 2026, Crete, Greece (15:30–16:00)</span>
         </div>
@@ -95,7 +99,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-06-30">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-8">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-8"><img class="conf-icon" src="conf-icons/summersoc.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Overview on Standards for Data Products</span><br>
           <span class="talk-meta">30 June 2026 &middot; SummerSOC 2026, Crete, Greece (10:00–11:00)</span>
         </div>
@@ -108,7 +112,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-06-23">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-4">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-4"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Offene Standards für Datenprodukte</span><br>
           <span class="talk-meta">23. Juni 2026 &middot; TDWI München 2026, MOC München (Vortrag Di 4.3, 14:30–15:30)</span>
         </div>
@@ -121,7 +125,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-06-24">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-12">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-12"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Thesenarena: Data Mesh ist tot – es leben die Datenprodukte</span><br>
           <span class="talk-meta">24. Juni 2026 &middot; TDWI München 2026, MOC München (Mi, 18:00–18:45)</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/klaus-dieter-schulze-a24b6014/">Klaus-Dieter Schulze</a> (Blueforte)</span>
@@ -135,7 +139,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-06-11">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-2"><img class="conf-icon" src="conf-icons/datamesh-live.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data-first or Contract-first?</span><br>
           <span class="talk-meta">11–12 June 2026 &middot; Data Mesh Live 2026, Queen Elisabeth Hall, Antwerpen</span><br>
           <span class="talk-meta">with <a href="https://www.linkedin.com/in/jochen-christ/">Jochen Christ</a></span>
@@ -149,7 +153,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-06-11">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-3">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-3"><img class="conf-icon" src="conf-icons/datamesh-live.webp" alt="">
           <span class="badge bg-info">Workshop</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Getting started with Data Contracts using Open Source Tools</span><br>
           <span class="talk-meta">11–12 June 2026 &middot; Data Mesh Live 2026, Queen Elisabeth Hall, Antwerpen</span>
         </div>
@@ -162,7 +166,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-05-07">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-1"><img class="conf-icon" src="conf-icons/jax.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Datenarchitektur: Das neue Rückgrat moderner Software?</span><br>
           <span class="talk-meta">7. Mai 2026 &middot; JAX 2026, Rheingoldhalle, Mainz</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/gernotstarke/">Dr. Gernot Starke</a></span>
@@ -176,7 +180,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-04-21">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-5">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-5"><img class="conf-icon" src="conf-icons/datamesh-live.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Open Standards for Data Mesh</span><br>
           <span class="talk-meta">21 April 2026 &middot; Data Mesh Belgium Meetup #7, AE Office, Leuven</span>
         </div>
@@ -189,7 +193,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-03-19">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-10">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-10"><img class="conf-icon" src="conf-icons/infomotion.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Let's Talk About Data Contracts: Standards, Tooling &amp; Best Practices</span><br>
           <span class="talk-meta">19. März 2026 &middot; INFOMOTION Data &amp; AI Meetup, Köln</span>
         </div>
@@ -202,7 +206,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-6">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-6"><img class="conf-icon" src="conf-icons/sas.webp" alt="">
           <span class="badge badge-keynote">Keynote</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Agentic AI ist der nächste große Schritt der generativen KI</span><br>
           <span class="talk-meta">11. März 2026 &middot; Software Architecture Summit 2026, Kopernikus 3, MOC München</span>
         </div>
@@ -217,7 +221,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-7">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-7"><img class="conf-icon" src="conf-icons/sas.webp" alt="">
           <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Mit Data Contracts Vertrauen in Daten herstellen</span><br>
           <span class="talk-meta">11. März 2026 &middot; Software Architecture Summit 2026, Kopernikus 3, MOC München</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/arifwider/">Prof. Dr. Arif Wider</a> (HTW Berlin / Thoughtworks)</span>
@@ -232,7 +236,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-01-22">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-11">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-11"><img class="conf-icon" src="conf-icons/purdue.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="badge badge-online">Online</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Chat With Your Enterprise Data</span><br>
           <span class="talk-meta">22 January 2026 &middot; Purdue University, Spring 2026 Online AI Capstone Virtual Speaker Series (MS in AI)</span>
         </div>
@@ -247,7 +251,7 @@
       <h2 class="year">2025</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-1"><img class="conf-icon" src="conf-icons/data2day.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Governance mit GenAI automatisieren</span><br>
           <span class="talk-meta">5. November 2025 &middot; data2day, IHK Karlsruhe</span>
         </div>
@@ -263,7 +267,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-2"><img class="conf-icon" src="conf-icons/data2day.webp" alt="">
           <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts in der Praxis (Workshop)</span><br>
           <span class="talk-meta">3. November 2025 &middot; data2day, IHK Karlsruhe</span>
         </div>
@@ -276,7 +280,7 @@
       </div>
 
       <div class="card mb-2" data-date="2025-10-24">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-15">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-15"><img class="conf-icon" src="conf-icons/kcl.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Product-focused Entrepreneurship and Learning</span><br>
           <span class="talk-meta">24 October 2025 &middot; TCL Impact Accelerator, King's College London</span>
         </div>
@@ -289,7 +293,7 @@
       </div>
 
       <div class="card mb-2" data-date="2025-10-28">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-12">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-12"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Governance mit Data Contracts bei Die Mobiliar</span><br>
           <span class="talk-meta">28. Oktober 2025 &middot; 63. TDWI Roundtable Zürich, HWZ Hochschule für Wirtschaft Zürich</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/michael-bok/">Michael Bok</a> (Die Mobiliar)</span>
@@ -303,7 +307,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-3">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-3"><img class="conf-icon" src="conf-icons/sas.webp" alt="">
           <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Mit Data Contracts Vertrauen in Daten herstellen</span><br>
           <span class="talk-meta">15. Oktober 2025 &middot; Software Architecture Summit, NH Berlin Alexanderplatz</span>
         </div>
@@ -316,7 +320,7 @@
       </div>
 
       <div class="card mb-2" data-date="2025-06-24">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-13">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-13"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Governance mit Data Contracts bei „Die Mobiliar"</span><br>
           <span class="talk-meta">24. Juni 2025 &middot; TDWI München 2025, MOC München (Di 2.2, 11:35–12:20, Raum E119)</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/michael-bok/">Michael Bok</a> (Schweizerische Mobiliar Versicherungsgesellschaft AG)</span>
@@ -330,7 +334,7 @@
       </div>
 
       <div class="card mb-2" data-date="2025-06-24">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-14">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-14"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Thesenarena: Quo Vadis Data Mesh</span><br>
           <span class="talk-meta">24. Juni 2025 &middot; TDWI München 2025, MOC München (Di 4.5, 17:30–18:15, Raum E105)</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/klaus-dieter-schulze-a24b6014/">Klaus-Dieter Schulze</a> (Blueforte) &amp; <a href="https://www.linkedin.com/in/soenkeiwersen/">Sönke Iwersen</a> (DKV Mobility)</span>
@@ -344,7 +348,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-10">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-10"><img class="conf-icon" src="conf-icons/summersoc.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Products with Data Contracts: Open Standards and Implementations</span><br>
           <span class="talk-meta">17 June 2025 &middot; SummerSOC 2025, Crete, Greece (10:00–11:15)</span>
         </div>
@@ -357,7 +361,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-7">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-7"><img class="conf-icon" src="conf-icons/apidays.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Contracts: Treating Data as APIs</span><br>
           <span class="talk-meta">22–24 September 2025 &middot; apidays London, Convene 155 Bishopsgate</span>
         </div>
@@ -370,7 +374,7 @@
       </div>
 
       <div class="card mb-2" data-date="2025-09-23">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-11">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-11"><img class="conf-icon" src="conf-icons/entropy.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="badge badge-online">Online</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Product MCP: Governed AI Data Access Demo</span><br>
           <span class="talk-meta">23 September 2025 &middot; LinkedIn Live Webinar, hosted by Entropy Data</span>
         </div>
@@ -383,7 +387,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-9">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-9"><img class="conf-icon" src="conf-icons/poa.webp" alt="">
           <span class="badge bg-info">Workshop</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Product Platform Standardisation</span><br>
           <span class="talk-meta">19 September 2025 &middot; POA Summit, Universität Stuttgart</span><br>
           <span class="talk-meta">with <a href="https://www.linkedin.com/in/arifwider/">Prof. Dr. Arif Wider</a></span>
@@ -397,7 +401,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-8">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-8"><img class="conf-icon" src="conf-icons/poa.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Product MCP: Enable AI to answer any business question</span><br>
           <span class="talk-meta">18 September 2025 &middot; POA Summit, Universität Stuttgart</span>
         </div>
@@ -410,7 +414,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-4">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-4"><img class="conf-icon" src="conf-icons/innoq.svg" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts sind die APIs für Daten</span><br>
           <span class="talk-meta">16. Juli 2025 &middot; Java User Group Berlin-Brandenburg, INNOQ Berlin</span>
         </div>
@@ -423,7 +427,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-6">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-6"><img class="conf-icon" src="conf-icons/datamesh-live.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Federated Computational Governance with AI</span><br>
           <span class="talk-meta">6 June 2025 &middot; Data Mesh Live 2025, Queen Elisabeth Hall, Antwerpen</span><br>
           <span class="talk-meta">with <a href="https://www.linkedin.com/in/arifwider/">Prof. Dr. Arif Wider</a> (HTW Berlin)</span>
@@ -437,7 +441,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-5">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-5"><img class="conf-icon" src="conf-icons/datamesh-live.webp" alt="">
           <span class="badge bg-info">Workshop</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Contract Workshop using Open Source Tooling</span><br>
           <span class="talk-meta">6 June 2025 &middot; Data Mesh Live 2025, Queen Elisabeth Hall, Antwerpen</span><br>
           <span class="talk-meta">with <a href="https://www.linkedin.com/in/jochen-christ/">Jochen Christ</a></span>
@@ -451,7 +455,7 @@
       </div>
 
       <div class="card mb-2" data-date="2025-03-20">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-16">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-16"><img class="conf-icon" src="conf-icons/thoughtworks.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Contracts &amp; Data Mesh</span><br>
           <span class="talk-meta">20 March 2025 &middot; Thoughtworks Berlin</span>
         </div>
@@ -465,7 +469,7 @@
       <h2 class="year">2024</h2>
 
       <div class="card mb-2" data-date="2024-12-03">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-8">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-8"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Datenprodukte</span><br>
           <span class="talk-meta">3. Dezember 2024 &middot; TDWI</span>
         </div>
@@ -477,7 +481,7 @@
       </div>
 
       <div class="card mb-2" data-date="2024-11-25">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-9">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-9"><img class="conf-icon" src="conf-icons/bamberg.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts: Wie OpenAPI, aber für Datensätze</span><br>
           <span class="talk-meta">25. November 2024 &middot; WIAI PraxisReport, Universität Bamberg</span>
         </div>
@@ -490,7 +494,7 @@
       </div>
 
       <div class="card mb-2" data-date="2024-11-12">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-10">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-10"><img class="conf-icon" src="conf-icons/barc.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Test-driven Development mit dbt</span><br>
           <span class="talk-meta">12. November 2024 &middot; BARC, Würzburg</span>
         </div>
@@ -502,7 +506,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-1"><img class="conf-icon" src="conf-icons/generic.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Contracts &mdash; Like OpenAPI, but for Data</span><br>
           <span class="talk-meta">26 September 2024 &middot; WoMM Developer Conference, Aarhus Congress Center, Aarhus</span>
         </div>
@@ -515,7 +519,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-2"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Was ist ein Datenprodukt?</span><br>
           <span class="talk-meta">12. Juni 2024 &middot; TDWI München 2024, MOC, München</span>
         </div>
@@ -528,7 +532,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-3">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-3"><img class="conf-icon" src="conf-icons/bettercode.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="badge badge-online">Online</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts sind die API für Daten</span><br>
           <span class="talk-meta">16. Mai 2024 &middot; betterCode() API</span>
         </div>
@@ -542,7 +546,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-4">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-4"><img class="conf-icon" src="conf-icons/jax.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts sind die APIs für Daten</span><br>
           <span class="talk-meta">24. April 2024 &middot; JAX, Rheingoldhalle, Mainz</span>
         </div>
@@ -555,7 +559,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-7">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-7"><img class="conf-icon" src="conf-icons/innoq.svg" alt="">
           <span class="badge bg-secondary">Talk</span><span class="badge badge-online">Online</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh Manager</span><br>
           <span class="talk-meta">10. April 2024 &middot; INNOQ Technology Lunch 04/24</span>
         </div>
@@ -568,7 +572,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-5">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-5"><img class="conf-icon" src="conf-icons/barc.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Mesh Manager: Data Products, Data Contracts and Policies</span><br>
           <span class="talk-meta">19 March 2024 &middot; BARC Data Festival, Muffatwerk, München</span>
         </div>
@@ -581,7 +585,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-6">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-6"><img class="conf-icon" src="conf-icons/batbern.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh: 2019, 2023 und 2024</span><br>
           <span class="talk-meta">8. März 2024 &middot; BATbern52, Zentrum Paul Klee, Bern</span>
         </div>
@@ -596,7 +600,7 @@
       <h2 class="year">2023</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-1"><img class="conf-icon" src="conf-icons/apidays.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">OpenAPI for Your Data Mesh: An Introduction to Data Contracts</span><br>
           <span class="talk-meta">6 December 2023 &middot; apidays Paris, CNIT, Paris</span>
         </div>
@@ -609,7 +613,7 @@
       </div>
 
       <div class="card mb-2" data-date="2023-11-30">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-9">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-9"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="badge badge-online">Online</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">TDWI Themenzirkel „Next Generation Data Management mit SAP"</span><br>
           <span class="talk-meta">30. November 2023 &middot; TDWI Themenzirkel (Online via Teams)</span>
         </div>
@@ -622,7 +626,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-2"><img class="conf-icon" src="conf-icons/data2day.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Test-driven Development mit dbt</span><br>
           <span class="talk-meta">12. Oktober 2023 &middot; data2day, IHK Haus der Wirtschaft, Karlsruhe</span>
         </div>
@@ -636,7 +640,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-3">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-3"><img class="conf-icon" src="conf-icons/barc.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh Governance</span><br>
           <span class="talk-meta">28. September 2023 &middot; 18. Data &amp; Analytics Meetup, Würzburg</span>
         </div>
@@ -649,7 +653,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-4">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-4"><img class="conf-icon" src="conf-icons/generic.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh &amp; Governance</span><br>
           <span class="talk-meta">4. Juli 2023 &middot; The Datapreneurs Club, München</span>
         </div>
@@ -662,7 +666,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-5">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-5"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh Governance</span><br>
           <span class="talk-meta">20. Juni 2023 &middot; TDWI München, MOC, München</span>
         </div>
@@ -675,7 +679,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-6">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-6"><img class="conf-icon" src="conf-icons/javaland.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">dbt: das „Spring Boot" für Daten</span><br>
           <span class="talk-meta">21. März 2023 &middot; JavaLand 2023, Phantasialand, Brühl</span>
         </div>
@@ -689,7 +693,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-7">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-7"><img class="conf-icon" src="conf-icons/javaland.webp" alt="">
           <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Die „Java by Comparison" Kata</span><br>
           <span class="talk-meta">20. März 2023 &middot; JavaLand 2023, Phantasialand, Brühl</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/sebastian-rose-9b0617ab/">Sebastian Rose</a> &amp; <a href="https://www.linkedin.com/in/falk-sippach/">Falk Sippach</a></span>
@@ -703,7 +707,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-8">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-8"><img class="conf-icon" src="conf-icons/sas.webp" alt="">
           <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh</span><br>
           <span class="talk-meta">14. März 2023 &middot; Software Architecture Summit 2023, Holiday Inn Unterhaching, München</span>
         </div>
@@ -719,7 +723,7 @@
       <h2 class="year">2021</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2021-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2021-1"><img class="conf-icon" src="conf-icons/generic.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Remote Mob Programming</span><br>
           <span class="talk-meta">7. Juli 2021 &middot; Konzept Informationssysteme GmbH</span>
         </div>
@@ -732,7 +736,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2021-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2021-2"><img class="conf-icon" src="conf-icons/javaland.webp" alt="">
           <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Mob-Programming Dojo</span><br>
           <span class="talk-meta">17. März 2021 &middot; JavaLand 2021</span>
         </div>
@@ -747,7 +751,7 @@
       <h2 class="year">2022</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2022-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2022-1"><img class="conf-icon" src="conf-icons/jambit.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Remote Mob Programming: Teamgefühl trotz Homeoffice</span><br>
           <span class="talk-meta">5. Oktober 2022 &middot; Tech Talks @jambit, Birketweg, München</span>
         </div>
@@ -761,7 +765,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2022-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2022-2"><img class="conf-icon" src="conf-icons/sas.webp" alt="">
           <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Workshop: Data Mesh Architektur</span><br>
           <span class="talk-meta">13. September 2022 &middot; Software Architecture Summit 2022, Berlin &amp; online</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/larysavisenger/">Dr. Larysa Visengeriyeva</a></span>
@@ -776,7 +780,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2022-3">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2022-3"><img class="conf-icon" src="conf-icons/javaland.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Gut gemeint! Warum dauert Software-Entwicklung immer länger?</span><br>
           <span class="talk-meta">15. März 2022 &middot; JavaLand 2022, Phantasialand, Brühl</span>
         </div>
@@ -793,7 +797,7 @@
       <h2 class="year">2019</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-1"><img class="conf-icon" src="conf-icons/dwx.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Eine Therapiesitzung zu Namen</span><br>
           <span class="talk-meta">26. Juni 2019 &middot; DWX – Developer Week 2019, Messe Nürnberg</span><br>
           <span class="talk-meta">mit <a href="https://de.linkedin.com/in/benjaminwolf1985">Benjamin Wolf</a> (INNOQ)</span>
@@ -807,7 +811,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-2"><img class="conf-icon" src="conf-icons/bayreuth.webp" alt="">
           <span class="badge badge-keynote">Keynote</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">One Kubernetes to rule them all</span><br>
           <span class="talk-meta">15 February 2019 &middot; ZEUS Workshop, University of Bayreuth</span><br>
           <span class="talk-meta">with <a href="https://www.linkedin.com/in/tvanlessen/">Tammo van Lessen</a></span>
@@ -821,22 +825,112 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-3">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt8"><img class="conf-icon" src="conf-icons/jbc.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
-          <span class="talk-meta">2019 Book Tour: Softwerkskammer (Ruhrgebiet, Düsseldorf, Leipzig, Köln, Nürnberg), JUG Mainz, Lightweight JUG München, WIAI PraxisReport</span>
+          <span class="talk-meta">29. Oktober 2019 &middot; JUG Mainz</span>
         </div>
-        <div id="talk-2019-3" class="collapse">
+        <div id="talk-2019-bt8" class="collapse">
           <div class="card-body">
-            <p>A meetup-tour talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.</p>
-            <p class="text-muted mb-0"><small>Stops:
-              2. April 2019 — <a href="https://www.innoq.com/de/talks/2019/04/java-by-comparison-die-geschichte-des-buches-swk-ruhrgebiet-april-2019/">Softwerkskammer Ruhrgebiet</a> ·
-              3. April 2019 — <a href="https://www.innoq.com/de/talks/2019/04/java-by-comparison-die-geschichte-des-buches-swk-duesseldorf-april-2019/">Softwerkskammer Düsseldorf</a> ·
-              4. Juni 2019 — <a href="https://www.innoq.com/de/talks/2019/06/java-by-comparison-die-geschichte-des-buches-swk-leipzig-juni-2019/">Softwerkskammer Leipzig</a> ·
-              8. Juli 2019 — <a href="https://www.innoq.com/de/talks/2019/07/java-by-comparison-wiai-praxisreport-july-2019/">WIAI PraxisReport, Bamberg</a> ·
-              9. Oktober 2019 — <a href="https://www.innoq.com/de/talks/2019/10/java-by-comparison-lightweight-jug-muenchen-oktober-2019/">Lightweight JUG München</a> ·
-              10. Oktober 2019 — Softwerkskammer Nürnberg ·
-              23. Oktober 2019 — <a href="https://www.innoq.com/de/talks/2019/10/softwerkskammer-koeln-oktober-2019-java-by-comparison/">Softwerkskammer Köln</a> ·
-              29. Oktober 2019 — <a href="https://www.innoq.com/de/talks/2019/10/java-by-comparison-jug-mainz-oktober-2019/">JUG Mainz</a></small></p>
+            <p>A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.</p>
+            <p class="text-muted mb-0"><small>Buch mitverfasst mit <a href="https://www.linkedin.com/in/linus-dietz/">Linus Dietz</a> &amp; <a href="https://www.linkedin.com/in/joerglenhard/">Jörg Lenhard</a></small></p>
+            <p class="text-muted mb-0"><small><a href="https://www.innoq.com/de/talks/2019/10/java-by-comparison-jug-mainz-oktober-2019/">Event-Seite</a></small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt7"><img class="conf-icon" src="conf-icons/jbc.webp" alt="">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
+          <span class="talk-meta">23. Oktober 2019 &middot; Softwerkskammer Köln</span>
+        </div>
+        <div id="talk-2019-bt7" class="collapse">
+          <div class="card-body">
+            <p>A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.</p>
+            <p class="text-muted mb-0"><small>Buch mitverfasst mit <a href="https://www.linkedin.com/in/linus-dietz/">Linus Dietz</a> &amp; <a href="https://www.linkedin.com/in/joerglenhard/">Jörg Lenhard</a></small></p>
+            <p class="text-muted mb-0"><small><a href="https://www.innoq.com/de/talks/2019/10/softwerkskammer-koeln-oktober-2019-java-by-comparison/">Event-Seite</a></small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt6"><img class="conf-icon" src="conf-icons/jbc.webp" alt="">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
+          <span class="talk-meta">10. Oktober 2019 &middot; Softwerkskammer Nürnberg</span>
+        </div>
+        <div id="talk-2019-bt6" class="collapse">
+          <div class="card-body">
+            <p>A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.</p>
+            <p class="text-muted mb-0"><small>Buch mitverfasst mit <a href="https://www.linkedin.com/in/linus-dietz/">Linus Dietz</a> &amp; <a href="https://www.linkedin.com/in/joerglenhard/">Jörg Lenhard</a></small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt5"><img class="conf-icon" src="conf-icons/jbc.webp" alt="">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
+          <span class="talk-meta">9. Oktober 2019 &middot; Lightweight JUG München</span>
+        </div>
+        <div id="talk-2019-bt5" class="collapse">
+          <div class="card-body">
+            <p>A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.</p>
+            <p class="text-muted mb-0"><small>Buch mitverfasst mit <a href="https://www.linkedin.com/in/linus-dietz/">Linus Dietz</a> &amp; <a href="https://www.linkedin.com/in/joerglenhard/">Jörg Lenhard</a></small></p>
+            <p class="text-muted mb-0"><small><a href="https://www.innoq.com/de/talks/2019/10/java-by-comparison-lightweight-jug-muenchen-oktober-2019/">Event-Seite</a></small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt4"><img class="conf-icon" src="conf-icons/bamberg.webp" alt="">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
+          <span class="talk-meta">8. Juli 2019 &middot; WIAI PraxisReport, Universität Bamberg</span>
+        </div>
+        <div id="talk-2019-bt4" class="collapse">
+          <div class="card-body">
+            <p>A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.</p>
+            <p class="text-muted mb-0"><small>Buch mitverfasst mit <a href="https://www.linkedin.com/in/linus-dietz/">Linus Dietz</a> &amp; <a href="https://www.linkedin.com/in/joerglenhard/">Jörg Lenhard</a></small></p>
+            <p class="text-muted mb-0"><small><a href="https://www.innoq.com/de/talks/2019/07/java-by-comparison-wiai-praxisreport-july-2019/">Event-Seite</a></small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt3"><img class="conf-icon" src="conf-icons/jbc.webp" alt="">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
+          <span class="talk-meta">4. Juni 2019 &middot; Softwerkskammer Leipzig</span>
+        </div>
+        <div id="talk-2019-bt3" class="collapse">
+          <div class="card-body">
+            <p>A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.</p>
+            <p class="text-muted mb-0"><small>Buch mitverfasst mit <a href="https://www.linkedin.com/in/linus-dietz/">Linus Dietz</a> &amp; <a href="https://www.linkedin.com/in/joerglenhard/">Jörg Lenhard</a></small></p>
+            <p class="text-muted mb-0"><small><a href="https://www.innoq.com/de/talks/2019/06/java-by-comparison-die-geschichte-des-buches-swk-leipzig-juni-2019/">Event-Seite</a></small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt2"><img class="conf-icon" src="conf-icons/jbc.webp" alt="">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
+          <span class="talk-meta">3. April 2019 &middot; Softwerkskammer Düsseldorf</span>
+        </div>
+        <div id="talk-2019-bt2" class="collapse">
+          <div class="card-body">
+            <p>A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.</p>
+            <p class="text-muted mb-0"><small>Buch mitverfasst mit <a href="https://www.linkedin.com/in/linus-dietz/">Linus Dietz</a> &amp; <a href="https://www.linkedin.com/in/joerglenhard/">Jörg Lenhard</a></small></p>
+            <p class="text-muted mb-0"><small><a href="https://www.innoq.com/de/talks/2019/04/java-by-comparison-die-geschichte-des-buches-swk-duesseldorf-april-2019/">Event-Seite</a></small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt1"><img class="conf-icon" src="conf-icons/jbc.webp" alt="">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
+          <span class="talk-meta">2. April 2019 &middot; Softwerkskammer Ruhrgebiet</span>
+        </div>
+        <div id="talk-2019-bt1" class="collapse">
+          <div class="card-body">
+            <p>A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.</p>
+            <p class="text-muted mb-0"><small>Buch mitverfasst mit <a href="https://www.linkedin.com/in/linus-dietz/">Linus Dietz</a> &amp; <a href="https://www.linkedin.com/in/joerglenhard/">Jörg Lenhard</a></small></p>
+            <p class="text-muted mb-0"><small><a href="https://www.innoq.com/de/talks/2019/04/java-by-comparison-die-geschichte-des-buches-swk-ruhrgebiet-april-2019/">Event-Seite</a></small></p>
           </div>
         </div>
       </div>
@@ -844,7 +938,7 @@
       <h2 class="year">2018</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2018-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2018-2"><img class="conf-icon" src="conf-icons/datev.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
           <span class="talk-meta">15. Mai 2018 &middot; Hackerkegeln (DATEV SCC), Kegelbahn der DATEV, Nürnberg</span>
         </div>
@@ -857,7 +951,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2018-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2018-1"><img class="conf-icon" src="conf-icons/oredev.webp" alt="">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Domain-driven Design with Kotlin</span><br>
           <span class="talk-meta">21 November 2018 &middot; ØREDEV 2018, Malmö Mässan, Malmö</span>
         </div>
@@ -877,6 +971,11 @@
   <div class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
     <p>Dr. Simon Harrer &copy; <span id="year">2026</span></p>
+    <p>
+      <a href="https://www.linkedin.com/in/simonharrer/">LinkedIn</a> &middot;
+      <a href="https://github.com/simonharrer">GitHub</a> &middot;
+      <a href="mailto:simon.harrer@entropy-data.com">Email</a>
+    </p>
     <p><a href="legal.html">Legal Notice and Privacy Policy</a></p>
   </div>
 </footer>

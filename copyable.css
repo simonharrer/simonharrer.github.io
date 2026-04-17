@@ -7,3 +7,11 @@
 [data-copy-card].copy-flash { background-color: #d4edda !important; }
 [data-copy-card].copy-flash .form-control,
 [data-copy-card].copy-flash .input-group-text { background-color: #d4edda !important; }
+
+@media (prefers-color-scheme: dark) {
+  .input-group[data-copy-card]:hover .form-control,
+  .input-group[data-copy-card]:hover .input-group-text { background-color: #2a2a2a; }
+  [data-copy-card].copy-flash { background-color: #1e3a26 !important; }
+  [data-copy-card].copy-flash .form-control,
+  [data-copy-card].copy-flash .input-group-text { background-color: #1e3a26 !important; color: #d4edda !important; }
+}

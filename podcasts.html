@@ -23,17 +23,21 @@
     <meta property="og:image" content="https://simonharrer.com/simon-harrer-1024.jpg">
 
     <style>
-      .talk-header { cursor: pointer; padding-right: 2rem; position: relative; }
+      .talk-header { cursor: pointer; padding-left: 5rem; padding-right: 2rem; padding-top: .75rem; padding-bottom: .75rem; position: relative; min-height: 72px; }
       .talk-header:hover { background: #f1f3f5; }
       .talk-header .talk-meta { color: #6c757d; font-size: 0.875rem; }
       .talk-header .talk-title { font-weight: 600; }
       .talk-header .flag { margin-right: .35em; }
       .talk-header .badge { margin-right: .4em; vertical-align: middle; margin-bottom: .15em; }
-      .talk-header::after { content: "\25BE"; position: absolute; right: 1rem; top: 1rem; color: #6c757d; }
+      .talk-header::after { content: "\25BE"; position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); color: #6c757d; }
       .talk-header.collapsed::after { content: "\25B8"; }
+      .podcast-cover { position: absolute; left: .75rem; top: 50%; transform: translateY(-50%); width: 56px; height: 56px; object-fit: contain; background: #fff; border: 1px solid #dee2e6; border-radius: 6px; padding: 3px; }
+      .badge-upcoming { background: #28a745; color: #fff; margin-left: .35em; }
       h2.year { margin-top: 2rem; border-bottom: 1px solid #dee2e6; padding-bottom: .25rem; }
       @media (max-width: 575.98px) {
         h1 { font-size: 1.75rem; }
+        .talk-header { padding-left: 3.75rem; min-height: 60px; }
+        .talk-header .podcast-cover { width: 40px; height: 40px; left: .5rem; }
         .talk-header .talk-title { font-size: .95rem; }
         .talk-header .talk-meta { font-size: .8rem; }
       }
@@ -53,11 +57,13 @@
       <div class="collapse navbar-collapse" id="navbarMain">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="books.html">Books</a></li>
+          <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
           <li class="nav-item"><a class="nav-link" href="open-source.html">Open Source</a></li>
           <li class="nav-item"><a class="nav-link" href="talks.html">Talks</a></li>
           <li class="nav-item"><a class="nav-link" href="podcasts.html">Podcasts</a></li>
           <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
           <li class="nav-item"><a class="nav-link" href="bio.html">Bio</a></li>
+          <li class="nav-item"><a class="nav-link" href="now.html">Now</a></li>
         </ul>
       </div>
     </div>
@@ -72,14 +78,14 @@
       <p class="text-muted">Audio and video podcast appearances plus written interviews. Click any entry to expand. <span title="German">🇩🇪</span> German, <span title="English">🇺🇸</span> English &middot; <span class="badge bg-secondary">Audio</span> <span class="badge bg-info">Video</span> <span class="badge bg-success">Article</span></p>
 
       <div class="alert alert-primary mt-3" role="alert">
-        <strong>Want me on your podcast?</strong> I love talking about data contracts, data mesh, data products, mob programming, and clean Java. Reach out at <a href="mailto:simon.harrer@entropy-data.com" class="alert-link">simon.harrer@entropy-data.com</a>. A press photo and bio in English and German are available on the <a href="bio.html" class="alert-link">Bio page</a>.
+        <strong>Want me on your podcast?</strong> Email <a href="mailto:simon.harrer@entropy-data.com" class="alert-link">simon.harrer@entropy-data.com</a> &middot; press photo &amp; bio on the <a href="bio.html" class="alert-link">Bio page</a>.
       </div>
 
       <h2 class="year">2026</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2026-3">
-          <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Innovation Podcast — Data Contracts &amp; Data Products (aufgenommen, Erscheinung folgt)</span><br>
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2026-3"><img class="podcast-cover" src="podcast-covers/data-innovation.webp" alt="">
+          <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Innovation Podcast — Data Contracts &amp; Data Products<span class="badge badge-upcoming">Upcoming</span></span><br>
           <span class="talk-meta">2026 &middot; INFOMOTION Innovation Lab &middot; mit <a href="https://de.linkedin.com/in/doc-moya">Prof. Dr. Ana Moya</a></span>
         </div>
         <div id="pod-2026-3" class="collapse">
@@ -91,7 +97,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2026-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2026-2"><img class="podcast-cover" src="podcast-covers/data-universe.webp" alt="">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Universe #26 — KI als Governance-Assistent im Data Mesh</span><br>
           <span class="talk-meta">19. März 2026 &middot; TDWI Data Universe &middot; mit <a href="https://www.linkedin.com/in/claudia-koschtial-53ba0a52/">Claudia Koschtial</a></span>
         </div>
@@ -104,7 +110,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2026-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2026-1"><img class="podcast-cover" src="podcast-covers/data-universe.webp" alt="">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Universe #25 — Data Contracts: Das Fundament für Vertrauen im Data Mesh</span><br>
           <span class="talk-meta">5. März 2026 &middot; TDWI Data Universe &middot; mit <a href="https://www.linkedin.com/in/claudia-koschtial-53ba0a52/">Claudia Koschtial</a></span>
         </div>
@@ -117,7 +123,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#int-2026-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#int-2026-1"><img class="podcast-cover" src="podcast-covers/insightify.webp" alt="">
           <span class="badge bg-success">Article</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Why data contracts fail without interfaces</span><br>
           <span class="talk-meta">23 February 2026 &middot; Insightify Blog &middot; with <a href="https://www.linkedin.com/in/luke-pasisz/">Luke Pasisz</a></span>
         </div>
@@ -132,7 +138,7 @@
       <h2 class="year">2025</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2025-3">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2025-3"><img class="podcast-cover" src="podcast-covers/addedval.webp" alt="">
           <span class="badge bg-info">Video</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Adding Value Early #116 — Die Story hinter Entropy Data</span><br>
           <span class="talk-meta">Dezember 2025 &middot; Adding Value Early &middot; mit <a href="https://www.linkedin.com/in/arnasbrautigam/">Arnas Bräutigam</a> (AddedVal.io)</span>
         </div>
@@ -145,7 +151,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2025-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2025-2"><img class="podcast-cover" src="podcast-covers/data-playbook.webp" alt="">
           <span class="badge bg-info">Video</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">The Data Playbook S2 E1 — Live from the POA Summit: Data Contracts, AI, and the Next Phase of Data Mesh</span><br>
           <span class="talk-meta">9 October 2025 &middot; Dataminded &middot; with <a href="https://www.linkedin.com/in/peeterskris/">Kris Peeters</a></span>
         </div>
@@ -158,7 +164,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2025-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2025-1"><img class="podcast-cover" src="podcast-covers/case.webp" alt="">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">CaSE #59 — Data Marketplace, Data Products and Data Contracts</span><br>
           <span class="talk-meta">22 September 2025 &middot; Conversations about Software Engineering &middot; with Alex Schladebeck, <a href="https://www.linkedin.com/in/heinrich-hartmann-b524a076/">Heinrich Hartmann</a> &amp; <a href="https://www.linkedin.com/in/svenjohann/">Sven Johann</a></span>
         </div>
@@ -171,7 +177,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#int-2025-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#int-2025-1"><img class="podcast-cover" src="innoq.svg" alt="">
           <span class="badge bg-success">Article</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">From Consultant to Founder: We are founding Entropy Data</span><br>
           <span class="talk-meta">5 August 2025 &middot; INNOQ News</span>
         </div>
@@ -186,7 +192,7 @@
       <h2 class="year">2024</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2024-3">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2024-3"><img class="podcast-cover" src="podcast-covers/biordie.webp" alt="">
           <span class="badge bg-info">Video</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">BI or DIE — Datenprodukte und Data Contracts</span><br>
           <span class="talk-meta">28. Oktober 2024 &middot; BI or DIE &middot; mit <a href="https://www.linkedin.com/in/datakoenigartur/">Artur König</a></span>
         </div>
@@ -199,7 +205,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2024-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2024-1"><img class="podcast-cover" src="podcast-covers/innoq-podcast.webp" alt="">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">INNOQ Podcast #160 — Data Contracts</span><br>
           <span class="talk-meta">30. September 2024 &middot; INNOQ Podcast &middot; mit <a href="https://www.linkedin.com/in/svenjohann/">Sven Johann</a></span>
         </div>
@@ -212,7 +218,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2024-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2024-2"><img class="podcast-cover" src="podcast-covers/zeenea.webp" alt="">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">The Data Democracy #28 — Crafting Code Clarity and Championing Data Mesh in Germany</span><br>
           <span class="talk-meta">10 April 2024 &middot; Zeenea Podcast &middot; with <a href="https://www.linkedin.com/in/ole-olesen-bagneux/">Ole Olesen-Bagneux</a></span>
         </div>
@@ -227,7 +233,7 @@
       <h2 class="year">2022</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2022-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2022-1"><img class="podcast-cover" src="podcast-covers/softarchtv.webp" alt="">
           <span class="badge bg-info">Video</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Software Architektur im Stream #115 — Data Mesh: Nur ein neuer Datenanalyse-Hype?</span><br>
           <span class="talk-meta">8. April 2022 &middot; Software Architektur im Stream &middot; mit <a href="https://de.linkedin.com/in/eberhardwolff">Eberhard Wolff</a>, <a href="https://www.linkedin.com/in/jochen-christ/">Jochen Christ</a> &amp; <a href="https://www.linkedin.com/in/theo-pack/">Theo Pack</a></span>
         </div>
@@ -242,7 +248,7 @@
       <h2 class="year">2021</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2021-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2021-1"><img class="podcast-cover" src="podcast-covers/softarchtv.webp" alt="">
           <span class="badge bg-info">Video</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Software Architektur im Stream #56 — Remote Mob Programming</span><br>
           <span class="talk-meta">16. April 2021 &middot; Software Architektur im Stream &middot; mit <a href="https://de.linkedin.com/in/eberhardwolff">Eberhard Wolff</a>, <a href="https://www.linkedin.com/in/jochen-christ/">Jochen Christ</a>, Franziska Dessart &amp; <a href="https://www.linkedin.com/in/martin-huber-62a45335/">Martin Huber</a></span>
         </div>
@@ -257,7 +263,7 @@
       <h2 class="year">2020</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#int-2020-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#int-2020-1"><img class="podcast-cover" src="podcast-covers/infoq.webp" alt="">
           <span class="badge bg-success">Article</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Q&amp;A on the Book Remote Mob Programming</span><br>
           <span class="talk-meta">3 February 2020 &middot; InfoQ &middot; with <a href="https://www.linkedin.com/in/benlinders/">Ben Linders</a></span>
         </div>
@@ -270,7 +276,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2020-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2020-1"><img class="podcast-cover" src="podcast-covers/inside-remote.webp" alt="">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Inside Remote — Simon Harrer on Mob Programming</span><br>
           <span class="talk-meta">21 January 2020 &middot; Inside Remote &middot; with <a href="https://www.linkedin.com/in/andrejfodor/">Andrej Fodor</a></span>
         </div>
@@ -285,7 +291,7 @@
       <h2 class="year">2019</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-4">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-4"><img class="podcast-cover" src="podcast-covers/marcloeffler.webp" alt="">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Agile Unfiltered — Wie funktioniert Remote Mob Programming?</span><br>
           <span class="talk-meta">15. Dezember 2019 &middot; mit <a href="https://de.linkedin.com/in/marcsteffenloeffler">Marc Löffler</a></span>
         </div>
@@ -298,7 +304,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-3">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-3"><img class="podcast-cover" src="podcast-covers/autoweird.webp" alt="">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Autoweird.fm #64 — Literarisches Trio: Java by Comparison</span><br>
           <span class="talk-meta">16. Juni 2019 &middot; Autoweird.fm &middot; mit <a href="https://www.linkedin.com/in/benedikt-ritter-83847b84/">Benedikt Ritter</a> &amp; <a href="https://de.linkedin.com/in/holgergp">Holger Grosse-Plankermann</a></span>
         </div>
@@ -311,7 +317,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-1"><img class="podcast-cover" src="podcast-covers/innoq-podcast.webp" alt="">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">INNOQ Podcast #61 — Remote Mob Programming: Home but not alone</span><br>
           <span class="talk-meta">6. Mai 2019 &middot; INNOQ Podcast &middot; mit <a href="https://de.linkedin.com/in/stefantilkov">Stefan Tilkov</a>, <a href="https://www.linkedin.com/in/jochen-christ/">Jochen Christ</a> &amp; <a href="https://www.linkedin.com/in/martin-huber-62a45335/">Martin Huber</a></span>
         </div>
@@ -324,7 +330,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-2"><img class="podcast-cover" src="podcast-covers/airhacks.webp" alt="">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">airhacks.fm — Optimizing for Humans, Not Machines</span><br>
           <span class="talk-meta">24 March 2019 &middot; airhacks.fm &middot; with <a href="https://www.linkedin.com/in/adam-bien/">Adam Bien</a></span>
         </div>
@@ -337,7 +343,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-5">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-5"><img class="podcast-cover" src="podcast-covers/devjourney.webp" alt="">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Developer's Journey #41 — Simon Harrer</span><br>
           <span class="talk-meta">2019 &middot; Developer's Journey &middot; with <a href="https://www.linkedin.com/in/timbourguignon/">Tim Bourguignon</a></span>
         </div>
@@ -352,7 +358,7 @@
       <h2 class="year">2018</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2018-2">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2018-2"><img class="podcast-cover" src="podcast-covers/devonfire.webp" alt="">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Developer On Fire #378 — Writing Priorities</span><br>
           <span class="talk-meta">1 October 2018 &middot; Developer On Fire &middot; with <a href="https://www.linkedin.com/in/daverael/">Dave Rael</a></span>
         </div>
@@ -365,7 +371,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2018-1">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2018-1"><img class="podcast-cover" src="podcast-covers/innoq-podcast.webp" alt="">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">INNOQ Podcast #49 — Java by Comparison</span><br>
           <span class="talk-meta">2. Juli 2018 &middot; INNOQ Podcast &middot; mit <a href="https://www.linkedin.com/in/michaelvitz/">Michael Vitz</a></span>
         </div>
@@ -385,6 +391,11 @@
   <div class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
     <p>Dr. Simon Harrer &copy; <span id="year">2026</span></p>
+    <p>
+      <a href="https://www.linkedin.com/in/simonharrer/">LinkedIn</a> &middot;
+      <a href="https://github.com/simonharrer">GitHub</a> &middot;
+      <a href="mailto:simon.harrer@entropy-data.com">Email</a>
+    </p>
     <p><a href="legal.html">Legal Notice and Privacy Policy</a></p>
   </div>
 </footer>

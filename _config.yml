@@ -2,3 +2,4 @@ plugins:
   - jekyll-sitemap
 markdown: kramdown
 title: Dr. Simon Harrer
+url: https://simonharrer.com

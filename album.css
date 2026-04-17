@@ -46,3 +46,49 @@ footer p {
     font-size: 3.5rem;
   }
 }
+
+.album .card {
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.album a:hover .card {
+  transform: translateY(-4px);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bs-body-bg: #121212;
+    --bs-body-color: #e9ecef;
+    --bs-secondary-color: rgba(233, 236, 239, 0.75);
+    --bs-tertiary-bg: #1a1a1a;
+    --bs-border-color: #343a40;
+    --bs-link-color: #6ea8fe;
+    --bs-link-hover-color: #9ec5fe;
+  }
+
+  body { background-color: var(--bs-body-bg); color: var(--bs-body-color); }
+
+  .jumbotron { background-color: var(--bs-body-bg); }
+  .bg-light, .bg-white { background-color: var(--bs-tertiary-bg) !important; }
+  .text-dark { color: var(--bs-body-color) !important; }
+  .text-muted { color: rgba(233, 236, 239, 0.65) !important; }
+
+  .card { background-color: #242424; color: var(--bs-body-color); border-color: var(--bs-border-color); }
+  .card-text.text-muted { color: rgba(233, 236, 239, 0.7) !important; }
+
+  a { color: var(--bs-link-color); }
+  a:hover { color: var(--bs-link-hover-color); }
+
+  .btn-outline-secondary { color: #adb5bd; border-color: #6c757d; }
+  .btn-outline-secondary:hover { background-color: #6c757d; color: #fff; }
+
+  .form-control, .input-group-text { background-color: #242424; color: var(--bs-body-color); border-color: var(--bs-border-color); }
+
+  hr { border-color: var(--bs-border-color); }
+
+  .album a:hover .card {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5) !important;
+  }
+}
