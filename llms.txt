@@ -1,0 +1,23 @@
+# Simon Harrer
+
+> Dr. Simon Harrer is Co-Founder and CEO of Entropy Data, where he builds agentic data governance. He is the author of "Java by Comparison", co-author of "Remote Mob Programming" and "GitOps", and the German translator of Zhamak Dehghani's "Data Mesh". He maintains the open-source Data Contract CLI and Data Contract Editor, publishes peer-reviewed research on data governance with generative AI, and speaks regularly on data contracts, data mesh, and data products. Based in Gerolzhofen, Germany.
+
+## Pages
+
+- [Home](https://simonharrer.com/): Overview of Simon Harrer's books, open source, talks, podcasts, and research.
+- [Books](https://simonharrer.com/books.html): Java by Comparison, Remote Mob Programming, GitOps, the German translation of Data Mesh, his PhD thesis, and a contributed Data Contracts chapter in Effektive Softwarearchitekturen.
+- [Articles](https://simonharrer.com/articles.html): Articles on data products, data contracts, data mesh, and remote mob programming (INNOQ, Java Magazin, and others).
+- [Open Source](https://simonharrer.com/open-source.html): Data Contract CLI, Data Contract Editor, and mob.sh — tools used daily by developers and data teams.
+- [Talks](https://simonharrer.com/talks.html): Conference talks, meetups, and workshops on data contracts, data mesh, data products, dbt, GitOps, remote mob programming, and clean Java.
+- [Podcasts](https://simonharrer.com/podcasts.html): Podcast appearances and interviews on data contracts, data mesh, data governance with AI, and remote mob programming.
+- [Research](https://simonharrer.com/research.html): Peer-reviewed research on data governance with generative AI, data contracts, and bridging data products with LLMs, plus earlier work on BPMN/BPEL and workflow engine benchmarking.
+- [Bio](https://simonharrer.com/bio.html): Copy-ready bio and press photo in English and German for event organizers and journalists.
+- [Now](https://simonharrer.com/now.html): A snapshot of what Simon Harrer is currently focused on.
+
+## Profiles
+
+- LinkedIn: https://www.linkedin.com/in/simonharrer/
+- GitHub: https://github.com/simonharrer
+- Google Scholar: https://scholar.google.com/citations?user=LLb291wAAAAJ&hl=de
+- DBLP: https://dblp.org/pid/35/7525.html
+- ORCID: https://orcid.org/0000-0002-1023-9897
