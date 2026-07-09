@@ -49,6 +49,12 @@
       .talk-header.collapsed::after { content: "\25B8"; }
       .conf-icon { position: absolute; left: .75rem; top: 50%; transform: translateY(-50%); width: 56px; height: 56px; object-fit: contain; background: #fff; border: 1px solid #dee2e6; border-radius: 6px; padding: 3px; }
       h2.year { margin-top: 2rem; border-bottom: 1px solid #dee2e6; padding-bottom: .25rem; }
+      @media (prefers-color-scheme: dark) {
+        .talk-header:hover { background: #2a2a2a; }
+        .talk-header .talk-meta { color: #adb5bd; }
+        .talk-header::after { color: #adb5bd; }
+        h2.year { border-bottom-color: #343a40; }
+      }
       @media (max-width: 575.98px) {
         h1 { font-size: 1.75rem; }
         .talk-header { padding-left: 3.75rem; min-height: 60px; }
@@ -97,6 +103,21 @@
       </div>
 
       <h2 class="year">2026</h2>
+
+      <div class="card mb-2" data-date="2026-09-17">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-13"><img class="conf-icon" src="conf-icons/poa.webp" alt="">
+          <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Product Builder: Building Your Data Product Contract-first</span><br>
+          <span class="talk-meta">17 September 2026 &middot; POA Summit 2026, Antwerp, Belgium (10:45–11:30)</span>
+        </div>
+        <div id="talk-2026-13" class="collapse">
+          <div class="card-body">
+            <p>Contract-first means the contract comes before the data product, not after. Instead of extracting tables, exploring, and documenting later, you agree on what consumers need first, write it down as a data contract covering ownership, schema, semantics, quality, and SLAs, and only then build the product to satisfy it.</p>
+            <p>This ordering is what makes data products trustworthy — and it is exactly what coding agents need. A contract written first is a spec: clear, testable requirements an agent can build against instead of guessing from raw data. Contract-first is spec-driven development for data, and the contract is the spec.</p>
+            <p>The talk goes contract-first end to end, live. The contract is specified in the Open Data Contract Standard (ODCS), and only then implemented. Working from that spec in a live coding session, a coding agent uses skills to build a dbt project that implements the data product: discovering the upstream source data products it needs through a data marketplace, requesting access, and wiring them into the dbt models that satisfy the contract. The skills come from a skill repository that captures the conventions for building a data product on your stack — here, a dbt project on Snowflake — so the agent follows your team's way of working rather than inventing its own. Because the contract is executable, it stays the source of truth: a living test suite, run via the Data Contract CLI against the actual data, that holds both the data product and the agent to the spec in your terminal and in CI.</p>
+            <p class="text-muted mb-0"><small>3rd Industry Summit on Data Product Oriented Architectures</small></p>
+          </div>
+        </div>
+      </div>
 
       <div class="card mb-2" data-date="2026-06-30">
         <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-9"><img class="conf-icon" src="conf-icons/summersoc.webp" alt="">

@@ -47,6 +47,12 @@
       .podcast-cover { position: absolute; left: .75rem; top: 50%; transform: translateY(-50%); width: 56px; height: 56px; object-fit: contain; background: #fff; border: 1px solid #dee2e6; border-radius: 6px; padding: 3px; }
       .badge-upcoming { background: #28a745; color: #fff; margin-left: .35em; }
       h2.year { margin-top: 2rem; border-bottom: 1px solid #dee2e6; padding-bottom: .25rem; }
+      @media (prefers-color-scheme: dark) {
+        .talk-header:hover { background: #2a2a2a; }
+        .talk-header .talk-meta { color: #adb5bd; }
+        .talk-header::after { color: #adb5bd; }
+        h2.year { border-bottom-color: #343a40; }
+      }
       @media (max-width: 575.98px) {
         h1 { font-size: 1.75rem; }
         .talk-header { padding-left: 3.75rem; min-height: 60px; }
