@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Open-source projects by Dr. Simon Harrer, including the Data Contract CLI, Data Contract Editor, and mob.sh — tools used daily by developers and data teams.">
     <meta name="author" content="Simon Harrer">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f8f9fa" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
     <title>Open Source &mdash; Simon Harrer</title>
 
     <link rel="stylesheet" href="vendor/bootstrap.min.css">
     <link rel="stylesheet" href="album.css">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" href="favicon.ico" sizes="32x32">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <script src="vendor/bootstrap.bundle.min.js" defer></script>
 
@@ -21,6 +27,12 @@
     <meta property="og:title" content="Open Source — Simon Harrer">
     <meta property="og:description" content="Open-source projects by Dr. Simon Harrer, including the Data Contract CLI, Data Contract Editor, and mob.sh — tools used daily by developers and data teams.">
     <meta property="og:image" content="https://simonharrer.com/simon-harrer-1024.jpg">
+    <meta property="og:image:alt" content="Portrait of Dr. Simon Harrer">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Open Source — Simon Harrer">
+    <meta name="twitter:description" content="Open-source projects by Dr. Simon Harrer, including the Data Contract CLI, Data Contract Editor, and mob.sh — tools used daily by developers and data teams.">
+    <meta name="twitter:image" content="https://simonharrer.com/simon-harrer-1024.jpg">
+    <meta name="twitter:image:alt" content="Portrait of Dr. Simon Harrer">
 
     <script type="application/ld+json">
     {
@@ -51,10 +63,12 @@
       }
     </style>
   </head>
-<body>
+<body id="top">
+
+<a href="#main" class="visually-hidden-focusable skip-link">Skip to main content</a>
 
 <header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm" aria-label="Main">
     <div class="container">
       <a href="index.html" class="navbar-brand">
         <strong>Dr. Simon Harrer</strong>
@@ -78,7 +92,7 @@
   </nav>
 </header>
 
-<main role="main">
+<main id="main">
 
   <div class="album py-5 bg-light">
     <div class="container">
@@ -86,13 +100,14 @@
       <h1>Open Source</h1>
       <p class="text-muted">Open source tools I've created, maintain, or have helped to maintain.</p>
 
+      <h2 class="visually-hidden">Current projects</h2>
       <div class="row row-cols-1 row-cols-md-2 mt-4">
 
         <div class="col mb-4">
           <div class="card shadow-sm h-100">
             <a href="https://www.data-landscape.com"><picture><source srcset="data-landscape.webp" type="image/webp"><img src="data-landscape.png" class="card-img-top project-image" alt="Data Landscape"></picture></a>
             <div class="card-body">
-              <h5 class="card-title">Data Landscape <a href="https://github.com/entropy-data/data-landscape/stargazers" class="badge bg-light text-dark border text-decoration-none align-middle stat-badge" title="Measured on 2026-05-05"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>10+ stars</a></h5>
+              <h3 class="card-title h5">Data Landscape <a href="https://github.com/entropy-data/data-landscape/stargazers" class="badge bg-light text-dark border text-decoration-none align-middle stat-badge" title="Measured on 2026-05-05"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>10+ stars</a></h3>
               <p class="card-text">An opinionated, interactive map of the open standards that power a modern data architecture — ODCS, ODPS, OSI, OpenAPI, Iceberg, OpenLineage, OpenTelemetry and more.</p>
               <div class="text-center">
                 <a href="https://github.com/entropy-data/data-landscape" class="btn btn-sm btn-outline-secondary" title="GitHub" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg> GitHub</a>
@@ -108,7 +123,7 @@
           <div class="card shadow-sm h-100">
             <a href="https://github.com/datacontract/datacontract-cli"><picture><source srcset="datacontract-cli.webp" type="image/webp"><img src="datacontract-cli.png" class="card-img-top project-image" alt="Data Contract CLI"></picture></a>
             <div class="card-body">
-              <h5 class="card-title">Data Contract CLI <a href="https://www.thoughtworks.com/radar/tools/data-contract-cli" class="badge bg-info text-decoration-none align-middle" style="font-size: .65em;">Thoughtworks Tech Radar</a> <a href="https://github.com/datacontract/datacontract-cli/stargazers" class="badge bg-light text-dark border text-decoration-none align-middle stat-badge" title="Measured on 2026-04-13"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>850+ stars</a></h5>
+              <h3 class="card-title h5">Data Contract CLI <a href="https://www.thoughtworks.com/radar/tools/data-contract-cli" class="badge bg-info text-decoration-none align-middle" style="font-size: .65em;">Thoughtworks Tech Radar</a> <a href="https://github.com/datacontract/datacontract-cli/stargazers" class="badge bg-light text-dark border text-decoration-none align-middle stat-badge" title="Measured on 2026-04-13"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>850+ stars</a></h3>
               <p class="card-text">A CLI tool to validate, test, document, and export data contracts based on the Open Data Contract Standard. Supports 15+ data sources including Snowflake, Databricks, BigQuery, and Postgres.</p>
               <div class="text-center">
                 <a href="https://github.com/datacontract/datacontract-cli" class="btn btn-sm btn-outline-secondary" title="GitHub" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg> GitHub</a>
@@ -124,7 +139,7 @@
           <div class="card shadow-sm h-100">
             <a href="https://github.com/datacontract/datacontract-editor"><picture><source srcset="datacontract-editor.webp" type="image/webp"><img src="datacontract-editor.png" class="card-img-top project-image" alt="Data Contract Editor"></picture></a>
             <div class="card-body">
-              <h5 class="card-title">Data Contract Editor <a href="https://github.com/datacontract/datacontract-editor/stargazers" class="badge bg-light text-dark border text-decoration-none align-middle stat-badge" title="Measured on 2026-04-13"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>80+ stars</a></h5>
+              <h3 class="card-title h5">Data Contract Editor <a href="https://github.com/datacontract/datacontract-editor/stargazers" class="badge bg-light text-dark border text-decoration-none align-middle stat-badge" title="Measured on 2026-04-13"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>80+ stars</a></h3>
               <p class="card-text">Web-based visual editor for ODCS data contracts. Authoring, validation, and previewing in the browser — no install required.</p>
               <div class="text-center">
                 <a href="https://github.com/datacontract/datacontract-editor" class="btn btn-sm btn-outline-secondary" title="GitHub" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg> GitHub</a>
@@ -145,7 +160,7 @@
           <div class="card shadow-sm h-100">
             <a href="https://github.com/remotemobprogramming/mob"><img src="mob-diagram.svg" class="card-img-top project-image" alt="mob.sh workflow diagram"></a>
             <div class="card-body">
-              <h5 class="card-title">mob.sh <a href="https://www.thoughtworks.com/radar/tools/mob" class="badge bg-info text-decoration-none align-middle" style="font-size: .65em;">Thoughtworks Tech Radar</a> <a href="https://github.com/remotemobprogramming/mob/stargazers" class="badge bg-light text-dark border text-decoration-none align-middle stat-badge" title="Measured on 2026-04-13"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>1.7k+ stars</a></h5>
+              <h3 class="card-title h5">mob.sh <a href="https://www.thoughtworks.com/radar/tools/mob" class="badge bg-info text-decoration-none align-middle" style="font-size: .65em;">Thoughtworks Tech Radar</a> <a href="https://github.com/remotemobprogramming/mob/stargazers" class="badge bg-light text-dark border text-decoration-none align-middle stat-badge" title="Measured on 2026-04-13"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>1.7k+ stars</a></h3>
               <p class="card-text">A CLI tool that makes swap turns in (remote) mob and pair programming a one-liner. Used daily by developers around the world.</p>
               <div class="text-center">
                 <a href="https://github.com/remotemobprogramming/mob" class="btn btn-sm btn-outline-secondary" title="GitHub" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg> GitHub</a>
@@ -161,7 +176,7 @@
           <div class="card shadow-sm h-100">
             <a href="https://github.com/JabRef/jabref"><img src="jabref-screenshot.png" class="card-img-top project-image" alt="JabRef application screenshot"></a>
             <div class="card-body">
-              <h5 class="card-title">JabRef <a href="https://github.com/JabRef/jabref/stargazers" class="badge bg-light text-dark border text-decoration-none align-middle stat-badge" title="Measured on 2026-04-17"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>4.3k+ stars</a></h5>
+              <h3 class="card-title h5">JabRef <a href="https://github.com/JabRef/jabref/stargazers" class="badge bg-light text-dark border text-decoration-none align-middle stat-badge" title="Measured on 2026-04-17"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>4.3k+ stars</a></h3>
               <p class="card-text">An open-source bibliography reference manager for researchers, using BibTeX as its native format. Available for Windows, Linux, and macOS.</p>
               <div class="text-center">
                 <a href="https://github.com/JabRef/jabref" class="btn btn-sm btn-outline-secondary" title="GitHub" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg> GitHub</a>
@@ -182,7 +197,7 @@
 
 <footer class="text-muted">
   <div class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
+    <p class="float-end"><a href="#top">Back to top</a></p>
     <p>Dr. Simon Harrer &copy; <span id="year">2026</span></p>
     <p>
       <a href="https://www.linkedin.com/in/simonharrer/">LinkedIn</a> &middot;
