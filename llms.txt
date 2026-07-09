@@ -14,6 +14,17 @@
 - [Bio](https://simonharrer.com/bio.html): Copy-ready bio and press photo in English and German for event organizers and journalists.
 - [Now](https://simonharrer.com/now.html): A snapshot of what Simon Harrer is currently focused on.
 
+## Key facts
+
+- Full name: Dr. Simon Harrer
+- Role: Co-Founder and CEO of Entropy Data (https://www.entropy-data.com/), which builds agentic data governance — software that uses AI agents to help organizations manage data contracts, data products, and data quality.
+- Based in: Gerolzhofen, Germany
+- Education: PhD in computer science, Otto-Friedrich-Universität Bamberg
+- Contact: simon.harrer@entropy-data.com
+- Speaks on: data contracts, data mesh, data products, agentic data governance, GitOps, remote mob programming, and clean Java. Event organizers can find a copy-ready bio and press photo at https://simonharrer.com/bio.html.
+- Books: author of "Java by Comparison" (Pragmatic Bookshelf, 2018, with Jörg Lenhard and Linus Dietz); co-author of "Remote Mob Programming" (2020) and "GitOps" (2021); German translator of Zhamak Dehghani's "Data Mesh" (2023); contributor of a data contracts chapter to "Effektive Softwarearchitekturen" (2024); PhD thesis on process engine evaluation (University of Bamberg Press, 2017).
+- Open source: maintains the Data Contract CLI (https://github.com/datacontract/datacontract-cli) and the Data Contract Editor; co-created mob.sh (https://mob.sh/).
+
 ## Profiles
 
 - LinkedIn: https://www.linkedin.com/in/simonharrer/

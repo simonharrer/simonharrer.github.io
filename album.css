@@ -47,6 +47,34 @@ footer p {
   }
 }
 
+/* Bootstrap's defaults fall short of WCAG AA on .bg-light (#f8f9fa):
+   #6c757d text is 4.44:1 and #0d6efd links are 4.26:1, both under 4.5:1. */
+:root {
+  --bs-link-color-rgb: 10, 88, 202;
+  --bs-link-hover-color-rgb: 8, 66, 152;
+}
+
+.text-muted {
+  color: #5c636a !important;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: #5c636a;
+  --bs-btn-border-color: #5c636a;
+}
+
+.skip-link:focus {
+  position: absolute;
+  top: .5rem;
+  left: .5rem;
+  z-index: 1100;
+  padding: .5rem 1rem;
+  background-color: #fff;
+  color: #212529;
+  border-radius: .25rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
 .album .card {
   transition: transform .2s ease, box-shadow .2s ease;
 }
@@ -54,6 +82,15 @@ footer p {
 .album a:hover .card {
   transform: translateY(-4px);
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .album .card {
+    transition: none;
+  }
+  .album a:hover .card {
+    transform: none;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -66,6 +103,8 @@ footer p {
     --bs-border-color: #343a40;
     --bs-link-color: #6ea8fe;
     --bs-link-hover-color: #9ec5fe;
+    --bs-link-color-rgb: 110, 168, 254;
+    --bs-link-hover-color-rgb: 158, 197, 254;
   }
 
   body { background-color: var(--bs-body-bg); color: var(--bs-body-color); }
@@ -74,6 +113,10 @@ footer p {
   .bg-light, .bg-white { background-color: var(--bs-tertiary-bg) !important; }
   .text-dark { color: var(--bs-body-color) !important; }
   .text-muted { color: rgba(233, 236, 239, 0.65) !important; }
+  /* Scoped to text, not --bs-primary-rgb, so .bg-primary badges keep their
+     dark fill: #0d6efd text is only 3.44:1 on the #242424 card. */
+  .text-primary { color: #6ea8fe !important; }
+  .btn-outline-primary { --bs-btn-color: #6ea8fe; --bs-btn-border-color: #6ea8fe; }
 
   .card { background-color: #242424; color: var(--bs-body-color); border-color: var(--bs-border-color); }
   .card-text.text-muted { color: rgba(233, 236, 239, 0.7) !important; }
@@ -90,5 +133,10 @@ footer p {
 
   .album a:hover .card {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5) !important;
+  }
+
+  .skip-link:focus {
+    background-color: #242424;
+    color: var(--bs-body-color);
   }
 }
