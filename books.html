@@ -39,17 +39,109 @@
       "@context": "https://schema.org",
       "@graph": [
         {
+          "@type": "CollectionPage",
+          "@id": "https://simonharrer.com/books.html#webpage",
+          "url": "https://simonharrer.com/books.html",
+          "name": "Books — Simon Harrer",
+          "description": "Books by Dr. Simon Harrer: Java by Comparison, Remote Mob Programming, GitOps, and the German translation of Zhamak Dehghani's Data Mesh.",
+          "inLanguage": "en",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Simon Harrer",
+            "url": "https://simonharrer.com/"
+          },
+          "about": {
+            "@id": "https://simonharrer.com/#person"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://simonharrer.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Books",
+                "item": "https://simonharrer.com/books.html"
+              }
+            ]
+          },
+          "mainEntity": {
+            "@type": "ItemList",
+            "numberOfItems": 6,
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@id": "https://simonharrer.com/books.html#java-by-comparison"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@id": "https://simonharrer.com/books.html#data-mesh-german-edition"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@id": "https://simonharrer.com/books.html#remote-mob-programming"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "@id": "https://simonharrer.com/books.html#gitops"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                  "@id": "https://simonharrer.com/books.html#effective-and-efficient-process-engine-evaluation"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                  "@id": "https://simonharrer.com/books.html#effektive-softwarearchitekturen"
+                }
+              }
+            ]
+          }
+        },
+        {
           "@type": "Book",
           "name": "Java by Comparison",
           "url": "https://pragprog.com/titles/javacomp/java-by-comparison/",
           "datePublished": "2018",
           "inLanguage": "en",
           "isbn": "9781680502879",
-          "publisher": { "@type": "Organization", "name": "Pragmatic Bookshelf" },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Pragmatic Bookshelf"
+          },
           "author": [
-            { "@id": "https://simonharrer.com/#person" },
-            { "@type": "Person", "name": "Linus Dietz" },
-            { "@type": "Person", "name": "Jörg Lenhard" }
+            {
+              "@id": "https://simonharrer.com/#person"
+            },
+            {
+              "@type": "Person",
+              "name": "Linus Dietz"
+            },
+            {
+              "@type": "Person",
+              "name": "Jörg Lenhard"
+            }
           ],
           "aggregateRating": {
             "@type": "AggregateRating",
@@ -57,7 +149,8 @@
             "ratingCount": 120,
             "bestRating": 5,
             "reviewAspect": "Goodreads ratings"
-          }
+          },
+          "@id": "https://simonharrer.com/books.html#java-by-comparison"
         },
         {
           "@type": "Book",
@@ -67,11 +160,22 @@
           "datePublished": "2023",
           "inLanguage": "de",
           "isbn": "9783960092070",
-          "publisher": { "@type": "Organization", "name": "dpunkt.verlag" },
-          "author": { "@type": "Person", "name": "Zhamak Dehghani" },
+          "publisher": {
+            "@type": "Organization",
+            "name": "dpunkt.verlag"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Zhamak Dehghani"
+          },
           "translator": [
-            { "@id": "https://simonharrer.com/#person" },
-            { "@type": "Person", "name": "Jochen Christ" }
+            {
+              "@id": "https://simonharrer.com/#person"
+            },
+            {
+              "@type": "Person",
+              "name": "Jochen Christ"
+            }
           ],
           "aggregateRating": {
             "@type": "AggregateRating",
@@ -79,7 +183,8 @@
             "ratingCount": 8,
             "bestRating": 5,
             "reviewAspect": "Amazon ratings"
-          }
+          },
+          "@id": "https://simonharrer.com/books.html#data-mesh-german-edition"
         },
         {
           "@type": "Book",
@@ -89,9 +194,17 @@
           "inLanguage": "en",
           "isbn": "9783982112602",
           "author": [
-            { "@id": "https://simonharrer.com/#person" },
-            { "@type": "Person", "name": "Jochen Christ" },
-            { "@type": "Person", "name": "Martin Huber" }
+            {
+              "@id": "https://simonharrer.com/#person"
+            },
+            {
+              "@type": "Person",
+              "name": "Jochen Christ"
+            },
+            {
+              "@type": "Person",
+              "name": "Martin Huber"
+            }
           ],
           "aggregateRating": {
             "@type": "AggregateRating",
@@ -99,7 +212,8 @@
             "ratingCount": 25,
             "bestRating": 5,
             "reviewAspect": "Goodreads ratings"
-          }
+          },
+          "@id": "https://simonharrer.com/books.html#remote-mob-programming"
         },
         {
           "@type": "Book",
@@ -109,9 +223,17 @@
           "inLanguage": "en",
           "isbn": "9783982112688",
           "author": [
-            { "@id": "https://simonharrer.com/#person" },
-            { "@type": "Person", "name": "Florian Beetz" },
-            { "@type": "Person", "name": "Anja Kammer" }
+            {
+              "@id": "https://simonharrer.com/#person"
+            },
+            {
+              "@type": "Person",
+              "name": "Florian Beetz"
+            },
+            {
+              "@type": "Person",
+              "name": "Anja Kammer"
+            }
           ],
           "aggregateRating": {
             "@type": "AggregateRating",
@@ -119,7 +241,8 @@
             "ratingCount": 25,
             "bestRating": 5,
             "reviewAspect": "Goodreads ratings"
-          }
+          },
+          "@id": "https://simonharrer.com/books.html#gitops"
         },
         {
           "@type": "Book",
@@ -127,8 +250,14 @@
           "url": "https://doi.org/10.20378/irbo-49633",
           "datePublished": "2017",
           "inLanguage": "en",
-          "publisher": { "@type": "Organization", "name": "University of Bamberg Press" },
-          "author": { "@id": "https://simonharrer.com/#person" }
+          "publisher": {
+            "@type": "Organization",
+            "name": "University of Bamberg Press"
+          },
+          "author": {
+            "@id": "https://simonharrer.com/#person"
+          },
+          "@id": "https://simonharrer.com/books.html#effective-and-efficient-process-engine-evaluation"
         },
         {
           "@type": "Book",
@@ -138,9 +267,18 @@
           "datePublished": "2024",
           "inLanguage": "de",
           "isbn": "9783446476721",
-          "publisher": { "@type": "Organization", "name": "Hanser" },
-          "author": { "@type": "Person", "name": "Gernot Starke" },
-          "contributor": { "@id": "https://simonharrer.com/#person" }
+          "publisher": {
+            "@type": "Organization",
+            "name": "Hanser"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Gernot Starke"
+          },
+          "contributor": {
+            "@id": "https://simonharrer.com/#person"
+          },
+          "@id": "https://simonharrer.com/books.html#effektive-softwarearchitekturen"
         }
       ]
     }
@@ -209,7 +347,7 @@
 
         <div class="col mb-4">
           <div class="card shadow-sm h-100">
-            <a href="https://dpunkt.de/produkt/data-mesh/"><picture><source srcset="datamesh-de.webp" type="image/webp"><img src="datamesh-de.png" class="card-img-top book-cover" alt="Data Mesh — Deutsche Ausgabe cover"/></picture></a>
+            <a href="https://dpunkt.de/produkt/data-mesh/"><picture><source srcset="datamesh-de.webp" type="image/webp"><img src="datamesh-de.png" class="card-img-top book-cover" alt="Data Mesh — Deutsche Ausgabe cover" decoding="async" width="450" height="655"/></picture></a>
             <div class="card-body">
               <h3 class="card-title h5">Data Mesh (German translation) <a href="https://www.amazon.de/-/en/Data-dezentrale-Datenarchitektur-entwerfen-Animals/dp/3960092075" class="badge bg-light text-dark border text-decoration-none align-middle stat-badge" title="Measured on 2026-04-13"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>4.2 · 8 Amazon ratings</a></h3>
               <p class="card-text mb-1 text-muted"><small>O'Reilly &middot; 2023</small></p>
@@ -228,7 +366,7 @@
 
         <div class="col mb-4">
           <div class="card shadow-sm h-100">
-            <a href="https://pragprog.com/titles/javacomp/java-by-comparison/"><picture><source srcset="javabycomparison-cover.webp" type="image/webp"><img src="javabycomparison-cover.png" class="card-img-top book-cover" alt="Java by Comparison cover"/></picture></a>
+            <a href="https://pragprog.com/titles/javacomp/java-by-comparison/"><picture><source srcset="javabycomparison-cover.webp" type="image/webp"><img src="javabycomparison-cover.png" class="card-img-top book-cover" alt="Java by Comparison cover" decoding="async" loading="lazy" width="1667" height="2000"/></picture></a>
             <div class="card-body">
               <h3 class="card-title h5">Java by Comparison <span class="badge bg-warning text-dark align-middle">Bestseller</span> <a href="https://www.goodreads.com/book/isbn/9781680502879" class="badge bg-light text-dark border text-decoration-none align-middle stat-badge" title="Measured on 2026-04-13"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>4.2 · 120+ Goodreads ratings</a></h3>
               <p class="card-text mb-1 text-muted"><small>Pragmatic Bookshelf &middot; 2018</small></p>
@@ -248,7 +386,7 @@
 
         <div class="col mb-4">
           <div class="card shadow-sm h-100">
-            <a href="https://leanpub.com/remotemobprogramming"><picture><source srcset="remotemobprogramming-cover.webp" type="image/webp"><img src="remotemobprogramming-cover.jpg" class="card-img-top book-cover" alt="Remote Mob Programming cover"/></picture></a>
+            <a href="https://leanpub.com/remotemobprogramming"><picture><source srcset="remotemobprogramming-cover.webp" type="image/webp"><img src="remotemobprogramming-cover.jpg" class="card-img-top book-cover" alt="Remote Mob Programming cover" decoding="async" loading="lazy" width="2550" height="3618"/></picture></a>
             <div class="card-body">
               <h3 class="card-title h5">Remote Mob Programming <a href="https://www.goodreads.com/book/isbn/9783982112602" class="badge bg-light text-dark border text-decoration-none align-middle stat-badge" title="Measured on 2026-04-13"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>3.8 · 25+ Goodreads ratings</a></h3>
               <p class="card-text mb-1 text-muted"><small>Self-published &middot; Leanpub &middot; 2020</small></p>
@@ -268,7 +406,7 @@
 
         <div class="col mb-4">
           <div class="card shadow-sm h-100">
-            <a href="https://leanpub.com/gitops"><picture><source srcset="gitops-cover.webp" type="image/webp"><img src="gitops-cover.jpg" class="card-img-top book-cover" alt="GitOps cover"/></picture></a>
+            <a href="https://leanpub.com/gitops"><picture><source srcset="gitops-cover.webp" type="image/webp"><img src="gitops-cover.jpg" class="card-img-top book-cover" alt="GitOps cover" decoding="async" loading="lazy" width="1748" height="2480"/></picture></a>
             <div class="card-body">
               <h3 class="card-title h5">GitOps <a href="https://www.goodreads.com/book/isbn/9783982112688" class="badge bg-light text-dark border text-decoration-none align-middle stat-badge" title="Measured on 2026-04-13"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>3.2 · 25+ Goodreads ratings</a></h3>
               <p class="card-text mb-1 text-muted"><small>Self-published &middot; Leanpub &middot; 2021</small></p>
@@ -288,7 +426,7 @@
 
         <div class="col mb-4">
           <div class="card shadow-sm h-100">
-            <a href="https://fis.uni-bamberg.de/entities/publication/a71d1e5b-7d09-4e4e-8884-a4aa9cf7988b"><picture><source srcset="phdthesis-cover.webp" type="image/webp"><img src="phdthesis-cover.png" class="card-img-top book-cover" alt="Effective and Efficient Process Engine Evaluation cover"/></picture></a>
+            <a href="https://fis.uni-bamberg.de/entities/publication/a71d1e5b-7d09-4e4e-8884-a4aa9cf7988b"><picture><source srcset="phdthesis-cover.webp" type="image/webp"><img src="phdthesis-cover.png" class="card-img-top book-cover" alt="Effective and Efficient Process Engine Evaluation cover" decoding="async" loading="lazy" width="424" height="599"/></picture></a>
             <div class="card-body">
               <h3 class="card-title h5">Effective and Efficient Process Engine Evaluation</h3>
               <p class="card-text mb-1 text-muted"><small>University of Bamberg Press &middot; 2017</small></p>
@@ -315,7 +453,7 @@
 
         <div class="col mb-4">
           <div class="card shadow-sm h-100">
-            <a href="https://www.hanser-fachbuch.de/Effektive-Softwarearchitekturen/978-3-446-47672-1"><picture><source srcset="effektive-softwarearchitekturen-cover.webp" type="image/webp"><img src="effektive-softwarearchitekturen-cover.jpg" class="card-img-top book-cover" alt="Effektive Softwarearchitekturen, 10. Auflage cover"/></picture></a>
+            <a href="https://www.hanser-fachbuch.de/Effektive-Softwarearchitekturen/978-3-446-47672-1"><picture><source srcset="effektive-softwarearchitekturen-cover.webp" type="image/webp"><img src="effektive-softwarearchitekturen-cover.jpg" class="card-img-top book-cover" alt="Effektive Softwarearchitekturen, 10. Auflage cover" decoding="async" loading="lazy" width="800" height="1188"/></picture></a>
             <div class="card-body">
               <h3 class="card-title h5">Effektive Softwarearchitekturen <span class="badge bg-light text-dark border align-middle" style="font-weight:normal;font-size:.7em;">10. Auflage</span></h3>
               <p class="card-text mb-1 text-muted"><small>Hanser &middot; 2024 &middot; ISBN 978-3-446-47672-1</small></p>

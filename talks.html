@@ -41,9 +41,1714 @@
       "name": "Talks — Simon Harrer",
       "url": "https://simonharrer.com/talks.html",
       "description": "Conference talks, meetups, and workshops by Dr. Simon Harrer on data contracts, data mesh, data products, dbt, GitOps, remote mob programming, and clean Java.",
-      "about": ["Data Contracts", "Data Mesh", "Data Products", "dbt", "GitOps", "Remote Mob Programming", "Clean Code", "Java"],
-      "author": { "@id": "https://simonharrer.com/#person" },
-      "isPartOf": { "@type": "WebSite", "name": "Simon Harrer", "url": "https://simonharrer.com/" }
+      "about": [
+        "Data Contracts",
+        "Data Mesh",
+        "Data Products",
+        "GitOps",
+        "Remote Mob Programming"
+      ],
+      "author": {
+        "@id": "https://simonharrer.com/#person"
+      },
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Simon Harrer",
+        "url": "https://simonharrer.com/"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://simonharrer.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Talks",
+            "item": "https://simonharrer.com/talks.html"
+          }
+        ]
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": 65,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2026-13",
+              "url": "https://simonharrer.com/talks.html#talk-2026-13",
+              "name": "Data Product Builder: Building Your Data Product Contract-first",
+              "startDate": "2026-09-17",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "POA Summit 2026, Antwerp, Belgium"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "POA Summit 2026"
+              },
+              "inLanguage": "en",
+              "description": "Contract-first means the contract comes before the data product, not after. Instead of extracting tables, exploring, and documenting later, you agree on what consumers need first, write it down as a data contract covering ownership, schema, semantics, quality, and SLAs, and only then build the product to satisfy it."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2026-9",
+              "url": "https://simonharrer.com/talks.html#talk-2026-9",
+              "name": "Chat with your Enterprise Data",
+              "startDate": "2026-06-30",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "SummerSOC 2026, Crete, Greece"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "SummerSOC 2026"
+              },
+              "inLanguage": "en",
+              "description": "Part of the \"Chat with your Data\" session (Session Chair: Bernhard Mitschang). Explores how AI agents can autonomously discover, understand, and query enterprise data products through the Model Context Protocol (MCP) — leveraging data contracts that define schema, semantics, and usage policies for safe and governed access at scale."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2026-8",
+              "url": "https://simonharrer.com/talks.html#talk-2026-8",
+              "name": "Overview on Standards for Data Products",
+              "startDate": "2026-06-30",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "SummerSOC 2026, Crete, Greece"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "SummerSOC 2026"
+              },
+              "inLanguage": "en",
+              "description": "Part of the \"Data Products\" session (Session Chair: Holger Schwarz). A comprehensive look at the open standards landscape for data products: Open Data Contract Standard, Open Data Product Standard, observability formats, and semantic standards — what they cover, where they overlap, and how they are evolving."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2026-4",
+              "url": "https://simonharrer.com/talks.html#talk-2026-4",
+              "name": "Offene Standards für Datenprodukte",
+              "startDate": "2026-06-23",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "TDWI München 2026, MOC München"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "TDWI München 2026"
+              },
+              "inLanguage": "de",
+              "description": "Offene Standards gewinnen in der Datenprodukt-Welt zunehmend an Bedeutung – zu Recht, denn sie helfen, Vendor-Lock-in zu vermeiden und treiben Innovation voran. Wir betrachten, welche Standards existieren, was sie abdecken, woher sie kommen und wohin sie sich entwickeln – auch dort, wo sie konkurrieren. Dazu gehören Standards für Data Contracts, Data Products, Observability und Semantik. Nach dieser Session verstehen Sie die aktuelle Standardlandschaft und wissen, welche Standards heute relevant sind."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2026-12",
+              "url": "https://simonharrer.com/talks.html#talk-2026-12",
+              "name": "Thesenarena: Data Mesh ist tot – es leben die Datenprodukte",
+              "startDate": "2026-06-24",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "TDWI München 2026, MOC München"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "TDWI München 2026"
+              },
+              "inLanguage": "de",
+              "description": "Zum zweiten Mal in Folge im Thesenarena-Format an der TDWI München — diesmal im Track Data Strategy & Data Governance. Die Panelisten diskutieren provokante Thesen wie „Data Mesh adressiert Organisation, nicht Strategie\", „die meisten Data Products sind verkleidete ETL-Jobs\" und „Governance skaliert nur produktzentriert\". Das Publikum bringt eigene Thesen und Erfahrungen ein und entscheidet mit darüber, wann Datenprodukte wirklich Wert stiften und wo typische Fallstricke lauern."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2026-2",
+              "url": "https://simonharrer.com/talks.html#talk-2026-2",
+              "name": "A Data Marketplace is What Your Agent Needs",
+              "startDate": "2026-06-16",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "DATA festival 2026, Muffatwerk, München"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "DATA festival 2026"
+              },
+              "inLanguage": "en",
+              "description": "Why the next wave of AI agents needs a data marketplace to be useful: a place where agents can discover data products, understand them through data contracts, and gain governed access automatically. The talk shows how a marketplace turns scattered enterprise data into a catalog that agents can navigate safely and at scale."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2026-3",
+              "url": "https://simonharrer.com/talks.html#talk-2026-3",
+              "name": "Getting started with Data Contracts using Open Source Tools",
+              "startDate": "2026-06-11",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Data Mesh Live 2026, Queen Elisabeth Hall, Antwerpen"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "Data Mesh Live 2026"
+              },
+              "inLanguage": "en",
+              "description": "Hands-on lab introducing data contracts through the Open Data Contract Standard and the Data Contract CLI. Attendees specify their first data contracts, add quality checks, validate them against real datasets, and explore how the open-source tooling fits into a CI/CD pipeline.",
+              "keywords": [
+                "Workshop"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2026-1",
+              "url": "https://simonharrer.com/talks.html#talk-2026-1",
+              "name": "Datenarchitektur: Das neue Rückgrat moderner Software?",
+              "startDate": "2026-05-07",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "JAX 2026, Rheingoldhalle, Mainz"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "JAX 2026"
+              },
+              "inLanguage": "de",
+              "description": "„Daten sind das neue Gold\" – dieser Satz war einmal das Mantra einer ganzen Generation von Softwareentwickler:innen. Doch während wir ihn heute noch zitieren, hat sich die Bedeutung von Daten fundamental verändert. In diesem Talk werfen wir einen Blick zurück und nach vorn: von den ersten datengetriebenen Systemen der 1960er über die Ära von Data Warehouses und NoSQL bis hin zu den heutigen Herausforderungen durch LLMs, Data Contracts und KI-gestützte Systeme. Wir diskutieren, warum Daten heute nicht mehr nur gesammelt, sondern verstanden, verknüpft und vertraglich definiert werden müssen – und wie sich dadurch Rollen, Verantwortung und Architekturprinzipien verändern."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2026-5",
+              "url": "https://simonharrer.com/talks.html#talk-2026-5",
+              "name": "Open Standards for Data Mesh",
+              "startDate": "2026-04-21",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Data Mesh Belgium Meetup #7, AE Office, Leuven"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "Data Mesh Belgium Meetup #7"
+              },
+              "inLanguage": "en",
+              "description": "Open standards are becoming increasingly important in data mesh architecture to prevent vendor dependency and foster innovation. The talk covers data contracts, data products, observability, and semantic standards — examining their origins, future direction, and comparative value to help audiences understand current relevance and what's emerging."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2026-10",
+              "url": "https://simonharrer.com/talks.html#talk-2026-10",
+              "name": "Let's Talk About Data Contracts: Standards, Tooling & Best Practices",
+              "startDate": "2026-03-19",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "INFOMOTION Data & AI Meetup, Köln"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "INFOMOTION Data & AI Meetup"
+              },
+              "inLanguage": "de",
+              "description": "Ein umfassender Überblick über Data Contracts: Was sie sind, warum sie wichtig sind, der Open Data Contract Standard (ODCS), verfügbares Tooling, Versionierung, Lifecycle-Management — und welche Rolle agentic AI dabei spielen wird, Data Contracts so verbreitet zu machen wie OpenAPI-Spezifikationen heute."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2026-6",
+              "url": "https://simonharrer.com/talks.html#talk-2026-6",
+              "name": "Agentic AI ist der nächste große Schritt der generativen KI",
+              "startDate": "2026-03-11",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Software Architecture Summit 2026, Kopernikus 3, MOC München"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "Software Architecture Summit 2026"
+              },
+              "inLanguage": "de",
+              "description": "Agentic AI ist der nächste große Schritt der generativen KI: autonome Agenten, die eigenständig Ziele verfolgen, Werkzeuge nutzen und als Multi-Agenten-Systeme auch komplexe Aufgaben ohne menschliches Zutun bewältigen.",
+              "keywords": [
+                "Keynote"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 12,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2026-7",
+              "url": "https://simonharrer.com/talks.html#talk-2026-7",
+              "name": "Mit Data Contracts Vertrauen in Daten herstellen",
+              "startDate": "2026-03-11",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Software Architecture Summit 2026, Kopernikus 3, MOC München"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "Software Architecture Summit 2026"
+              },
+              "inLanguage": "de",
+              "description": "Data Contracts erlauben Daten als Schnittstellen verlässlich zu spezifizieren und stellen damit Vertrauen her – was gerade in dezentralen Datenarchitekturen wie Data Mesh essentiell ist. Wir zeigen Ihnen, warum man das braucht, aber auch wie das geht. Dazu nutzen wir den Open Data Contract Standard der Linux Foundation um Data Contracts zu spezifizieren und die populäre Open-Source-Software Data Contract CLI um damit zu automatisieren.",
+              "keywords": [
+                "Workshop"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 13,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2026-11",
+              "url": "https://simonharrer.com/talks.html#talk-2026-11",
+              "name": "Chat With Your Enterprise Data",
+              "startDate": "2026-01-22",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "https://simonharrer.com/talks.html#talk-2026-11"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "Purdue University"
+              },
+              "inLanguage": "en",
+              "description": "A virtual session for Purdue's MS in AI program exploring how data governance can accelerate rather than slow down organizations. The talk demonstrates a system where users ask natural-language questions like \"Who are our top customers?\" and receive answers in seconds — without SQL, tickets, or delays — while data contracts, privacy policies, and access controls are automatically enforced. AI agents powered by the Model Context Protocol (MCP) discover relevant data products, handle purpose-based access requests, validate queries against data contracts, and execute results in a single interaction."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 14,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-1",
+              "url": "https://simonharrer.com/talks.html#talk-2025-1",
+              "name": "Data Governance mit GenAI automatisieren",
+              "startDate": "2025-11-05",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "data2day, IHK Karlsruhe"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "data2day"
+              },
+              "inLanguage": "de",
+              "description": "Die vierte Säule von Data Mesh heißt Federated Computational Governance. Sie ist besonders schwer umzusetzen: Es soll einfach sein, das Richtige zu tun – und schwer, das Falsche zu tun. Gute Data Governance ist dafür zentral."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 15,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-2",
+              "url": "https://simonharrer.com/talks.html#talk-2025-2",
+              "name": "Data Contracts in der Praxis (Workshop)",
+              "startDate": "2025-11-03",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "data2day, IHK Karlsruhe"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "data2day"
+              },
+              "inLanguage": "de",
+              "description": "Ihr möchtet euch mit Data Contracts vertraut machen? Wir zeigen euch, wie das geht, anhand des Open Data Contract Standard und der Open-Source-Software Data Contract CLI. Wir nehmen bestehende Daten unter Vertrag, ergänzen Quality Checks, testen die Daten und generieren eine Dokumentation. Anschließend entwerfen die Teilnehmer in Gruppen neue Data Contracts und schlüpfen dabei in die Rollen von Data Producern, Consumern und Moderatoren. Zum Abschluss werfen wir einen Blick darauf, wie Data Contracts die Automatisierung weiter vorantreiben.",
+              "keywords": [
+                "Workshop"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 16,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-15",
+              "url": "https://simonharrer.com/talks.html#talk-2025-15",
+              "name": "Product-focused Entrepreneurship and Learning",
+              "startDate": "2025-10-24",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "TCL Impact Accelerator, King's College London"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "TCL Impact Accelerator"
+              },
+              "inLanguage": "en",
+              "description": "A guest talk at the TCL Impact Accelerator on building a product-focused company: the transition from consulting to product, the learning loops that come with talking to real users, and why picking a narrow problem and shipping early beats planning for hypothetical scale."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 17,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-12",
+              "url": "https://simonharrer.com/talks.html#talk-2025-12",
+              "name": "Data Governance mit Data Contracts bei Die Mobiliar",
+              "startDate": "2025-10-28",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "63. TDWI Roundtable Zürich, HWZ Hochschule für Wirtschaft Zürich"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "63. TDWI Roundtable Zürich"
+              },
+              "inLanguage": "de",
+              "description": "Data Contracts ermöglichen Governance in dezentralen Datenarchitekturen und stellen gleichzeitig Vertrauen her. Gemeinsam mit Michael Bok von Die Mobiliar zeigen wir, wie Data Contracts in der Praxis eingesetzt werden: von der Spezifikation mit dem Open Data Contract Standard der Linux Foundation über Ownership, Datenqualität und Datenschutz bis hin zur automatisierten Überwachung. Der zweite Teil des Abends widmet sich Sovereign AI und praktischen Erfahrungen aus dem Schweizer Kontext."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 18,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-3",
+              "url": "https://simonharrer.com/talks.html#talk-2025-3",
+              "name": "Mit Data Contracts Vertrauen in Daten herstellen",
+              "startDate": "2025-10-15",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Software Architecture Summit, NH Berlin Alexanderplatz"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "Software Architecture Summit"
+              },
+              "inLanguage": "de",
+              "description": "Data Contracts erlauben Daten als Schnittstellen verlässlich zu spezifizieren und stellen damit Vertrauen her – was gerade in dezentralen Datenarchitekturen wie Data Mesh essentiell ist. Wir zeigen Ihnen, warum man das braucht, aber auch wie das geht. Dazu nutzen wir den Open Data Contract Standard der Linux Foundation um Data Contracts zu spezifizieren und die populäre Open-Source-Software Data Contract CLI um damit zu automatisieren.",
+              "keywords": [
+                "Workshop"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 19,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-13",
+              "url": "https://simonharrer.com/talks.html#talk-2025-13",
+              "name": "Data Governance mit Data Contracts bei „Die Mobiliar\"",
+              "startDate": "2025-06-24",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "TDWI München 2025, MOC München"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "TDWI München 2025"
+              },
+              "inLanguage": "de",
+              "description": "Im Track Data Strategy & Data Governance zeigen wir gemeinsam mit Michael Bok von Die Mobiliar, wie Data Contracts dezentrale Governance in einer Data-Mesh-Architektur ermöglichen und dabei Vertrauen herstellen. Anhand des Open Data Contract Standard der Linux Foundation spezifizieren wir Ownership, Datenqualität, Datenschutz und Nutzungsbedingungen — und automatisieren deren Überwachung. Die Session richtet sich an Data Engineers, Data Architects und Governance-Verantwortliche."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 20,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-14",
+              "url": "https://simonharrer.com/talks.html#talk-2025-14",
+              "name": "Thesenarena: Quo Vadis Data Mesh",
+              "startDate": "2025-06-24",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "TDWI München 2025, MOC München"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "TDWI München 2025"
+              },
+              "inLanguage": "de",
+              "description": "Ein Panel im Thesenarena-Format im Data-Mesh-Track: Auf jede Ja/Nein-These der Moderation positionieren sich die Panelisten innerhalb von 60 Sekunden. Das Format liefert einen kompakten, pointierten Überblick zum aktuellen Stand von Data Mesh — von Architekturfragen über Governance bis hin zu Data Products und den nächsten Entwicklungsschritten."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 21,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-10",
+              "url": "https://simonharrer.com/talks.html#talk-2025-10",
+              "name": "Data Products with Data Contracts: Open Standards and Implementations",
+              "startDate": "2025-06-17",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "SummerSOC 2025, Crete, Greece"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "SummerSOC 2025"
+              },
+              "inLanguage": "en",
+              "description": "Part of the \"Data Production 1\" session (Session Chair: Holger Schwarz) at the 19th Symposium and Summer School on Service-Oriented Computing. The talk covers the Open Data Contract Standard and the Open Data Product Standard from the Linux Foundation Bitol project, and shows reference implementations like the Data Contract CLI and Data Mesh Manager that operationalize these specifications in real data architectures."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 22,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-7",
+              "url": "https://simonharrer.com/talks.html#talk-2025-7",
+              "name": "Data Contracts: Treating Data as APIs",
+              "startDate": "2025-09-22",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "apidays London, Convene 155 Bishopsgate"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "apidays London"
+              },
+              "inLanguage": "en",
+              "description": "How data interfaces can be treated with the same rigor as software APIs. Drawing parallels to OpenAPI and AsyncAPI, the talk introduces the Open Data Contract Standard and shows how data contracts establish explicit, well-documented and stable interfaces for data — including a live demo of validating real datasets against a contract using open source tools. Part of the OpenAPI Track."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 23,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-11",
+              "url": "https://simonharrer.com/talks.html#talk-2025-11",
+              "name": "Data Product MCP: Governed AI Data Access Demo",
+              "startDate": "2025-09-23",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "https://simonharrer.com/talks.html#talk-2025-11"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "LinkedIn Live Webinar"
+              },
+              "inLanguage": "en",
+              "description": "An in-depth exploration of Data Product MCP — an approach that enables AI agents to answer any business question while automatically enforcing data governance policies. The live demo shows how AI clients discover data products, request purpose-based access, and execute queries against data contracts in real time, so natural-language questions get answered in seconds without compromising governance, privacy, or access controls."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 24,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-9",
+              "url": "https://simonharrer.com/talks.html#talk-2025-9",
+              "name": "Data Product Platform Standardisation",
+              "startDate": "2025-09-19",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "POA Summit, Universität Stuttgart"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "POA Summit"
+              },
+              "inLanguage": "en",
+              "description": "A workshop on standardizing data product platform capabilities for intra- and inter-organizational ecosystems. Goals: collect common platform capabilities, clarify their relationship to neighbouring standards like data contracts, and identify the appropriate forum for further development of a formal standard.",
+              "keywords": [
+                "Workshop"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 25,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-8",
+              "url": "https://simonharrer.com/talks.html#talk-2025-8",
+              "name": "Data Product MCP: Enable AI to answer any business question",
+              "startDate": "2025-09-18",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "POA Summit, Universität Stuttgart"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "POA Summit"
+              },
+              "inLanguage": "en",
+              "description": "The Model Context Protocol (MCP) empowers AI agents to autonomously discover, understand, and query data products in decentralized data architectures. Leveraging data contracts that define schema, semantics, and usage policies, the talk shows how AI agents can navigate complex data landscapes, automate access requests, and retrieve answers to real business questions — securely and at scale — across platforms like Snowflake and Databricks."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 26,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-4",
+              "url": "https://simonharrer.com/talks.html#talk-2025-4",
+              "name": "Data Contracts sind die APIs für Daten",
+              "startDate": "2025-07-16",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Java User Group Berlin-Brandenburg, INNOQ Berlin"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "Java User Group Berlin-Brandenburg"
+              },
+              "inLanguage": "de",
+              "description": "In der Welt des Software-Engineerings wissen wir, wie wichtig explizite, klar dokumentierte und stabile Schnittstellen sind. Wir nutzen dazu OpenAPI oder AsyncAPI mit entsprechendem Tooling. In der Welt der Daten gab es bisher nichts Vergleichbares, aber unangekündigte Schemaänderungen sind leider omnipräsent. Data Contracts haben das Ziel, explizite, klar dokumentierte und stabile Schnittstellen für Daten einzuführen. Wie OpenAPI, aber eben für Daten. Ich stelle den Open-Source-Standard namens Data Contract Specification an einem Beispiel vor und zeige, wie man mit Open-Source-Tools die Daten gegen den Data Contract testen kann. Natürlich mit Live-Coding."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 27,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-6",
+              "url": "https://simonharrer.com/talks.html#talk-2025-6",
+              "name": "Federated Computational Governance with AI",
+              "startDate": "2025-06-06",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Data Mesh Live 2025, Queen Elisabeth Hall, Antwerpen"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "Data Mesh Live 2025"
+              },
+              "inLanguage": "en",
+              "description": "How generative AI can help operationalize federated computational governance — the fourth pillar of Data Mesh. Governance rules are usually written in natural language and legal text (think GDPR), making them hard to enforce at scale. The talk shows how LLMs can validate metadata against these rules and surface PII, coding-guideline violations, and questionable access purposes — turning governance from a checklist into a continuous, automated practice."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 28,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-5",
+              "url": "https://simonharrer.com/talks.html#talk-2025-5",
+              "name": "Data Contract Workshop using Open Source Tooling",
+              "startDate": "2025-06-06",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Data Mesh Live 2025, Queen Elisabeth Hall, Antwerpen"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "Data Mesh Live 2025"
+              },
+              "inLanguage": "en",
+              "description": "Hands-on workshop introducing data contracts through the Open Data Contract Standard and Data Contract CLI. Begins with foundational YAML concepts, then progresses through practical exercises where attendees create contracts for existing datasets, validate data, generate documentation, and build contract catalogs. The workshop then shifts to a contract-first approach through group exercises involving facilitators, data consumers, and producers, and concludes by exploring automation opportunities.",
+              "keywords": [
+                "Workshop"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 29,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2025-16",
+              "url": "https://simonharrer.com/talks.html#talk-2025-16",
+              "name": "Data Contracts & Data Mesh",
+              "startDate": "2025-03-20",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Thoughtworks Berlin"
+              },
+              "inLanguage": "en",
+              "description": "A guest session at the Thoughtworks Berlin office on data contracts and data mesh — how explicit, machine-verifiable interfaces between data producers and consumers enable trust and governance in decentralized data architectures, and how the Open Data Contract Standard and open-source tooling operationalize this in practice."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 30,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2024-8",
+              "url": "https://simonharrer.com/talks.html#talk-2024-8",
+              "name": "Datenprodukte",
+              "startDate": "2024-12-03",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "TDWI"
+              },
+              "inLanguage": "de",
+              "description": "Ein Vortrag über Datenprodukte im Rahmen einer TDWI-Veranstaltung — was ein Datenprodukt ist, welche Perspektiven Data Product Owner, Developer, Data Scientist und Business darauf haben und wie Data Contracts die verbindlichen Schnittstellen zwischen ihnen schaffen."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 31,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2024-9",
+              "url": "https://simonharrer.com/talks.html#talk-2024-9",
+              "name": "Data Contracts: Wie OpenAPI, aber für Datensätze",
+              "startDate": "2024-11-25",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "WIAI PraxisReport, Universität Bamberg"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "WIAI PraxisReport"
+              },
+              "inLanguage": "de",
+              "description": "Ein PraxisReport für die WIAI-Community an der Otto-Friedrich-Universität Bamberg: Simon stellt als Alumnus der Fakultät die Data Contract Specification vor — ein strukturiertes Format zur Beschreibung von Datensätzen und Datenquellen, inklusive Verantwortlichkeiten, Nutzungsbedingungen und Service Levels. Parallel zu OpenAPI wird gezeigt, welche Vorteile Data Contracts bringen, welches Tooling existiert und warum gerade jetzt der richtige Zeitpunkt für eine solche Spezifikation ist."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 32,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2024-10",
+              "url": "https://simonharrer.com/talks.html#talk-2024-10",
+              "name": "Test-driven Development mit dbt",
+              "startDate": "2024-11-12",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "BARC, Würzburg"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "BARC"
+              },
+              "inLanguage": "de",
+              "description": "Test-driven Development (TDD) ist in der operativen Welt bekannt und weit verbreitet, in der analytischen Welt jedoch kaum. Der Vortrag zeigt live am Beispiel von dbt, dem verbreiteten Werkzeug zur Datentransformation, wie man testgetrieben mit SQL einen realen (anonymisierten) Datensatz aufbereitet, analysiert und das Ergebnis dokumentiert."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 33,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2024-1",
+              "url": "https://simonharrer.com/talks.html#talk-2024-1",
+              "name": "Data Contracts — Like OpenAPI, but for Data",
+              "startDate": "2024-09-26",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "WoMM Developer Conference, Aarhus Congress Center, Aarhus"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "WoMM Developer Conference"
+              },
+              "inLanguage": "en",
+              "description": "Data contracts as a standardization approach for data interfaces. Data contracts bring producers and consumers together while allowing specification of data structure, quality requirements, sample data, and usage terms. Drawing parallels to software engineering practices and tools like OpenAPI, the talk introduces the Data Contract Specification (datacontract.com) and examines the practical implications of this emerging specification for data management."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 34,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2024-2",
+              "url": "https://simonharrer.com/talks.html#talk-2024-2",
+              "name": "Was ist ein Datenprodukt?",
+              "startDate": "2024-06-12",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "TDWI München 2024, MOC, München"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "TDWI München 2024"
+              },
+              "inLanguage": "de",
+              "description": "Was ist ein Datenprodukt wirklich? Alle reden zwar über Datenprodukte. Aber wenn man genau hinschaut, gibt es keine einheitliche Definition. Ist ein Dashboard ein Datenprodukt? Ist ein Datensatz ein Datenprodukt? Gehört die Pipeline auch dazu? Ist ein Datenprodukt immer eine Tabelle? Oder doch eher ein Schema? Wir wollen versuchen, die eine Definition zu finden. Dabei betrachten wir Datenprodukt-Beispiele aus unterschiedlichen Perspektiven, bspw. Data Product Owner, Developer, Data Scientist, Business etc."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 35,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2024-3",
+              "url": "https://simonharrer.com/talks.html#talk-2024-3",
+              "name": "Data Contracts sind die API für Daten",
+              "startDate": "2024-05-16",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "https://simonharrer.com/talks.html#talk-2024-3"
+              },
+              "inLanguage": "de",
+              "description": "In der Welt des Software-Engineering wissen wir, wie wichtig explizite, klar dokumentierte, und stabile Schnittstellen sind. Wir nutzen dazu OpenAPI oder AsyncAPI mit entsprechendem Tooling. In der Welt der Daten gab es bisher Vergleichbares nicht, aber unangekündigte Schema-Änderungen sind leider omnipräsent. Data Contracts haben das Ziel, explizite, klare dokumentierte und stabile Schnittstellen für Daten einzuführen. Wie OpenAPI, aber eben für Daten."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 36,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2024-4",
+              "url": "https://simonharrer.com/talks.html#talk-2024-4",
+              "name": "Data Contracts sind die APIs für Daten",
+              "startDate": "2024-04-24",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "JAX, Rheingoldhalle, Mainz"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "JAX"
+              },
+              "inLanguage": "de",
+              "description": "In der Welt des Software-Engineerings wissen wir, wie wichtig explizite, klar dokumentierte und stabile Schnittstellen sind. Wir nutzen dazu OpenAPI oder AsyncAPI mit entsprechendem Tooling. In der Welt der Daten gab es bisher nichts Vergleichbares, aber unangekündigte Schemaänderungen sind leider omnipräsent. Data Contracts haben das Ziel, explizite, klar dokumentierte und stabile Schnittstellen für Daten einzuführen. Wie OpenAPI, aber eben für Daten. Ich stelle den Open-Source-Standard namens Data Contract Specification an einem Beispiel vor und zeige, wie man mit Open-Source-Tools die Daten gegen den Data Contract testen kann. Natürlich mit Live-Coding."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 37,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2024-7",
+              "url": "https://simonharrer.com/talks.html#talk-2024-7",
+              "name": "Data Mesh Manager",
+              "startDate": "2024-04-10",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "https://simonharrer.com/talks.html#talk-2024-7"
+              },
+              "inLanguage": "de",
+              "description": "Der Data Mesh Manager ist ein Produkt, das aus Data-Mesh-Beratungsprojekten bei INNOQ entstanden ist. Im Tech Lunch erzähle ich die Entstehungsgeschichte, zeige die verschiedenen Perspektiven der SaaS-Lösung — von Datenproduzenten über Konsumenten bis zur Governance — und gebe einen Ausblick, wie das Produkt Data-Mesh-Initiativen beschleunigt."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 38,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2024-5",
+              "url": "https://simonharrer.com/talks.html#talk-2024-5",
+              "name": "Data Mesh Manager: Data Products, Data Contracts and Policies",
+              "startDate": "2024-03-19",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "BARC Data Festival, Muffatwerk, München"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "BARC Data Festival"
+              },
+              "inLanguage": "en",
+              "description": "Data Mesh Manager is the place where data producers and data consumers come together. Data consumers can find and discover data products in the data product catalog, evaluate the offered datasets by their enforced data contracts, and sign a usage agreement to gain access automatically. Data producers can perform data product controlling by inspecting the costs and usages of their data products and data product governance by tracking the adoption of the global policies. But in the end, Data Mesh Manager is simply the place where you can see your mesh grow."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 39,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2024-6",
+              "url": "https://simonharrer.com/talks.html#talk-2024-6",
+              "name": "Data Mesh: 2019, 2023 und 2024",
+              "startDate": "2024-03-08",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "BATbern52, Zentrum Paul Klee, Bern"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "BATbern52"
+              },
+              "inLanguage": "de",
+              "description": "Data Mesh ist ein soziotechnischer Ansatz für die Erstellung einer dezentralen Datenarchitektur. Zhamak Dehghani hat den Begriff Data Mesh und die Theorie dahinter mit ihren Blog-Beiträgen in 2019 bereits geprägt und dann mit ihrem Buch noch etwas ausführlicher beschrieben. Diese Theorie möchte ich kurz vorstellen, um für den Abend ein Begriffsfundament zu giessen. Seit 2019 ist jedoch viel passiert. Viele haben das Konzept gelesen und einige haben ihre Data Mesh Reise bereits begonnen. Ich möchte auf 2023 zurückblicken und den aktuellen Stand der Praxis beschreiben. Enden möchte ich mit einem Ausblick über die Top 5 Entwicklungen in Data Mesh, die dich total überraschen werden."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 40,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2023-1",
+              "url": "https://simonharrer.com/talks.html#talk-2023-1",
+              "name": "OpenAPI for Your Data Mesh: An Introduction to Data Contracts",
+              "startDate": "2023-12-06",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "apidays Paris, CNIT, Paris"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "apidays Paris"
+              },
+              "inLanguage": "en",
+              "description": "Data contracts as an analogue to OpenAPI specifications for data systems. While software engineers use Swagger and OpenAPI to document stable interfaces, the data world lacks comparable standards — leaving it vulnerable to unannounced breaking changes. Data contracts bring producers and consumers together, enabling specification of data structure, quality requirements, sample data, and semantic descriptions, plus usage terms consumers can depend upon."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 41,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2023-9",
+              "url": "https://simonharrer.com/talks.html#talk-2023-9",
+              "name": "TDWI Themenzirkel „Next Generation Data Management mit SAP\"",
+              "startDate": "2023-11-30",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "https://simonharrer.com/talks.html#talk-2023-9"
+              },
+              "inLanguage": "de",
+              "description": "Ein Gastvortrag beim TDWI Themenzirkel „Next Generation Data Management mit SAP\" — ein Online-Erfahrungsaustausch zu Data Mesh, Data Products und wie sich dezentrale Datenarchitekturen in SAP-geprägten Umgebungen umsetzen lassen."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 42,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2023-2",
+              "url": "https://simonharrer.com/talks.html#talk-2023-2",
+              "name": "Test-driven Development mit dbt",
+              "startDate": "2023-10-12",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "data2day, IHK Haus der Wirtschaft, Karlsruhe"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "data2day"
+              },
+              "inLanguage": "de",
+              "description": "Test-driven Development (TDD) ist in der operativen Welt bekannt und wird immer mehr praktiziert, in der analytischen Welt jedoch nicht."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 43,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2023-3",
+              "url": "https://simonharrer.com/talks.html#talk-2023-3",
+              "name": "Data Mesh Governance",
+              "startDate": "2023-09-28",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "18. Data & Analytics Meetup, Würzburg"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "18. Data & Analytics Meetup"
+              },
+              "inLanguage": "de",
+              "description": "Föderierte Governance im Data Mesh – mit Fokus auf Automatisierung. Eine Gruppe aus Expert:innen und Team-Vertreter:innen entscheidet über die Spielregeln im Data Mesh, etwa zu Interoperabilität oder Security, mittels globaler Policies, die von der Plattform automatisiert durchgesetzt werden."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 44,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2023-4",
+              "url": "https://simonharrer.com/talks.html#talk-2023-4",
+              "name": "Data Mesh & Governance",
+              "startDate": "2023-07-04",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "The Datapreneurs Club, München"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "The Datapreneurs Club"
+              },
+              "inLanguage": "de",
+              "description": "Ein Überblick über Data Mesh und föderierte computational Governance – wie Organisationen dezentrale Verantwortung mit globalen Spielregeln verbinden können."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 45,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2023-5",
+              "url": "https://simonharrer.com/talks.html#talk-2023-5",
+              "name": "Data Mesh Governance",
+              "startDate": "2023-06-20",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "TDWI München, MOC, München"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "TDWI München"
+              },
+              "inLanguage": "de",
+              "description": "Governance im Data Mesh ist föderal und soll möglichst automatisiert sein. Eine Gruppe mit Expert:innen und Repräsentanten der Teams entscheidet über die Spielregeln im Data Mesh, bspw. zu Interoperabilität oder Security, mittels globaler Policies, die von der Plattform automatisiert werden. Aber wie genau soll das funktionieren? Wir stellen ein Governance-Betriebsmodell vor, basierend auf dem Ansatz von Architecture Decision Records. Wir diskutieren Beispiele globaler Policies, und wie diese automatisiert werden können."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 46,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2023-6",
+              "url": "https://simonharrer.com/talks.html#talk-2023-6",
+              "name": "dbt: das „Spring Boot\" für Daten",
+              "startDate": "2023-03-21",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "JavaLand 2023, Phantasialand, Brühl"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "JavaLand 2023"
+              },
+              "inLanguage": "de",
+              "description": "Vor ein paar Monaten habe ich dbt kennengelernt. Wir haben uns auf Anhieb super verstanden, obwohl wir beide aus unterschiedlichen Welten kommen: ich aus der operativen Welt der Softwareentwicklung, und dbt aus der analytischen Welt der Daten. Der Hauptgrund war wohl, dass wir beide moderne Praktiken wie Versionskontrolle, Tests, CI/CD, Modularisierung, und schlanke, aber aktuelle Dokumentation sehr schätzen. Als wir uns in unserem ersten Projekt näher kamen, wusste ich, dbt wird immer einen festen Platz in meinem Herzen haben, gleich neben Spring Boot."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 47,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2023-7",
+              "url": "https://simonharrer.com/talks.html#talk-2023-7",
+              "name": "Die „Java by Comparison\" Kata",
+              "startDate": "2023-03-20",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "JavaLand 2023, Phantasialand, Brühl"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "JavaLand 2023"
+              },
+              "inLanguage": "de",
+              "description": "Code Katas sind eine gute Methode, um das Schreiben von sauberen Code zu lernen. In unserer zweistündigen Übung werden die Java by Comparison-Methode anwenden, um unseren fiktiven, absichtlich verschlimmerten Legacy-Code zu bereinigen. Unser Ziel ist es, eine der wichtigsten Fähigkeiten für einen professionellen Entwickler zu trainieren: problematischen Code auch in kleinen Zeitfenstern effektiv zu verbessern.",
+              "keywords": [
+                "Workshop"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 48,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2023-8",
+              "url": "https://simonharrer.com/talks.html#talk-2023-8",
+              "name": "Data Mesh",
+              "startDate": "2023-03-14",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Software Architecture Summit 2023, Holiday Inn Unterhaching, München"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "Software Architecture Summit 2023"
+              },
+              "inLanguage": "de",
+              "description": "Das Konzept Data Mesh basiert auf domainbasierten, dezentralisierten Daten Architekturen und ermöglicht Domain Teams autonom Datenanalysen durchzuführen. Data Mesh ist eine sozio-technische Datenarchitektur und wird in Form der vier Prinzipien präsentiert: „Domain Ownership\", „Data as a Product\", „Self-serve Data Platform\", „Federated Governance\".",
+              "keywords": [
+                "Workshop"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 49,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2021-1",
+              "url": "https://simonharrer.com/talks.html#talk-2021-1",
+              "name": "Remote Mob Programming",
+              "startDate": "2021-07-07",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Konzept Informationssysteme GmbH"
+              },
+              "inLanguage": "de",
+              "description": "Wie das gesamte Team auf einem Bildschirm via Zoom zusammenarbeitet, mit rotierender „Typist\"-Rolle alle 10 Minuten — und warum das nicht nur funktioniert, sondern viele Probleme verteilter Teams im Homeoffice gleich miterledigt: gemeinsames Lernen, Wissensverteilung, Codequalität, weniger Meetings."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 50,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2021-2",
+              "url": "https://simonharrer.com/talks.html#talk-2021-2",
+              "name": "Mob-Programming Dojo",
+              "startDate": "2021-03-17",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "JavaLand 2021"
+              },
+              "inLanguage": "de",
+              "description": "Mob-Programming ist eine Methode der agilen Software-Entwicklung, bei der ein ganzes Team zur gleichen Zeit und am gleichen (virtuellen) Ort an der gleichen Aufgabe arbeitet. Im Dojo erleben Software-Entwicklungs-Teams kollaboratives Mob-Programming durch vorbereitete Übungen — Vorkenntnisse nicht erforderlich.",
+              "keywords": [
+                "Workshop"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 51,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2022-1",
+              "url": "https://simonharrer.com/talks.html#talk-2022-1",
+              "name": "Remote Mob Programming: Teamgefühl trotz Homeoffice",
+              "startDate": "2022-10-05",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Tech Talks @jambit, Birketweg, München"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "Tech Talks @jambit"
+              },
+              "inLanguage": "de",
+              "description": "Stellt euch vor, ihr seid Teil eines kleinen Teams von vier Softwareentwickler:innen, die von zu Hause aus arbeiten. Ihr trefft euch jeden Tag um 9 Uhr in eurem Zoom-Teamraum. Nach dem obligatorischen Kaffee und etwas Smalltalk wählt ihr die wichtigste User Story aus, diskutiert diese gemeinsam und beginnt dann mit der Umsetzung. Eine Person teilt den Bildschirm und fungiert als Typist, während die anderen über die Umsetzung diskutieren und dem Typist Anweisungen geben. Nach 10 Minuten übergibt der Typist seine aktuelle Arbeit an den nächsten Typist. Dies wird so lange wiederholt, bis die User Story fertig ist, woraufhin ihr die nächst-wichtige User Story auswählt. Um 17 Uhr haltet ihr inne, reflektiert kurz gemeinsam über den Tag und macht dann Feierabend."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 52,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2022-2",
+              "url": "https://simonharrer.com/talks.html#talk-2022-2",
+              "name": "Workshop: Data Mesh Architektur",
+              "startDate": "2022-09-13",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Software Architecture Summit 2022, Berlin & online"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "Software Architecture Summit 2022"
+              },
+              "inLanguage": "de",
+              "description": "Das Konzept Data Mesh basiert auf domainbasierten, dezentralisierten Daten Architekturen und ermöglicht Domain Teams autonom Datenanalysen durchzuführen. Data Mesh ist eine sozio-technische Datenarchitektur und wird in Form der vier Prinzipien präsentiert: „Domain Ownership\", „Data as a Product\", „Self-serve Data Platform\", „Federated Governance\".",
+              "keywords": [
+                "Workshop"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 53,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2022-3",
+              "url": "https://simonharrer.com/talks.html#talk-2022-3",
+              "name": "Gut gemeint! Warum dauert Software-Entwicklung immer länger?",
+              "startDate": "2022-03-15",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "JavaLand 2022, Phantasialand, Brühl"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "JavaLand 2022"
+              },
+              "inLanguage": "de",
+              "description": "Alle wollen gute Software schnell entwickeln. Alle möchten in ihren Rollen dazu beitragen und bringen aus ihren Sichtweisen gut gemeinte Maßnahmen mit ein: Agile Coaches führen SCRUM ein. Also auch JIRA. Entwickler:innen entwickeln flexible Lösungen. Architekt:innen definieren Referenz-Architekturen. Operations führt Kubernetes ein. Security Experts erstellen Checklisten. HR stellt Ninjas ein. Team-Leads wollen den Teams helfen und stellen Jour-Fixes ein. CIO fordert Vendor-Independence. Irgendjemand führt plötzlich MS Teams ein."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 54,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2019-1",
+              "url": "https://simonharrer.com/talks.html#talk-2019-1",
+              "name": "Eine Therapiesitzung zu Namen",
+              "startDate": "2019-06-26",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "DWX – Developer Week 2019, Messe Nürnberg"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "DWX – Developer Week 2019"
+              },
+              "inLanguage": "de",
+              "description": "Namen sind zentral für uns Entwickler. Wir vergeben Namen im Code, nutzen Namen im Gespräch mit der Fachabteilung und verwalten die Namen unserer Nutzer. Der Talk adressiert drei zentrale Herausforderungen: der Umgang mit Namen im Code, die ein gemeinsames Vokabular zwischen Entwicklern und Fachabteilung brauchen, und das Etablieren sinnvoller Namenskonventionen. Vorgestellt werden passende Form-Fields, Ubiquitous Language und semantisch reiche, ausgeschriebene Bezeichnungen."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 55,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2019-2",
+              "url": "https://simonharrer.com/talks.html#talk-2019-2",
+              "name": "One Kubernetes to rule them all",
+              "startDate": "2019-02-15",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "ZEUS Workshop, University of Bayreuth"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "ZEUS Workshop"
+              },
+              "inLanguage": "en",
+              "description": "In 2015, Google open-sourced the core of their internal container clustering system as Kubernetes. Teams that previously relied on IaaS and PaaS quickly adopted Kubernetes instead, and it has become the de facto standard for deploying cloud-native applications. The talk gives an overview of where Kubernetes stands today and shares experiences from running it in an e-commerce and an IoT application — with an outlook on a future where managed databases, serverless functions, and even build pipelines all live within the cluster: one Kubernetes to rule them all.",
+              "keywords": [
+                "Keynote"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 56,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2019-bt8",
+              "url": "https://simonharrer.com/talks.html#talk-2019-bt8",
+              "name": "Java by Comparison — Die Geschichte(n) des Buches",
+              "startDate": "2019-10-29",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "JUG Mainz"
+              },
+              "inLanguage": "de",
+              "description": "A meetup talk telling the story behind „Java by Comparison\": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy\" segment."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 57,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2019-bt7",
+              "url": "https://simonharrer.com/talks.html#talk-2019-bt7",
+              "name": "Java by Comparison — Die Geschichte(n) des Buches",
+              "startDate": "2019-10-23",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Softwerkskammer Köln"
+              },
+              "inLanguage": "de",
+              "description": "A meetup talk telling the story behind „Java by Comparison\": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy\" segment."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 58,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2019-bt6",
+              "url": "https://simonharrer.com/talks.html#talk-2019-bt6",
+              "name": "Java by Comparison — Die Geschichte(n) des Buches",
+              "startDate": "2019-10-10",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Softwerkskammer Nürnberg"
+              },
+              "inLanguage": "de",
+              "description": "A meetup talk telling the story behind „Java by Comparison\": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy\" segment."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 59,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2019-bt5",
+              "url": "https://simonharrer.com/talks.html#talk-2019-bt5",
+              "name": "Java by Comparison — Die Geschichte(n) des Buches",
+              "startDate": "2019-10-09",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Lightweight JUG München"
+              },
+              "inLanguage": "de",
+              "description": "A meetup talk telling the story behind „Java by Comparison\": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy\" segment."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 60,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2019-bt4",
+              "url": "https://simonharrer.com/talks.html#talk-2019-bt4",
+              "name": "Java by Comparison — Die Geschichte(n) des Buches",
+              "startDate": "2019-07-08",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "WIAI PraxisReport, Universität Bamberg"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "WIAI PraxisReport"
+              },
+              "inLanguage": "de",
+              "description": "A meetup talk telling the story behind „Java by Comparison\": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy\" segment."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 61,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2019-bt3",
+              "url": "https://simonharrer.com/talks.html#talk-2019-bt3",
+              "name": "Java by Comparison — Die Geschichte(n) des Buches",
+              "startDate": "2019-06-04",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Softwerkskammer Leipzig"
+              },
+              "inLanguage": "de",
+              "description": "A meetup talk telling the story behind „Java by Comparison\": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy\" segment."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 62,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2019-bt2",
+              "url": "https://simonharrer.com/talks.html#talk-2019-bt2",
+              "name": "Java by Comparison — Die Geschichte(n) des Buches",
+              "startDate": "2019-04-03",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Softwerkskammer Düsseldorf"
+              },
+              "inLanguage": "de",
+              "description": "A meetup talk telling the story behind „Java by Comparison\": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy\" segment."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 63,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2019-bt1",
+              "url": "https://simonharrer.com/talks.html#talk-2019-bt1",
+              "name": "Java by Comparison — Die Geschichte(n) des Buches",
+              "startDate": "2019-04-02",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Softwerkskammer Ruhrgebiet"
+              },
+              "inLanguage": "de",
+              "description": "A meetup talk telling the story behind „Java by Comparison\": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy\" segment."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 64,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2018-2",
+              "url": "https://simonharrer.com/talks.html#talk-2018-2",
+              "name": "Java by Comparison — Die Geschichte(n) des Buches",
+              "startDate": "2018-05-15",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "Hackerkegeln (DATEV SCC), Kegelbahn der DATEV, Nürnberg"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "Hackerkegeln (DATEV SCC)"
+              },
+              "inLanguage": "de",
+              "description": "Auf Basis von über sechs Jahren Java-Lehre an der Uni Bamberg und dem Korrigieren unzähliger Java-Aufgaben haben wir ein Buch geschrieben, das die typischen Fehler in einer innovativen Vorher/Nachher-Darstellung aufzeigt und erklärt: Java by Comparison. Der Talk stellt die Buchentstehung vor, diskutiert konkrete Beispiele und schließt mit einem interaktiven „Java by Comparison Jeopardy\" mit dem Publikum."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 65,
+            "item": {
+              "@type": "Event",
+              "@id": "https://simonharrer.com/talks.html#talk-2018-1",
+              "url": "https://simonharrer.com/talks.html#talk-2018-1",
+              "name": "Domain-driven Design with Kotlin",
+              "startDate": "2018-11-21",
+              "performer": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": {
+                "@type": "Place",
+                "name": "ØREDEV 2018, Malmö Mässan, Malmö"
+              },
+              "superEvent": {
+                "@type": "Event",
+                "name": "ØREDEV 2018"
+              },
+              "inLanguage": "en",
+              "description": "How Kotlin's language features — sealed classes, data classes, type-safe builders, and extension functions — make Domain-driven Design tactical patterns more expressive and concise than in Java. Live examples drawn from real projects."
+            }
+          }
+        ]
+      }
     }
     </script>
 
@@ -119,7 +1824,7 @@
       <h2 class="year">2026</h2>
 
       <div class="card mb-2" data-date="2026-09-17">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-13"><img class="conf-icon" src="conf-icons/poa.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-13"><img class="conf-icon" src="conf-icons/poa.webp" alt="" decoding="async">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Product Builder: Building Your Data Product Contract-first</span><br>
           <span class="talk-meta">17 September 2026 &middot; POA Summit 2026, Antwerp, Belgium (10:45–11:30)</span>
         </div>
@@ -134,7 +1839,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-06-30">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-9"><img class="conf-icon" src="conf-icons/summersoc.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-9"><img class="conf-icon" src="conf-icons/summersoc.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Chat with your Enterprise Data</span><br>
           <span class="talk-meta">30 June 2026 &middot; SummerSOC 2026, Crete, Greece (15:30–16:00)</span>
         </div>
@@ -147,7 +1852,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-06-30">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-8"><img class="conf-icon" src="conf-icons/summersoc.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-8"><img class="conf-icon" src="conf-icons/summersoc.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Overview on Standards for Data Products</span><br>
           <span class="talk-meta">30 June 2026 &middot; SummerSOC 2026, Crete, Greece (10:00–11:00)</span>
         </div>
@@ -160,7 +1865,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-06-23">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-4"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-4"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Offene Standards für Datenprodukte</span><br>
           <span class="talk-meta">23. Juni 2026 &middot; TDWI München 2026, MOC München (Vortrag Di 4.3, 14:30–15:30)</span>
         </div>
@@ -173,7 +1878,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-06-24">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-12"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-12"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Thesenarena: Data Mesh ist tot – es leben die Datenprodukte</span><br>
           <span class="talk-meta">24. Juni 2026 &middot; TDWI München 2026, MOC München (Mi, 18:00–18:45)</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/klaus-dieter-schulze-a24b6014/">Klaus-Dieter Schulze</a> (Blueforte)</span>
@@ -187,7 +1892,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-06-16">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-2"><img class="conf-icon" src="conf-icons/barc.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-2"><img class="conf-icon" src="conf-icons/barc.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">A Data Marketplace is What Your Agent Needs</span><br>
           <span class="talk-meta">16 June 2026 &middot; DATA festival 2026, Muffatwerk, München (Newcomer Stage, 11:05–11:35)</span>
         </div>
@@ -200,7 +1905,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-06-11">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-3"><img class="conf-icon" src="conf-icons/datamesh-live.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-3"><img class="conf-icon" src="conf-icons/datamesh-live.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Workshop</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Getting started with Data Contracts using Open Source Tools</span><br>
           <span class="talk-meta">11–12 June 2026 &middot; Data Mesh Live 2026, Queen Elisabeth Hall, Antwerpen</span>
         </div>
@@ -213,7 +1918,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-05-07">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-1"><img class="conf-icon" src="conf-icons/jax.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-1"><img class="conf-icon" src="conf-icons/jax.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Datenarchitektur: Das neue Rückgrat moderner Software?</span><br>
           <span class="talk-meta">7. Mai 2026 &middot; JAX 2026, Rheingoldhalle, Mainz</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/gernotstarke/">Dr. Gernot Starke</a></span>
@@ -227,7 +1932,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-04-21">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-5"><img class="conf-icon" src="conf-icons/datamesh-live.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-5"><img class="conf-icon" src="conf-icons/datamesh-live.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Open Standards for Data Mesh</span><br>
           <span class="talk-meta">21 April 2026 &middot; Data Mesh Belgium Meetup #7, AE Office, Leuven</span>
         </div>
@@ -240,7 +1945,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-03-19">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-10"><img class="conf-icon" src="conf-icons/infomotion.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-10"><img class="conf-icon" src="conf-icons/infomotion.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Let's Talk About Data Contracts: Standards, Tooling &amp; Best Practices</span><br>
           <span class="talk-meta">19. März 2026 &middot; INFOMOTION Data &amp; AI Meetup, Köln</span>
         </div>
@@ -253,7 +1958,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-6"><img class="conf-icon" src="conf-icons/sas.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-6"><img class="conf-icon" src="conf-icons/sas.webp" alt="" decoding="async" loading="lazy">
           <span class="badge badge-keynote">Keynote</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Agentic AI ist der nächste große Schritt der generativen KI</span><br>
           <span class="talk-meta">11. März 2026 &middot; Software Architecture Summit 2026, Kopernikus 3, MOC München</span>
         </div>
@@ -268,7 +1973,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-7"><img class="conf-icon" src="conf-icons/sas.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-7"><img class="conf-icon" src="conf-icons/sas.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Mit Data Contracts Vertrauen in Daten herstellen</span><br>
           <span class="talk-meta">11. März 2026 &middot; Software Architecture Summit 2026, Kopernikus 3, MOC München</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/arifwider/">Prof. Dr. Arif Wider</a> (HTW Berlin / Thoughtworks)</span>
@@ -283,7 +1988,7 @@
       </div>
 
       <div class="card mb-2" data-date="2026-01-22">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-11"><img class="conf-icon" src="conf-icons/purdue.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2026-11"><img class="conf-icon" src="conf-icons/purdue.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="badge badge-online">Online</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Chat With Your Enterprise Data</span><br>
           <span class="talk-meta">22 January 2026 &middot; Purdue University, Spring 2026 Online AI Capstone Virtual Speaker Series (MS in AI)</span>
         </div>
@@ -298,7 +2003,7 @@
       <h2 class="year">2025</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-1"><img class="conf-icon" src="conf-icons/data2day.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-1"><img class="conf-icon" src="conf-icons/data2day.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Governance mit GenAI automatisieren</span><br>
           <span class="talk-meta">5. November 2025 &middot; data2day, IHK Karlsruhe</span>
         </div>
@@ -314,7 +2019,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-2"><img class="conf-icon" src="conf-icons/data2day.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-2"><img class="conf-icon" src="conf-icons/data2day.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts in der Praxis (Workshop)</span><br>
           <span class="talk-meta">3. November 2025 &middot; data2day, IHK Karlsruhe</span>
         </div>
@@ -327,7 +2032,7 @@
       </div>
 
       <div class="card mb-2" data-date="2025-10-24">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-15"><img class="conf-icon" src="conf-icons/kcl.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-15"><img class="conf-icon" src="conf-icons/kcl.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Product-focused Entrepreneurship and Learning</span><br>
           <span class="talk-meta">24 October 2025 &middot; TCL Impact Accelerator, King's College London</span>
         </div>
@@ -340,7 +2045,7 @@
       </div>
 
       <div class="card mb-2" data-date="2025-10-28">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-12"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-12"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Governance mit Data Contracts bei Die Mobiliar</span><br>
           <span class="talk-meta">28. Oktober 2025 &middot; 63. TDWI Roundtable Zürich, HWZ Hochschule für Wirtschaft Zürich</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/michael-bok/">Michael Bok</a> (Die Mobiliar)</span>
@@ -354,7 +2059,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-3"><img class="conf-icon" src="conf-icons/sas.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-3"><img class="conf-icon" src="conf-icons/sas.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Mit Data Contracts Vertrauen in Daten herstellen</span><br>
           <span class="talk-meta">15. Oktober 2025 &middot; Software Architecture Summit, NH Berlin Alexanderplatz</span>
         </div>
@@ -367,7 +2072,7 @@
       </div>
 
       <div class="card mb-2" data-date="2025-06-24">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-13"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-13"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Governance mit Data Contracts bei „Die Mobiliar"</span><br>
           <span class="talk-meta">24. Juni 2025 &middot; TDWI München 2025, MOC München (Di 2.2, 11:35–12:20, Raum E119)</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/michael-bok/">Michael Bok</a> (Schweizerische Mobiliar Versicherungsgesellschaft AG)</span>
@@ -381,7 +2086,7 @@
       </div>
 
       <div class="card mb-2" data-date="2025-06-24">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-14"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-14"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Thesenarena: Quo Vadis Data Mesh</span><br>
           <span class="talk-meta">24. Juni 2025 &middot; TDWI München 2025, MOC München (Di 4.5, 17:30–18:15, Raum E105)</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/klaus-dieter-schulze-a24b6014/">Klaus-Dieter Schulze</a> (Blueforte) &amp; <a href="https://www.linkedin.com/in/soenkeiwersen/">Sönke Iwersen</a> (DKV Mobility)</span>
@@ -395,7 +2100,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-10"><img class="conf-icon" src="conf-icons/summersoc.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-10"><img class="conf-icon" src="conf-icons/summersoc.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Products with Data Contracts: Open Standards and Implementations</span><br>
           <span class="talk-meta">17 June 2025 &middot; SummerSOC 2025, Crete, Greece (10:00–11:15)</span>
         </div>
@@ -408,7 +2113,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-7"><img class="conf-icon" src="conf-icons/apidays.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-7"><img class="conf-icon" src="conf-icons/apidays.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Contracts: Treating Data as APIs</span><br>
           <span class="talk-meta">22–24 September 2025 &middot; apidays London, Convene 155 Bishopsgate</span>
         </div>
@@ -421,7 +2126,7 @@
       </div>
 
       <div class="card mb-2" data-date="2025-09-23">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-11"><img class="conf-icon" src="conf-icons/entropy.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-11"><img class="conf-icon" src="conf-icons/entropy.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="badge badge-online">Online</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Product MCP: Governed AI Data Access Demo</span><br>
           <span class="talk-meta">23 September 2025 &middot; LinkedIn Live Webinar, hosted by Entropy Data</span>
         </div>
@@ -434,7 +2139,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-9"><img class="conf-icon" src="conf-icons/poa.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-9"><img class="conf-icon" src="conf-icons/poa.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Workshop</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Product Platform Standardisation</span><br>
           <span class="talk-meta">19 September 2025 &middot; POA Summit, Universität Stuttgart</span><br>
           <span class="talk-meta">with <a href="https://www.linkedin.com/in/arifwider/">Prof. Dr. Arif Wider</a></span>
@@ -448,7 +2153,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-8"><img class="conf-icon" src="conf-icons/poa.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-8"><img class="conf-icon" src="conf-icons/poa.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Product MCP: Enable AI to answer any business question</span><br>
           <span class="talk-meta">18 September 2025 &middot; POA Summit, Universität Stuttgart</span>
         </div>
@@ -461,7 +2166,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-4"><img class="conf-icon" src="conf-icons/innoq.svg" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-4"><img class="conf-icon" src="conf-icons/innoq.svg" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts sind die APIs für Daten</span><br>
           <span class="talk-meta">16. Juli 2025 &middot; Java User Group Berlin-Brandenburg, INNOQ Berlin</span>
         </div>
@@ -474,7 +2179,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-6"><img class="conf-icon" src="conf-icons/datamesh-live.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-6"><img class="conf-icon" src="conf-icons/datamesh-live.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Federated Computational Governance with AI</span><br>
           <span class="talk-meta">6 June 2025 &middot; Data Mesh Live 2025, Queen Elisabeth Hall, Antwerpen</span><br>
           <span class="talk-meta">with <a href="https://www.linkedin.com/in/arifwider/">Prof. Dr. Arif Wider</a> (HTW Berlin)</span>
@@ -488,7 +2193,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-5"><img class="conf-icon" src="conf-icons/datamesh-live.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-5"><img class="conf-icon" src="conf-icons/datamesh-live.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Workshop</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Contract Workshop using Open Source Tooling</span><br>
           <span class="talk-meta">6 June 2025 &middot; Data Mesh Live 2025, Queen Elisabeth Hall, Antwerpen</span><br>
           <span class="talk-meta">with <a href="https://www.linkedin.com/in/jochen-christ/">Jochen Christ</a></span>
@@ -502,7 +2207,7 @@
       </div>
 
       <div class="card mb-2" data-date="2025-03-20">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-16"><img class="conf-icon" src="conf-icons/thoughtworks.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2025-16"><img class="conf-icon" src="conf-icons/thoughtworks.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Contracts &amp; Data Mesh</span><br>
           <span class="talk-meta">20 March 2025 &middot; Thoughtworks Berlin</span>
         </div>
@@ -516,7 +2221,7 @@
       <h2 class="year">2024</h2>
 
       <div class="card mb-2" data-date="2024-12-03">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-8"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-8"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Datenprodukte</span><br>
           <span class="talk-meta">3. Dezember 2024 &middot; TDWI</span>
         </div>
@@ -528,7 +2233,7 @@
       </div>
 
       <div class="card mb-2" data-date="2024-11-25">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-9"><img class="conf-icon" src="conf-icons/bamberg.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-9"><img class="conf-icon" src="conf-icons/bamberg.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts: Wie OpenAPI, aber für Datensätze</span><br>
           <span class="talk-meta">25. November 2024 &middot; WIAI PraxisReport, Universität Bamberg</span>
         </div>
@@ -541,7 +2246,7 @@
       </div>
 
       <div class="card mb-2" data-date="2024-11-12">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-10"><img class="conf-icon" src="conf-icons/barc.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-10"><img class="conf-icon" src="conf-icons/barc.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Test-driven Development mit dbt</span><br>
           <span class="talk-meta">12. November 2024 &middot; BARC, Würzburg</span>
         </div>
@@ -553,7 +2258,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-1"><img class="conf-icon" src="conf-icons/generic.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-1"><img class="conf-icon" src="conf-icons/generic.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Contracts &mdash; Like OpenAPI, but for Data</span><br>
           <span class="talk-meta">26 September 2024 &middot; WoMM Developer Conference, Aarhus Congress Center, Aarhus</span>
         </div>
@@ -566,7 +2271,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-2"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-2"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Was ist ein Datenprodukt?</span><br>
           <span class="talk-meta">12. Juni 2024 &middot; TDWI München 2024, MOC, München</span>
         </div>
@@ -579,7 +2284,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-3"><img class="conf-icon" src="conf-icons/bettercode.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-3"><img class="conf-icon" src="conf-icons/bettercode.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="badge badge-online">Online</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts sind die API für Daten</span><br>
           <span class="talk-meta">16. Mai 2024 &middot; betterCode() API</span>
         </div>
@@ -593,7 +2298,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-4"><img class="conf-icon" src="conf-icons/jax.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-4"><img class="conf-icon" src="conf-icons/jax.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Contracts sind die APIs für Daten</span><br>
           <span class="talk-meta">24. April 2024 &middot; JAX, Rheingoldhalle, Mainz</span>
         </div>
@@ -606,7 +2311,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-7"><img class="conf-icon" src="conf-icons/innoq.svg" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-7"><img class="conf-icon" src="conf-icons/innoq.svg" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="badge badge-online">Online</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh Manager</span><br>
           <span class="talk-meta">10. April 2024 &middot; INNOQ Technology Lunch 04/24</span>
         </div>
@@ -619,7 +2324,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-5"><img class="conf-icon" src="conf-icons/barc.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-5"><img class="conf-icon" src="conf-icons/barc.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Data Mesh Manager: Data Products, Data Contracts and Policies</span><br>
           <span class="talk-meta">19 March 2024 &middot; BARC Data Festival, Muffatwerk, München</span>
         </div>
@@ -632,7 +2337,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-6"><img class="conf-icon" src="conf-icons/batbern.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2024-6"><img class="conf-icon" src="conf-icons/batbern.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh: 2019, 2023 und 2024</span><br>
           <span class="talk-meta">8. März 2024 &middot; BATbern52, Zentrum Paul Klee, Bern</span>
         </div>
@@ -647,7 +2352,7 @@
       <h2 class="year">2023</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-1"><img class="conf-icon" src="conf-icons/apidays.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-1"><img class="conf-icon" src="conf-icons/apidays.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">OpenAPI for Your Data Mesh: An Introduction to Data Contracts</span><br>
           <span class="talk-meta">6 December 2023 &middot; apidays Paris, CNIT, Paris</span>
         </div>
@@ -660,7 +2365,7 @@
       </div>
 
       <div class="card mb-2" data-date="2023-11-30">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-9"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-9"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="badge badge-online">Online</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">TDWI Themenzirkel „Next Generation Data Management mit SAP"</span><br>
           <span class="talk-meta">30. November 2023 &middot; TDWI Themenzirkel (Online via Teams)</span>
         </div>
@@ -673,7 +2378,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-2"><img class="conf-icon" src="conf-icons/data2day.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-2"><img class="conf-icon" src="conf-icons/data2day.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Test-driven Development mit dbt</span><br>
           <span class="talk-meta">12. Oktober 2023 &middot; data2day, IHK Haus der Wirtschaft, Karlsruhe</span>
         </div>
@@ -687,7 +2392,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-3"><img class="conf-icon" src="conf-icons/barc.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-3"><img class="conf-icon" src="conf-icons/barc.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh Governance</span><br>
           <span class="talk-meta">28. September 2023 &middot; 18. Data &amp; Analytics Meetup, Würzburg</span>
         </div>
@@ -700,7 +2405,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-4"><img class="conf-icon" src="conf-icons/generic.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-4"><img class="conf-icon" src="conf-icons/generic.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh &amp; Governance</span><br>
           <span class="talk-meta">4. Juli 2023 &middot; The Datapreneurs Club, München</span>
         </div>
@@ -713,7 +2418,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-5"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-5"><img class="conf-icon" src="conf-icons/tdwi.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh Governance</span><br>
           <span class="talk-meta">20. Juni 2023 &middot; TDWI München, MOC, München</span>
         </div>
@@ -726,7 +2431,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-6"><img class="conf-icon" src="conf-icons/javaland.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-6"><img class="conf-icon" src="conf-icons/javaland.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">dbt: das „Spring Boot" für Daten</span><br>
           <span class="talk-meta">21. März 2023 &middot; JavaLand 2023, Phantasialand, Brühl</span>
         </div>
@@ -740,7 +2445,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-7"><img class="conf-icon" src="conf-icons/javaland.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-7"><img class="conf-icon" src="conf-icons/javaland.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Die „Java by Comparison" Kata</span><br>
           <span class="talk-meta">20. März 2023 &middot; JavaLand 2023, Phantasialand, Brühl</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/sebastian-rose-9b0617ab/">Sebastian Rose</a> &amp; <a href="https://www.linkedin.com/in/falk-sippach/">Falk Sippach</a></span>
@@ -754,7 +2459,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-8"><img class="conf-icon" src="conf-icons/sas.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2023-8"><img class="conf-icon" src="conf-icons/sas.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Mesh</span><br>
           <span class="talk-meta">14. März 2023 &middot; Software Architecture Summit 2023, Holiday Inn Unterhaching, München</span>
         </div>
@@ -770,7 +2475,7 @@
       <h2 class="year">2021</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2021-1"><img class="conf-icon" src="conf-icons/generic.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2021-1"><img class="conf-icon" src="conf-icons/generic.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Remote Mob Programming</span><br>
           <span class="talk-meta">7. Juli 2021 &middot; Konzept Informationssysteme GmbH</span>
         </div>
@@ -783,7 +2488,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2021-2"><img class="conf-icon" src="conf-icons/javaland.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2021-2"><img class="conf-icon" src="conf-icons/javaland.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Mob-Programming Dojo</span><br>
           <span class="talk-meta">17. März 2021 &middot; JavaLand 2021</span>
         </div>
@@ -798,7 +2503,7 @@
       <h2 class="year">2022</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2022-1"><img class="conf-icon" src="conf-icons/jambit.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2022-1"><img class="conf-icon" src="conf-icons/jambit.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Remote Mob Programming: Teamgefühl trotz Homeoffice</span><br>
           <span class="talk-meta">5. Oktober 2022 &middot; Tech Talks @jambit, Birketweg, München</span>
         </div>
@@ -812,7 +2517,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2022-2"><img class="conf-icon" src="conf-icons/sas.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2022-2"><img class="conf-icon" src="conf-icons/sas.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Workshop</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Workshop: Data Mesh Architektur</span><br>
           <span class="talk-meta">13. September 2022 &middot; Software Architecture Summit 2022, Berlin &amp; online</span><br>
           <span class="talk-meta">mit <a href="https://www.linkedin.com/in/larysavisenger/">Dr. Larysa Visengeriyeva</a></span>
@@ -827,7 +2532,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2022-3"><img class="conf-icon" src="conf-icons/javaland.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2022-3"><img class="conf-icon" src="conf-icons/javaland.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Gut gemeint! Warum dauert Software-Entwicklung immer länger?</span><br>
           <span class="talk-meta">15. März 2022 &middot; JavaLand 2022, Phantasialand, Brühl</span>
         </div>
@@ -844,7 +2549,7 @@
       <h2 class="year">2019</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-1"><img class="conf-icon" src="conf-icons/dwx.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-1"><img class="conf-icon" src="conf-icons/dwx.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Eine Therapiesitzung zu Namen</span><br>
           <span class="talk-meta">26. Juni 2019 &middot; DWX – Developer Week 2019, Messe Nürnberg</span><br>
           <span class="talk-meta">mit <a href="https://de.linkedin.com/in/benjaminwolf1985">Benjamin Wolf</a> (INNOQ)</span>
@@ -858,7 +2563,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-2"><img class="conf-icon" src="conf-icons/bayreuth.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-2"><img class="conf-icon" src="conf-icons/bayreuth.webp" alt="" decoding="async" loading="lazy">
           <span class="badge badge-keynote">Keynote</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">One Kubernetes to rule them all</span><br>
           <span class="talk-meta">15 February 2019 &middot; ZEUS Workshop, University of Bayreuth</span><br>
           <span class="talk-meta">with <a href="https://www.linkedin.com/in/tvanlessen/">Tammo van Lessen</a></span>
@@ -872,7 +2577,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt8"><img class="conf-icon" src="conf-icons/jbc.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt8"><img class="conf-icon" src="conf-icons/jbc.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
           <span class="talk-meta">29. Oktober 2019 &middot; JUG Mainz</span>
         </div>
@@ -886,7 +2591,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt7"><img class="conf-icon" src="conf-icons/jbc.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt7"><img class="conf-icon" src="conf-icons/jbc.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
           <span class="talk-meta">23. Oktober 2019 &middot; Softwerkskammer Köln</span>
         </div>
@@ -900,7 +2605,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt6"><img class="conf-icon" src="conf-icons/jbc.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt6"><img class="conf-icon" src="conf-icons/jbc.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
           <span class="talk-meta">10. Oktober 2019 &middot; Softwerkskammer Nürnberg</span>
         </div>
@@ -913,7 +2618,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt5"><img class="conf-icon" src="conf-icons/jbc.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt5"><img class="conf-icon" src="conf-icons/jbc.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
           <span class="talk-meta">9. Oktober 2019 &middot; Lightweight JUG München</span>
         </div>
@@ -927,7 +2632,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt4"><img class="conf-icon" src="conf-icons/bamberg.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt4"><img class="conf-icon" src="conf-icons/bamberg.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
           <span class="talk-meta">8. Juli 2019 &middot; WIAI PraxisReport, Universität Bamberg</span>
         </div>
@@ -941,7 +2646,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt3"><img class="conf-icon" src="conf-icons/jbc.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt3"><img class="conf-icon" src="conf-icons/jbc.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
           <span class="talk-meta">4. Juni 2019 &middot; Softwerkskammer Leipzig</span>
         </div>
@@ -955,7 +2660,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt2"><img class="conf-icon" src="conf-icons/jbc.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt2"><img class="conf-icon" src="conf-icons/jbc.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
           <span class="talk-meta">3. April 2019 &middot; Softwerkskammer Düsseldorf</span>
         </div>
@@ -969,7 +2674,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt1"><img class="conf-icon" src="conf-icons/jbc.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2019-bt1"><img class="conf-icon" src="conf-icons/jbc.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
           <span class="talk-meta">2. April 2019 &middot; Softwerkskammer Ruhrgebiet</span>
         </div>
@@ -985,7 +2690,7 @@
       <h2 class="year">2018</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2018-2"><img class="conf-icon" src="conf-icons/datev.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2018-2"><img class="conf-icon" src="conf-icons/datev.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Java by Comparison &mdash; Die Geschichte(n) des Buches</span><br>
           <span class="talk-meta">15. Mai 2018 &middot; Hackerkegeln (DATEV SCC), Kegelbahn der DATEV, Nürnberg</span>
         </div>
@@ -998,7 +2703,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2018-1"><img class="conf-icon" src="conf-icons/oredev.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#talk-2018-1"><img class="conf-icon" src="conf-icons/oredev.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Talk</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Domain-driven Design with Kotlin</span><br>
           <span class="talk-meta">21 November 2018 &middot; ØREDEV 2018, Malmö Mässan, Malmö</span>
         </div>

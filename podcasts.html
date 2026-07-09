@@ -38,12 +38,507 @@
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      "name": "Podcasts & Interviews — Simon Harrer",
+      "name": "Podcasts — Simon Harrer",
       "url": "https://simonharrer.com/podcasts.html",
       "description": "Podcast appearances and interviews with Dr. Simon Harrer on data contracts, data mesh, data products, data governance with AI, remote mob programming, and clean Java.",
-      "about": ["Data Contracts", "Data Mesh", "Data Products", "Data Governance", "Generative AI", "Remote Mob Programming", "Clean Code"],
-      "author": { "@id": "https://simonharrer.com/#person" },
-      "isPartOf": { "@type": "WebSite", "name": "Simon Harrer", "url": "https://simonharrer.com/" }
+      "about": [
+        "Data Contracts",
+        "Data Mesh",
+        "Data Governance",
+        "Remote Mob Programming"
+      ],
+      "author": {
+        "@id": "https://simonharrer.com/#person"
+      },
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Simon Harrer",
+        "url": "https://simonharrer.com/"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://simonharrer.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Podcasts",
+            "item": "https://simonharrer.com/podcasts.html"
+          }
+        ]
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": 23,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2026-4",
+              "name": "The Data Playbook — upcoming episode",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "Dataminded"
+              },
+              "inLanguage": "en",
+              "description": "A new conversation with Kris Peeters on The Data Playbook, picking up the threads of data contracts, data products, and AI-driven data governance. The episode is recorded and will be published soon."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2026-3",
+              "name": "Data Innovation Podcast — Data Contracts & Data Products",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "INFOMOTION Innovation Lab"
+              },
+              "datePublished": "2026",
+              "url": "https://www.youtube.com/watch?v=ToxmuN3YnJo",
+              "inLanguage": "de",
+              "description": "Im Gespräch mit Ana Moya geht es um Data Contracts und Data Products als Grundlage moderner, dezentraler Datenarchitekturen — wie offene Standards wie ODCS und ODPS die Basis für verlässliche Schnittstellen schaffen und welche Rolle agentic AI bei der Automatisierung von Data Governance spielt. Aufgenommen im Rahmen des INFOMOTION Data Innovation Podcasts."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2026-2",
+              "name": "Data Universe #26 — KI als Governance-Assistent im Data Mesh",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "TDWI Data Universe"
+              },
+              "datePublished": "2026-03-19",
+              "url": "https://data-and-insights.podigee.io/43-neue-episode",
+              "inLanguage": "de",
+              "description": "Im Gespräch mit Claudia Koschtial geht es darum, wie KI bei Data Governance helfen kann — nicht als Entscheider, sondern als Governance-Assistent. Anwendungsfälle reichen von der automatischen Klassifizierung bis hin zu Empfehlungen für Datenproduktbesitzer:innen."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2026-1",
+              "name": "Data Universe #25 — Data Contracts: Das Fundament für Vertrauen im Data Mesh",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "TDWI Data Universe"
+              },
+              "datePublished": "2026-03-05",
+              "url": "https://data-and-insights.podigee.io/42-neue-episode",
+              "inLanguage": "de",
+              "description": "Data Contracts als Fundament für Vertrauen im Data Mesh: Wie schaffen verbindliche Schnittstellen zwischen Datenproduzenten und -konsumenten die Grundlage für skalierbare, dezentrale Datenarchitekturen? Im Gespräch mit Claudia Koschtial geht es um Aufbau, Tooling und Praxiserfahrungen."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "Article",
+              "@id": "https://simonharrer.com/podcasts.html#int-2026-1",
+              "name": "Why data contracts fail without interfaces",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "headline": "Why data contracts fail without interfaces",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Insightify Blog"
+              },
+              "datePublished": "2026-02-23",
+              "url": "https://insightify.io/blog/why-data-contracts-fail-without-interfaces",
+              "inLanguage": "en",
+              "description": "An interview exploring how data contracts function as explicit interfaces for data sharing in decentralized environments. Rather than treating data mesh as purely organizational or technical, the conversation frames it as an interface problem rooted in expectations that exist only in people's heads. Topics include why specifications require automation to be effective, the declarative nature of contract formats, and how contracts serve simultaneously as technical artifacts, collaboration mechanisms, and governance controls. The conversation closes by positioning data contracts as foundational infrastructure for AI agents to discover and safely consume enterprise data at scale."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2025-3",
+              "name": "Adding Value Early #116 — Die Story hinter Entropy Data",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "Adding Value Early"
+              },
+              "datePublished": "2025-12",
+              "url": "https://www.linkedin.com/events/addingvalueearly-116-entropydat7399756643049037824/",
+              "inLanguage": "de",
+              "description": "Im Gespräch mit Arnas Bräutigam geht es um die Gründungsgeschichte von Entropy Data: Wie aus einem Beratungscase bei einem großen Logistikunternehmen ein Produkt und schließlich ein Spin-off der INNOQ wurde — ohne klassische VC-Finanzierung, dafür mit validiertem Markt und ersten zahlenden Kunden. Es geht um Produktentwicklung im Beratungsalltag, den Schritt in die Selbstständigkeit und den Aufbau eines Data-Marktplatzes."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2025-2",
+              "name": "The Data Playbook S2 E1 — Live from the POA Summit: Data Contracts, AI, and the Next Phase of Data Mesh",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "Dataminded"
+              },
+              "datePublished": "2025-10-09",
+              "url": "https://www.dataminded.com/resources/episode2-1-simon-harrer-on-data-contracts-ai-and-the-next-phase-of-data-mesh",
+              "inLanguage": "en",
+              "description": "Recorded live at the POA Summit 2025 in Stuttgart, this episode features a discussion with Kris Peeters on the evolution from software engineering to data leadership. Topics include the Data Mesh Manager, data products, and data contracts as \"the OpenAPI for data,\" why consulting and product divisions separated at Entropy Data, and how AI and MCPs are transforming data governance and self-service capabilities."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2025-1",
+              "name": "CaSE #59 — Data Marketplace, Data Products and Data Contracts",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "Conversations about Software Engineering"
+              },
+              "datePublished": "2025-09-22",
+              "url": "https://www.case-podcast.org/59-data-marketplace-data-products-and-data-contracts/",
+              "inLanguage": "en",
+              "description": "A conversation about the journey toward data contracts and marketplaces. The discussion covers what constitutes a data contract, how contracts function within data marketplaces, and their relationship to data products. The team examines governance through a domain-driven design lens — versioning, lifecycle management, contract validation — and connects it to broader industry standards and intelligent discovery mechanisms."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "item": {
+              "@type": "Article",
+              "@id": "https://simonharrer.com/podcasts.html#int-2025-1",
+              "name": "From Consultant to Founder: We are founding Entropy Data",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "headline": "From Consultant to Founder: We are founding Entropy Data",
+              "publisher": {
+                "@type": "Organization",
+                "name": "INNOQ News"
+              },
+              "datePublished": "2025-08-05",
+              "url": "https://www.innoq.com/en/news/2025/08/from-consultant-to-founder-we-are-founding-entropy-data/",
+              "inLanguage": "en",
+              "description": "The story behind founding Entropy Data as an INNOQ spin-off. The Data Mesh Manager was primarily developed by Simon Harrer and Jochen Christ within INNOQ's Employee Innovation Program since 2022 and has now evolved into an independent company with customers across logistics, pharmaceuticals, insurance, and energy sectors. The article covers market validation, why \"the need is real, demand is high\", and how Entropy Data will focus on product development while maintaining collaboration with INNOQ on consulting and integration services."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2024-3",
+              "name": "BI or DIE — Datenprodukte und Data Contracts",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "BI or DIE"
+              },
+              "datePublished": "2024-10-28",
+              "url": "https://www.youtube.com/watch?v=ZX5xf7W5pXk",
+              "inLanguage": "de",
+              "description": "Im Gespräch mit Artur König geht es um Datenprodukte und Data Contracts: Wie sich klare Schnittstellen zwischen Datenproduzenten und -konsumenten in der Praxis etablieren lassen, welche Rolle der Open Data Contract Standard spielt und wie Tools wie die Data Contract CLI dabei helfen, Data Contracts im Alltag umzusetzen."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2024-1",
+              "name": "INNOQ Podcast #160 — Data Contracts",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "INNOQ Podcast"
+              },
+              "datePublished": "2024-09-30",
+              "url": "https://www.innoq.com/de/podcast/160-data-contracts/",
+              "inLanguage": "de",
+              "description": "API-Spezifikationen, aber für Datensätze. Von Data Contracts werden wir ganz viel hören. Sie werden die Datenwelt im Sturm erobern, weil sie gebraucht werden. Im Gespräch mit Sven Johann spreche ich über Schema-Spezifikationen, Data Ownership, Nutzungsbedingungen, Quality- und Service Level — und wie Data Contracts klare Vereinbarungen zwischen Datenproduzenten und -konsumenten etablieren, ähnlich wie API-Spezifikationen in der klassischen Softwareentwicklung."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 12,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2024-2",
+              "name": "The Data Democracy #28 — Crafting Code Clarity and Championing Data Mesh in Germany",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "Zeenea Podcast"
+              },
+              "datePublished": "2024-04-10",
+              "url": "https://podcast.zeenea.com/episode-28-w-simon-harrer-crafting-code-clarity-and-championing-data-mesh-in-germany",
+              "inLanguage": "en",
+              "description": "The transition from teaching Java programming to becoming a Data Mesh advocate in Germany. The episode explores how software engineering principles apply to data architecture, with particular emphasis on data contracts and the process of fostering a data-centric culture within software-focused organizations. Includes the story of translating Zhamak Dehghani's Data Mesh book into German and insights into early Data Mesh adoption in the German tech landscape."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 13,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2022-1",
+              "name": "Software Architektur im Stream #115 — Data Mesh: Nur ein neuer Datenanalyse-Hype?",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "Software Architektur im Stream"
+              },
+              "datePublished": "2022-04-08",
+              "url": "https://www.linkedin.com/in/jochen-christ/",
+              "inLanguage": "de",
+              "description": "Eberhard Wolff diskutiert Data Mesh als domänenübergreifendes Datenanalyse-Konzept mit Jochen Christ, Simon Harrer und Theo Pack. Es geht um Implementierungsansätze und wie dezentrale, selbstorganisierte Teams trotzdem eine zentralisierte Sicht auf alle Daten erreichen können."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 14,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2021-1",
+              "name": "Software Architektur im Stream #56 — Remote Mob Programming",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "Software Architektur im Stream"
+              },
+              "datePublished": "2021-04-16",
+              "url": "https://www.linkedin.com/in/jochen-christ/",
+              "inLanguage": "de",
+              "description": "Live-Stream-Session mit Jochen Christ, Franziska Dessart, Simon Harrer und Martin Huber, in der Remote Mob Programming live demonstriert wird — basierend auf über zwei Jahren ausschließlicher Praxis dieser Arbeitsweise."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 15,
+            "item": {
+              "@type": "Article",
+              "@id": "https://simonharrer.com/podcasts.html#int-2020-1",
+              "name": "Q&A on the Book Remote Mob Programming",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "headline": "Q&A on the Book Remote Mob Programming",
+              "publisher": {
+                "@type": "Organization",
+                "name": "InfoQ"
+              },
+              "datePublished": "2020-02-03",
+              "url": "https://www.linkedin.com/in/jochen-christ/",
+              "inLanguage": "en",
+              "description": "Ben Linders interviews Simon Harrer, Jochen Christ, and Martin Huber about their experience practicing mob programming while working remotely for over a year. The Q&A covers daily workflow, role rotation strategies (10-minute cycles for a three-person team), use of Architecture Decision Records for documentation, and essential equipment like professional microphones and external cameras. The authors emphasize that remote mob programming requires employer trust, solves workplace isolation, and delivers superior code quality. They recommend starting with medium-sized features and upgrading equipment gradually as the practice becomes routine."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 16,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2020-1",
+              "name": "Inside Remote — Simon Harrer on Mob Programming",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "Inside Remote"
+              },
+              "datePublished": "2020-01-21",
+              "url": "https://podcasts.apple.com/us/podcast/simon-harrer-on-mob-programming/id1475773111?i=1000463291115",
+              "inLanguage": "en",
+              "description": "A 30-minute episode on Remote Mob Programming — how the concept emerged, how the team adopted it, and how it positively impacts the speed and quality of distributed software development."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 17,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2019-4",
+              "name": "Agile Unfiltered — Wie funktioniert Remote Mob Programming?",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "mit Marc Löffler"
+              },
+              "datePublished": "2019-12-15",
+              "url": "https://marcloeffler.eu/2019/12/15/was-ist-eigentlich-mob-programming-ein-interview-mit-dr-simon-harrer/",
+              "inLanguage": "de",
+              "description": "Marc Löffler interviewt Simon, wie Remote Mob Programming in der Praxis funktioniert — das gesamte Team auf einem Bildschirm via Zoom, gemeinsames Lernen, Wissensverteilung und wie man am besten startet (Empfehlung: Mark Pearls „Code with the Wisdom of the Crowd\")."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 18,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2019-3",
+              "name": "Autoweird.fm #64 — Literarisches Trio: Java by Comparison",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "Autoweird.fm"
+              },
+              "datePublished": "2019-06-16",
+              "url": "https://autoweird.fm/2019/06/16/folge-64-literarisches-trio-autoweird-fm-by-comparison-feat-simon-harrer/",
+              "inLanguage": "de",
+              "description": "Eine Kapitel-für-Kapitel-Buchclub-Diskussion zu „Java by Comparison\" mit dem Autor Simon Harrer — Code-Style, Exception Handling und Naming Conventions, mit den ein oder anderen Meinungsverschiedenheiten zwischen den Hosts. Aufgenommen in Holgers neuem Studio bei Bamberger Bier."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 19,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2019-1",
+              "name": "INNOQ Podcast #61 — Remote Mob Programming: Home but not alone",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "INNOQ Podcast"
+              },
+              "datePublished": "2019-05-06",
+              "url": "https://www.linkedin.com/in/jochen-christ/",
+              "inLanguage": "de",
+              "description": "Stefan Tilkov interviewt drei INNOQ-Berater — Jochen Christ, Simon Harrer und Martin Huber — über ihre Erfahrungen mit Remote Mob Programming auf einem E-Commerce-Projekt. Das Team arbeitet synchron am gemeinsamen Code mit Screensharing und Videokonferenz, bei rotierender „Typist\"-Rolle alle zehn Minuten. Wir sprechen über Produktivitätsgewinne, professionelle Audio-Ausstattung und wie dieser Ansatz bessere Work-Life-Balance bei hoher Codequalität ermöglicht."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 20,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2019-2",
+              "name": "airhacks.fm — Optimizing for Humans, Not Machines",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "airhacks.fm"
+              },
+              "datePublished": "2019-03-24",
+              "url": "https://www.adam-bien.com/roller/abien/entry/optimizing_for_humans_not_machines",
+              "inLanguage": "en",
+              "description": "A conversation with Adam Bien about Simon's programming journey — from his first VB code at Siemens to learning Scheme, his PhD on choreography and distributed transactions, and his work at INNOQ. Core thesis: code should be optimized for humans, not machines, avoiding over-abstraction and unnecessary reuse in favor of pragmatic, human-centered code."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 21,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2019-5",
+              "name": "Developer's Journey #41 — Simon Harrer",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "Developer's Journey"
+              },
+              "datePublished": "2019",
+              "url": "https://devjourney.info/Guests/41-SimonHarrer.html",
+              "inLanguage": "en",
+              "description": "The journey from university teaching to industry practice. The conversation explores experience building Java courses with hands-on learning and code reviews, plus insights on remote mob programming — where multiple developers work on shared code with one typist rotating every 10 minutes. Successful mob programming requires \"strong opinions loosely held\". The episode also covers Java by Comparison and its before/after teaching method."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 22,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2018-2",
+              "name": "Developer On Fire #378 — Writing Priorities",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "Developer On Fire"
+              },
+              "datePublished": "2018-10-01",
+              "url": "https://developeronfire.com/podcast/episode-378-simon-harrer-writing-priorities",
+              "inLanguage": "en",
+              "description": "Teaching, writing \"Java by Comparison\", family priorities, and solving real problems. Covers the journey through burnout, the Pareto principle, pair and mob programming, and balancing professional ambition with personal well-being."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 23,
+            "item": {
+              "@type": "PodcastEpisode",
+              "@id": "https://simonharrer.com/podcasts.html#pod-2018-1",
+              "name": "INNOQ Podcast #49 — Java by Comparison",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "INNOQ Podcast"
+              },
+              "datePublished": "2018-07-02",
+              "url": "https://www.innoq.com/de/podcast/049-java-by-comparison/",
+              "inLanguage": "de",
+              "description": "Im Gespräch mit Michael Vitz stelle ich mein Buch „Java by Comparison\" zu Clean Code in Java vor. Es geht in dieser Folge unter anderem um das Konzept des Buches und die Frage, wie man Anfängern beibringt sauberen Code zu schreiben. Dabei werden drei konkrete Möglichkeiten, Code aufzuräumen und zu verbessern, diskutiert."
+            }
+          }
+        ]
+      }
     }
     </script>
 
@@ -117,7 +612,7 @@
       <h2 class="year">2026</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2026-4"><img class="podcast-cover" src="podcast-covers/data-playbook.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2026-4"><img class="podcast-cover" src="podcast-covers/data-playbook.webp" alt="" decoding="async">
           <span class="badge bg-info">Video</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">The Data Playbook — upcoming episode<span class="badge badge-upcoming">Upcoming</span></span><br>
           <span class="talk-meta">2026 &middot; Dataminded &middot; with <a href="https://www.linkedin.com/in/peeterskris/">Kris Peeters</a></span>
         </div>
@@ -129,7 +624,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2026-3"><img class="podcast-cover" src="podcast-covers/data-innovation.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2026-3"><img class="podcast-cover" src="podcast-covers/data-innovation.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Video</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Innovation Podcast — Data Contracts &amp; Data Products</span><br>
           <span class="talk-meta">2026 &middot; INFOMOTION Innovation Lab &middot; mit <a href="https://de.linkedin.com/in/doc-moya">Prof. Dr. Ana Moya</a></span>
         </div>
@@ -142,7 +637,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2026-2"><img class="podcast-cover" src="podcast-covers/data-universe.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2026-2"><img class="podcast-cover" src="podcast-covers/data-universe.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Universe #26 — KI als Governance-Assistent im Data Mesh</span><br>
           <span class="talk-meta">19. März 2026 &middot; TDWI Data Universe &middot; mit <a href="https://www.linkedin.com/in/claudia-koschtial-53ba0a52/">Claudia Koschtial</a></span>
         </div>
@@ -155,7 +650,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2026-1"><img class="podcast-cover" src="podcast-covers/data-universe.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2026-1"><img class="podcast-cover" src="podcast-covers/data-universe.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Data Universe #25 — Data Contracts: Das Fundament für Vertrauen im Data Mesh</span><br>
           <span class="talk-meta">5. März 2026 &middot; TDWI Data Universe &middot; mit <a href="https://www.linkedin.com/in/claudia-koschtial-53ba0a52/">Claudia Koschtial</a></span>
         </div>
@@ -168,7 +663,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#int-2026-1"><img class="podcast-cover" src="podcast-covers/insightify.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#int-2026-1"><img class="podcast-cover" src="podcast-covers/insightify.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-success">Article</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Why data contracts fail without interfaces</span><br>
           <span class="talk-meta">23 February 2026 &middot; Insightify Blog &middot; with <a href="https://www.linkedin.com/in/luke-pasisz/">Luke Pasisz</a></span>
         </div>
@@ -183,7 +678,7 @@
       <h2 class="year">2025</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2025-3"><img class="podcast-cover" src="podcast-covers/addedval.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2025-3"><img class="podcast-cover" src="podcast-covers/addedval.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Video</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Adding Value Early #116 — Die Story hinter Entropy Data</span><br>
           <span class="talk-meta">Dezember 2025 &middot; Adding Value Early &middot; mit <a href="https://www.linkedin.com/in/arnasbrautigam/">Arnas Bräutigam</a> (AddedVal.io)</span>
         </div>
@@ -196,7 +691,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2025-2"><img class="podcast-cover" src="podcast-covers/data-playbook.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2025-2"><img class="podcast-cover" src="podcast-covers/data-playbook.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Video</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">The Data Playbook S2 E1 — Live from the POA Summit: Data Contracts, AI, and the Next Phase of Data Mesh</span><br>
           <span class="talk-meta">9 October 2025 &middot; Dataminded &middot; with <a href="https://www.linkedin.com/in/peeterskris/">Kris Peeters</a></span>
         </div>
@@ -209,7 +704,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2025-1"><img class="podcast-cover" src="podcast-covers/case.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2025-1"><img class="podcast-cover" src="podcast-covers/case.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">CaSE #59 — Data Marketplace, Data Products and Data Contracts</span><br>
           <span class="talk-meta">22 September 2025 &middot; Conversations about Software Engineering &middot; with Alex Schladebeck, <a href="https://www.linkedin.com/in/heinrich-hartmann-b524a076/">Heinrich Hartmann</a> &amp; <a href="https://www.linkedin.com/in/svenjohann/">Sven Johann</a></span>
         </div>
@@ -222,7 +717,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#int-2025-1"><img class="podcast-cover" src="innoq.svg" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#int-2025-1"><img class="podcast-cover" src="innoq.svg" alt="" decoding="async" loading="lazy">
           <span class="badge bg-success">Article</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">From Consultant to Founder: We are founding Entropy Data</span><br>
           <span class="talk-meta">5 August 2025 &middot; INNOQ News</span>
         </div>
@@ -237,7 +732,7 @@
       <h2 class="year">2024</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2024-3"><img class="podcast-cover" src="podcast-covers/biordie.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2024-3"><img class="podcast-cover" src="podcast-covers/biordie.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Video</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">BI or DIE — Datenprodukte und Data Contracts</span><br>
           <span class="talk-meta">28. Oktober 2024 &middot; BI or DIE &middot; mit <a href="https://www.linkedin.com/in/datakoenigartur/">Artur König</a></span>
         </div>
@@ -250,7 +745,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2024-1"><img class="podcast-cover" src="podcast-covers/innoq-podcast.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2024-1"><img class="podcast-cover" src="podcast-covers/innoq-podcast.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">INNOQ Podcast #160 — Data Contracts</span><br>
           <span class="talk-meta">30. September 2024 &middot; INNOQ Podcast &middot; mit <a href="https://www.linkedin.com/in/svenjohann/">Sven Johann</a></span>
         </div>
@@ -263,7 +758,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2024-2"><img class="podcast-cover" src="podcast-covers/zeenea.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2024-2"><img class="podcast-cover" src="podcast-covers/zeenea.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">The Data Democracy #28 — Crafting Code Clarity and Championing Data Mesh in Germany</span><br>
           <span class="talk-meta">10 April 2024 &middot; Zeenea Podcast &middot; with <a href="https://www.linkedin.com/in/ole-olesen-bagneux/">Ole Olesen-Bagneux</a></span>
         </div>
@@ -278,7 +773,7 @@
       <h2 class="year">2022</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2022-1"><img class="podcast-cover" src="podcast-covers/softarchtv.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2022-1"><img class="podcast-cover" src="podcast-covers/softarchtv.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Video</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Software Architektur im Stream #115 — Data Mesh: Nur ein neuer Datenanalyse-Hype?</span><br>
           <span class="talk-meta">8. April 2022 &middot; Software Architektur im Stream &middot; mit <a href="https://de.linkedin.com/in/eberhardwolff">Eberhard Wolff</a>, <a href="https://www.linkedin.com/in/jochen-christ/">Jochen Christ</a> &amp; <a href="https://www.linkedin.com/in/theo-pack/">Theo Pack</a></span>
         </div>
@@ -293,7 +788,7 @@
       <h2 class="year">2021</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2021-1"><img class="podcast-cover" src="podcast-covers/softarchtv.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2021-1"><img class="podcast-cover" src="podcast-covers/softarchtv.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-info">Video</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Software Architektur im Stream #56 — Remote Mob Programming</span><br>
           <span class="talk-meta">16. April 2021 &middot; Software Architektur im Stream &middot; mit <a href="https://de.linkedin.com/in/eberhardwolff">Eberhard Wolff</a>, <a href="https://www.linkedin.com/in/jochen-christ/">Jochen Christ</a>, Franziska Dessart &amp; <a href="https://www.linkedin.com/in/martin-huber-62a45335/">Martin Huber</a></span>
         </div>
@@ -308,7 +803,7 @@
       <h2 class="year">2020</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#int-2020-1"><img class="podcast-cover" src="podcast-covers/infoq.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#int-2020-1"><img class="podcast-cover" src="podcast-covers/infoq.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-success">Article</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Q&amp;A on the Book Remote Mob Programming</span><br>
           <span class="talk-meta">3 February 2020 &middot; InfoQ &middot; with <a href="https://www.linkedin.com/in/benlinders/">Ben Linders</a></span>
         </div>
@@ -321,7 +816,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2020-1"><img class="podcast-cover" src="podcast-covers/inside-remote.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2020-1"><img class="podcast-cover" src="podcast-covers/inside-remote.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Inside Remote — Simon Harrer on Mob Programming</span><br>
           <span class="talk-meta">21 January 2020 &middot; Inside Remote &middot; with <a href="https://www.linkedin.com/in/andrejfodor/">Andrej Fodor</a></span>
         </div>
@@ -336,7 +831,7 @@
       <h2 class="year">2019</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-4"><img class="podcast-cover" src="podcast-covers/marcloeffler.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-4"><img class="podcast-cover" src="podcast-covers/marcloeffler.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Agile Unfiltered — Wie funktioniert Remote Mob Programming?</span><br>
           <span class="talk-meta">15. Dezember 2019 &middot; mit <a href="https://de.linkedin.com/in/marcsteffenloeffler">Marc Löffler</a></span>
         </div>
@@ -349,7 +844,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-3"><img class="podcast-cover" src="podcast-covers/autoweird.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-3"><img class="podcast-cover" src="podcast-covers/autoweird.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">Autoweird.fm #64 — Literarisches Trio: Java by Comparison</span><br>
           <span class="talk-meta">16. Juni 2019 &middot; Autoweird.fm &middot; mit <a href="https://www.linkedin.com/in/benedikt-ritter-83847b84/">Benedikt Ritter</a> &amp; <a href="https://de.linkedin.com/in/holgergp">Holger Grosse-Plankermann</a></span>
         </div>
@@ -362,7 +857,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-1"><img class="podcast-cover" src="podcast-covers/innoq-podcast.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-1"><img class="podcast-cover" src="podcast-covers/innoq-podcast.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">INNOQ Podcast #61 — Remote Mob Programming: Home but not alone</span><br>
           <span class="talk-meta">6. Mai 2019 &middot; INNOQ Podcast &middot; mit <a href="https://de.linkedin.com/in/stefantilkov">Stefan Tilkov</a>, <a href="https://www.linkedin.com/in/jochen-christ/">Jochen Christ</a> &amp; <a href="https://www.linkedin.com/in/martin-huber-62a45335/">Martin Huber</a></span>
         </div>
@@ -375,7 +870,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-2"><img class="podcast-cover" src="podcast-covers/airhacks.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-2"><img class="podcast-cover" src="podcast-covers/airhacks.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">airhacks.fm — Optimizing for Humans, Not Machines</span><br>
           <span class="talk-meta">24 March 2019 &middot; airhacks.fm &middot; with <a href="https://www.linkedin.com/in/adam-bien/">Adam Bien</a></span>
         </div>
@@ -388,7 +883,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-5"><img class="podcast-cover" src="podcast-covers/devjourney.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2019-5"><img class="podcast-cover" src="podcast-covers/devjourney.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Developer's Journey #41 — Simon Harrer</span><br>
           <span class="talk-meta">2019 &middot; Developer's Journey &middot; with <a href="https://www.linkedin.com/in/timbourguignon/">Tim Bourguignon</a></span>
         </div>
@@ -403,7 +898,7 @@
       <h2 class="year">2018</h2>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2018-2"><img class="podcast-cover" src="podcast-covers/devonfire.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2018-2"><img class="podcast-cover" src="podcast-covers/devonfire.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="English">🇺🇸</span><span class="talk-title">Developer On Fire #378 — Writing Priorities</span><br>
           <span class="talk-meta">1 October 2018 &middot; Developer On Fire &middot; with <a href="https://www.linkedin.com/in/daverael/">Dave Rael</a></span>
         </div>
@@ -416,7 +911,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2018-1"><img class="podcast-cover" src="podcast-covers/innoq-podcast.webp" alt="">
+        <div class="card-header talk-header collapsed" data-bs-toggle="collapse" data-bs-target="#pod-2018-1"><img class="podcast-cover" src="podcast-covers/innoq-podcast.webp" alt="" decoding="async" loading="lazy">
           <span class="badge bg-secondary">Audio</span><span class="flag" title="German">🇩🇪</span><span class="talk-title">INNOQ Podcast #49 — Java by Comparison</span><br>
           <span class="talk-meta">2. Juli 2018 &middot; INNOQ Podcast &middot; mit <a href="https://www.linkedin.com/in/michaelvitz/">Michael Vitz</a></span>
         </div>

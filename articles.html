@@ -38,10 +38,173 @@
       "@type": "CollectionPage",
       "name": "Articles — Simon Harrer",
       "url": "https://simonharrer.com/articles.html",
-      "description": "Articles by Dr. Simon Harrer on data products, data contracts, data mesh, and remote mob programming, published with INNOQ, Java Magazin, and others.",
-      "about": ["Data Products", "Data Contracts", "Data Mesh", "Remote Mob Programming"],
-      "author": { "@id": "https://simonharrer.com/#person" },
-      "isPartOf": { "@type": "WebSite", "name": "Simon Harrer", "url": "https://simonharrer.com/" }
+      "description": "Articles and blog posts by Dr. Simon Harrer on heise.de, INNOQ, and in print magazines — on data contracts, data mesh, remote mob programming, and clean Java.",
+      "about": [
+        "Data Products",
+        "Data Contracts",
+        "Data Mesh",
+        "Remote Mob Programming"
+      ],
+      "author": {
+        "@id": "https://simonharrer.com/#person"
+      },
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Simon Harrer",
+        "url": "https://simonharrer.com/"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://simonharrer.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Articles",
+            "item": "https://simonharrer.com/articles.html"
+          }
+        ]
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": 6,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Article",
+              "headline": "What is a Data Product?",
+              "url": "https://www.innoq.com/en/articles/2023/07/what-is-a-data-product/",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "INNOQ"
+              },
+              "datePublished": "2023-07",
+              "inLanguage": "en",
+              "workTranslation": {
+                "@type": "Article",
+                "url": "https://www.innoq.com/de/articles/2023/07/what-is-a-data-product/",
+                "inLanguage": "de"
+              },
+              "description": "A working definition of “data product” in a Data Mesh context, with the eight characteristics it must satisfy."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Article",
+              "headline": "Round-robin coding: Code handover in mere seconds with the mob tool",
+              "url": "https://www.innoq.com/en/articles/2023/03/typist-wechsel-dich-remote-edition-code-uebergabe-mit-dem-mob-tool/",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "INNOQ"
+              },
+              "datePublished": "2023-03",
+              "inLanguage": "en",
+              "workTranslation": {
+                "@type": "Article",
+                "url": "https://www.innoq.com/de/articles/2022/12/typist-wechsel-dich-remote-edition-code-uebergabe-mit-dem-mob-tool/",
+                "inLanguage": "de"
+              },
+              "description": "How the open-source mob CLI bundles the git operations needed to hand the keyboard between mob programmers in seconds."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "Article",
+              "headline": "Typist wechsel dich (Remote Edition) — Code-Übergabe in wenigen Sekunden mit dem mob-Tool",
+              "url": "https://entwickler.de/magazine-ebooks/java-magazin/java-magazin-52022",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Java Magazin"
+              },
+              "datePublished": "2022-05",
+              "inLanguage": "de",
+              "description": "Print original of the mob-tool article — later republished on INNOQ."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "Article",
+              "headline": "Remote Mob Programming at INNOQ",
+              "url": "https://www.innoq.com/en/articles/2021/01/remote-mob-programming-bei-innoq/",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "INNOQ"
+              },
+              "datePublished": "2021-01",
+              "inLanguage": "en",
+              "workTranslation": {
+                "@type": "Article",
+                "url": "https://www.innoq.com/de/articles/2021/01/remote-mob-programming-bei-innoq/",
+                "inLanguage": "de"
+              },
+              "description": "A multi-author retrospective on a year of remote mob programming across INNOQ project teams."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "Article",
+              "headline": "Codequalität lehren und lernen: Erfahrungen aus 6 Jahren Programmierausbildung",
+              "url": "https://www.heise.de/ratgeber/Codequalitaet-lehren-und-lernen-Erfahrungen-aus-6-Jahren-Programmierausbildung-4795323.html",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "heise Developer"
+              },
+              "datePublished": "2020-06-30",
+              "inLanguage": "de",
+              "description": "How code reviews and detailed project feedback — not just “does it run?” — shape better programmers, drawn from six years of teaching at the University of Bamberg."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@type": "Article",
+              "headline": "Erfolgreich im Homeoffice arbeiten",
+              "url": "https://www.heise.de/hintergrund/Erfolgreich-im-Homeoffice-arbeiten-4681061.html",
+              "author": {
+                "@id": "https://simonharrer.com/#person"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "heise online"
+              },
+              "datePublished": "2020-03-13",
+              "inLanguage": "de",
+              "description": "Practical tips for productive remote work — ergonomics, infrastructure, communication — written at the start of the COVID lockdowns."
+            }
+          }
+        ]
+      }
     }
     </script>
     <meta property="og:type" content="website">

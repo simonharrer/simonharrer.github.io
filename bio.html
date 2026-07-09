@@ -43,8 +43,31 @@
       "url": "https://simonharrer.com/bio.html",
       "name": "Bio — Simon Harrer",
       "description": "Bio and press photo of Dr. Simon Harrer, Co-Founder and CEO of Entropy Data.",
-      "mainEntity": { "@id": "https://simonharrer.com/#person" },
-      "isPartOf": { "@type": "WebSite", "name": "Simon Harrer", "url": "https://simonharrer.com/" }
+      "mainEntity": {
+        "@id": "https://simonharrer.com/#person"
+      },
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Simon Harrer",
+        "url": "https://simonharrer.com/"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://simonharrer.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Bio",
+            "item": "https://simonharrer.com/bio.html"
+          }
+        ]
+      }
     }
     </script>
   </head>
@@ -84,7 +107,7 @@
       <div class="row">
         <div class="col-md-4 mb-4">
           <div class="card shadow-sm">
-            <picture><source srcset="simon-harrer-1024.webp" type="image/webp"><img id="avatar-img" src="simon-harrer-1024.jpg" class="card-img-top" alt="Simon Harrer"></picture>
+            <picture><source srcset="simon-harrer-1024.webp" type="image/webp"><img id="avatar-img" src="simon-harrer-1024.jpg" class="card-img-top" alt="Simon Harrer" width="1024" height="1024" decoding="async"></picture>
             <div class="card-body">
               <h2 class="card-title h5">Press Photo</h2>
               <div class="input-group input-group-sm mb-2" data-copy-card="avatar-url">
