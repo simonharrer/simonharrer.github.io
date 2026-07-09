@@ -3,3 +3,10 @@ plugins:
 markdown: kramdown
 title: Dr. Simon Harrer
 url: https://simonharrer.com
+
+# legal.md is the source for the hand-maintained legal.html. Publishing it
+# duplicated legal.html in the sitemap and served the raw markdown at
+# /legal.md. tools/ holds build scripts that are not part of the site.
+exclude:
+  - legal.md
+  - tools
