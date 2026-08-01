@@ -1111,17 +1111,3 @@ Thesis: [Effective and Efficient Process Engine Evaluation](https://simonharrer.
 
 Diplom in Information Systems, with distinction — Otto-Friedrich-Universität Bamberg
 2005 – 2010 · Information Technology
-
-### Honors & awards
-- Good Teaching Award
-- Best Conference Paper Award
-- 2nd place at the IEEE Services Cup
-- Ranked 88 out of approx. 3000 in Google Hash Code
-
-### Certifications
-- Google Developer Certification — Associate Android Developer
-- Certificate for Teaching in Higher Education of the Bavarian Universities
-
-### Languages
-- German — native or bilingual
-- English — professional working
