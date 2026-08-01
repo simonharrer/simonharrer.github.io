@@ -68,7 +68,8 @@ Building [Entropy Data](https://www.entropy-data.com/) as Co-Founder & CEO. Curr
 ### Open source
 Maintaining [datacontract-cli](https://github.com/datacontract/datacontract-cli) and [datacontract-editor](https://github.com/datacontract/datacontract-editor). See the full list on [open source](https://simonharrer.com/open-source.html).
 ### Speaking
-Just gave two sessions at SummerSOC 2026 in Crete — Overview on Standards for Data Products and Chat with your Enterprise Data — closing out a busy June that also brought a Data Contracts workshop at Data Mesh Live 2026 in Antwerpen, A Data Marketplace is What Your Agent Needs at the DATA festival in München, and two sessions at TDWI München 2026. Next up: Data Product Builder: Building Your Data Product Contract-first at the POA Summit 2026 in Antwerp on 17 September. A quiet stretch until then — past talks on [talks](https://simonharrer.com/talks.html).
+A busy autumn ahead. Next up: Data Product Builder: Building Your Data Product Contract-first at the POA Summit 2026 in Antwerp on 17 September. Then October brings three German sessions — a full-day Datenkontrakte in der Praxis workshop at data2day 2026 in Köln on 6 October, and at the Software Architecture Summit 2026 in Berlin both a workshop with Arif Wider, Mit Data Contracts Vertrauen in Daten herstellen (12 October), and the keynote Agentic AI ist der nächste große Schritt der generativen KI (13 October).
+Behind me: two sessions at SummerSOC 2026 in Crete — Overview on Standards for Data Products and Chat with your Enterprise Data — closing out a June that also brought a Data Contracts workshop at Data Mesh Live 2026 in Antwerpen, A Data Marketplace is What Your Agent Needs at the DATA festival in München, and two sessions at TDWI München 2026. Full list on [talks](https://simonharrer.com/talks.html).
 ### Writing & research
 Peer-reviewed work on data contracts, data governance with GenAI, and LLM-bridged data products — see [research](https://simonharrer.com/research.html).
 ### Where
@@ -229,6 +230,40 @@ Presents a feedback-driven teaching concept for second- and third-year universit
 ## Talks
 Source: https://simonharrer.com/talks.html
 Selected talks I've given at conferences, meetups, and company events. Click any talk to expand. 🇩🇪 German, 🇺🇸 English · Talk Workshop Keynote Online
+
+### Agentic AI ist der nächste große Schritt der generativen KI
+13. Oktober 2026 · Software Architecture Summit 2026, Berlin (17:45–18:45) · German · Keynote
+https://simonharrer.com/talks.html#talk-2026-16
+
+Agentic AI ist der nächste große Schritt der generativen KI: autonome Agenten, die eigenständig Ziele verfolgen, Werkzeuge nutzen und als Multi-Agenten-Systeme auch komplexe Aufgaben ohne menschliches Zutun bewältigen.
+
+Der Vortrag gibt einen praxisorientierten Überblick darüber, welche dieser Versprechen in Software-Entwicklung und Architekturarbeit bereits eingelöst werden können und wo die Grenzen liegen. Ein besonderer Schwerpunkt liegt auf einem Thema, das in der aktuellen Begeisterung häufig zu kurz kommt: Data Governance. Denn Agenten sind nur so gut wie die Daten, auf deren Grundlage sie handeln. Fehlen klare Vorgaben zu Datenqualität, Zugriffssteuerung und Compliance, wird aus einem intelligenten Helfer schnell ein unkontrollierbares Risiko.
+
+Zum Abschluss richtet sich der Blick nach vorne: Welche Entwicklungen zeichnen sich ab, und was muss heute getan werden, damit der produktive Einsatz von Agentic AI morgen gelingt?
+
+Track: AI & Architecture · [Session-Seite](https://software-architecture-summit.de/ai-und-architecture/agentic-ai-ist-der-naechste-grosse-schritt-der-generativen-ki)
+
+### Mit Data Contracts Vertrauen in Daten herstellen
+12. Oktober 2026 · Software Architecture Summit 2026, Berlin (14:00–17:30) · German · Workshop
+https://simonharrer.com/talks.html#talk-2026-15
+
+Data Contracts erlauben Daten als Schnittstellen verlässlich zu spezifizieren und stellen damit Vertrauen her — was gerade in dezentralen Datenarchitekturen wie Data Mesh essentiell ist. Wir zeigen, warum man das braucht, aber auch wie das geht.
+
+Dazu nutzen wir den Open Data Contract Standard der Linux Foundation, um Data Contracts zu spezifizieren, die Data Contract CLI, um damit zu automatisieren, und den Data Contract Editor, um diese zu erstellen.
+
+Im Workshop nehmen wir zunächst bestehende Daten unter Vertrag (Data-first): ein erster Entwurf auf Basis der existierenden Daten, Qualitätschecks, ein Test der Daten gegen den Contract, eine Dokumentation und ein Katalog von Data Contracts. Anschließend entwickeln wir den Data Contract weiter — erst eine neue Minor-Version, dann eine neue Major-Version inklusive Migrationspfad. Abschließend reflektieren wir in einer kurzen Retro, welches Automatisierungspotential durch Data Contracts möglich wird.
+
+Gemeinsam mit [Arif Wider](https://www.linkedin.com/in/arifwider/) · Track: Software Architecture · [Session-Seite](https://software-architecture-summit.de/softwarearchitecture/mit-data-contracts-vertrauen-in-daten-herstellen)
+
+### Datenkontrakte in der Praxis
+6. Oktober 2026 · data2day 2026, Köln (10:00–17:00) · German · Workshop
+https://simonharrer.com/talks.html#talk-2026-14
+
+Ganztägiger Workshop für alle, die sich mit Data Contracts vertraut machen wollen — anhand des Open Data Contract Standard, des web-basierten quelloffenen Data Contract Editor und des quelloffenen Python-Werkzeugs Data Contract CLI.
+
+Die Teilnehmenden entwerfen einen Data Contract für bestehende Daten, fügen Data Quality Checks hinzu und testen die Daten gegen den Data Contract. Anschließend zeigt der Lebenszyklus eines Data Contracts, wie man eine neue Version als Teil eines Datenprodukts unter Nutzung des Open Data Product Standards einführt. Abschließend geht es darum, wie sich das in einen CI/CD-Workflow einbetten lässt.
+
+Vorkenntnisse: Teilnehmende sollten wissen, was YAML ist · [Session-Seite](https://www.data2day.de/veranstaltung-89327-0-datenkontrakte-in-der-praxis.html)
 
 ### Data Product Builder: Building Your Data Product Contract-first
 17 September 2026 · POA Summit 2026, Antwerp, Belgium (10:45–11:30) · English · Talk
