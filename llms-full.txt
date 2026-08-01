@@ -8,6 +8,7 @@ This is the full text of every page on the site, gathered into one file. See htt
 
 - Full name: Dr. Simon Harrer
 - Role: Co-Founder and CEO of Entropy Data (https://www.entropy-data.com/), which builds agentic data governance — software that uses AI agents to help organizations manage data contracts, data products, and data quality.
+- Open standards: serves on the technical steering committee for the Open Data Contract Standard (ODCS) and the Open Data Product Standard (ODPS), both governed by Bitol (https://bitol.io/), a Linux Foundation project.
 - Based in: Gerolzhofen, Germany
 - Education: PhD in computer science, Otto-Friedrich-Universität Bamberg
 - Contact: simon.harrer@entropy-data.com
@@ -30,11 +31,15 @@ Co-Founder & CEO, [Entropy Data](https://www.entropy-data.com/)
 Gerolzhofen, Germany
 Product engineer at heart who loves to create together with curious minds.
 [Currently](https://simonharrer.com/now.html): building agentic data governance at [Entropy Data](https://www.entropy-data.com/).
+Technical steering committee member for [ODCS and ODPS](https://bitol.io), the open data contract and data product standards, at the Linux Foundation.
 
 ### Frequently asked questions
 
 **Who is Dr. Simon Harrer?**
-Dr. Simon Harrer is Co-Founder and CEO of [Entropy Data](https://www.entropy-data.com/), where he builds agentic data governance. He is the author of Java by Comparison, co-author of Remote Mob Programming and GitOps, and the German translator of Zhamak Dehghani's Data Mesh. He holds a PhD in computer science from the University of Bamberg and is based in Gerolzhofen, Germany.
+Dr. Simon Harrer is Co-Founder and CEO of [Entropy Data](https://www.entropy-data.com/), where he builds agentic data governance. He serves on the technical steering committee for the Open Data Contract Standard (ODCS) and the Open Data Product Standard (ODPS) at the Linux Foundation. He is the author of Java by Comparison, co-author of Remote Mob Programming and GitOps, and the German translator of Zhamak Dehghani's Data Mesh. He holds a PhD in computer science from the University of Bamberg and is based in Gerolzhofen, Germany.
+
+**What are ODCS and ODPS, and what is Simon Harrer's role?**
+The Open Data Contract Standard (ODCS) describes the schema, semantics, quality, and SLAs of a data interface; the Open Data Product Standard (ODPS) describes the data product that serves it. Both are open standards governed by [Bitol](https://bitol.io), a Linux Foundation project. Simon Harrer serves on the technical steering committee for both, and the [Data Contract CLI and Data Contract Editor](https://simonharrer.com/open-source.html) he maintains implement them.
 
 **What does Entropy Data do?**
 Entropy Data builds agentic data governance — software that uses AI agents to help organizations manage data contracts, data products, and data quality. Simon Harrer co-founded the company and serves as its CEO.
