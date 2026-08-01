@@ -13,6 +13,7 @@
 - [Research](https://simonharrer.com/research.html): Peer-reviewed research on data governance with generative AI, data contracts, and bridging data products with LLMs, plus earlier work on BPMN/BPEL and workflow engine benchmarking.
 - [Bio](https://simonharrer.com/bio.html): Copy-ready bio and press photo in English and German for event organizers and journalists.
 - [Now](https://simonharrer.com/now.html): A snapshot of what Simon Harrer is currently focused on.
+- [Full text](https://simonharrer.com/llms-full.txt): The complete content of every page above, in one file.
 
 ## Key facts
 
@@ -32,3 +33,4 @@
 - Google Scholar: https://scholar.google.com/citations?user=LLb291wAAAAJ&hl=de
 - DBLP: https://dblp.org/pid/35/7525.html
 - ORCID: https://orcid.org/0000-0002-1023-9897
+- Wikidata: https://www.wikidata.org/wiki/Q133063725

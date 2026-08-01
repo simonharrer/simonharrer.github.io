@@ -1,0 +1,1058 @@
+# Simon Harrer
+
+> Dr. Simon Harrer is Co-Founder and CEO of Entropy Data, where he builds agentic data governance. He is the author of "Java by Comparison", co-author of "Remote Mob Programming" and "GitOps", and the German translator of Zhamak Dehghani's "Data Mesh". He maintains the open-source Data Contract CLI and Data Contract Editor, publishes peer-reviewed research on data governance with generative AI, and speaks regularly on data contracts, data mesh, and data products. Based in Gerolzhofen, Germany.
+
+This is the full text of every page on the site, gathered into one file. See https://simonharrer.com/llms.txt for the short index. Generated from the pages themselves by tools/build-llms-full.py — edit the pages, not this file.
+
+## Key facts
+
+- Full name: Dr. Simon Harrer
+- Role: Co-Founder and CEO of Entropy Data (https://www.entropy-data.com/), which builds agentic data governance — software that uses AI agents to help organizations manage data contracts, data products, and data quality.
+- Based in: Gerolzhofen, Germany
+- Education: PhD in computer science, Otto-Friedrich-Universität Bamberg
+- Contact: simon.harrer@entropy-data.com
+- Speaks on: data contracts, data mesh, data products, agentic data governance, GitOps, remote mob programming, and clean Java. Event organizers can find a copy-ready bio and press photo at https://simonharrer.com/bio.html.
+- Books: author of "Java by Comparison" (Pragmatic Bookshelf, 2018, with Jörg Lenhard and Linus Dietz); co-author of "Remote Mob Programming" (2020) and "GitOps" (2021); German translator of Zhamak Dehghani's "Data Mesh" (2023); contributor of a data contracts chapter to "Effektive Softwarearchitekturen" (2024); PhD thesis on process engine evaluation (University of Bamberg Press, 2017).
+- Open source: maintains the Data Contract CLI (https://github.com/datacontract/datacontract-cli) and the Data Contract Editor; co-created mob.sh (https://mob.sh/).
+
+## Profiles
+
+- LinkedIn: https://www.linkedin.com/in/simonharrer/
+- GitHub: https://github.com/simonharrer
+- Google Scholar: https://scholar.google.com/citations?user=LLb291wAAAAJ&hl=de
+- DBLP: https://dblp.org/pid/35/7525.html
+- ORCID: https://orcid.org/0000-0002-1023-9897
+- Wikidata: https://www.wikidata.org/wiki/Q133063725
+
+## About
+Source: https://simonharrer.com/
+Co-Founder & CEO, [Entropy Data](https://www.entropy-data.com/)
+Gerolzhofen, Germany
+Product engineer at heart who loves to create together with curious minds.
+[Currently](https://simonharrer.com/now.html): building agentic data governance at [Entropy Data](https://www.entropy-data.com/).
+
+### Frequently asked questions
+
+**Who is Dr. Simon Harrer?**
+Dr. Simon Harrer is Co-Founder and CEO of [Entropy Data](https://www.entropy-data.com/), where he builds agentic data governance. He is the author of Java by Comparison, co-author of Remote Mob Programming and GitOps, and the German translator of Zhamak Dehghani's Data Mesh. He holds a PhD in computer science from the University of Bamberg and is based in Gerolzhofen, Germany.
+
+**What does Entropy Data do?**
+Entropy Data builds agentic data governance — software that uses AI agents to help organizations manage data contracts, data products, and data quality. Simon Harrer co-founded the company and serves as its CEO.
+
+**What books has Simon Harrer written?**
+He wrote Java by Comparison (Pragmatic Bookshelf, 2018), co-authored Remote Mob Programming (2020) and GitOps (2021), translated Zhamak Dehghani's Data Mesh into German (2023), and contributed a chapter on data contracts to Effektive Softwarearchitekturen (2024). His PhD thesis on process engine evaluation was published by University of Bamberg Press in 2017. See the [books](https://simonharrer.com/books.html) page for details.
+
+**What is Java by Comparison?**
+Java by Comparison is a book by Simon Harrer, Jörg Lenhard, and Linus Dietz that teaches developers to write cleaner, more idiomatic Java through 70 before-and-after code comparisons. It was published by the Pragmatic Bookshelf in 2018.
+
+**What open-source tools does Simon Harrer maintain?**
+He maintains the [Data Contract CLI](https://github.com/datacontract/datacontract-cli), a Python tool for validating, testing, and exporting data contracts, and the Data Contract Editor, a web-based editor for ODCS data contracts. He also co-created [mob.sh](https://mob.sh/), a command-line tool for remote mob programming. See the [open source](https://simonharrer.com/open-source.html) page for more.
+
+**Where does Simon Harrer publish articles?**
+He writes on data products, data contracts, data mesh, and remote mob programming for the INNOQ blog, Java Magazin, heise, and other outlets. See the [articles](https://simonharrer.com/articles.html) page for the full list, and the [research](https://simonharrer.com/research.html) page for peer-reviewed publications.
+
+**How can I book Simon Harrer for a talk or podcast?**
+Email [simon.harrer@entropy-data.com](mailto:simon.harrer@entropy-data.com). He speaks on data contracts, data mesh, data products, and agentic data governance at conferences, meetups, and on podcasts. Past appearances are listed on the [talks](https://simonharrer.com/talks.html) and [podcasts](https://simonharrer.com/podcasts.html) pages, and event organizers can find a copy-ready bio and press photo on the [bio](https://simonharrer.com/bio.html) page.
+
+## Now
+Source: https://simonharrer.com/now.html
+
+What I’m focused on as of August 2026.
+### Work
+Building [Entropy Data](https://www.entropy-data.com/) as Co-Founder & CEO. Current focus: agentic data governance — bringing LLM agents into the data contract and data product lifecycle so governance becomes a by-product of doing the work, not a separate gate.
+### Open source
+Maintaining [datacontract-cli](https://github.com/datacontract/datacontract-cli) and [datacontract-editor](https://github.com/datacontract/datacontract-editor). See the full list on [open source](https://simonharrer.com/open-source.html).
+### Speaking
+Just gave two sessions at SummerSOC 2026 in Crete — Overview on Standards for Data Products and Chat with your Enterprise Data — closing out a busy June that also brought a Data Contracts workshop at Data Mesh Live 2026 in Antwerpen, A Data Marketplace is What Your Agent Needs at the DATA festival in München, and two sessions at TDWI München 2026. Next up: Data Product Builder: Building Your Data Product Contract-first at the POA Summit 2026 in Antwerp on 17 September. A quiet stretch until then — past talks on [talks](https://simonharrer.com/talks.html).
+### Writing & research
+Peer-reviewed work on data contracts, data governance with GenAI, and LLM-bridged data products — see [research](https://simonharrer.com/research.html).
+### Where
+Gerolzhofen, Germany. Working remotely with the Entropy Data team.
+
+## Books
+Source: https://simonharrer.com/books.html
+Books and guides I've authored, co-authored, or translated.
+
+### Authored and translated
+
+#### Data Mesh (German translation)
+O'Reilly · 2023 · [4.2 · 8 Amazon ratings](https://www.amazon.de/-/en/Data-dezentrale-Datenarchitektur-entwerfen-Animals/dp/3960092075)
+German translation of Zhamak Dehghani's "Data Mesh: Delivering Data-Driven Value at Scale" — the foundational book on the sociotechnical approach to decentralized data architecture.
+Translated with [Jochen Christ](https://www.linkedin.com/in/jochen-christ/)
+Where to get it: [dpunkt](https://dpunkt.de/produkt/data-mesh/) · [O'Reilly](https://www.oreilly.com/library/view/data-mesh/9781098167073/) · [Amazon](https://www.amazon.de/-/en/Data-dezentrale-Datenarchitektur-entwerfen-Animals/dp/3960092075)
+
+#### Java by Comparison
+Pragmatic Bookshelf · 2018 · Bestseller · [4.2 · 120+ Goodreads ratings](https://www.goodreads.com/book/isbn/9781680502879)
+Based on six years of teaching Java at university. A unique didactic concept on how to write readable code through before/after comparisons.
+Co-authored with [Linus Dietz](https://www.linkedin.com/in/linus-dietz/) & [Jörg Lenhard](https://www.linkedin.com/in/joerglenhard/)
+Practice with the [Kata](https://java.by-comparison.com/kata) or play [Jeopardy](https://java.by-comparison.com/game).
+Where to get it: [Pragmatic](https://pragprog.com/titles/javacomp/java-by-comparison/) · [Amazon 🇩🇪](https://www.amazon.de/dp/1680502875/) · [Amazon 🇺🇸](https://www.amazon.com/dp/1680502875/)
+
+#### Remote Mob Programming
+Self-published · Leanpub · 2020 · [3.8 · 25+ Goodreads ratings](https://www.goodreads.com/book/isbn/9783982112602)
+Three years of working from home full-time doing mob programming. It changed my view on how software should be developed.
+Co-authored with [Jochen Christ](https://www.linkedin.com/in/jochen-christ/) & [Martin Huber](https://www.linkedin.com/in/martin-huber-62a45335/)
+More on the [website](https://www.remotemobprogramming.org).
+Where to get it: [Leanpub](https://leanpub.com/remotemobprogramming) · [Amazon 🇩🇪](https://www.amazon.de/dp/3982112605/) · [Amazon 🇺🇸](https://www.amazon.com/dp/3982112605/)
+
+#### GitOps
+Self-published · Leanpub · 2021 · [3.2 · 25+ Goodreads ratings](https://www.goodreads.com/book/isbn/9783982112688)
+What is GitOps? Why should I use GitOps? How does GitOps work? Trying to answer all of those questions.
+Co-authored with [Florian Beetz](https://www.linkedin.com/in/florian-beetz) & [Anja Kammer](https://www.linkedin.com/in/anja-kammer-berlin/)
+More on the [website](https://gitops.tech) or work through the [tutorial](https://gitops.tech/tutorial).
+Where to get it: [Leanpub](https://leanpub.com/gitops) · [Amazon 🇩🇪](https://www.amazon.de/dp/3982112680/) · [Amazon 🇺🇸](https://www.amazon.com/dp/3982112680/)
+
+#### Effective and Efficient Process Engine Evaluation
+University of Bamberg Press · 2017
+PhD thesis (Dr. rer. nat., magna cum laude). A systematic approach to benchmarking BPMN and BPEL workflow engines for conformance and performance.
+Sole author
+Where to get it: [University of Bamberg](https://fis.uni-bamberg.de/entities/publication/a71d1e5b-7d09-4e4e-8884-a4aa9cf7988b) · [DOI](https://doi.org/10.20378/irbo-49633) · [Amazon 🇩🇪](https://www.amazon.de/dp/3863095030/) · [Amazon 🇺🇸](https://www.amazon.com/dp/3863095030/)
+
+### Contributions
+
+#### Effektive Softwarearchitekturen
+Hanser · 2024 · ISBN 978-3-446-47672-1 · 10. Auflage
+Contributed part of Kapitel 7 “Technische und Querschnittliche Konzepte” on Data Contracts — new in the 10th edition alongside C4 and Cloud.
+By [Gernot Starke](https://www.gernotstarke.de/) · Data Contracts section contributed
+Where to get it: [Hanser](https://www.hanser-fachbuch.de/Effektive-Softwarearchitekturen/978-3-446-47672-1) · [Amazon 🇩🇪](https://www.amazon.de/dp/3446476725/)
+
+## Open Source
+Source: https://simonharrer.com/open-source.html
+Open source tools I've created, maintain, or have helped to maintain.
+
+### Current projects
+
+#### Open Data Contract & Product Standards
+[Linux Foundation](https://bitol.io) · [1k+ stars](https://github.com/bitol-io/open-data-contract-standard/stargazers)
+The open standards that data contracts and data products are written in: ODCS describes the schema, semantics, quality, and SLAs of a data interface, and ODPS describes the data product that serves it. Both are Linux Foundation projects governed under Bitol — and the standards the Data Contract CLI and Data Contract Editor implement.
+Created in 2023 (not by Simon)
+Simon serves on the Technical Steering Committee for both standards
+More on [bitol.io](https://bitol.io).
+
+#### Data Landscape
+[20+ stars](https://github.com/entropy-data/data-landscape/stargazers)
+An opinionated, interactive map of the open standards that power a modern data architecture — ODCS, ODPS, OSI, OpenAPI, Iceberg, OpenLineage, OpenTelemetry and more.
+Created in 2026
+Curated by Simon at Entropy Data
+Explore at [data-landscape.com](https://www.data-landscape.com).
+Repository: [GitHub](https://github.com/entropy-data/data-landscape)
+
+#### Data Contract CLI
+[Thoughtworks Tech Radar](https://www.thoughtworks.com/radar/tools/data-contract-cli) · [950+ stars](https://github.com/datacontract/datacontract-cli/stargazers) · [1.4M monthly downloads](https://pypistats.org/packages/datacontract-cli)
+A CLI tool to validate, test, document, and export data contracts based on the Open Data Contract Standard. Supports 15+ data sources including Snowflake, Databricks, BigQuery, and Postgres.
+Created in 2023
+Co-maintained with [Jochen Christ](https://www.linkedin.com/in/jochen-christ/)
+Also on [datacontract.com](https://datacontract.com) and [PyPI](https://pypi.org/project/datacontract-cli/).
+Repository: [GitHub](https://github.com/datacontract/datacontract-cli)
+
+#### Data Contract Editor
+[100+ stars](https://github.com/datacontract/datacontract-editor/stargazers)
+Web-based visual editor for ODCS data contracts. Authoring, validation, and previewing in the browser — no install required.
+Created in 2024
+Co-maintained with [Jochen Christ](https://www.linkedin.com/in/jochen-christ/)
+Try it at [editor.datacontract.com](https://editor.datacontract.com).
+Repository: [GitHub](https://github.com/datacontract/datacontract-editor)
+
+### Earlier projects
+
+#### mob.sh
+[Thoughtworks Tech Radar](https://www.thoughtworks.com/radar/tools/mob) · [1.7k+ stars](https://github.com/remotemobprogramming/mob/stargazers)
+A CLI tool that makes swap turns in (remote) mob and pair programming a one-liner. Used daily by developers around the world.
+Created by Simon in 2018, maintained 2018–2026
+Now maintained by [Gregor Riegler](https://www.linkedin.com/in/gregorriegler/) & [Joshua Töpfer](https://www.linkedin.com/in/joshua-toepfer/)
+More on [mob.sh](https://mob.sh).
+Repository: [GitHub](https://github.com/remotemobprogramming/mob)
+
+#### JabRef
+[4.5k+ stars](https://github.com/JabRef/jabref/stargazers)
+An open-source bibliography reference manager for researchers, using BibTeX as its native format. Available for Windows, Linux, and macOS.
+Created in 2003 (not by Simon)
+Co-maintained by Simon 2014–2017 — no longer active
+More on [jabref.org](https://www.jabref.org).
+Repository: [GitHub](https://github.com/JabRef/jabref)
+
+## Research
+Source: https://simonharrer.com/research.html
+Applied research on data governance, data products, and AI — published in peer-reviewed venues and turned into open source.
+[Google Scholar](https://scholar.google.com/citations?user=LLb291wAAAAJ&hl=de) [DBLP](https://dblp.org/pid/35/7525.html) [ORCID](https://orcid.org/0000-0002-1023-9897) [Entropy Data Research](https://www.entropy-data.com/research)
+
+### Recent papers
+
+#### Data Contracts: Structuring Promises and Expectations in Data Exchange
+Conference · IEEE International Conference on Web Services (ICWS) 2026 · with [Laura Schuiki](https://www.linkedin.com/in/laura-schuiki-4827b0269/), [Arif Wider](https://www.linkedin.com/in/arifwider/)
+Proposes a general concept of data contracts capturing both provider and consumer perspectives across four aspects — provider promises, consumer expectations, provider expectations, and consumer promises — enabling higher governance automation and fewer data incidents.
+[Read Paper](https://simonharrer.com/papers/data-contracts-promises-expectations-icws2026.pdf) · [Cite it](https://scholar.google.com/scholar?q=Data+Contracts+Structuring+Promises+and+Expectations+in+Data+Exchange)
+
+#### Automating Data Governance with Generative AI
+Conference · AAAI/ACM Conference on AI, Ethics, and Society (AIES) 2025 · with [Linus W. Dietz](https://www.linkedin.com/in/linus-dietz-767604148/), [Arif Wider](https://www.linkedin.com/in/arifwider/)
+Uses LLMs to evaluate natural-language governance rules against metadata. Generated 3.6× more warnings than human experts while catching all compliance concerns; 80% of AI-generated warnings were correct on review.
+[Read Paper](https://simonharrer.com/papers/automating-data-governance-aies2025.pdf) · [Cite it](https://scholar.google.com/scholar?q=Automating+Data+Governance+with+Generative+AI+Harrer)
+
+#### Data Product MCP: Chat with your Enterprise Data
+Preprint · arXiv preprint, 2026 · with [Marco Tonnarelli](https://www.linkedin.com/in/marco-tonnarelli/), [Filippo Scaramuzza](https://www.linkedin.com/in/filippo-scaramuzza/), [Linus W. Dietz](https://www.linkedin.com/in/linus-dietz-767604148/)
+An MCP server that bridges enterprise data products and LLM-based assistants while preserving governance and access controls.
+[Read Paper](https://simonharrer.com/papers/data-product-mcp-arxiv2026.pdf) · [Cite it](https://scholar.google.com/scholar?q=Data+Product+MCP+Chat+with+your+Enterprise+Data)
+
+### Most impactful papers during my time at University of Bamberg
+Published 20+ peer-reviewed papers during PhD at Otto-Friedrich-Universität Bamberg (Dr. rer. nat., magna cum laude, 2017). Focus areas: BPMN/BPEL, workflow engine benchmarking, service composition.
+
+#### GitOps: The Evolution of DevOps?
+Journal · IEEE Software, 2022 · with [Florian Beetz](https://www.linkedin.com/in/florian-beetz/) · [100+ citations](https://scholar.google.com/citations?user=LLb291wAAAAJ&hl=de)
+Examines whether GitOps is truly an evolution of DevOps by analyzing and comparing their key elements, since neither has a standard definition. Identifies how GitOps extends DevOps practices through declarative, Git-centered continuous deployment.
+[Read Paper](https://ieeexplore.ieee.org/document/9565152/) · [Cite it](https://scholar.google.com/scholar?q=GitOps+The+Evolution+of+DevOps+Beetz+Harrer)
+
+#### BPMN 2.0: The state of support and implementation
+Journal · Future Generation Computer Systems, 2018 · with [Matthias Geiger](https://www.linkedin.com/in/matthias-geiger-33774b3b/), [Jörg Lenhard](https://www.linkedin.com/in/joerglenhard/), [Guido Wirtz](https://www.linkedin.com/in/guidowirtz/) · [150+ citations](https://scholar.google.com/citations?user=LLb291wAAAAJ&hl=de)
+Investigates how BPMN 2.0 implementers deal with the standard. Only three of 47 BPMS support the execution format defined in the spec, although all claim compliance. Tracks camunda BPM, jBPM and activiti over more than three years and finds feature support has plateaued at roughly half of BPMN's features.
+[Read Paper](https://www.sciencedirect.com/science/article/abs/pii/S0167739X17300250) · [Cite it](https://scholar.google.com/scholar?q=BPMN+2.0+The+state+of+support+and+implementation+Geiger+Harrer)
+
+#### A Pattern Language for Workflow Engine Conformance and Performance Benchmarking
+Conference · EuroPLoP 2017 · with [Jörg Lenhard](https://www.linkedin.com/in/joerglenhard/), [Oliver Kopp](https://www.linkedin.com/in/oliverkopp/), [Vincenzo Ferme](https://www.linkedin.com/in/vincenzoferme/), [Cesare Pautasso](https://www.linkedin.com/in/cesarepautasso/)
+Captures common solutions for recurring problems in workflow engine conformance and performance benchmarking — test identification, benchmarking procedure validation, automatic engine interaction, and workflow execution observation — as a pattern language to help future benchmark authors.
+[Read Paper](https://simonharrer.com/papers/pattern-language-workflow-europlop2017.pdf) · [Cite it](https://scholar.google.com/scholar?q=A+Pattern+Language+for+Workflow+Engine+Conformance+and+Performance+Benchmarking)
+
+#### Code Process Metrics in University Programming Education
+Workshop · SE Workshops (CEUR Vol-2308), 2019 · with [Linus W. Dietz](https://www.linkedin.com/in/linus-dietz-767604148/), [Robin Lichtenthäler](https://www.linkedin.com/in/robin-lichtenth%C3%A4ler-53a326131/), [Adam Tornhill](https://www.linkedin.com/in/adam-tornhill-71759b48/)
+Applies behavioral code analysis (commit-based process metrics like churn and complexity trends) to student programming assignments to give actionable feedback beyond functional correctness, and to detect quality regressions early in coursework.
+[Read Paper](https://simonharrer.com/papers/code-process-metrics-isee2019.pdf) · [Cite it](https://scholar.google.com/scholar?q=Code+Process+Metrics+in+University+Programming+Education)
+
+#### Teaching Clean Code
+Workshop · SE Workshops (CEUR Vol-2066), 2018 · with [Linus W. Dietz](https://www.linkedin.com/in/linus-dietz-767604148/), [Johannes Manner](https://www.linkedin.com/in/johannes-manner-3ba33125b/), [Jörg Lenhard](https://www.linkedin.com/in/joerglenhard/) · [20+ citations](https://scholar.google.com/citations?user=LLb291wAAAAJ&hl=de)
+Presents a feedback-driven teaching concept for second- and third-year university students focused on clean and maintainable code, refined over more than six years of practice and recognized with the faculty's teaching award.
+[Read Paper](https://simonharrer.com/papers/teaching-clean-code-isee2018.pdf) · [Cite it](https://scholar.google.com/scholar?q=Teaching+Clean+Code+Dietz+Harrer)
+
+## Talks
+Source: https://simonharrer.com/talks.html
+Selected talks I've given at conferences, meetups, and company events. Click any talk to expand. 🇩🇪 German, 🇺🇸 English · Talk Workshop Keynote Online
+
+### Data Product Builder: Building Your Data Product Contract-first
+17 September 2026 · POA Summit 2026, Antwerp, Belgium (10:45–11:30) · English · Talk
+https://simonharrer.com/talks.html#talk-2026-13
+
+Contract-first means the contract comes before the data product, not after. Instead of extracting tables, exploring, and documenting later, you agree on what consumers need first, write it down as a data contract covering ownership, schema, semantics, quality, and SLAs, and only then build the product to satisfy it.
+
+This ordering is what makes data products trustworthy — and it is exactly what coding agents need. A contract written first is a spec: clear, testable requirements an agent can build against instead of guessing from raw data. Contract-first is spec-driven development for data, and the contract is the spec.
+
+The talk goes contract-first end to end, live. The contract is specified in the Open Data Contract Standard (ODCS), and only then implemented. Working from that spec in a live coding session, a coding agent uses skills to build a dbt project that implements the data product: discovering the upstream source data products it needs through a data marketplace, requesting access, and wiring them into the dbt models that satisfy the contract. The skills come from a skill repository that captures the conventions for building a data product on your stack — here, a dbt project on Snowflake — so the agent follows your team's way of working rather than inventing its own. Because the contract is executable, it stays the source of truth: a living test suite, run via the Data Contract CLI against the actual data, that holds both the data product and the agent to the spec in your terminal and in CI.
+
+3rd Industry Summit on Data Product Oriented Architectures
+
+### Chat with your Enterprise Data
+30 June 2026 · SummerSOC 2026, Crete, Greece (15:30–16:00) · English · Talk
+https://simonharrer.com/talks.html#talk-2026-9
+
+Part of the "Chat with your Data" session (Session Chair: Bernhard Mitschang). Explores how AI agents can autonomously discover, understand, and query enterprise data products through the Model Context Protocol (MCP) — leveraging data contracts that define schema, semantics, and usage policies for safe and governed access at scale.
+
+[Program](https://www.summersoc.eu/program/)
+
+### Overview on Standards for Data Products
+30 June 2026 · SummerSOC 2026, Crete, Greece (10:00–11:00) · English · Talk
+https://simonharrer.com/talks.html#talk-2026-8
+
+Part of the "Data Products" session (Session Chair: Holger Schwarz). A comprehensive look at the open standards landscape for data products: Open Data Contract Standard, Open Data Product Standard, observability formats, and semantic standards — what they cover, where they overlap, and how they are evolving.
+
+[Program](https://www.summersoc.eu/program/)
+
+### Offene Standards für Datenprodukte
+23. Juni 2026 · TDWI München 2026, MOC München (Vortrag Di 4.3, 14:30–15:30) · German · Talk
+https://simonharrer.com/talks.html#talk-2026-4
+
+Offene Standards gewinnen in der Datenprodukt-Welt zunehmend an Bedeutung – zu Recht, denn sie helfen, Vendor-Lock-in zu vermeiden und treiben Innovation voran. Wir betrachten, welche Standards existieren, was sie abdecken, woher sie kommen und wohin sie sich entwickeln – auch dort, wo sie konkurrieren. Dazu gehören Standards für Data Contracts, Data Products, Observability und Semantik. Nach dieser Session verstehen Sie die aktuelle Standardlandschaft und wissen, welche Standards heute relevant sind.
+
+Track: Data Management · [Programm](https://www.tdwi-konferenz.de/de/programm/konferenzprogramm)
+
+### Thesenarena: Data Mesh ist tot – es leben die Datenprodukte
+24. Juni 2026 · TDWI München 2026, MOC München (Mi, 18:00–18:45) · German · Talk
+https://simonharrer.com/talks.html#talk-2026-12
+
+Zum zweiten Mal in Folge im Thesenarena-Format an der TDWI München — diesmal im Track Data Strategy & Data Governance. Die Panelisten diskutieren provokante Thesen wie „Data Mesh adressiert Organisation, nicht Strategie", „die meisten Data Products sind verkleidete ETL-Jobs" und „Governance skaliert nur produktzentriert". Das Publikum bringt eigene Thesen und Erfahrungen ein und entscheidet mit darüber, wann Datenprodukte wirklich Wert stiften und wo typische Fallstricke lauern.
+
+[Session-Seite](https://www.tdwi-konferenz.de/de/programm/konferenzprogramm/detail/mi-26-1)
+
+### A Data Marketplace is What Your Agent Needs
+16 June 2026 · DATA festival 2026, Muffatwerk, München (Newcomer Stage, 11:05–11:35) · English · Talk
+https://simonharrer.com/talks.html#talk-2026-2
+
+Why the next wave of AI agents needs a data marketplace to be useful: a place where agents can discover data products, understand them through data contracts, and gain governed access automatically. The talk shows how a marketplace turns scattered enterprise data into a catalog that agents can navigate safely and at scale.
+
+[Program](https://barc.com/events/data-festival/data-festival-program/)
+
+### Getting started with Data Contracts using Open Source Tools
+11–12 June 2026 · Data Mesh Live 2026, Queen Elisabeth Hall, Antwerpen · English · Workshop
+https://simonharrer.com/talks.html#talk-2026-3
+
+Hands-on lab introducing data contracts through the Open Data Contract Standard and the Data Contract CLI. Attendees specify their first data contracts, add quality checks, validate them against real datasets, and explore how the open-source tooling fits into a CI/CD pipeline.
+
+[Program](https://2026.datameshlive.com/program/)
+
+### Datenarchitektur: Das neue Rückgrat moderner Software?
+7. Mai 2026 · JAX 2026, Rheingoldhalle, Mainz · German · Talk
+https://simonharrer.com/talks.html#talk-2026-1
+
+„Daten sind das neue Gold" – dieser Satz war einmal das Mantra einer ganzen Generation von Softwareentwickler:innen. Doch während wir ihn heute noch zitieren, hat sich die Bedeutung von Daten fundamental verändert. In diesem Talk werfen wir einen Blick zurück und nach vorn: von den ersten datengetriebenen Systemen der 1960er über die Ära von Data Warehouses und NoSQL bis hin zu den heutigen Herausforderungen durch LLMs, Data Contracts und KI-gestützte Systeme. Wir diskutieren, warum Daten heute nicht mehr nur gesammelt, sondern verstanden, verknüpft und vertraglich definiert werden müssen – und wie sich dadurch Rollen, Verantwortung und Architekturprinzipien verändern.
+
+[Event-Seite](https://www.innoq.com/de/talks/2026/05/datenarchitektur-das-neue-rueckgrat-moderner-software/) · [Annotated slides](https://www.entropy-data.com/learn/talk-data-architecture-jax-2026)
+
+### Open Standards for Data Mesh
+21 April 2026 · Data Mesh Belgium Meetup #7, AE Office, Leuven · English · Talk
+https://simonharrer.com/talks.html#talk-2026-5
+
+Open standards are becoming increasingly important in data mesh architecture to prevent vendor dependency and foster innovation. The talk covers data contracts, data products, observability, and semantic standards — examining their origins, future direction, and comparative value to help audiences understand current relevance and what's emerging.
+
+Hosted by Tom De Wolf (ACA Group) · [Event page](https://www.meetup.com/data-mesh-belgium/events/313427080/) · [Annotated slides](https://www.entropy-data.com/learn/talk-open-standards-for-data-mesh)
+
+### Let's Talk About Data Contracts: Standards, Tooling & Best Practices
+19. März 2026 · INFOMOTION Data & AI Meetup, Köln · German · Talk
+https://simonharrer.com/talks.html#talk-2026-10
+
+Ein umfassender Überblick über Data Contracts: Was sie sind, warum sie wichtig sind, der Open Data Contract Standard (ODCS), verfügbares Tooling, Versionierung, Lifecycle-Management — und welche Rolle agentic AI dabei spielen wird, Data Contracts so verbreitet zu machen wie OpenAPI-Spezifikationen heute.
+
+[Event-Seite](https://www.entropy-data.com/learn/talk-data-contracts-infomotion-meetup-cologne-2026) · [YouTube](https://www.youtube.com/watch?v=fLf_07kGCco)
+
+### Agentic AI ist der nächste große Schritt der generativen KI
+11. März 2026 · Software Architecture Summit 2026, Kopernikus 3, MOC München · German · Keynote
+https://simonharrer.com/talks.html#talk-2026-6
+
+Agentic AI ist der nächste große Schritt der generativen KI: autonome Agenten, die eigenständig Ziele verfolgen, Werkzeuge nutzen und als Multi-Agenten-Systeme auch komplexe Aufgaben ohne menschliches Zutun bewältigen.
+
+Simon Harrer gibt einen praxisorientierten Überblick darüber, welche dieser Versprechen in Software-Entwicklung und Architekturarbeit bereits eingelöst werden können und wo die Grenzen liegen. Ein besonderer Schwerpunkt liegt auf einem Thema, das in der aktuellen Begeisterung häufig zu kurz kommt: Data Governance. Denn Agenten sind nur so gut wie die Daten, auf deren Grundlage sie handeln. Fehlen klare Vorgaben zu Datenqualität, Zugriffssteuerung und Compliance, wird aus einem intelligenten Helfer schnell ein unkontrollierbares Risiko. Agentic AI ohne solide Data Governance ist daher kaum denkbar.
+
+Zum Abschluss richtet er den Blick nach vorne: Welche Entwicklungen zeichnen sich ab, und was muss heute getan werden, damit der produktive Einsatz von Agentic AI morgen gelingt?
+
+[Event-Seite](https://software-architecture-summit.de/modeling-und-design/agentic-ai-evolution-oder-revolution) · [Annotierte Folien](https://www.entropy-data.com/learn/agentic-ai-keynote)
+
+### Mit Data Contracts Vertrauen in Daten herstellen
+11. März 2026 · Software Architecture Summit 2026, Kopernikus 3, MOC München · German · Workshop
+https://simonharrer.com/talks.html#talk-2026-7
+
+Data Contracts erlauben Daten als Schnittstellen verlässlich zu spezifizieren und stellen damit Vertrauen her – was gerade in dezentralen Datenarchitekturen wie Data Mesh essentiell ist. Wir zeigen Ihnen, warum man das braucht, aber auch wie das geht. Dazu nutzen wir den Open Data Contract Standard der Linux Foundation um Data Contracts zu spezifizieren und die populäre Open-Source-Software Data Contract CLI um damit zu automatisieren.
+
+Im Workshop nehmen wir zunächst bestehende Daten unter Vertrag (Data-first) — wir erstellen einen ersten Entwurf eines Data Contracts, fügen Qualitätschecks hinzu, testen die Daten gegen den Contract, erstellen eine Dokumentation und einen Katalog. Anschließend drehen wir den Spieß um: in Gruppen wird ein Data Contract von Grund auf neu erstellt (Contract-first), basierend auf realen Anforderungen als Data Consumer und Data Producer. Zum Abschluss reflektieren wir in einer kurzen Retro über Automatisierungspotentiale.
+
+[Event-Seite](https://software-architecture-summit.de/softwarearchitecture/data-contracts)
+
+### Chat With Your Enterprise Data
+22 January 2026 · Purdue University, Spring 2026 Online AI Capstone Virtual Speaker Series (MS in AI) · English · Talk · Online
+https://simonharrer.com/talks.html#talk-2026-11
+
+A virtual session for Purdue's MS in AI program exploring how data governance can accelerate rather than slow down organizations. The talk demonstrates a system where users ask natural-language questions like "Who are our top customers?" and receive answers in seconds — without SQL, tickets, or delays — while data contracts, privacy policies, and access controls are automatically enforced. AI agents powered by the Model Context Protocol (MCP) discover relevant data products, handle purpose-based access requests, validate queries against data contracts, and execute results in a single interaction.
+
+[Event page](https://events.purdue.edu/event/chat-with-your-enterprise-data-webinar) · [Annotated slides](https://www.entropy-data.com/learn/talk-chat-with-your-enterprise-data-purdue)
+
+### Data Governance mit GenAI automatisieren
+5. November 2025 · data2day, IHK Karlsruhe · German · Talk
+https://simonharrer.com/talks.html#talk-2025-1
+
+Die vierte Säule von Data Mesh heißt Federated Computational Governance. Sie ist besonders schwer umzusetzen: Es soll einfach sein, das Richtige zu tun – und schwer, das Falsche zu tun. Gute Data Governance ist dafür zentral.
+
+Governance-Regeln werden meist in natürlicher Sprache formuliert – oft mit rechtlichen Vorgaben wie der DSGVO. Wir schlagen vor, Generative AI (GenAI) wie GPT-4o zu nutzen, um diese Regeln automatisch anhand von Metadaten zu prüfen.
+
+Beispiele: PII-Kennzeichnung, Einhaltung von Coding-Guidelines, Prüfung von Nutzungszwecken bei Datenzugriffen.
+
+Wir zeigen eine beispielhafte Umsetzung im Data Mesh Manager und geben einen Ausblick auf die Zukunft der Data Governance.
+
+[Event-Seite](https://www.innoq.com/de/talks/2025/11/data-governance-mit-gen-ai-automatisieren-2025/)
+
+### Data Contracts in der Praxis (Workshop)
+3. November 2025 · data2day, IHK Karlsruhe · German · Workshop
+https://simonharrer.com/talks.html#talk-2025-2
+
+Ihr möchtet euch mit Data Contracts vertraut machen? Wir zeigen euch, wie das geht, anhand des Open Data Contract Standard und der Open-Source-Software Data Contract CLI. Wir nehmen bestehende Daten unter Vertrag, ergänzen Quality Checks, testen die Daten und generieren eine Dokumentation. Anschließend entwerfen die Teilnehmer in Gruppen neue Data Contracts und schlüpfen dabei in die Rollen von Data Producern, Consumern und Moderatoren. Zum Abschluss werfen wir einen Blick darauf, wie Data Contracts die Automatisierung weiter vorantreiben.
+
+[Event-Seite](https://www.innoq.com/de/talks/2025/11/data-contracts-in-der-praxis-workshop/)
+
+### Product-focused Entrepreneurship and Learning
+24 October 2025 · TCL Impact Accelerator, King's College London · English · Talk
+https://simonharrer.com/talks.html#talk-2025-15
+
+A guest talk at the TCL Impact Accelerator on building a product-focused company: the transition from consulting to product, the learning loops that come with talking to real users, and why picking a narrow problem and shipping early beats planning for hypothetical scale.
+
+[Programme page](https://www.kcl.ac.uk/informatics/engagement/impact-accelerator)
+
+### Data Governance mit Data Contracts bei Die Mobiliar
+28. Oktober 2025 · 63. TDWI Roundtable Zürich, HWZ Hochschule für Wirtschaft Zürich · German · Talk
+https://simonharrer.com/talks.html#talk-2025-12
+
+Data Contracts ermöglichen Governance in dezentralen Datenarchitekturen und stellen gleichzeitig Vertrauen her. Gemeinsam mit Michael Bok von Die Mobiliar zeigen wir, wie Data Contracts in der Praxis eingesetzt werden: von der Spezifikation mit dem Open Data Contract Standard der Linux Foundation über Ownership, Datenqualität und Datenschutz bis hin zur automatisierten Überwachung. Der zweite Teil des Abends widmet sich Sovereign AI und praktischen Erfahrungen aus dem Schweizer Kontext.
+
+[Event-Seite](https://www.tdwi.eu/veranstaltungen/roundtables/zuerich)
+
+### Mit Data Contracts Vertrauen in Daten herstellen
+15. Oktober 2025 · Software Architecture Summit, NH Berlin Alexanderplatz · German · Workshop
+https://simonharrer.com/talks.html#talk-2025-3
+
+Data Contracts erlauben Daten als Schnittstellen verlässlich zu spezifizieren und stellen damit Vertrauen her – was gerade in dezentralen Datenarchitekturen wie Data Mesh essentiell ist. Wir zeigen Ihnen, warum man das braucht, aber auch wie das geht. Dazu nutzen wir den Open Data Contract Standard der Linux Foundation um Data Contracts zu spezifizieren und die populäre Open-Source-Software Data Contract CLI um damit zu automatisieren.
+
+[Event-Seite](https://www.innoq.com/de/talks/2025/10/data-contracts-vertrauen-in-daten-sas-2025/)
+
+### Data Governance mit Data Contracts bei „Die Mobiliar"
+24. Juni 2025 · TDWI München 2025, MOC München (Di 2.2, 11:35–12:20, Raum E119) · German · Talk
+https://simonharrer.com/talks.html#talk-2025-13
+
+Im Track Data Strategy & Data Governance zeigen wir gemeinsam mit Michael Bok von Die Mobiliar, wie Data Contracts dezentrale Governance in einer Data-Mesh-Architektur ermöglichen und dabei Vertrauen herstellen. Anhand des Open Data Contract Standard der Linux Foundation spezifizieren wir Ownership, Datenqualität, Datenschutz und Nutzungsbedingungen — und automatisieren deren Überwachung. Die Session richtet sich an Data Engineers, Data Architects und Governance-Verantwortliche.
+
+[Session-Seite](https://www.tdwi-konferenz.de/de/programm/konferenzprogramm/detail/di-22)
+
+### Thesenarena: Quo Vadis Data Mesh
+24. Juni 2025 · TDWI München 2025, MOC München (Di 4.5, 17:30–18:15, Raum E105) · German · Talk
+https://simonharrer.com/talks.html#talk-2025-14
+
+Ein Panel im Thesenarena-Format im Data-Mesh-Track: Auf jede Ja/Nein-These der Moderation positionieren sich die Panelisten innerhalb von 60 Sekunden. Das Format liefert einen kompakten, pointierten Überblick zum aktuellen Stand von Data Mesh — von Architekturfragen über Governance bis hin zu Data Products und den nächsten Entwicklungsschritten.
+
+[Session-Seite](https://www.tdwi-konferenz.de/de/programm/konferenzprogramm/di-45)
+
+### Data Products with Data Contracts: Open Standards and Implementations
+17 June 2025 · SummerSOC 2025, Crete, Greece (10:00–11:15) · English · Talk
+https://simonharrer.com/talks.html#talk-2025-10
+
+Part of the "Data Production 1" session (Session Chair: Holger Schwarz) at the 19th Symposium and Summer School on Service-Oriented Computing. The talk covers the Open Data Contract Standard and the Open Data Product Standard from the Linux Foundation Bitol project, and shows reference implementations like the Data Contract CLI and Data Mesh Manager that operationalize these specifications in real data architectures.
+
+[Program](https://www.summersoc.eu/program-2025/)
+
+### Data Contracts: Treating Data as APIs
+22–24 September 2025 · apidays London, Convene 155 Bishopsgate · English · Talk
+https://simonharrer.com/talks.html#talk-2025-7
+
+How data interfaces can be treated with the same rigor as software APIs. Drawing parallels to OpenAPI and AsyncAPI, the talk introduces the Open Data Contract Standard and shows how data contracts establish explicit, well-documented and stable interfaces for data — including a live demo of validating real datasets against a contract using open source tools. Part of the OpenAPI Track.
+
+[Event page](https://www.apidays.global/archive/2025/london)
+
+### Data Product MCP: Governed AI Data Access Demo
+23 September 2025 · LinkedIn Live Webinar, hosted by Entropy Data · English · Talk · Online
+https://simonharrer.com/talks.html#talk-2025-11
+
+An in-depth exploration of Data Product MCP — an approach that enables AI agents to answer any business question while automatically enforcing data governance policies. The live demo shows how AI clients discover data products, request purpose-based access, and execute queries against data contracts in real time, so natural-language questions get answered in seconds without compromising governance, privacy, or access controls.
+
+[LinkedIn Event](https://www.linkedin.com/events/7376247293215252481/)
+
+### Data Product Platform Standardisation
+19 September 2025 · POA Summit, Universität Stuttgart · English · Workshop
+https://simonharrer.com/talks.html#talk-2025-9
+
+A workshop on standardizing data product platform capabilities for intra- and inter-organizational ecosystems. Goals: collect common platform capabilities, clarify their relationship to neighbouring standards like data contracts, and identify the appropriate forum for further development of a formal standard.
+
+[Program](https://tpl.informatik.uni-stuttgart.de/poa-program/)
+
+### Data Product MCP: Enable AI to answer any business question
+18 September 2025 · POA Summit, Universität Stuttgart · English · Talk
+https://simonharrer.com/talks.html#talk-2025-8
+
+The Model Context Protocol (MCP) empowers AI agents to autonomously discover, understand, and query data products in decentralized data architectures. Leveraging data contracts that define schema, semantics, and usage policies, the talk shows how AI agents can navigate complex data landscapes, automate access requests, and retrieve answers to real business questions — securely and at scale — across platforms like Snowflake and Databricks.
+
+[Program](https://tpl.informatik.uni-stuttgart.de/poa-program/)
+
+### Data Contracts sind die APIs für Daten
+16. Juli 2025 · Java User Group Berlin-Brandenburg, INNOQ Berlin · German · Talk
+https://simonharrer.com/talks.html#talk-2025-4
+
+In der Welt des Software-Engineerings wissen wir, wie wichtig explizite, klar dokumentierte und stabile Schnittstellen sind. Wir nutzen dazu OpenAPI oder AsyncAPI mit entsprechendem Tooling. In der Welt der Daten gab es bisher nichts Vergleichbares, aber unangekündigte Schemaänderungen sind leider omnipräsent. Data Contracts haben das Ziel, explizite, klar dokumentierte und stabile Schnittstellen für Daten einzuführen. Wie OpenAPI, aber eben für Daten. Ich stelle den Open-Source-Standard namens Data Contract Specification an einem Beispiel vor und zeige, wie man mit Open-Source-Tools die Daten gegen den Data Contract testen kann. Natürlich mit Live-Coding.
+
+[Event-Seite](https://www.innoq.com/de/talks/2025/07/data-contracts-sind-die-apis-fuer-daten-07-25/)
+
+### Federated Computational Governance with AI
+6 June 2025 · Data Mesh Live 2025, Queen Elisabeth Hall, Antwerpen · English · Talk
+https://simonharrer.com/talks.html#talk-2025-6
+
+How generative AI can help operationalize federated computational governance — the fourth pillar of Data Mesh. Governance rules are usually written in natural language and legal text (think GDPR), making them hard to enforce at scale. The talk shows how LLMs can validate metadata against these rules and surface PII, coding-guideline violations, and questionable access purposes — turning governance from a checklist into a continuous, automated practice.
+
+[Program](https://2025.datameshlive.com/program/)
+
+### Data Contract Workshop using Open Source Tooling
+6 June 2025 · Data Mesh Live 2025, Queen Elisabeth Hall, Antwerpen · English · Workshop
+https://simonharrer.com/talks.html#talk-2025-5
+
+Hands-on workshop introducing data contracts through the Open Data Contract Standard and Data Contract CLI. Begins with foundational YAML concepts, then progresses through practical exercises where attendees create contracts for existing datasets, validate data, generate documentation, and build contract catalogs. The workshop then shifts to a contract-first approach through group exercises involving facilitators, data consumers, and producers, and concludes by exploring automation opportunities.
+
+[Event page](https://www.innoq.com/en/talks/2025/06/data-contract-workshop-using-open-source-tooling/)
+
+### Data Contracts & Data Mesh
+20 March 2025 · Thoughtworks Berlin · English · Talk
+https://simonharrer.com/talks.html#talk-2025-16
+
+A guest session at the Thoughtworks Berlin office on data contracts and data mesh — how explicit, machine-verifiable interfaces between data producers and consumers enable trust and governance in decentralized data architectures, and how the Open Data Contract Standard and open-source tooling operationalize this in practice.
+
+### Datenprodukte
+3. Dezember 2024 · TDWI · German · Talk
+https://simonharrer.com/talks.html#talk-2024-8
+
+Ein Vortrag über Datenprodukte im Rahmen einer TDWI-Veranstaltung — was ein Datenprodukt ist, welche Perspektiven Data Product Owner, Developer, Data Scientist und Business darauf haben und wie Data Contracts die verbindlichen Schnittstellen zwischen ihnen schaffen.
+
+### Data Contracts: Wie OpenAPI, aber für Datensätze
+25. November 2024 · WIAI PraxisReport, Universität Bamberg · German · Talk
+https://simonharrer.com/talks.html#talk-2024-9
+
+Ein PraxisReport für die WIAI-Community an der Otto-Friedrich-Universität Bamberg: Simon stellt als Alumnus der Fakultät die Data Contract Specification vor — ein strukturiertes Format zur Beschreibung von Datensätzen und Datenquellen, inklusive Verantwortlichkeiten, Nutzungsbedingungen und Service Levels. Parallel zu OpenAPI wird gezeigt, welche Vorteile Data Contracts bringen, welches Tooling existiert und warum gerade jetzt der richtige Zeitpunkt für eine solche Spezifikation ist.
+
+[Veranstaltungsseite](https://www.uni-bamberg.de/wiai/wiaicommunity/veranstaltungen/2024/)
+
+### Test-driven Development mit dbt
+12. November 2024 · BARC, Würzburg · German · Talk
+https://simonharrer.com/talks.html#talk-2024-10
+
+Test-driven Development (TDD) ist in der operativen Welt bekannt und weit verbreitet, in der analytischen Welt jedoch kaum. Der Vortrag zeigt live am Beispiel von dbt, dem verbreiteten Werkzeug zur Datentransformation, wie man testgetrieben mit SQL einen realen (anonymisierten) Datensatz aufbereitet, analysiert und das Ergebnis dokumentiert.
+
+### Data Contracts — Like OpenAPI, but for Data
+26 September 2024 · WoMM Developer Conference, Aarhus Congress Center, Aarhus · English · Talk
+https://simonharrer.com/talks.html#talk-2024-1
+
+Data contracts as a standardization approach for data interfaces. Data contracts bring producers and consumers together while allowing specification of data structure, quality requirements, sample data, and usage terms. Drawing parallels to software engineering practices and tools like OpenAPI, the talk introduces the Data Contract Specification (datacontract.com) and examines the practical implications of this emerging specification for data management.
+
+[Event page](https://www.innoq.com/en/talks/2024/09/data-contracts-like-open-api-but-for-data/)
+
+### Was ist ein Datenprodukt?
+12. Juni 2024 · TDWI München 2024, MOC, München · German · Talk
+https://simonharrer.com/talks.html#talk-2024-2
+
+Was ist ein Datenprodukt wirklich? Alle reden zwar über Datenprodukte. Aber wenn man genau hinschaut, gibt es keine einheitliche Definition. Ist ein Dashboard ein Datenprodukt? Ist ein Datensatz ein Datenprodukt? Gehört die Pipeline auch dazu? Ist ein Datenprodukt immer eine Tabelle? Oder doch eher ein Schema? Wir wollen versuchen, die eine Definition zu finden. Dabei betrachten wir Datenprodukt-Beispiele aus unterschiedlichen Perspektiven, bspw. Data Product Owner, Developer, Data Scientist, Business etc.
+
+[Event-Seite](https://www.innoq.com/de/talks/2024/06/was-ist-ein-datenprodukt/)
+
+### Data Contracts sind die API für Daten
+16. Mai 2024 · betterCode() API · German · Talk · Online
+https://simonharrer.com/talks.html#talk-2024-3
+
+In der Welt des Software-Engineering wissen wir, wie wichtig explizite, klar dokumentierte, und stabile Schnittstellen sind. Wir nutzen dazu OpenAPI oder AsyncAPI mit entsprechendem Tooling. In der Welt der Daten gab es bisher Vergleichbares nicht, aber unangekündigte Schema-Änderungen sind leider omnipräsent. Data Contracts haben das Ziel, explizite, klare dokumentierte und stabile Schnittstellen für Daten einzuführen. Wie OpenAPI, aber eben für Daten.
+
+Ich stelle den Open-Source-Standard namens Data Contract Specification im Rahmen eines Beispiels vor, und zeige, wie man mit open source Tools die Daten gegen den Data Contract testen kann.
+
+[Event-Seite](https://www.innoq.com/de/talks/2024/05/data-contracts-sind-die-api-fuer-daten/)
+
+### Data Contracts sind die APIs für Daten
+24. April 2024 · JAX, Rheingoldhalle, Mainz · German · Talk
+https://simonharrer.com/talks.html#talk-2024-4
+
+In der Welt des Software-Engineerings wissen wir, wie wichtig explizite, klar dokumentierte und stabile Schnittstellen sind. Wir nutzen dazu OpenAPI oder AsyncAPI mit entsprechendem Tooling. In der Welt der Daten gab es bisher nichts Vergleichbares, aber unangekündigte Schemaänderungen sind leider omnipräsent. Data Contracts haben das Ziel, explizite, klar dokumentierte und stabile Schnittstellen für Daten einzuführen. Wie OpenAPI, aber eben für Daten. Ich stelle den Open-Source-Standard namens Data Contract Specification an einem Beispiel vor und zeige, wie man mit Open-Source-Tools die Daten gegen den Data Contract testen kann. Natürlich mit Live-Coding.
+
+[Event-Seite](https://www.innoq.com/de/talks/2024/04/data-contracts-sind-die-apis-fuer-daten/)
+
+### Data Mesh Manager
+10. April 2024 · INNOQ Technology Lunch 04/24 · German · Talk · Online
+https://simonharrer.com/talks.html#talk-2024-7
+
+Der Data Mesh Manager ist ein Produkt, das aus Data-Mesh-Beratungsprojekten bei INNOQ entstanden ist. Im Tech Lunch erzähle ich die Entstehungsgeschichte, zeige die verschiedenen Perspektiven der SaaS-Lösung — von Datenproduzenten über Konsumenten bis zur Governance — und gebe einen Ausblick, wie das Produkt Data-Mesh-Initiativen beschleunigt.
+
+[Event-Seite](https://www.innoq.com/de/talks/2024/04/data-mesh-manager/)
+
+### Data Mesh Manager: Data Products, Data Contracts and Policies
+19 March 2024 · BARC Data Festival, Muffatwerk, München · English · Talk
+https://simonharrer.com/talks.html#talk-2024-5
+
+Data Mesh Manager is the place where data producers and data consumers come together. Data consumers can find and discover data products in the data product catalog, evaluate the offered datasets by their enforced data contracts, and sign a usage agreement to gain access automatically. Data producers can perform data product controlling by inspecting the costs and usages of their data products and data product governance by tracking the adoption of the global policies. But in the end, Data Mesh Manager is simply the place where you can see your mesh grow.
+
+[Event page](https://www.innoq.com/en/talks/2024/03/data-mesh-manager-data-products-data-contracts-and-policies/)
+
+### Data Mesh: 2019, 2023 und 2024
+8. März 2024 · BATbern52, Zentrum Paul Klee, Bern · German · Talk
+https://simonharrer.com/talks.html#talk-2024-6
+
+Data Mesh ist ein soziotechnischer Ansatz für die Erstellung einer dezentralen Datenarchitektur. Zhamak Dehghani hat den Begriff Data Mesh und die Theorie dahinter mit ihren Blog-Beiträgen in 2019 bereits geprägt und dann mit ihrem Buch noch etwas ausführlicher beschrieben. Diese Theorie möchte ich kurz vorstellen, um für den Abend ein Begriffsfundament zu giessen. Seit 2019 ist jedoch viel passiert. Viele haben das Konzept gelesen und einige haben ihre Data Mesh Reise bereits begonnen. Ich möchte auf 2023 zurückblicken und den aktuellen Stand der Praxis beschreiben. Enden möchte ich mit einem Ausblick über die Top 5 Entwicklungen in Data Mesh, die dich total überraschen werden.
+
+[Event-Seite](https://www.innoq.com/de/talks/2024/03/data-mesh-2019-2023-und-2024/)
+
+### OpenAPI for Your Data Mesh: An Introduction to Data Contracts
+6 December 2023 · apidays Paris, CNIT, Paris · English · Talk
+https://simonharrer.com/talks.html#talk-2023-1
+
+Data contracts as an analogue to OpenAPI specifications for data systems. While software engineers use Swagger and OpenAPI to document stable interfaces, the data world lacks comparable standards — leaving it vulnerable to unannounced breaking changes. Data contracts bring producers and consumers together, enabling specification of data structure, quality requirements, sample data, and semantic descriptions, plus usage terms consumers can depend upon.
+
+[Event page](https://www.innoq.com/en/talks/2023/12/data-contracts-are-like-open-api-but-for-data/)
+
+### TDWI Themenzirkel „Next Generation Data Management mit SAP"
+30. November 2023 · TDWI Themenzirkel (Online via Teams) · German · Talk · Online
+https://simonharrer.com/talks.html#talk-2023-9
+
+Ein Gastvortrag beim TDWI Themenzirkel „Next Generation Data Management mit SAP" — ein Online-Erfahrungsaustausch zu Data Mesh, Data Products und wie sich dezentrale Datenarchitekturen in SAP-geprägten Umgebungen umsetzen lassen.
+
+[Themenzirkel-Seite](https://www.tdwi.eu/verein/themenzirkel/next-generation-data-management-mit-sap)
+
+### Test-driven Development mit dbt
+12. Oktober 2023 · data2day, IHK Haus der Wirtschaft, Karlsruhe · German · Talk
+https://simonharrer.com/talks.html#talk-2023-2
+
+Test-driven Development (TDD) ist in der operativen Welt bekannt und wird immer mehr praktiziert, in der analytischen Welt jedoch nicht.
+
+In diesem Vortrag möchte Simon testgetriebene Entwicklung am Beispiel von dbt vorstellen, dem bekannten Werkzeug zur Datentransformation. Wir werden gemeinsam live einen echten, aber anonymisierten Datensatz mit SQL testgetrieben aufbereiten, analysieren und das Ergebnis dokumentieren.
+
+[Event-Seite](https://www.innoq.com/de/talks/2023/10/test-driven-development-mit-dbt/)
+
+### Data Mesh Governance
+28. September 2023 · 18. Data & Analytics Meetup, Würzburg · German · Talk
+https://simonharrer.com/talks.html#talk-2023-3
+
+Föderierte Governance im Data Mesh – mit Fokus auf Automatisierung. Eine Gruppe aus Expert:innen und Team-Vertreter:innen entscheidet über die Spielregeln im Data Mesh, etwa zu Interoperabilität oder Security, mittels globaler Policies, die von der Plattform automatisiert durchgesetzt werden.
+
+[Event-Seite](https://www.innoq.com/de/talks/2023/09/data-mesh-governance-data-meetup/)
+
+### Data Mesh & Governance
+4. Juli 2023 · The Datapreneurs Club, München · German · Talk
+https://simonharrer.com/talks.html#talk-2023-4
+
+Ein Überblick über Data Mesh und föderierte computational Governance – wie Organisationen dezentrale Verantwortung mit globalen Spielregeln verbinden können.
+
+[Event-Seite](https://www.innoq.com/de/talks/2023/07/data-mesh-and-governance/)
+
+### Data Mesh Governance
+20. Juni 2023 · TDWI München, MOC, München · German · Talk
+https://simonharrer.com/talks.html#talk-2023-5
+
+Governance im Data Mesh ist föderal und soll möglichst automatisiert sein. Eine Gruppe mit Expert:innen und Repräsentanten der Teams entscheidet über die Spielregeln im Data Mesh, bspw. zu Interoperabilität oder Security, mittels globaler Policies, die von der Plattform automatisiert werden. Aber wie genau soll das funktionieren? Wir stellen ein Governance-Betriebsmodell vor, basierend auf dem Ansatz von Architecture Decision Records. Wir diskutieren Beispiele globaler Policies, und wie diese automatisiert werden können.
+
+[Event-Seite](https://www.innoq.com/de/talks/2023/06/data-mesh-governance/)
+
+### dbt: das „Spring Boot" für Daten
+21. März 2023 · JavaLand 2023, Phantasialand, Brühl · German · Talk
+https://simonharrer.com/talks.html#talk-2023-6
+
+Vor ein paar Monaten habe ich dbt kennengelernt. Wir haben uns auf Anhieb super verstanden, obwohl wir beide aus unterschiedlichen Welten kommen: ich aus der operativen Welt der Softwareentwicklung, und dbt aus der analytischen Welt der Daten. Der Hauptgrund war wohl, dass wir beide moderne Praktiken wie Versionskontrolle, Tests, CI/CD, Modularisierung, und schlanke, aber aktuelle Dokumentation sehr schätzen. Als wir uns in unserem ersten Projekt näher kamen, wusste ich, dbt wird immer einen festen Platz in meinem Herzen haben, gleich neben Spring Boot.
+
+In dieser Session möchte ich euch das Werkzeug dbt für die Transformation von Daten vorstellen, das in der Datenanalyse ähnlich wichtig geworden ist wie Spring Boot in der Softwareentwicklung. Wir werden gemeinsam einen Datensatz mit SQL testgetrieben aufbereiten, analysieren und das Ergebnis dokumentieren. Obwohl wir Datentransformationen machen werden, werdet ihr euch als Entwickler:innen zu Hause fühlen.
+
+[Event-Seite](https://www.innoq.com/de/talks/2023/03/dbt-das-spring-boot-fuer-daten/)
+
+### Die „Java by Comparison" Kata
+20. März 2023 · JavaLand 2023, Phantasialand, Brühl · German · Workshop
+https://simonharrer.com/talks.html#talk-2023-7
+
+Code Katas sind eine gute Methode, um das Schreiben von sauberen Code zu lernen. In unserer zweistündigen Übung werden die Java by Comparison-Methode anwenden, um unseren fiktiven, absichtlich verschlimmerten Legacy-Code zu bereinigen. Unser Ziel ist es, eine der wichtigsten Fähigkeiten für einen professionellen Entwickler zu trainieren: problematischen Code auch in kleinen Zeitfenstern effektiv zu verbessern.
+
+[Event-Seite](https://www.innoq.com/de/talks/2023/03/die-java-by-comparison-kata/)
+
+### Data Mesh
+14. März 2023 · Software Architecture Summit 2023, Holiday Inn Unterhaching, München · German · Workshop
+https://simonharrer.com/talks.html#talk-2023-8
+
+Das Konzept Data Mesh basiert auf domainbasierten, dezentralisierten Daten Architekturen und ermöglicht Domain Teams autonom Datenanalysen durchzuführen. Data Mesh ist eine sozio-technische Datenarchitektur und wird in Form der vier Prinzipien präsentiert: „Domain Ownership", „Data as a Product", „Self-serve Data Platform", „Federated Governance".
+
+In diesem Workshop zeigen wir, was diese vier Prinzipien von Data Mesh bedeuten. Du lernst die Herausforderungen der Einführung der Data Mesh kennen und bekommst Empfehlungen für ein schrittweises Vorgehen.
+
+[Event-Seite](https://www.innoq.com/de/talks/2023/03/data-mesh/)
+
+### Remote Mob Programming
+7. Juli 2021 · Konzept Informationssysteme GmbH · German · Talk
+https://simonharrer.com/talks.html#talk-2021-1
+
+Wie das gesamte Team auf einem Bildschirm via Zoom zusammenarbeitet, mit rotierender „Typist"-Rolle alle 10 Minuten — und warum das nicht nur funktioniert, sondern viele Probleme verteilter Teams im Homeoffice gleich miterledigt: gemeinsames Lernen, Wissensverteilung, Codequalität, weniger Meetings.
+
+[Event-Seite](https://www.innoq.com/de/talks/2021/07/remote-mob-programming-2021-07-07/)
+
+### Mob-Programming Dojo
+17. März 2021 · JavaLand 2021 · German · Workshop
+https://simonharrer.com/talks.html#talk-2021-2
+
+Mob-Programming ist eine Methode der agilen Software-Entwicklung, bei der ein ganzes Team zur gleichen Zeit und am gleichen (virtuellen) Ort an der gleichen Aufgabe arbeitet. Im Dojo erleben Software-Entwicklungs-Teams kollaboratives Mob-Programming durch vorbereitete Übungen — Vorkenntnisse nicht erforderlich.
+
+[Event-Seite](https://www.innoq.com/de/talks/2021/03/mob-programming-dojo-javaland-2021/)
+
+### Remote Mob Programming: Teamgefühl trotz Homeoffice
+5. Oktober 2022 · Tech Talks @jambit, Birketweg, München · German · Talk
+https://simonharrer.com/talks.html#talk-2022-1
+
+Stellt euch vor, ihr seid Teil eines kleinen Teams von vier Softwareentwickler:innen, die von zu Hause aus arbeiten. Ihr trefft euch jeden Tag um 9 Uhr in eurem Zoom-Teamraum. Nach dem obligatorischen Kaffee und etwas Smalltalk wählt ihr die wichtigste User Story aus, diskutiert diese gemeinsam und beginnt dann mit der Umsetzung. Eine Person teilt den Bildschirm und fungiert als Typist, während die anderen über die Umsetzung diskutieren und dem Typist Anweisungen geben. Nach 10 Minuten übergibt der Typist seine aktuelle Arbeit an den nächsten Typist. Dies wird so lange wiederholt, bis die User Story fertig ist, woraufhin ihr die nächst-wichtige User Story auswählt. Um 17 Uhr haltet ihr inne, reflektiert kurz gemeinsam über den Tag und macht dann Feierabend.
+
+Klingt verrückt? Ich habe das über drei Jahre lang gemacht. Und ich möchte nicht mehr anders arbeiten. In diesem Vortrag möchte ich euch unsere Geschichte erzählen. Ich möchte euch erzählen, wie wir zusammengearbeitet haben und was die Konsequenzen für uns waren. Kurz gesagt, ich möchte euch erzählen, wie wir trotz Homeoffice zusammengewachsen sind. Aber lasst mich an dieser Stelle ein Wort der Warnung aussprechen: Wenn ihr diese Art der Zusammenarbeit einmal ausprobiert habt, werdet ihr vielleicht nie wieder zurückkehren können!
+
+[Event-Seite](https://www.innoq.com/de/talks/2022/10/remote-mob-programming-teamgefuehl-trotz-homeoffice/)
+
+### Workshop: Data Mesh Architektur
+13. September 2022 · Software Architecture Summit 2022, Berlin & online · German · Workshop
+https://simonharrer.com/talks.html#talk-2022-2
+
+Das Konzept Data Mesh basiert auf domainbasierten, dezentralisierten Daten Architekturen und ermöglicht Domain Teams autonom Datenanalysen durchzuführen. Data Mesh ist eine sozio-technische Datenarchitektur und wird in Form der vier Prinzipien präsentiert: „Domain Ownership", „Data as a Product", „Self-serve Data Platform", „Federated Governance".
+
+Im Workshop lernst du die Unterscheidung zwischen operativen und analytischen Daten kennen, verstehst die vier Kernprinzipien, entwirfst Datenprodukte mit dem Data Product Canvas und siehst, wie mehrere Datenprodukte im Mesh zusammenwirken — mit Fokus auf die soziotechnischen Aspekte der Einführung.
+
+[Event-Seite](https://www.innoq.com/de/talks/2022/09/workshop-data-mesh-architektur/)
+
+### Gut gemeint! Warum dauert Software-Entwicklung immer länger?
+15. März 2022 · JavaLand 2022, Phantasialand, Brühl · German · Talk
+https://simonharrer.com/talks.html#talk-2022-3
+
+Alle wollen gute Software schnell entwickeln. Alle möchten in ihren Rollen dazu beitragen und bringen aus ihren Sichtweisen gut gemeinte Maßnahmen mit ein: Agile Coaches führen SCRUM ein. Also auch JIRA. Entwickler:innen entwickeln flexible Lösungen. Architekt:innen definieren Referenz-Architekturen. Operations führt Kubernetes ein. Security Experts erstellen Checklisten. HR stellt Ninjas ein. Team-Leads wollen den Teams helfen und stellen Jour-Fixes ein. CIO fordert Vendor-Independence. Irgendjemand führt plötzlich MS Teams ein.
+
+In der Theorie sind diese gut gemeinte Maßnahmen sehr hilfreich. In der Praxis zeigt sich jedoch oft ein anderes Bild: Alle sind irgendwie unzufrieden. Software-Projekte dauern immer länger.
+
+Ihr begleitet in diesem kurzweiligen Vortrag ein initial engagiertes Team, das immer mehr gut gemeinte Maßnahmen aufgedrückt bekommt. Lernt, wie ihr solche Maßnahmen erkennen könnt und wie ihr erfolgreich dagegensteuert.
+
+[Event-Seite](https://www.innoq.com/de/talks/2022/03/gut-gemeint-warum-dauert-software-entwicklung-immer-laenger/)
+
+### Eine Therapiesitzung zu Namen
+26. Juni 2019 · DWX – Developer Week 2019, Messe Nürnberg · German · Talk
+https://simonharrer.com/talks.html#talk-2019-1
+
+Namen sind zentral für uns Entwickler. Wir vergeben Namen im Code, nutzen Namen im Gespräch mit der Fachabteilung und verwalten die Namen unserer Nutzer. Der Talk adressiert drei zentrale Herausforderungen: der Umgang mit Namen im Code, die ein gemeinsames Vokabular zwischen Entwicklern und Fachabteilung brauchen, und das Etablieren sinnvoller Namenskonventionen. Vorgestellt werden passende Form-Fields, Ubiquitous Language und semantisch reiche, ausgeschriebene Bezeichnungen.
+
+[Event-Seite](https://www.innoq.com/de/talks/2019/06/eine-therapiesitzung-zu-namen/)
+
+### One Kubernetes to rule them all
+15 February 2019 · ZEUS Workshop, University of Bayreuth · English · Keynote
+https://simonharrer.com/talks.html#talk-2019-2
+
+In 2015, Google open-sourced the core of their internal container clustering system as Kubernetes. Teams that previously relied on IaaS and PaaS quickly adopted Kubernetes instead, and it has become the de facto standard for deploying cloud-native applications. The talk gives an overview of where Kubernetes stands today and shares experiences from running it in an e-commerce and an IoT application — with an outlook on a future where managed databases, serverless functions, and even build pipelines all live within the cluster: one Kubernetes to rule them all.
+
+[Event-Seite](https://www.innoq.com/de/talks/2019/02/kubernetes-zeus-2019/)
+
+### Java by Comparison — Die Geschichte(n) des Buches
+29. Oktober 2019 · JUG Mainz · German · Talk
+https://simonharrer.com/talks.html#talk-2019-bt8
+
+A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.
+
+Buch mitverfasst mit [Linus Dietz](https://www.linkedin.com/in/linus-dietz/) & [Jörg Lenhard](https://www.linkedin.com/in/joerglenhard/)
+
+[Event-Seite](https://www.innoq.com/de/talks/2019/10/java-by-comparison-jug-mainz-oktober-2019/)
+
+### Java by Comparison — Die Geschichte(n) des Buches
+23. Oktober 2019 · Softwerkskammer Köln · German · Talk
+https://simonharrer.com/talks.html#talk-2019-bt7
+
+A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.
+
+Buch mitverfasst mit [Linus Dietz](https://www.linkedin.com/in/linus-dietz/) & [Jörg Lenhard](https://www.linkedin.com/in/joerglenhard/)
+
+[Event-Seite](https://www.innoq.com/de/talks/2019/10/softwerkskammer-koeln-oktober-2019-java-by-comparison/)
+
+### Java by Comparison — Die Geschichte(n) des Buches
+10. Oktober 2019 · Softwerkskammer Nürnberg · German · Talk
+https://simonharrer.com/talks.html#talk-2019-bt6
+
+A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.
+
+Buch mitverfasst mit [Linus Dietz](https://www.linkedin.com/in/linus-dietz/) & [Jörg Lenhard](https://www.linkedin.com/in/joerglenhard/)
+
+### Java by Comparison — Die Geschichte(n) des Buches
+9. Oktober 2019 · Lightweight JUG München · German · Talk
+https://simonharrer.com/talks.html#talk-2019-bt5
+
+A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.
+
+Buch mitverfasst mit [Linus Dietz](https://www.linkedin.com/in/linus-dietz/) & [Jörg Lenhard](https://www.linkedin.com/in/joerglenhard/)
+
+[Event-Seite](https://www.innoq.com/de/talks/2019/10/java-by-comparison-lightweight-jug-muenchen-oktober-2019/)
+
+### Java by Comparison — Die Geschichte(n) des Buches
+8. Juli 2019 · WIAI PraxisReport, Universität Bamberg · German · Talk
+https://simonharrer.com/talks.html#talk-2019-bt4
+
+A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.
+
+Buch mitverfasst mit [Linus Dietz](https://www.linkedin.com/in/linus-dietz/) & [Jörg Lenhard](https://www.linkedin.com/in/joerglenhard/)
+
+[Event-Seite](https://www.innoq.com/de/talks/2019/07/java-by-comparison-wiai-praxisreport-july-2019/)
+
+### Java by Comparison — Die Geschichte(n) des Buches
+4. Juni 2019 · Softwerkskammer Leipzig · German · Talk
+https://simonharrer.com/talks.html#talk-2019-bt3
+
+A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.
+
+Buch mitverfasst mit [Linus Dietz](https://www.linkedin.com/in/linus-dietz/) & [Jörg Lenhard](https://www.linkedin.com/in/joerglenhard/)
+
+[Event-Seite](https://www.innoq.com/de/talks/2019/06/java-by-comparison-die-geschichte-des-buches-swk-leipzig-juni-2019/)
+
+### Java by Comparison — Die Geschichte(n) des Buches
+3. April 2019 · Softwerkskammer Düsseldorf · German · Talk
+https://simonharrer.com/talks.html#talk-2019-bt2
+
+A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.
+
+Buch mitverfasst mit [Linus Dietz](https://www.linkedin.com/in/linus-dietz/) & [Jörg Lenhard](https://www.linkedin.com/in/joerglenhard/)
+
+[Event-Seite](https://www.innoq.com/de/talks/2019/04/java-by-comparison-die-geschichte-des-buches-swk-duesseldorf-april-2019/)
+
+### Java by Comparison — Die Geschichte(n) des Buches
+2. April 2019 · Softwerkskammer Ruhrgebiet · German · Talk
+https://simonharrer.com/talks.html#talk-2019-bt1
+
+A meetup talk telling the story behind „Java by Comparison": six years of teaching Java at the University of Bamberg, the typical mistakes students made, the before/after didactic concept that became the book, and three concrete examples on how to clean up everyday Java code. Includes an interactive „Java by Comparison Jeopardy" segment.
+
+Buch mitverfasst mit [Linus Dietz](https://www.linkedin.com/in/linus-dietz/) & [Jörg Lenhard](https://www.linkedin.com/in/joerglenhard/)
+
+[Event-Seite](https://www.innoq.com/de/talks/2019/04/java-by-comparison-die-geschichte-des-buches-swk-ruhrgebiet-april-2019/)
+
+### Java by Comparison — Die Geschichte(n) des Buches
+15. Mai 2018 · Hackerkegeln (DATEV SCC), Kegelbahn der DATEV, Nürnberg · German · Talk
+https://simonharrer.com/talks.html#talk-2018-2
+
+Auf Basis von über sechs Jahren Java-Lehre an der Uni Bamberg und dem Korrigieren unzähliger Java-Aufgaben haben wir ein Buch geschrieben, das die typischen Fehler in einer innovativen Vorher/Nachher-Darstellung aufzeigt und erklärt: Java by Comparison. Der Talk stellt die Buchentstehung vor, diskutiert konkrete Beispiele und schließt mit einem interaktiven „Java by Comparison Jeopardy" mit dem Publikum.
+
+[Event-Seite](https://www.innoq.com/de/talks/2018/05/java-by-comparison-hackerkegeln-2018/)
+
+### Domain-driven Design with Kotlin
+21 November 2018 · ØREDEV 2018, Malmö Mässan, Malmö · English · Talk
+https://simonharrer.com/talks.html#talk-2018-1
+
+How Kotlin's language features — sealed classes, data classes, type-safe builders, and extension functions — make Domain-driven Design tactical patterns more expressive and concise than in Java. Live examples drawn from real projects.
+
+[Event page](https://www.innoq.com/en/talks/2018/11/domain-driven-design-with-kotlin-oredev-2018/)
+
+## Podcasts
+Source: https://simonharrer.com/podcasts.html
+Audio and video podcast appearances plus written interviews. Click any entry to expand. 🇩🇪 German, 🇺🇸 English · Audio Video Article
+
+### BI or DIE — Entropy Data, Open Semantic Interchange und offene Standards
+Oktober 2026 · BI or DIE · mit [Artur König](https://www.linkedin.com/in/datakoenigartur/) · German · Video · Upcoming
+https://simonharrer.com/podcasts.html#pod-2026-5
+
+Im Gespräch mit Artur König geht es um Entropy Data, Open Semantic Interchange (OSI) und die Rolle offener Standards in der Datenlandschaft: Wie semantische Interoperabilität über Systemgrenzen hinweg gelingt und wie sich OSI zu Standards wie ODCS und ODPS verhält.
+
+### The Data Playbook — upcoming episode
+2026 · Dataminded · with [Kris Peeters](https://www.linkedin.com/in/peeterskris/) · English · Video · Upcoming
+https://simonharrer.com/podcasts.html#pod-2026-4
+
+A new conversation with Kris Peeters on The Data Playbook, picking up the threads of data contracts, data products, and AI-driven data governance. The episode is recorded and will be published soon.
+
+### Data Innovation Podcast — Data Contracts & Data Products
+2026 · INFOMOTION Innovation Lab · mit [Prof. Dr. Ana Moya](https://de.linkedin.com/in/doc-moya) · German · Video
+https://simonharrer.com/podcasts.html#pod-2026-3
+
+Im Gespräch mit Ana Moya geht es um Data Contracts und Data Products als Grundlage moderner, dezentraler Datenarchitekturen — wie offene Standards wie ODCS und ODPS die Basis für verlässliche Schnittstellen schaffen und welche Rolle agentic AI bei der Automatisierung von Data Governance spielt. Aufgenommen im Rahmen des INFOMOTION Data Innovation Podcasts.
+
+[YouTube](https://www.youtube.com/watch?v=ToxmuN3YnJo) · [Data Innovation Podcast auf Spotify](https://open.spotify.com/show/6DyY7khXrtItTIxfh9qfmR)
+
+### Data Universe #26 — KI als Governance-Assistent im Data Mesh
+19. März 2026 · TDWI Data Universe · mit [Claudia Koschtial](https://www.linkedin.com/in/claudia-koschtial-53ba0a52/) · German · Audio
+https://simonharrer.com/podcasts.html#pod-2026-2
+
+Im Gespräch mit Claudia Koschtial geht es darum, wie KI bei Data Governance helfen kann — nicht als Entscheider, sondern als Governance-Assistent. Anwendungsfälle reichen von der automatischen Klassifizierung bis hin zu Empfehlungen für Datenproduktbesitzer:innen.
+
+[Episode-Seite](https://data-and-insights.podigee.io/43-neue-episode)
+
+### Data Universe #25 — Data Contracts: Das Fundament für Vertrauen im Data Mesh
+5. März 2026 · TDWI Data Universe · mit [Claudia Koschtial](https://www.linkedin.com/in/claudia-koschtial-53ba0a52/) · German · Audio
+https://simonharrer.com/podcasts.html#pod-2026-1
+
+Data Contracts als Fundament für Vertrauen im Data Mesh: Wie schaffen verbindliche Schnittstellen zwischen Datenproduzenten und -konsumenten die Grundlage für skalierbare, dezentrale Datenarchitekturen? Im Gespräch mit Claudia Koschtial geht es um Aufbau, Tooling und Praxiserfahrungen.
+
+[Episode-Seite](https://data-and-insights.podigee.io/42-neue-episode)
+
+### Why data contracts fail without interfaces
+23 February 2026 · Insightify Blog · with [Luke Pasisz](https://www.linkedin.com/in/luke-pasisz/) · English · Article
+https://simonharrer.com/podcasts.html#int-2026-1
+
+An interview exploring how data contracts function as explicit interfaces for data sharing in decentralized environments. Rather than treating data mesh as purely organizational or technical, the conversation frames it as an interface problem rooted in expectations that exist only in people's heads. Topics include why specifications require automation to be effective, the declarative nature of contract formats, and how contracts serve simultaneously as technical artifacts, collaboration mechanisms, and governance controls. The conversation closes by positioning data contracts as foundational infrastructure for AI agents to discover and safely consume enterprise data at scale.
+
+[Read the interview](https://insightify.io/blog/why-data-contracts-fail-without-interfaces)
+
+### Adding Value Early #116 — Die Story hinter Entropy Data
+Dezember 2025 · Adding Value Early · mit [Arnas Bräutigam](https://www.linkedin.com/in/arnasbrautigam/) (AddedVal.io) · German · Video
+https://simonharrer.com/podcasts.html#pod-2025-3
+
+Im Gespräch mit Arnas Bräutigam geht es um die Gründungsgeschichte von Entropy Data: Wie aus einem Beratungscase bei einem großen Logistikunternehmen ein Produkt und schließlich ein Spin-off der INNOQ wurde — ohne klassische VC-Finanzierung, dafür mit validiertem Markt und ersten zahlenden Kunden. Es geht um Produktentwicklung im Beratungsalltag, den Schritt in die Selbstständigkeit und den Aufbau eines Data-Marktplatzes.
+
+[LinkedIn Event](https://www.linkedin.com/events/addingvalueearly-116-entropydat7399756643049037824/) · [Artikel bei AddedVal.io](https://www.addedval.io/vom-beratungscase-zum-startup-die-story-hinter-entropy-data/)
+
+### The Data Playbook S2 E1 — Live from the POA Summit: Data Contracts, AI, and the Next Phase of Data Mesh
+9 October 2025 · Dataminded · with [Kris Peeters](https://www.linkedin.com/in/peeterskris/) · English · Video
+https://simonharrer.com/podcasts.html#pod-2025-2
+
+Recorded live at the POA Summit 2025 in Stuttgart, this episode features a discussion with Kris Peeters on the evolution from software engineering to data leadership. Topics include the Data Mesh Manager, data products, and data contracts as "the OpenAPI for data," why consulting and product divisions separated at Entropy Data, and how AI and MCPs are transforming data governance and self-service capabilities.
+
+[Episode page](https://www.dataminded.com/resources/episode2-1-simon-harrer-on-data-contracts-ai-and-the-next-phase-of-data-mesh) · [YouTube](https://youtu.be/7io0SCZoJeg) · [Spotify](https://open.spotify.com/episode/2ASEoxNVs8PcfsGr1tp783)
+
+### CaSE #59 — Data Marketplace, Data Products and Data Contracts
+22 September 2025 · Conversations about Software Engineering · with Alex Schladebeck, [Heinrich Hartmann](https://www.linkedin.com/in/heinrich-hartmann-b524a076/) & [Sven Johann](https://www.linkedin.com/in/svenjohann/) · English · Audio
+https://simonharrer.com/podcasts.html#pod-2025-1
+
+A conversation about the journey toward data contracts and marketplaces. The discussion covers what constitutes a data contract, how contracts function within data marketplaces, and their relationship to data products. The team examines governance through a domain-driven design lens — versioning, lifecycle management, contract validation — and connects it to broader industry standards and intelligent discovery mechanisms.
+
+[Episode page](https://www.case-podcast.org/59-data-marketplace-data-products-and-data-contracts/)
+
+### From Consultant to Founder: We are founding Entropy Data
+5 August 2025 · INNOQ News · English · Article
+https://simonharrer.com/podcasts.html#int-2025-1
+
+The story behind founding Entropy Data as an INNOQ spin-off. The Data Mesh Manager was primarily developed by Simon Harrer and Jochen Christ within INNOQ's Employee Innovation Program since 2022 and has now evolved into an independent company with customers across logistics, pharmaceuticals, insurance, and energy sectors. The article covers market validation, why "the need is real, demand is high", and how Entropy Data will focus on product development while maintaining collaboration with INNOQ on consulting and integration services.
+
+[Read the article](https://www.innoq.com/en/news/2025/08/from-consultant-to-founder-we-are-founding-entropy-data/)
+
+### BI or DIE — Datenprodukte und Data Contracts
+28. Oktober 2024 · BI or DIE · mit [Artur König](https://www.linkedin.com/in/datakoenigartur/) · German · Video
+https://simonharrer.com/podcasts.html#pod-2024-3
+
+Im Gespräch mit Artur König geht es um Datenprodukte und Data Contracts: Wie sich klare Schnittstellen zwischen Datenproduzenten und -konsumenten in der Praxis etablieren lassen, welche Rolle der Open Data Contract Standard spielt und wie Tools wie die Data Contract CLI dabei helfen, Data Contracts im Alltag umzusetzen.
+
+[YouTube](https://www.youtube.com/watch?v=ZX5xf7W5pXk)
+
+### INNOQ Podcast #160 — Data Contracts
+30. September 2024 · INNOQ Podcast · mit [Sven Johann](https://www.linkedin.com/in/svenjohann/) · German · Audio
+https://simonharrer.com/podcasts.html#pod-2024-1
+
+API-Spezifikationen, aber für Datensätze. Von Data Contracts werden wir ganz viel hören. Sie werden die Datenwelt im Sturm erobern, weil sie gebraucht werden. Im Gespräch mit Sven Johann spreche ich über Schema-Spezifikationen, Data Ownership, Nutzungsbedingungen, Quality- und Service Level — und wie Data Contracts klare Vereinbarungen zwischen Datenproduzenten und -konsumenten etablieren, ähnlich wie API-Spezifikationen in der klassischen Softwareentwicklung.
+
+[Episode-Seite](https://www.innoq.com/de/podcast/160-data-contracts/)
+
+### The Data Democracy #28 — Crafting Code Clarity and Championing Data Mesh in Germany
+10 April 2024 · Zeenea Podcast · with [Ole Olesen-Bagneux](https://www.linkedin.com/in/ole-olesen-bagneux/) · English · Audio
+https://simonharrer.com/podcasts.html#pod-2024-2
+
+The transition from teaching Java programming to becoming a Data Mesh advocate in Germany. The episode explores how software engineering principles apply to data architecture, with particular emphasis on data contracts and the process of fostering a data-centric culture within software-focused organizations. Includes the story of translating Zhamak Dehghani's Data Mesh book into German and insights into early Data Mesh adoption in the German tech landscape.
+
+[Episode page](https://podcast.zeenea.com/episode-28-w-simon-harrer-crafting-code-clarity-and-championing-data-mesh-in-germany)
+
+### Software Architektur im Stream #115 — Data Mesh: Nur ein neuer Datenanalyse-Hype?
+8. April 2022 · Software Architektur im Stream · mit [Eberhard Wolff](https://de.linkedin.com/in/eberhardwolff), [Jochen Christ](https://www.linkedin.com/in/jochen-christ/) & [Theo Pack](https://www.linkedin.com/in/theo-pack/) · German · Video
+https://simonharrer.com/podcasts.html#pod-2022-1
+
+Eberhard Wolff diskutiert Data Mesh als domänenübergreifendes Datenanalyse-Konzept mit Jochen Christ, Simon Harrer und Theo Pack. Es geht um Implementierungsansätze und wie dezentrale, selbstorganisierte Teams trotzdem eine zentralisierte Sicht auf alle Daten erreichen können.
+
+Mit [Jochen Christ](https://www.linkedin.com/in/jochen-christ/) · [Episode-Seite](https://software-architektur.tv/2022/04/08/folge115.html)
+
+### Software Architektur im Stream #56 — Remote Mob Programming
+16. April 2021 · Software Architektur im Stream · mit [Eberhard Wolff](https://de.linkedin.com/in/eberhardwolff), [Jochen Christ](https://www.linkedin.com/in/jochen-christ/), Franziska Dessart & [Martin Huber](https://www.linkedin.com/in/martin-huber-62a45335/) · German · Video
+https://simonharrer.com/podcasts.html#pod-2021-1
+
+Live-Stream-Session mit Jochen Christ, Franziska Dessart, Simon Harrer und Martin Huber, in der Remote Mob Programming live demonstriert wird — basierend auf über zwei Jahren ausschließlicher Praxis dieser Arbeitsweise.
+
+Mit [Jochen Christ](https://www.linkedin.com/in/jochen-christ/) & [Martin Huber](https://www.linkedin.com/in/martin-huber-62a45335/) · [Episode-Seite](https://software-architektur.tv/2021/04/16/folge56.html)
+
+### Q&A on the Book Remote Mob Programming
+3 February 2020 · InfoQ · with [Ben Linders](https://www.linkedin.com/in/benlinders/) · English · Article
+https://simonharrer.com/podcasts.html#int-2020-1
+
+Ben Linders interviews Simon Harrer, Jochen Christ, and Martin Huber about their experience practicing mob programming while working remotely for over a year. The Q&A covers daily workflow, role rotation strategies (10-minute cycles for a three-person team), use of Architecture Decision Records for documentation, and essential equipment like professional microphones and external cameras. The authors emphasize that remote mob programming requires employer trust, solves workplace isolation, and delivers superior code quality. They recommend starting with medium-sized features and upgrading equipment gradually as the practice becomes routine.
+
+Mit [Jochen Christ](https://www.linkedin.com/in/jochen-christ/) & [Martin Huber](https://www.linkedin.com/in/martin-huber-62a45335/) · [Read the article](https://www.infoq.com/articles/book-review-remote-mob-programming/)
+
+### Inside Remote — Simon Harrer on Mob Programming
+21 January 2020 · Inside Remote · with [Andrej Fodor](https://www.linkedin.com/in/andrejfodor/) · English · Audio
+https://simonharrer.com/podcasts.html#pod-2020-1
+
+A 30-minute episode on Remote Mob Programming — how the concept emerged, how the team adopted it, and how it positively impacts the speed and quality of distributed software development.
+
+[Apple Podcasts](https://podcasts.apple.com/us/podcast/simon-harrer-on-mob-programming/id1475773111?i=1000463291115)
+
+### Agile Unfiltered — Wie funktioniert Remote Mob Programming?
+15. Dezember 2019 · mit [Marc Löffler](https://de.linkedin.com/in/marcsteffenloeffler) · German · Audio
+https://simonharrer.com/podcasts.html#pod-2019-4
+
+Marc Löffler interviewt Simon, wie Remote Mob Programming in der Praxis funktioniert — das gesamte Team auf einem Bildschirm via Zoom, gemeinsames Lernen, Wissensverteilung und wie man am besten startet (Empfehlung: Mark Pearls „Code with the Wisdom of the Crowd").
+
+[Episode-Seite](https://marcloeffler.eu/2019/12/15/was-ist-eigentlich-mob-programming-ein-interview-mit-dr-simon-harrer/)
+
+### Autoweird.fm #64 — Literarisches Trio: Java by Comparison
+16. Juni 2019 · Autoweird.fm · mit [Benedikt Ritter](https://www.linkedin.com/in/benedikt-ritter-83847b84/) & [Holger Grosse-Plankermann](https://de.linkedin.com/in/holgergp) · German · Audio
+https://simonharrer.com/podcasts.html#pod-2019-3
+
+Eine Kapitel-für-Kapitel-Buchclub-Diskussion zu „Java by Comparison" mit dem Autor Simon Harrer — Code-Style, Exception Handling und Naming Conventions, mit den ein oder anderen Meinungsverschiedenheiten zwischen den Hosts. Aufgenommen in Holgers neuem Studio bei Bamberger Bier.
+
+[Episode-Seite](https://autoweird.fm/2019/06/16/folge-64-literarisches-trio-autoweird-fm-by-comparison-feat-simon-harrer/)
+
+### INNOQ Podcast #61 — Remote Mob Programming: Home but not alone
+6. Mai 2019 · INNOQ Podcast · mit [Stefan Tilkov](https://de.linkedin.com/in/stefantilkov), [Jochen Christ](https://www.linkedin.com/in/jochen-christ/) & [Martin Huber](https://www.linkedin.com/in/martin-huber-62a45335/) · German · Audio
+https://simonharrer.com/podcasts.html#pod-2019-1
+
+Stefan Tilkov interviewt drei INNOQ-Berater — Jochen Christ, Simon Harrer und Martin Huber — über ihre Erfahrungen mit Remote Mob Programming auf einem E-Commerce-Projekt. Das Team arbeitet synchron am gemeinsamen Code mit Screensharing und Videokonferenz, bei rotierender „Typist"-Rolle alle zehn Minuten. Wir sprechen über Produktivitätsgewinne, professionelle Audio-Ausstattung und wie dieser Ansatz bessere Work-Life-Balance bei hoher Codequalität ermöglicht.
+
+Mit [Jochen Christ](https://www.linkedin.com/in/jochen-christ/) & [Martin Huber](https://www.linkedin.com/in/martin-huber-62a45335/) · [Episode-Seite](https://www.innoq.com/de/podcast/061-remote-mob-programming/)
+
+### airhacks.fm — Optimizing for Humans, Not Machines
+24 March 2019 · airhacks.fm · with [Adam Bien](https://www.linkedin.com/in/adam-bien/) · English · Audio
+https://simonharrer.com/podcasts.html#pod-2019-2
+
+A conversation with Adam Bien about Simon's programming journey — from his first VB code at Siemens to learning Scheme, his PhD on choreography and distributed transactions, and his work at INNOQ. Core thesis: code should be optimized for humans, not machines, avoiding over-abstraction and unnecessary reuse in favor of pragmatic, human-centered code.
+
+[Episode page](https://www.adam-bien.com/roller/abien/entry/optimizing_for_humans_not_machines)
+
+### Developer's Journey #41 — Simon Harrer
+2019 · Developer's Journey · with [Tim Bourguignon](https://www.linkedin.com/in/timbourguignon/) · English · Audio
+https://simonharrer.com/podcasts.html#pod-2019-5
+
+The journey from university teaching to industry practice. The conversation explores experience building Java courses with hands-on learning and code reviews, plus insights on remote mob programming — where multiple developers work on shared code with one typist rotating every 10 minutes. Successful mob programming requires "strong opinions loosely held". The episode also covers Java by Comparison and its before/after teaching method.
+
+[Episode page](https://devjourney.info/Guests/41-SimonHarrer.html)
+
+### Developer On Fire #378 — Writing Priorities
+1 October 2018 · Developer On Fire · with [Dave Rael](https://www.linkedin.com/in/daverael/) · English · Audio
+https://simonharrer.com/podcasts.html#pod-2018-2
+
+Teaching, writing "Java by Comparison", family priorities, and solving real problems. Covers the journey through burnout, the Pareto principle, pair and mob programming, and balancing professional ambition with personal well-being.
+
+[Episode page](https://developeronfire.com/podcast/episode-378-simon-harrer-writing-priorities)
+
+### INNOQ Podcast #49 — Java by Comparison
+2. Juli 2018 · INNOQ Podcast · mit [Michael Vitz](https://www.linkedin.com/in/michaelvitz/) · German · Audio
+https://simonharrer.com/podcasts.html#pod-2018-1
+
+Im Gespräch mit Michael Vitz stelle ich mein Buch „Java by Comparison" zu Clean Code in Java vor. Es geht in dieser Folge unter anderem um das Konzept des Buches und die Frage, wie man Anfängern beibringt sauberen Code zu schreiben. Dabei werden drei konkrete Möglichkeiten, Code aufzuräumen und zu verbessern, diskutiert.
+
+[Episode-Seite](https://www.innoq.com/de/podcast/049-java-by-comparison/)
+
+## Articles
+Source: https://simonharrer.com/articles.html
+Articles, blog posts, and magazine publications on data contracts, data mesh, remote mob programming, and clean Java.
+🇩🇪 German, 🇺🇸 English · Online Print
+
+Writing lately: shorter pieces go out on [LinkedIn](https://www.linkedin.com/in/simonharrer/) and the [Entropy Data blog](https://www.entropy-data.com/news). Follow me there for new content.
+
+### What is a Data Product?
+INNOQ · July 2023 · with [Jochen Christ](https://www.linkedin.com/in/jochen-christ/) · Online · English, German
+https://www.innoq.com/en/articles/2023/07/what-is-a-data-product/
+German version: https://www.innoq.com/de/articles/2023/07/what-is-a-data-product/
+A working definition of “data product” in a Data Mesh context, with the eight characteristics it must satisfy.
+
+### Round-robin coding: Code handover in mere seconds with the mob tool
+INNOQ · March 2023 · with [Joshua Töpfer](https://www.linkedin.com/in/joshua-toepfer/) · Online · English, German
+https://www.innoq.com/en/articles/2023/03/typist-wechsel-dich-remote-edition-code-uebergabe-mit-dem-mob-tool/
+German version: https://www.innoq.com/de/articles/2022/12/typist-wechsel-dich-remote-edition-code-uebergabe-mit-dem-mob-tool/
+How the open-source mob CLI bundles the git operations needed to hand the keyboard between mob programmers in seconds.
+
+### Typist wechsel dich (Remote Edition) — Code-Übergabe in wenigen Sekunden mit dem mob-Tool
+Java Magazin · Issue 05/2022 (May 2022) · with [Joshua Töpfer](https://www.linkedin.com/in/joshua-toepfer/) · Print · German
+https://entwickler.de/magazine-ebooks/java-magazin/java-magazin-52022
+Print original of the mob-tool article — later republished on INNOQ.
+
+### Remote Mob Programming at INNOQ
+INNOQ · January 2021 · with [Jochen Christ](https://www.linkedin.com/in/jochen-christ/), [Niko Will](https://www.linkedin.com/in/niko-will-894ba4125/), [Andreas Wissel](https://www.linkedin.com/in/andreaswissel/), Franziska Dessart, [Daniel Westheide](https://www.linkedin.com/in/danielwestheide/), [Vera Peuntinger](https://www.linkedin.com/in/vera-peuntinger-8b3763132/), [Tina Schönborn](https://www.linkedin.com/in/tina-sch%C3%B6nborn-68a0a9141/), [Joshua Töpfer](https://www.linkedin.com/in/joshua-toepfer/), [Martin Huber](https://www.linkedin.com/in/martin-huber-62a45335/) · Online · English, German
+https://www.innoq.com/en/articles/2021/01/remote-mob-programming-bei-innoq/
+German version: https://www.innoq.com/de/articles/2021/01/remote-mob-programming-bei-innoq/
+A multi-author retrospective on a year of remote mob programming across INNOQ project teams.
+
+### Codequalität lehren und lernen: Erfahrungen aus 6 Jahren Programmierausbildung
+heise Developer · 30 June 2020 · with [Linus Dietz](https://www.linkedin.com/in/linus-dietz/) · Online · [#4 heise 2020](https://www.heise.de/news/Die-zehn-beliebtesten-Beitraege-auf-heise-Developer-im-Jahr-2020-5021641.html) · German
+https://www.heise.de/ratgeber/Codequalitaet-lehren-und-lernen-Erfahrungen-aus-6-Jahren-Programmierausbildung-4795323.html
+How code reviews and detailed project feedback — not just “does it run?” — shape better programmers, drawn from six years of teaching at the University of Bamberg.
+
+### Erfolgreich im Homeoffice arbeiten
+heise online · 13 March 2020 · with [Jochen Christ](https://www.linkedin.com/in/jochen-christ/) · Online · [#1 heise 2020](https://www.heise.de/news/Die-zehn-beliebtesten-Beitraege-auf-heise-Developer-im-Jahr-2020-5021641.html) · German
+https://www.heise.de/hintergrund/Erfolgreich-im-Homeoffice-arbeiten-4681061.html
+Practical tips for productive remote work — ergonomics, infrastructure, communication — written at the start of the COVID lockdowns.
+
+## Bio
+Source: https://simonharrer.com/bio.html
+Copy-ready bio and press photo for event organizers and journalists, in English (EN) and German (DE).
+
+### Contact and press details
+Press photo URL: https://simonharrer.com/simon-harrer-1024.jpg
+Name: Dr. Simon Harrer
+Title: Co-Founder and CEO / DE: Mitgründer und CEO
+Company: Entropy Data
+Email: simon.harrer@entropy-data.com
+LinkedIn: https://www.linkedin.com/in/simonharrer/
+Wikidata: https://www.wikidata.org/wiki/Q133063725
+Book Meeting: https://calendly.com/simon_harrer
+
+### Press photo
+300 × 300 14 KB — https://simonharrer.com/simon-harrer-300.jpg
+1024 × 1024 134 KB — https://simonharrer.com/simon-harrer-1024.jpg
+2048 × 2048 512 KB — https://simonharrer.com/simon-harrer-2048.jpg
+Original (2610 × 2610) 2.1 MB — https://simonharrer.com/simon-harrer-original.jpg
+
+### One-Liner
+EN: Simon is co-founder and CEO of Entropy Data, a data marketplace for data products and contracts.
+DE: Simon ist Mitgründer und CEO von Entropy Data, einem Marktplatz für Datenprodukte und Contracts.
+
+### Short Bio
+EN: Dr. Simon Harrer is co-founder and CEO of Entropy Data, a data marketplace powered by data products and contracts based on open standards.
+DE: Dr. Simon Harrer ist Mitgründer und CEO von Entropy Data, einem Datenmarktplatz mit Datenprodukten und Contracts auf Basis offener Standards.
+
+### Standard Bio
+EN: Dr. Simon Harrer is co-founder and CEO of Entropy Data, building a data marketplace powered by data products and contracts based on open standards. He serves on the technical steering committee for the Open Data Contract Standard (ODCS) and the Open Data Product Standard (ODPS) at the Linux Foundation.
+DE: Dr. Simon Harrer ist Mitgründer und CEO von Entropy Data, einem Datenmarktplatz mit Datenprodukten und Contracts auf Basis offener Standards. Er ist Mitglied des Technical Steering Committee für den Open Data Contract Standard (ODCS) und den Open Data Product Standard (ODPS) bei der Linux Foundation.
+
+### Medium Bio
+EN: Dr. Simon Harrer is co-founder and CEO of Entropy Data, a company building a data marketplace powered by data products and contracts. He brings his deep experience in software engineering to the world of data, advocating for robust, contract-first approaches. Simon is also a member of the technical steering committee for the Open Data Contract Standard (ODCS) and the Open Data Product Standard (ODPS) at the Linux Foundation.
+DE: Dr. Simon Harrer ist Mitgründer und CEO von Entropy Data, einem Unternehmen, das einen Datenmarktplatz auf Basis von Datenprodukten und Data Contracts aufbaut. Er bringt seine umfangreiche Erfahrung in der Softwareentwicklung in die Welt der Daten ein und setzt sich für robuste, Contract-first-Ansätze ein. Simon ist außerdem Mitglied des Technical Steering Committee für den Open Data Contract Standard (ODCS) und den Open Data Product Standard (ODPS) bei der Linux Foundation.
+
+### Long Bio
+EN: Dr. Simon Harrer holds a PhD in Distributed Systems from the University of Bamberg, Germany. Based on six years of teaching Java programming to students, he co-wrote the best-selling book "Java by Comparison". He then moved into industry as a Senior Consultant at INNOQ, where he delivered software as part of a team practicing full-time remote software teaming. For that, the team created the popular open source tool mob.sh. Today, Simon brings that engineering mindset to the world of data. He is co-founder and CEO of Entropy Data, a spin-off of INNOQ building a data marketplace powered by data products and contracts. He co-translated the German edition of "Data Mesh", co-created the Data Contract CLI and Data Contract Editor, and serves on the technical steering committee for the Open Data Contract Standard (ODCS) and the Open Data Product Standard (ODPS) at the Linux Foundation.
+DE: Dr. Simon Harrer hat an der Universität Bamberg über Distributed Systems promoviert. Basierend auf sechs Jahren Lehre der Java-Programmierung ist er Co-Autor des Bestsellers "Java by Comparison". Anschließend wechselte er als Senior Consultant zu INNOQ, wo er als Teil eines Teams Software im Vollzeit-Remote-Teaming entwickelte. Dafür entstand das populäre Open-Source-Tool mob.sh. Heute bringt Simon diese Engineering-Denkweise in die Welt der Daten. Er ist Mitgründer und CEO von Entropy Data, einem Spin-off von INNOQ, das einen Datenmarktplatz auf Basis von Datenprodukten und Contracts aufbaut. Er hat die deutsche Ausgabe von "Data Mesh" mitübersetzt, die Tools Data Contract CLI und Data Contract Editor mit ins Leben gerufen und ist Mitglied des Technical Steering Committee für den Open Data Contract Standard (ODCS) und den Open Data Product Standard (ODPS) bei der Linux Foundation.
