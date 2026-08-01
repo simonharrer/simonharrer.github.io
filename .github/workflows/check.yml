@@ -1,0 +1,34 @@
+name: Check site
+
+# The pages are hand-edited HTML with two generated artefacts alongside them.
+# This guards both: that the markup is structurally sound, and that the
+# generated files still match the markup they were derived from.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install --quiet beautifulsoup4
+
+      - name: Page structure
+        run: python3 tools/check-site.py
+
+      # Both generators read the rendered markup, so a page edit without a
+      # regeneration leaves them stale. --check fails rather than rewriting.
+      - name: Structured data is up to date
+        run: python3 tools/build-jsonld.py --check
+
+      - name: llms-full.txt is up to date
+        run: python3 tools/build-llms-full.py --check
