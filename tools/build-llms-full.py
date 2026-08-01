@@ -305,6 +305,27 @@ def build_bio(soup):
             ).strip()
             if text:
                 out.append(f"{lang.upper()}: {text}")
+
+    # Career, education, and the sidebar lists. Their headings carry both
+    # languages, so the German half is dropped rather than run together.
+    de = ['[data-lang="de"]']
+    for h2 in soup.select("main h2[id]"):
+        out += ["", f"### {md(h2, drop=de)}"]
+        for sib in h2.find_next_siblings():
+            if sib.name == "h2":
+                break
+            classes = sib.get("class") or []
+            if "cv-entry" in classes:
+                role = md(sib.select_one(".cv-role"))
+                org = md(sib.select_one(".cv-org"))
+                out += ["", joined([role, org], sep=" — ") if org else role]
+                out += [md(p) for p in sib.select("p:not(.cv-role):not(.cv-org)") if md(p)]
+            elif sib.name == "ul":
+                out += [f"- {md(li)}" for li in sib.select("li")]
+            elif sib.name == "p":
+                text = md(sib, drop=de)
+                if text:
+                    out.append(text)
     return out
 
 

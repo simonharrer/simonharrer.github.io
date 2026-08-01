@@ -129,14 +129,6 @@ Created in 2023 (not by Simon)
 Simon serves on the Technical Steering Committee for both standards
 More on [bitol.io](https://bitol.io).
 
-#### Data Landscape
-[20+ stars](https://github.com/entropy-data/data-landscape/stargazers)
-An opinionated, interactive map of the open standards that power a modern data architecture — ODCS, ODPS, OSI, OpenAPI, Iceberg, OpenLineage, OpenTelemetry and more.
-Created in 2026
-Curated by Simon at Entropy Data
-Explore at [data-landscape.com](https://www.data-landscape.com).
-Repository: [GitHub](https://github.com/entropy-data/data-landscape)
-
 #### Data Contract CLI
 [Thoughtworks Tech Radar](https://www.thoughtworks.com/radar/tools/data-contract-cli) · [950+ stars](https://github.com/datacontract/datacontract-cli/stargazers) · [1.4M monthly downloads](https://pypistats.org/packages/datacontract-cli)
 A CLI tool to validate, test, document, and export data contracts based on the Open Data Contract Standard. Supports 15+ data sources including Snowflake, Databricks, BigQuery, and Postgres.
@@ -152,6 +144,14 @@ Created in 2024
 Co-maintained with [Jochen Christ](https://www.linkedin.com/in/jochen-christ/)
 Try it at [editor.datacontract.com](https://editor.datacontract.com).
 Repository: [GitHub](https://github.com/datacontract/datacontract-editor)
+
+#### Data Landscape
+[20+ stars](https://github.com/entropy-data/data-landscape/stargazers)
+An opinionated, interactive map of the open standards that power a modern data architecture — ODCS, ODPS, OSI, OpenAPI, Iceberg, OpenLineage, OpenTelemetry and more.
+Created in 2026
+Curated by Simon at Entropy Data
+Explore at [data-landscape.com](https://www.data-landscape.com).
+Repository: [GitHub](https://github.com/entropy-data/data-landscape)
 
 ### Earlier projects
 
@@ -1056,3 +1056,72 @@ DE: Dr. Simon Harrer ist Mitgründer und CEO von Entropy Data, einem Unternehmen
 ### Long Bio
 EN: Dr. Simon Harrer holds a PhD in Distributed Systems from the University of Bamberg, Germany. Based on six years of teaching Java programming to students, he co-wrote the best-selling book "Java by Comparison". He then moved into industry as a Senior Consultant at INNOQ, where he delivered software as part of a team practicing full-time remote software teaming. For that, the team created the popular open source tool mob.sh. Today, Simon brings that engineering mindset to the world of data. He is co-founder and CEO of Entropy Data, a spin-off of INNOQ building a data marketplace powered by data products and contracts. He co-translated the German edition of "Data Mesh", co-created the Data Contract CLI and Data Contract Editor, and serves on the technical steering committee for the Open Data Contract Standard (ODCS) and the Open Data Product Standard (ODPS) at the Linux Foundation.
 DE: Dr. Simon Harrer hat an der Universität Bamberg über Distributed Systems promoviert. Basierend auf sechs Jahren Lehre der Java-Programmierung ist er Co-Autor des Bestsellers "Java by Comparison". Anschließend wechselte er als Senior Consultant zu INNOQ, wo er als Teil eines Teams Software im Vollzeit-Remote-Teaming entwickelte. Dafür entstand das populäre Open-Source-Tool mob.sh. Heute bringt Simon diese Engineering-Denkweise in die Welt der Daten. Er ist Mitgründer und CEO von Entropy Data, einem Spin-off von INNOQ, das einen Datenmarktplatz auf Basis von Datenprodukten und Contracts aufbaut. Er hat die deutsche Ausgabe von "Data Mesh" mitübersetzt, die Tools Data Contract CLI und Data Contract Editor mit ins Leben gerufen und ist Mitglied des Technical Steering Committee für den Open Data Contract Standard (ODCS) und den Open Data Product Standard (ODPS) bei der Linux Foundation.
+
+### Career
+Full professional history, as published on [LinkedIn](https://www.linkedin.com/in/simonharrer/).
+
+Co-Founder and CEO — [Entropy Data](https://www.entropy-data.com/)
+August 2025 – present
+Founded Entropy Data to bring people, data, and AI together, and built a data marketplace on data products and data contracts.
+Created the [Data Contract CLI](https://github.com/datacontract/datacontract-cli) and the [Data Contract Editor](https://github.com/datacontract/datacontract-editor).
+
+Senior Consultant — INNOQ
+April 2018 – July 2025 · 7 years 4 months · Munich area, Germany
+Implemented a distributed order management system at Breuninger and established clear interfaces at Hellmann.
+Case studies: [Breuninger](https://www.innoq.com/en/cases/breuninger-dom/) · [Hellmann](https://www.innoq.com/en/cases/hellmann-road/). Developed the open source tool [mob.sh](https://github.com/remotemobprogramming/mob/).
+
+Software Engineer — Self-employed
+January 2016 – August 2023 · 7 years 8 months · Bamberg area, Germany
+Created an email notification service as a SaaS business for two German counties as a profitable side business, and made a successful exit in 2023.
+
+CEO and Founder — Simon Harrer GmbH
+May 2017 – July 2020 · 3 years 3 months · Bamberg, Germany
+Created a price negotiation tool for the strategic purchasing department at Robert Bosch GmbH.
+
+External Lecturer — Otto-Friedrich-Universität Bamberg
+April 2019 – September 2019 · 6 months · Bamberg area, Germany
+Gave a seminar on Kubernetes and Cloud Native for master students at the Distributed Systems Group.
+
+Researcher and Teaching Assistant — Otto-Friedrich-Universität Bamberg
+January 2011 – January 2017 · 6 years 1 month · Bamberg area, Germany
+Developed the two courses “Advanced Java Programming” and “Programming Complex and Interactive Systems” and lectured them for six years. Was subject advisor for B.Sc. and M.Sc. in applied computer science for two years.
+Published 20 peer-reviewed papers in journals, conferences, and workshops — see [research](https://simonharrer.com/research.html).
+
+Student Teaching Assistant — Otto-Friedrich-Universität Bamberg
+October 2006 – September 2010 · 4 years · Bamberg area, Germany
+Gave 12 tutorials in 7 different computer science and software engineering courses, including mathematics for computer scientists, algorithms and data structures, and introduction to distributed and mobile systems.
+
+Business Intelligence Student Internship — NETZSCH Group
+August 2009 – September 2009 · 2 months
+Implemented a data warehouse and management reporting for the CFO. The internship was part of the Praxis Academy of the Campus of Excellence.
+
+CIO — Feki.de e.V.
+October 2006 – June 2008 · 1 year 9 months
+Led the transformation of the legacy Java-based portal to a standardized content management system.
+
+Student Software Developer — Siemens AG
+August 2005 – September 2007 · 2 years 2 months · Nuremberg area, Germany
+Developed large client-server applications with MS Access.
+
+### Education
+
+Dr. rer. nat. in Computer Science, magna cum laude — Otto-Friedrich-Universität Bamberg
+2011 – 2017
+Thesis: [Effective and Efficient Process Engine Evaluation](https://simonharrer.com/books.html), University of Bamberg Press.
+
+Diplom in Information Systems, with distinction — Otto-Friedrich-Universität Bamberg
+2005 – 2010 · Information Technology
+
+### Honors & awards
+- Good Teaching Award
+- Best Conference Paper Award
+- 2nd place at the IEEE Services Cup
+- Ranked 88 out of approx. 3000 in Google Hash Code
+
+### Certifications
+- Google Developer Certification — Associate Android Developer
+- Certificate for Teaching in Higher Education of the Bavarian Universities
+
+### Languages
+- German — native or bilingual
+- English — professional working

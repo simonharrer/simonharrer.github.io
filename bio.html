@@ -28,6 +28,16 @@
         aspect-ratio: 1 / 1;
         object-fit: cover;
       }
+
+      .cv-entry {
+        border-left: 2px solid var(--bs-border-color);
+        padding-left: 1rem;
+        margin-bottom: 1.5rem;
+      }
+      .cv-entry > :last-child { margin-bottom: 0; }
+      .cv-role { font-weight: 600; margin-bottom: 0; }
+      .cv-org { margin-bottom: .1rem; }
+      .cv-meta { margin-bottom: .4rem; }
     </style>
 
     <script src="vendor/bootstrap.bundle.min.js" defer></script>
@@ -278,6 +288,143 @@
               <small class="text-muted" data-stats-for="bio-long"></small>
             </div>
           </div>
+        </div>
+      </div>
+
+      <hr class="mt-5 mb-4">
+
+      <div class="row">
+        <div class="col-lg-8">
+          <h2 class="h4" id="career">
+            <span data-lang="en">Career</span>
+            <span data-lang="de" hidden>Berufserfahrung</span>
+          </h2>
+          <p class="text-muted">
+            <span data-lang="en">Full professional history, as published on <a href="https://www.linkedin.com/in/simonharrer/">LinkedIn</a>.</span>
+            <span data-lang="de" hidden>Vollst&auml;ndiger beruflicher Werdegang, wie auf <a href="https://www.linkedin.com/in/simonharrer/">LinkedIn</a> ver&ouml;ffentlicht.</span>
+          </p>
+
+          <div class="cv-entry">
+            <p class="cv-role">Co-Founder and CEO</p>
+            <p class="cv-org"><a href="https://www.entropy-data.com/">Entropy Data</a></p>
+            <p class="cv-meta text-muted"><small><time datetime="2025-08">August 2025</time> &ndash; present</small></p>
+            <p class="mb-1">Founded Entropy Data to bring people, data, and AI together, and built a data marketplace on data products and data contracts.</p>
+            <p class="mb-0"><small class="text-muted">Created the <a href="https://github.com/datacontract/datacontract-cli">Data Contract CLI</a> and the <a href="https://github.com/datacontract/datacontract-editor">Data Contract Editor</a>.</small></p>
+          </div>
+
+          <div class="cv-entry">
+            <p class="cv-role">Senior Consultant</p>
+            <p class="cv-org">INNOQ</p>
+            <p class="cv-meta text-muted"><small><time datetime="2018-04">April 2018</time> &ndash; <time datetime="2025-07">July 2025</time> &middot; 7 years 4 months &middot; Munich area, Germany</small></p>
+            <p class="mb-1">Implemented a distributed order management system at Breuninger and established clear interfaces at Hellmann.</p>
+            <p class="mb-0"><small class="text-muted">Case studies: <a href="https://www.innoq.com/en/cases/breuninger-dom/">Breuninger</a> &middot; <a href="https://www.innoq.com/en/cases/hellmann-road/">Hellmann</a>. Developed the open source tool <a href="https://github.com/remotemobprogramming/mob/">mob.sh</a>.</small></p>
+          </div>
+
+          <div class="cv-entry">
+            <p class="cv-role">Software Engineer</p>
+            <p class="cv-org">Self-employed</p>
+            <p class="cv-meta text-muted"><small><time datetime="2016-01">January 2016</time> &ndash; <time datetime="2023-08">August 2023</time> &middot; 7 years 8 months &middot; Bamberg area, Germany</small></p>
+            <p class="mb-0">Created an email notification service as a SaaS business for two German counties as a profitable side business, and made a successful exit in 2023.</p>
+          </div>
+
+          <div class="cv-entry">
+            <p class="cv-role">CEO and Founder</p>
+            <p class="cv-org">Simon Harrer GmbH</p>
+            <p class="cv-meta text-muted"><small><time datetime="2017-05">May 2017</time> &ndash; <time datetime="2020-07">July 2020</time> &middot; 3 years 3 months &middot; Bamberg, Germany</small></p>
+            <p class="mb-0">Created a price negotiation tool for the strategic purchasing department at Robert Bosch GmbH.</p>
+          </div>
+
+          <div class="cv-entry">
+            <p class="cv-role">External Lecturer</p>
+            <p class="cv-org">Otto-Friedrich-Universit&auml;t Bamberg</p>
+            <p class="cv-meta text-muted"><small><time datetime="2019-04">April 2019</time> &ndash; <time datetime="2019-09">September 2019</time> &middot; 6 months &middot; Bamberg area, Germany</small></p>
+            <p class="mb-0">Gave a seminar on Kubernetes and Cloud Native for master students at the Distributed Systems Group.</p>
+          </div>
+
+          <div class="cv-entry">
+            <p class="cv-role">Researcher and Teaching Assistant</p>
+            <p class="cv-org">Otto-Friedrich-Universit&auml;t Bamberg</p>
+            <p class="cv-meta text-muted"><small><time datetime="2011-01">January 2011</time> &ndash; <time datetime="2017-01">January 2017</time> &middot; 6 years 1 month &middot; Bamberg area, Germany</small></p>
+            <p class="mb-1">Developed the two courses &ldquo;Advanced Java Programming&rdquo; and &ldquo;Programming Complex and Interactive Systems&rdquo; and lectured them for six years. Was subject advisor for B.Sc. and M.Sc. in applied computer science for two years.</p>
+            <p class="mb-0"><small class="text-muted">Published 20 peer-reviewed papers in journals, conferences, and workshops &mdash; see <a href="research.html">research</a>.</small></p>
+          </div>
+
+          <div class="cv-entry">
+            <p class="cv-role">Student Teaching Assistant</p>
+            <p class="cv-org">Otto-Friedrich-Universit&auml;t Bamberg</p>
+            <p class="cv-meta text-muted"><small><time datetime="2006-10">October 2006</time> &ndash; <time datetime="2010-09">September 2010</time> &middot; 4 years &middot; Bamberg area, Germany</small></p>
+            <p class="mb-0">Gave 12 tutorials in 7 different computer science and software engineering courses, including mathematics for computer scientists, algorithms and data structures, and introduction to distributed and mobile systems.</p>
+          </div>
+
+          <div class="cv-entry">
+            <p class="cv-role">Business Intelligence Student Internship</p>
+            <p class="cv-org">NETZSCH Group</p>
+            <p class="cv-meta text-muted"><small><time datetime="2009-08">August 2009</time> &ndash; <time datetime="2009-09">September 2009</time> &middot; 2 months</small></p>
+            <p class="mb-0">Implemented a data warehouse and management reporting for the CFO. The internship was part of the Praxis Academy of the Campus of Excellence.</p>
+          </div>
+
+          <div class="cv-entry">
+            <p class="cv-role">CIO</p>
+            <p class="cv-org">Feki.de e.V.</p>
+            <p class="cv-meta text-muted"><small><time datetime="2006-10">October 2006</time> &ndash; <time datetime="2008-06">June 2008</time> &middot; 1 year 9 months</small></p>
+            <p class="mb-0">Led the transformation of the legacy Java-based portal to a standardized content management system.</p>
+          </div>
+
+          <div class="cv-entry">
+            <p class="cv-role">Student Software Developer</p>
+            <p class="cv-org">Siemens AG</p>
+            <p class="cv-meta text-muted"><small><time datetime="2005-08">August 2005</time> &ndash; <time datetime="2007-09">September 2007</time> &middot; 2 years 2 months &middot; Nuremberg area, Germany</small></p>
+            <p class="mb-0">Developed large client-server applications with MS Access.</p>
+          </div>
+
+          <h2 class="h4 mt-5" id="education">
+            <span data-lang="en">Education</span>
+            <span data-lang="de" hidden>Ausbildung</span>
+          </h2>
+
+          <div class="cv-entry">
+            <p class="cv-role">Dr. rer. nat. in Computer Science, <em>magna cum laude</em></p>
+            <p class="cv-org">Otto-Friedrich-Universit&auml;t Bamberg</p>
+            <p class="cv-meta text-muted"><small>2011 &ndash; 2017</small></p>
+            <p class="mb-0"><small class="text-muted">Thesis: <a href="books.html">Effective and Efficient Process Engine Evaluation</a>, University of Bamberg Press.</small></p>
+          </div>
+
+          <div class="cv-entry">
+            <p class="cv-role">Diplom in Information Systems, with distinction</p>
+            <p class="cv-org">Otto-Friedrich-Universit&auml;t Bamberg</p>
+            <p class="cv-meta text-muted"><small>2005 &ndash; 2010 &middot; Information Technology</small></p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <h2 class="h4 mt-5 mt-lg-0" id="honors">
+            <span data-lang="en">Honors &amp; awards</span>
+            <span data-lang="de" hidden>Auszeichnungen</span>
+          </h2>
+          <ul>
+            <li>Good Teaching Award</li>
+            <li>Best Conference Paper Award</li>
+            <li>2nd place at the IEEE Services Cup</li>
+            <li>Ranked 88 out of approx. 3000 in Google Hash Code</li>
+          </ul>
+
+          <h2 class="h4 mt-4" id="certifications">
+            <span data-lang="en">Certifications</span>
+            <span data-lang="de" hidden>Zertifizierungen</span>
+          </h2>
+          <ul>
+            <li>Google Developer Certification &mdash; Associate Android Developer</li>
+            <li>Certificate for Teaching in Higher Education of the Bavarian Universities</li>
+          </ul>
+
+          <h2 class="h4 mt-4" id="languages">
+            <span data-lang="en">Languages</span>
+            <span data-lang="de" hidden>Sprachen</span>
+          </h2>
+          <ul>
+            <li>German <span class="text-muted">&mdash; native or bilingual</span></li>
+            <li>English <span class="text-muted">&mdash; professional working</span></li>
+          </ul>
         </div>
       </div>
 
