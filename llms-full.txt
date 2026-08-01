@@ -65,13 +65,15 @@ Source: https://simonharrer.com/now.html
 What I’m focused on as of August 2026.
 ### Work
 Building [Entropy Data](https://www.entropy-data.com/) as Co-Founder & CEO. Current focus: agentic data governance — bringing LLM agents into the data contract and data product lifecycle so governance becomes a by-product of doing the work, not a separate gate.
+### Open standards
+On the technical steering committee for the [Open Data Contract Standard](https://github.com/bitol-io/open-data-contract-standard) and the [Open Data Product Standard](https://github.com/bitol-io/open-data-product-standard), both governed by [Bitol](https://bitol.io) at the Linux Foundation. Most of what I build and speak about sits on top of these two.
 ### Open source
-Maintaining [datacontract-cli](https://github.com/datacontract/datacontract-cli) and [datacontract-editor](https://github.com/datacontract/datacontract-editor). See the full list on [open source](https://simonharrer.com/open-source.html).
+Maintaining [datacontract-cli](https://github.com/datacontract/datacontract-cli), which implements ODCS and now sees around 1.4M downloads a month, and [datacontract-editor](https://github.com/datacontract/datacontract-editor). Newest is [Data Landscape](https://www.data-landscape.com), a map of the open standards behind a modern data architecture. Full list on [open source](https://simonharrer.com/open-source.html).
 ### Speaking
 A busy autumn ahead. Next up: Data Product Builder: Building Your Data Product Contract-first at the POA Summit 2026 in Antwerp on 17 September. Then October brings three German sessions — a full-day Datenkontrakte in der Praxis workshop at data2day 2026 in Köln on 6 October, and at the Software Architecture Summit 2026 in Berlin both a workshop with Arif Wider, Mit Data Contracts Vertrauen in Daten herstellen (12 October), and the keynote Agentic AI ist der nächste große Schritt der generativen KI (13 October).
 Behind me: two sessions at SummerSOC 2026 in Crete — Overview on Standards for Data Products and Chat with your Enterprise Data — closing out a June that also brought a Data Contracts workshop at Data Mesh Live 2026 in Antwerpen, A Data Marketplace is What Your Agent Needs at the DATA festival in München, and two sessions at TDWI München 2026. Full list on [talks](https://simonharrer.com/talks.html).
 ### Writing & research
-Peer-reviewed work on data contracts, data governance with GenAI, and LLM-bridged data products — see [research](https://simonharrer.com/research.html).
+Peer-reviewed work on data contracts, data governance with GenAI, and LLM-bridged data products — see [research](https://simonharrer.com/research.html). Shorter pieces go out on [LinkedIn](https://www.linkedin.com/in/simonharrer/) and the [Entropy Data blog](https://www.entropy-data.com/news) rather than here.
 ### Where
 Gerolzhofen, Germany. Working remotely with the Entropy Data team.
 
