@@ -1024,7 +1024,7 @@ Copy-ready bio and press photo for event organizers and journalists, in English 
 ### Contact and press details
 Press photo URL: https://simonharrer.com/simon-harrer-1024.jpg
 Name: Dr. Simon Harrer
-Title: Co-Founder and CEO / DE: Mitgründer und CEO
+Title: Co-Founder and CEO
 Company: Entropy Data
 Email: simon.harrer@entropy-data.com
 LinkedIn: https://www.linkedin.com/in/simonharrer/

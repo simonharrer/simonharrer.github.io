@@ -295,7 +295,9 @@ def build_bio(soup):
         out.append(joined([size, urljoin(f"{SITE}/bio.html", link.get("href"))], sep=" — "))
 
     for card in soup.select(".bio-card"):
-        title_el = card.select_one(".card-title")
+        # each bio is a tab pane; its label lives in the tab button that controls it
+        tab = soup.select_one("#" + card["aria-labelledby"]) if card.get("aria-labelledby") else None
+        title_el = tab or card.select_one(".card-title")
         body = card.select_one(".card-text")
         heading = md(title_el.select_one('[data-lang="en"]') or title_el)
         out += ["", f"### {heading}"]
