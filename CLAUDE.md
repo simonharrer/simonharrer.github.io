@@ -59,6 +59,45 @@ Consequences worth knowing:
 - If you ever want exact dates with no lag, the fix is to generate the sitemap
   in a Pages deploy workflow rather than committing it — not to change `--check`.
 
+## Keep in sync by hand
+
+Some facts are stated on several pages at once. No generator covers them — the
+generators only *copy* what the pages already say, so a half-finished change
+propagates into `llms-full.txt` and looks deliberate. When one of these changes,
+change all of them in the same commit.
+
+**How Entropy Data is described.** Currently: *a data product marketplace for
+humans and agents, built on data contracts and a semantic layer.* The five bios
+on `bio.html` are the source of truth; everything else is a shorter or longer
+retelling of the same sentence.
+
+| Where | What |
+|---|---|
+| `bio.html` | the five bios, EN **and** DE — one-liner, short, standard, medium, long |
+| `bio.html` | the Entropy Data entry under Career |
+| `index.html` | `<meta name="description">`, `og:description`, `twitter:description`, and `Person.description` — all four are the *same string* |
+| `index.html` | `Organization.description` in the `worksFor` node |
+| `index.html` | the "Currently:" line in the hero |
+| `index.html` | the FAQ answers "Who is Dr. Simon Harrer?" and "What does Entropy Data do?" — each in the visible markup *and* the mirrored `FAQPage` block |
+| `now.html` | the "Work" paragraph |
+| `llms.txt` | the `>` summary line and the "Role:" key fact (hand-maintained; only `llms-full.txt` is generated) |
+
+The bios are length-capped: the page shows a live character count per bio and
+turns it red past `data-max-chars` (100 / 150 / 400 / 500; the long bio is
+uncapped). German runs 5–10 % longer than English and is what actually hits the
+cap — `Datenproduktmarktplatz` as one word and a definite article buy back the
+few characters the one-liner and short bio need. Check both languages after
+editing.
+
+Two more things that are stated twice and drift silently:
+
+- `index.html` mirrors its **whole FAQ** in a `FAQPage` block. Edit the visible
+  markup and the JSON-LD together. Four of the eight answers differ in
+  whitespace-normalised text because the visible version carries `<em>` and
+  links; that is long-standing and not a signal to "fix".
+- `index.html` carries `"dateModified"` by hand. Bump it when the page's content
+  changes.
+
 ## Conventions
 
 - **Structured data is generated, never hand-written**, for the four list pages

@@ -1,6 +1,6 @@
 # Simon Harrer
 
-> Dr. Simon Harrer is Co-Founder and CEO of Entropy Data, where he builds agentic data governance. He is the author of "Java by Comparison", co-author of "Remote Mob Programming" and "GitOps", and the German translator of Zhamak Dehghani's "Data Mesh". He maintains the open-source Data Contract CLI and Data Contract Editor, publishes peer-reviewed research on data governance with generative AI, and speaks regularly on data contracts, data mesh, and data products. Based in Gerolzhofen, Germany.
+> Dr. Simon Harrer is Co-Founder and CEO of Entropy Data, a data product marketplace for humans and agents, built on data contracts and a semantic layer. He is the author of "Java by Comparison", co-author of "Remote Mob Programming" and "GitOps", and the German translator of Zhamak Dehghani's "Data Mesh". He maintains the open-source Data Contract CLI and Data Contract Editor, publishes peer-reviewed research on data governance with generative AI, and speaks regularly on data contracts, data mesh, and data products. Based in Gerolzhofen, Germany.
 
 ## Pages
 
@@ -18,7 +18,7 @@
 ## Key facts
 
 - Full name: Dr. Simon Harrer
-- Role: Co-Founder and CEO of Entropy Data (https://www.entropy-data.com/), which builds agentic data governance — software that uses AI agents to help organizations manage data contracts, data products, and data quality.
+- Role: Co-Founder and CEO of Entropy Data (https://www.entropy-data.com/), a data product marketplace for humans and agents — a place to discover data products, understand them through data contracts and a semantic layer, and get governed access to them.
 - Open standards: serves on the technical steering committee for the Open Data Contract Standard (ODCS) and the Open Data Product Standard (ODPS), both governed by Bitol (https://bitol.io/), a Linux Foundation project.
 - Based in: Gerolzhofen, Germany
 - Education: PhD in computer science, Otto-Friedrich-Universität Bamberg
