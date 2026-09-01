@@ -62,7 +62,7 @@ Email [simon.harrer@entropy-data.com](mailto:simon.harrer@entropy-data.com). He 
 ## Now
 Source: https://simonharrer.com/now.html
 
-What I’m focused on as of August 2026.
+What I’m focused on as of September 2026.
 ### Work
 Building [Entropy Data](https://www.entropy-data.com/) as Co-Founder & CEO. Current focus: a data product marketplace for humans and agents — data products described by data contracts and connected through a semantic layer, so that people and their agents can discover data, understand it, and get governed access to it.
 ### Open standards
