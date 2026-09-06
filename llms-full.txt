@@ -839,11 +839,11 @@ How Kotlin's language features — sealed classes, data classes, type-safe build
 Source: https://simonharrer.com/podcasts.html
 Audio and video podcast appearances plus written interviews. Click any entry to expand. 🇩🇪 German, 🇺🇸 English · Audio Video Article
 
-### The Data Culture Podcast — Datenprodukte für Menschen und Agenten
-2026 · BARC · mit [Dr. Carsten Bange](https://de.linkedin.com/in/carsten-bange) · German · Audio · Upcoming
+### The Data Culture Podcast — upcoming episode
+2026 · BARC · with [Dr. Carsten Bange](https://de.linkedin.com/in/carsten-bange) · Upcoming
 https://simonharrer.com/podcasts.html#pod-2026-6
 
-Im Gespräch mit Carsten Bange geht es um den Datenproduktmarktplatz für Menschen und Agenten: warum Data Contracts und ein Semantic Layer die Grundlage dafür sind, dass KI-Agenten Unternehmensdaten finden, verstehen und regelkonform nutzen können — und was das für Data Governance und Datenkultur bedeutet.
+An upcoming conversation with Carsten Bange on The Data Culture Podcast. Title, topic, language, and format are not yet fixed — this entry will be filled in once the episode is published.
 
 ### BI or DIE — Entropy Data, Open Semantic Interchange und offene Standards
 Oktober 2026 · BI or DIE · mit [Artur König](https://www.linkedin.com/in/datakoenigartur/) · German · Video · Upcoming
