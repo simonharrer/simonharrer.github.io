@@ -32,6 +32,14 @@ Gerolzhofen, Germany
 Product engineer at heart who loves to create together with curious minds.
 [Currently](https://simonharrer.com/now.html): building a data product marketplace for humans and agents at [Entropy Data](https://www.entropy-data.com/).
 Technical steering committee member for [ODCS and ODPS](https://bitol.io), the open data contract and data product standards, at the Linux Foundation.
+17 September 2026 · Antwerp, BE
+POA Summit 2026
+6 October 2026 · Köln, DE
+data2day 2026 · full-day workshop
+12 October 2026 · Berlin, DE
+Software Architecture Summit 2026 · workshop
+13 October 2026 · Berlin, DE
+Software Architecture Summit 2026 · keynote
 
 ### Frequently asked questions
 
@@ -831,17 +839,25 @@ How Kotlin's language features — sealed classes, data classes, type-safe build
 Source: https://simonharrer.com/podcasts.html
 Audio and video podcast appearances plus written interviews. Click any entry to expand. 🇩🇪 German, 🇺🇸 English · Audio Video Article
 
+### The Data Culture Podcast — Datenprodukte für Menschen und Agenten
+2026 · BARC · mit [Dr. Carsten Bange](https://de.linkedin.com/in/carsten-bange) · German · Audio · Upcoming
+https://simonharrer.com/podcasts.html#pod-2026-6
+
+Im Gespräch mit Carsten Bange geht es um den Datenproduktmarktplatz für Menschen und Agenten: warum Data Contracts und ein Semantic Layer die Grundlage dafür sind, dass KI-Agenten Unternehmensdaten finden, verstehen und regelkonform nutzen können — und was das für Data Governance und Datenkultur bedeutet.
+
 ### BI or DIE — Entropy Data, Open Semantic Interchange und offene Standards
 Oktober 2026 · BI or DIE · mit [Artur König](https://www.linkedin.com/in/datakoenigartur/) · German · Video · Upcoming
 https://simonharrer.com/podcasts.html#pod-2026-5
 
 Im Gespräch mit Artur König geht es um Entropy Data, Open Semantic Interchange (OSI) und die Rolle offener Standards in der Datenlandschaft: Wie semantische Interoperabilität über Systemgrenzen hinweg gelingt und wie sich OSI zu Standards wie ODCS und ODPS verhält.
 
-### The Data Playbook — upcoming episode
-2026 · Dataminded · with [Kris Peeters](https://www.linkedin.com/in/peeterskris/) · English · Video · Upcoming
+### The Data Playbook — Data Contracts and Data Products: What AI Agents Need to Access Enterprise Data
+2 September 2026 · Dataminded · with [Kris Peeters](https://www.linkedin.com/in/peeterskris/) · English · Video
 https://simonharrer.com/podcasts.html#pod-2026-4
 
-A new conversation with Kris Peeters on The Data Playbook, picking up the threads of data contracts, data products, and AI-driven data governance. The episode is recorded and will be published soon.
+A conversation with Kris Peeters about what AI agents need in order to use enterprise data: the difference between data contracts and data products, why purpose-based access control replaces one-time approval once an agent acts without a human in the loop, what a semantic layer adds as a business data model, and the three levels of data lineage. Also why data mesh is seeing a small revival because of agents, the data product builder built on Claude Code — and the hardest problem left, which is no longer building a data product but deciding who owns it.
+
+[Episode page](https://www.dataminded.com/resources/data-contracts-and-data-products-what-ai-agents-need-to-access-enterprise-data) · [YouTube](https://www.youtube.com/watch?v=zJllVaMtTKE)
 
 ### Data Innovation Podcast — Data Contracts & Data Products
 2026 · INFOMOTION Innovation Lab · mit [Prof. Dr. Ana Moya](https://de.linkedin.com/in/doc-moya) · German · Video
