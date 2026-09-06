@@ -139,14 +139,14 @@ Open source tools I've created, maintain, or have helped to maintain.
 ### Current projects
 
 #### Open Data Contract & Product Standards
-[Linux Foundation](https://bitol.io) · [1k+ stars](https://github.com/bitol-io/open-data-contract-standard/stargazers)
+[Linux Foundation](https://bitol.io) · [1.1k+ stars](https://github.com/bitol-io/open-data-contract-standard/stargazers)
 The open standards that data contracts and data products are written in: ODCS describes the schema, semantics, quality, and SLAs of a data interface, and ODPS describes the data product that serves it. Both are Linux Foundation projects governed under Bitol — and the standards the Data Contract CLI and Data Contract Editor implement.
 Created in 2023 (not by Simon)
 Simon serves on the Technical Steering Committee for both standards
 More on [bitol.io](https://bitol.io).
 
 #### Data Contract CLI
-[Thoughtworks Tech Radar](https://www.thoughtworks.com/radar/tools/data-contract-cli) · [950+ stars](https://github.com/datacontract/datacontract-cli/stargazers) · [1.4M monthly downloads](https://pypistats.org/packages/datacontract-cli)
+[Thoughtworks Tech Radar](https://www.thoughtworks.com/radar/tools/data-contract-cli) · [1k+ stars](https://github.com/datacontract/datacontract-cli/stargazers) · [1.4M monthly downloads](https://pypistats.org/packages/datacontract-cli)
 A CLI tool to validate, test, document, and export data contracts based on the Open Data Contract Standard. Supports 15+ data sources including Snowflake, Databricks, BigQuery, and Postgres.
 Created in 2023
 Co-maintained with [Jochen Christ](https://www.linkedin.com/in/jochen-christ/)
@@ -180,7 +180,7 @@ More on [mob.sh](https://mob.sh).
 Repository: [GitHub](https://github.com/remotemobprogramming/mob)
 
 #### JabRef
-[4.5k+ stars](https://github.com/JabRef/jabref/stargazers)
+[4.6k+ stars](https://github.com/JabRef/jabref/stargazers)
 An open-source bibliography reference manager for researchers, using BibTeX as its native format. Available for Windows, Linux, and macOS.
 Created in 2003 (not by Simon)
 Co-maintained by Simon 2014–2017 — no longer active
