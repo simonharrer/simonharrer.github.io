@@ -839,11 +839,19 @@ How Kotlin's language features — sealed classes, data classes, type-safe build
 Source: https://simonharrer.com/podcasts.html
 Audio and video podcast appearances plus written interviews. Click any entry to expand. 🇩🇪 German, 🇺🇸 English · Audio Video Article
 
+### antifragile data — upcoming episode
+2026 · antifragile data · with [Dirk Lerner](https://www.linkedin.com/in/dirklerner/) · Video · Upcoming
+https://simonharrer.com/podcasts.html#pod-2026-7
+
+An upcoming conversation with Dirk Lerner on antifragile data — Data, AI and other Stories, the podcast he launched in September 2026. The episode will be recorded as a video podcast; title, topic, and language are not yet fixed — this entry will be filled in once the episode is published.
+
+[Podcast](https://podcast.tedamoh.com/)
+
 ### The Data Culture Podcast — upcoming episode
-2026 · BARC · with [Dr. Carsten Bange](https://de.linkedin.com/in/carsten-bange) · Upcoming
+2026 · BARC · with [Dr. Carsten Bange](https://de.linkedin.com/in/carsten-bange) · Video · Upcoming
 https://simonharrer.com/podcasts.html#pod-2026-6
 
-An upcoming conversation with Carsten Bange on The Data Culture Podcast. Title, topic, language, and format are not yet fixed — this entry will be filled in once the episode is published.
+An upcoming conversation with Carsten Bange on The Data Culture Podcast. The episode will be recorded as a video podcast; title, topic, and language are not yet fixed — this entry will be filled in once the episode is published.
 
 ### BI or DIE — Entropy Data, Open Semantic Interchange und offene Standards
 Oktober 2026 · BI or DIE · mit [Artur König](https://www.linkedin.com/in/datakoenigartur/) · German · Video · Upcoming
