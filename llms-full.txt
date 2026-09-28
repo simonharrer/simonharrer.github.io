@@ -853,11 +853,13 @@ https://simonharrer.com/podcasts.html#pod-2026-6
 
 An upcoming conversation with Carsten Bange on The Data Culture Podcast. The episode will be recorded as a video podcast; title, topic, and language are not yet fixed — this entry will be filled in once the episode is published.
 
-### BI or DIE — Entropy Data, Open Semantic Interchange und offene Standards
-Oktober 2026 · BI or DIE · mit [Artur König](https://www.linkedin.com/in/datakoenigartur/) · German · Video · Upcoming
+### Daten-WG — Davon träumen KI-Agenten
+28. September 2026 · Daten-WG · mit [Artur König](https://www.linkedin.com/in/datakoenigartur/) · German · Video
 https://simonharrer.com/podcasts.html#pod-2026-5
 
-Im Gespräch mit Artur König geht es um Entropy Data, Open Semantic Interchange (OSI) und die Rolle offener Standards in der Datenlandschaft: Wie semantische Interoperabilität über Systemgrenzen hinweg gelingt und wie sich OSI zu Standards wie ODCS und ODPS verhält.
+Zurück in der Daten-WG bei Artur König: wie aus dem Data Mesh Manager Entropy Data wurde, ausgegründet aus der INNOQ, und warum ein Datenprodukt-Marktplatz mit Data Contracts genau das ist, wovon KI-Agenten träumen — bis hin zum Coding Agent, der aus einem Contract die Pipeline baut. Außerdem: ob ein Agent selbst ein Datenprodukt ist, wie man Slop im Marktplatz verhindert, wie aus Open Semantic Interchange Apache Ossie wurde, was ODCS und Ontologien für KI leisten, das Interesse von Microsoft an Data Contracts für Fabric und Power BI — und wem die Metadaten eigentlich gehören sollten.
+
+[YouTube](https://www.youtube.com/watch?v=L8-LEDMLwJA)
 
 ### The Data Playbook — Data Contracts and Data Products: What AI Agents Need to Access Enterprise Data
 2 September 2026 · Dataminded · with [Kris Peeters](https://www.linkedin.com/in/peeterskris/) · English · Video
