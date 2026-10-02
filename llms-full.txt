@@ -195,9 +195,9 @@ Applied research on data governance, data products, and AI — published in peer
 ### Recent papers
 
 #### Data Contracts: Structuring Promises and Expectations in Data Exchange
-Conference · IEEE International Conference on Web Services (ICWS) 2026 · with [Laura Schuiki](https://www.linkedin.com/in/laura-schuiki-4827b0269/), [Arif Wider](https://www.linkedin.com/in/arifwider/)
+Conference · IEEE International Conference on Web Services (ICWS) 2026, pp. 659–661 · with [Laura Schuiki](https://www.linkedin.com/in/laura-schuiki-4827b0269/), [Arif Wider](https://www.linkedin.com/in/arifwider/)
 Proposes a general concept of data contracts capturing both provider and consumer perspectives across four aspects — provider promises, consumer expectations, provider expectations, and consumer promises — enabling higher governance automation and fewer data incidents.
-[Read Paper](https://simonharrer.com/papers/data-contracts-promises-expectations-icws2026.pdf) · [Cite it](https://scholar.google.com/scholar?q=Data+Contracts+Structuring+Promises+and+Expectations+in+Data+Exchange)
+[Read Paper](https://simonharrer.com/papers/data-contracts-promises-expectations-icws2026.pdf) · [IEEE Xplore](https://ieeexplore.ieee.org/document/11670103) · [Cite it](https://scholar.google.com/scholar?q=Data+Contracts+Structuring+Promises+and+Expectations+in+Data+Exchange)
 
 #### Automating Data Governance with Generative AI
 Conference · AAAI/ACM Conference on AI, Ethics, and Society (AIES) 2025 · with [Linus W. Dietz](https://www.linkedin.com/in/linus-dietz-767604148/), [Arif Wider](https://www.linkedin.com/in/arifwider/)
