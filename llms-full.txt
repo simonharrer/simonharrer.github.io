@@ -847,11 +847,13 @@ An upcoming conversation with Dirk Lerner on antifragile data — Data, AI and o
 
 [Podcast](https://podcast.tedamoh.com/)
 
-### The Data Culture Podcast — upcoming episode
-2026 · BARC · with [Dr. Carsten Bange](https://de.linkedin.com/in/carsten-bange) · Video · Upcoming
+### The Data Culture Podcast — Data Products & Data Contracts in the AI Age: Ownership, Standards, Semantics
+5 October 2026 · BARC · with [Dr. Carsten Bange](https://de.linkedin.com/in/carsten-bange) · English · Video
 https://simonharrer.com/podcasts.html#pod-2026-6
 
-An upcoming conversation with Carsten Bange on The Data Culture Podcast. The episode will be recorded as a video podcast; title, topic, and language are not yet fixed — this entry will be filled in once the episode is published.
+A conversation with Carsten Bange about why data catalogs document data but rarely create real ownership, and how machine-readable data contracts add verifiable guarantees, clear responsibilities, and business semantics to data products. Also why data product marketplaces and open standards such as ODCS and ODPS are becoming the foundation for trustworthy AI agents and metadata sovereignty — the better you describe your data products, the better the answers from AI agents will be.
+
+[Episode page](https://data-culture-podcast.podigee.io/1008-neue-episode)
 
 ### Daten-WG — Davon träumen KI-Agenten
 28. September 2026 · Daten-WG · mit [Artur König](https://www.linkedin.com/in/datakoenigartur/) · German · Video
