@@ -70,7 +70,7 @@ On the technical steering committee for the [Open Data Contract Standard](https:
 ### Open source
 Maintaining [datacontract-cli](https://github.com/datacontract/datacontract-cli), which implements ODCS and now sees around 1.4M downloads a month, and [datacontract-editor](https://github.com/datacontract/datacontract-editor). Newest is [Data Landscape](https://www.data-landscape.com), a map of the open standards behind a modern data architecture. Full list on [open source](https://simonharrer.com/open-source.html).
 ### Speaking
-Next up: Wie KI-Agenten sich in der API- und der Datenwelt zurechtfinden at the 49. TDWI Roundtable Frankfurt on 18 February 2027, a German talk on how ODCS, OpenAPI and Apache Ossie let agents connect data and APIs without guessing. Just gave three German sessions: the full-day Datenkontrakte in der Praxis workshop at data2day 2026 in Köln on 6 October, and at the Software Architecture Summit 2026 in Berlin a workshop with Arif Wider, Mit Data Contracts Vertrauen in Daten herstellen (12 October), followed by the keynote Agentic AI ist der nächste große Schritt der generativen KI (13 October).
+Next up: Let’s Help Agents to Navigate the API and the Data World at apidays Paris (1–3 December 2026), on how ODCS, OpenAPI and Apache Ossie let agents connect data and APIs without guessing. The German version follows at the 49. TDWI Roundtable Frankfurt on 18 February 2027. Just gave three German sessions: the full-day Datenkontrakte in der Praxis workshop at data2day 2026 in Köln on 6 October, and at the Software Architecture Summit 2026 in Berlin a workshop with Arif Wider, Mit Data Contracts Vertrauen in Daten herstellen (12 October), followed by the keynote Agentic AI ist der nächste große Schritt der generativen KI (13 October).
 Before that: Data Product Builder: Building Your Data Product Contract-first at the POA Summit 2026 in Antwerp on 17 September, and a June that brought two sessions at SummerSOC 2026 in Crete — Overview on Standards for Data Products and Chat with your Enterprise Data — a Data Contracts workshop at Data Mesh Live 2026 in Antwerpen, A Data Marketplace is What Your Agent Needs at the DATA festival in München, and two sessions at TDWI München 2026. Full list on [talks](https://simonharrer.com/talks.html).
 ### Writing & research
 Peer-reviewed work on data contracts, data governance with GenAI, and LLM-bridged data products — see [research](https://simonharrer.com/research.html). Shorter pieces go out on [LinkedIn](https://www.linkedin.com/in/simonharrer/) and the [Entropy Data blog](https://www.entropy-data.com/news) rather than here.
@@ -244,6 +244,20 @@ Der Vortrag zeigt drei offene Standards, die diese Lücke gemeinsam schließen. 
 Wir gehen das Gutschein-Beispiel Schritt für Schritt durch, mit echten Dateien für alle drei Standards. Außerdem besprechen wir, wie Teams die Ontologie aufbauen und pflegen, ohne dass eine zentrale Stelle zum Engpass wird.
 
 [Event-Seite](https://www.tdwi.eu/veranstaltungen/roundtables/frankfurt)
+
+### Let’s Help Agents to Navigate the API and the Data World
+1–3 December 2026 · apidays Paris, CNIT Forest, Paris · English · Talk
+https://simonharrer.com/talks.html#talk-2026-17
+
+AI agents work across two worlds. Data lives in tables, and business functions live behind APIs. Real tasks need both. “Give every customer with a late delivery a voucher” means querying shipment data first and then calling a voucher API. The table calls the customer customer_id and the API calls it customerNumber. Nothing tells the agent that both mean the same customer, so it has to guess. A wrong guess means a wrong join or a wrong action.
+
+This talk covers three open standards that together close this gap. The Open Data Contract Standard (ODCS) describes the data world: tables, columns, types, quality, and terms of use. OpenAPI describes the API world: endpoints, requests, and responses. Apache Ossie describes the meaning: business concepts such as Customer, Shipment, and Voucher, and how they relate.
+
+ODCS and OpenAPI describe the shape of the data, and Ossie describes what it means. When columns in data contracts and fields in API specifications link to the same Ossie concepts, the agent can start from the concepts in its task. The ontology leads it to the right data product and the right API, so it can combine both without guessing. We go through the voucher example step by step, with real files for all three standards, and discuss how teams build and maintain the ontology without a central bottleneck.
+
+You will learn what ODCS, OpenAPI, and Apache Ossie each describe and where each one stops, how to link data contract columns and API fields to concepts in one Ossie ontology, and how an agent uses these links to read data and then act through APIs.
+
+[Event page](https://www.apidays.global/events/paris)
 
 ### Agentic AI ist der nächste große Schritt der generativen KI
 13. Oktober 2026 · Software Architecture Summit 2026, Berlin (17:45–18:45) · German · Keynote
