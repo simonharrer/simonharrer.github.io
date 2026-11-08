@@ -2,3 +2,5 @@
 .idea/
 podcasts-archive/
 .playwright-cli/
+# Private notes (e.g. conference submissions). Never committed, never published.
+private/
