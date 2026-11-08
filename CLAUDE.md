@@ -10,7 +10,7 @@ no plugins.
 
 ## Generated files — regenerate before committing
 
-Four things are derived from the pages rather than maintained alongside them, so
+Five things are derived from the pages rather than maintained alongside them, so
 that a talk, episode, or paper exists in exactly one place. **Edit a page, then
 run the generator that covers it.** All of them are idempotent and have a
 `--check` mode; CI runs every `--check` on push and pull request.
@@ -20,12 +20,14 @@ run the generator that covers it.** All of them are idempotent and have a
 | `python3 tools/build-jsonld.py` | `talks.html`, `podcasts.html`, `articles.html`, `open-source.html` | the `<script type="application/ld+json">` block in each of those pages |
 | `python3 tools/build-llms-full.py` | any page | `llms-full.txt` |
 | `python3 tools/build-sitemap.py` | adding or removing a page or a `papers/*.pdf` | `sitemap.xml` |
-| `python3 tools/check-site.py` | any page | nothing — it only reports |
+| `python3 tools/build-index.py` | `talks.html`, `podcasts.html` | the "Recent & upcoming" feed on `index.html` (the four newest talks and podcasts) |
+| `python3 tools/check-site.py` | any page | nothing — it only reports, including whether `index.html` is in sync (see below) |
 
-The safe habit is to run all four before committing:
+The safe habit is to run all of them before committing:
 
 ```sh
 python3 tools/build-jsonld.py && \
+python3 tools/build-index.py && \
 python3 tools/build-llms-full.py && \
 python3 tools/build-sitemap.py && \
 python3 tools/check-site.py
@@ -58,6 +60,27 @@ Consequences worth knowing:
   `research.html` and worth finding on their own.
 - If you ever want exact dates with no lag, the fix is to generate the sitemap
   in a Pages deploy workflow rather than committing it — not to change `--check`.
+
+## index.html is checked against its sources
+
+The front page restates facts from other pages, and those drifted: in November
+2026 it still advertised four talks from September and October as upcoming.
+`check-site.py` now fails when
+
+- the **"Recent & upcoming" feed** differs from a fresh `build-index.py` run.
+  The feed takes the first four cards of `talks.html` and `podcasts.html` in
+  document order, so keep both pages newest first with anything upcoming on
+  top. The "Upcoming" badge on a talk is set in the browser from `data-date`,
+  so a date passing does not make the generated HTML stale.
+- a **count** in "By the numbers" differs from the cards on `talks.html`,
+  `podcasts.html`, `books.html`, `research.html`, or `open-source.html`.
+- the **"Speaking next"** card on `index.html` or the Speaking paragraph on
+  `now.html` does not name the next talk on `talks.html` — or still says
+  "Next up" when nothing is scheduled. **This one depends on today's date**:
+  the day after a talk, the next push fails until both are updated. That is
+  intended. `--today YYYY-MM-DD` pins the date for testing.
+- the **"What I'm doing now"** snapshot's "as of" month differs from
+  `now.html`.
 
 ## Keep in sync by hand
 
@@ -96,7 +119,7 @@ Two more things that are stated twice and drift silently:
   whitespace-normalised text because the visible version carries `<em>` and
   links; that is long-standing and not a signal to "fix".
 - `index.html` carries `"dateModified"` by hand. Bump it when the page's content
-  changes.
+  changes, including when `build-index.py` rewrites the feed.
 
 ## Conventions
 

@@ -36,6 +36,11 @@ jobs:
       - name: llms-full.txt is up to date
         run: python3 tools/build-llms-full.py --check
 
+      # The index's "Recent & upcoming" feed is derived from talks.html and
+      # podcasts.html. check-site.py also catches this; the step names it.
+      - name: index.html feed is up to date
+        run: python3 tools/build-index.py --check
+
       # Compares the URL set only. lastmod is generated before the commit that
       # carries it, so those dates legitimately trail by one commit.
       - name: sitemap.xml covers every page

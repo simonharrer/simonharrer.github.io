@@ -32,14 +32,6 @@ Gerolzhofen, Germany
 Product engineer at heart who loves to create together with curious minds.
 [Currently](https://simonharrer.com/now.html): building a data product marketplace for humans and agents at [Entropy Data](https://www.entropy-data.com/).
 Technical steering committee member for [ODCS and ODPS](https://bitol.io), the open data contract and data product standards, at the Linux Foundation.
-17 September 2026 · Antwerp, BE
-POA Summit 2026
-6 October 2026 · Köln, DE
-data2day 2026 · full-day workshop
-12 October 2026 · Berlin, DE
-Software Architecture Summit 2026 · workshop
-13 October 2026 · Berlin, DE
-Software Architecture Summit 2026 · keynote
 
 ### Frequently asked questions
 
