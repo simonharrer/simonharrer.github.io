@@ -197,6 +197,7 @@ COUNTS = {
     "talks.html": "main .talk-header",
     "podcasts.html": "main .talk-header",
     "books.html": "main .card",
+    "articles.html": "main ul.list-unstyled > li",
     "research.html": "main .card",
     "open-source.html": "main .card",
 }
@@ -299,6 +300,21 @@ def check_index_sync(path, soup, site):
     return out
 
 
+# 404.html is served for unknown URLs, not linked to.
+UNLINKED_OK = {"404.html", "index.html"}
+
+
+def check_reachable(path, soup, site):
+    """Every page is linked from the front page. The top navigation lists only
+    some of them (Bio, Articles, and Now were dropped from it in November
+    2026), so the index body has to carry the rest."""
+    if path.name != "index.html":
+        return []
+    linked = {a["href"].lstrip("/").partition("#")[0] for a in soup.select("a[href]")}
+    missing = sorted(site["pages"] - UNLINKED_OK - linked)
+    return [f"{page} is not linked from the front page" for page in missing]
+
+
 CHECKS = [
     ("nesting", check_nesting),
     ("headings", check_one_h1),
@@ -307,6 +323,7 @@ CHECKS = [
     ("json-ld", check_jsonld),
     ("head", check_head),
     ("index-sync", check_index_sync),
+    ("reachable", check_reachable),
 ]
 
 
