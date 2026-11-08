@@ -94,7 +94,7 @@ Pragmatic Bookshelf · 2018 · Bestseller · [4.2 · 120+ Goodreads ratings](htt
 Based on six years of teaching Java at university. A unique didactic concept on how to write readable code through before/after comparisons.
 Co-authored with [Linus Dietz](https://www.linkedin.com/in/linus-dietz/) & [Jörg Lenhard](https://www.linkedin.com/in/joerglenhard/)
 Practice with the [Kata](https://java.by-comparison.com/kata) or play [Jeopardy](https://java.by-comparison.com/game).
-Where to get it: [Pragmatic](https://pragprog.com/titles/javacomp/java-by-comparison/) · [Amazon 🇩🇪](https://www.amazon.de/dp/1680502875/) · [Amazon 🇺🇸](https://www.amazon.com/dp/1680502875/)
+Where to get it: [Website](https://java.by-comparison.com/) · [Pragmatic](https://pragprog.com/titles/javacomp/java-by-comparison/) · [Amazon 🇩🇪](https://www.amazon.de/dp/1680502875/) · [Amazon 🇺🇸](https://www.amazon.com/dp/1680502875/)
 
 #### Remote Mob Programming
 Self-published · Leanpub · 2020 · [3.8 · 25+ Goodreads ratings](https://www.goodreads.com/book/isbn/9783982112602)
