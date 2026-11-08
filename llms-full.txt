@@ -241,6 +241,18 @@ Presents a feedback-driven teaching concept for second- and third-year universit
 Source: https://simonharrer.com/talks.html
 Selected talks I've given at conferences, meetups, and company events. Click any talk to expand. 🇩🇪 German, 🇺🇸 English · Talk Workshop Keynote Online
 
+### Wie KI-Agenten sich in der API- und der Datenwelt zurechtfinden
+18. Februar 2027 · 49. TDWI Roundtable Frankfurt (18:00–18:45) · German · Talk
+https://simonharrer.com/talks.html#talk-2027-1
+
+KI-Agenten arbeiten in zwei Welten. Daten liegen in Tabellen, Geschäftsfunktionen hinter APIs. Echte Aufgaben brauchen beides: „Gib jedem Kunden mit einer verspäteten Lieferung einen Gutschein“ heißt, erst die Lieferdaten abfragen und dann eine Gutschein-API aufrufen. Die Tabelle nennt den Kunden customer_id, die API customerNumber. Nichts sagt dem Agenten, dass beide denselben Kunden meinen, also muss er raten.
+
+Der Vortrag zeigt drei offene Standards, die diese Lücke gemeinsam schließen. Der Open Data Contract Standard (ODCS) beschreibt die Datenwelt, OpenAPI die API-Welt und Apache Ossie die Bedeutung: Geschäftsbegriffe wie Kunde, Lieferung und Gutschein und wie sie zusammenhängen. Verweisen die Spalten in Data Contracts und die Felder in API-Spezifikationen auf dieselben Ossie-Begriffe, beginnt der Agent bei den Begriffen seiner Aufgabe. Die Ontologie führt ihn zum richtigen Datenprodukt und zur richtigen API, und er verbindet beides, ohne zu raten.
+
+Wir gehen das Gutschein-Beispiel Schritt für Schritt durch, mit echten Dateien für alle drei Standards. Außerdem besprechen wir, wie Teams die Ontologie aufbauen und pflegen, ohne dass eine zentrale Stelle zum Engpass wird.
+
+[Event-Seite](https://www.tdwi.eu/veranstaltungen/roundtables/frankfurt)
+
 ### Agentic AI ist der nächste große Schritt der generativen KI
 13. Oktober 2026 · Software Architecture Summit 2026, Berlin (17:45–18:45) · German · Keynote
 https://simonharrer.com/talks.html#talk-2026-16
