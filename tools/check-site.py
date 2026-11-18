@@ -263,16 +263,16 @@ def check_index_sync(path, soup, site):
                 out.append(f"numbers: tile says {value.get_text(strip=True)} "
                            f"for {page}, which has {actual[page]}")
 
-    # 2. The "Featured" list is generated from the data-featured entries of
-    #    articles.html, talks.html and podcasts.html by build-index.py; it
-    #    must match a fresh rendering.
+    # 2. The "Featured" cards are generated from the data-featured entries of
+    #    articles.html, talks.html, podcasts.html and open-source.html by
+    #    build-index.py; they must match a fresh rendering.
     upcoming = upcoming_talks(site)
     feed = re.search(re.escape(build_index.BEGIN) + r".*?" + re.escape(build_index.END),
                      path.read_text(), re.S)
     if not feed:
         out.append("feed: generated block missing; run tools/build-index.py")
     elif feed.group(0) != build_index.render():
-        out.append("feed: stale against articles.html/talks.html/podcasts.html; run tools/build-index.py")
+        out.append("feed: stale against the data-featured entries; run tools/build-index.py")
 
     # 3. "Speaking next" here and the Speaking paragraph on now.html name the
     #    next talk -- or, with nothing scheduled, do not claim a next one.

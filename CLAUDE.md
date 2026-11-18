@@ -20,7 +20,7 @@ run the generator that covers it.** All of them are idempotent and have a
 | `python3 tools/build-jsonld.py` | `talks.html`, `podcasts.html`, `articles.html`, `open-source.html` | the `<script type="application/ld+json">` block in each of those pages |
 | `python3 tools/build-llms-full.py` | any page | `llms-full.txt` |
 | `python3 tools/build-sitemap.py` | adding or removing a page or a `papers/*.pdf` | `sitemap.xml` |
-| `python3 tools/build-index.py` | `talks.html`, `podcasts.html`, `articles.html` | the "Featured" list on `index.html` (entries marked `data-featured`, plus Entropy Explains) |
+| `python3 tools/build-index.py` | `articles.html`, `talks.html`, `podcasts.html`, `open-source.html` | the "Featured" cards on `index.html` (entries marked `data-featured`, plus Entropy Explains) |
 | `python3 tools/check-site.py` | any page | nothing — it only reports, including whether `index.html` is in sync (see below) |
 
 The safe habit is to run all of them before committing:
@@ -67,12 +67,13 @@ The front page restates facts from other pages, and those drifted: in November
 2026 it still advertised four talks from September and October as upcoming.
 `check-site.py` now fails when
 
-- the **"Featured" list** differs from a fresh `build-index.py` run. The
-  front page shows only hand-picked items: every talk card (`talks.html`),
-  podcast card (`podcasts.html`) or article `<li>` (`articles.html`) with a
-  `data-featured` attribute, articles first, then talks, then podcasts, plus
-  the fixed entries in `EXTRA` in `build-index.py` (Entropy Explains, which
-  has no list page). To feature something else, move the attribute and
+- the **"Featured" cards** differ from a fresh `build-index.py` run. The
+  front page shows only hand-picked items: every article `<li>`
+  (`articles.html`), talk card (`talks.html`), podcast card (`podcasts.html`)
+  or project card (`open-source.html`) with a `data-featured` attribute, in
+  that order, plus the fixed entries in `EXTRA` in `build-index.py` (Entropy
+  Explains, which has no list page). Each card shows the first paragraph of
+  the entry's description, cut to four lines by CSS. To feature something else, move the attribute and
   rerun. The "Upcoming" badge on a talk is set in the browser from
   `data-date`, so a date passing does not make the generated HTML stale; once
   a featured talk is over, move `data-featured` to the next one.

@@ -1,21 +1,22 @@
 #!/usr/bin/env python3
 """Regenerate the "Featured" list on index.html from the list pages.
 
-The front page shows a handful of hand-picked items next to the profile: the
-newest article, the next talk, a podcast, the Entropy Explains series. Writing
-those by hand drifted: in November 2026 the index still advertised four talks
-from September and October as upcoming. So each item still lives in exactly
-one place. Mark a talk card on talks.html, a podcast card on podcasts.html, or
-an article <li> on articles.html with a `data-featured` attribute, and this
-script copies it to the front page (articles first, then talks, then
-podcasts, each in document order, then the fixed entries in EXTRA).
+The front page shows a handful of hand-picked items as cards next to the
+profile: an article, talks, a podcast, a project, the Entropy Explains series.
+Writing those by hand drifted: in November 2026 the index still advertised
+four talks from September and October as upcoming. So each item still lives
+in exactly one place. Mark an article <li> on articles.html, a talk card on
+talks.html, a podcast card on podcasts.html, or a project card on
+open-source.html with a `data-featured` attribute, and this script copies it
+to the front page (in that order, each page in document order, then the fixed
+entries in EXTRA), with the first paragraph of its description.
 
 The output depends only on the pages, never on today's date: the "Upcoming"
 badge on a talk is added in the browser from its data-date, exactly as
 talks.html does it. A featured talk passing its date therefore does not make
 --check fail; swap the `data-featured` mark to the next talk when it is over.
 
-Run from the repository root after editing talks.html or podcasts.html:
+Run from the repository root after editing any of those four pages:
 
     python3 tools/build-index.py            # rewrite index.html in place
     python3 tools/build-index.py --check    # exit 1 if the feed is stale
@@ -34,14 +35,21 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
+# Inline icons (Bootstrap Icons) for cards without a logo of their own.
+TERMINAL_SVG = ('<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16" '
+                'aria-hidden="true" focusable="false"><path d="M6 9a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 6 9M3.854 '
+                '4.146a.5.5 0 1 0-.708.708L4.793 6.5 3.146 8.146a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708z"/><path d="M2 1a2 '
+                '2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 '
+                '1-1-1V3a1 1 0 0 1 1-1z"/></svg>')
 # Featured items that have no list page of their own.
 EXTRA = [{
+    "kind": "Video series",
     "href": "https://www.entropy-data.com/learn/entropy-explains",
     "title": "Entropy Explains",
-    "detail": "Short animated explainers on data contracts, data products, and semantics · Video series",
-    "svg": ('<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16" '
-            'aria-hidden="true" focusable="false"><path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>'
-            '<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/></svg>'),
+    "meta": ["Entropy Data"],
+    "blurb": "Short animated explainers on data contracts, data products, and semantics: "
+             "one concept in under three minutes each.",
+    "icon": "conf-icons/entropy.webp",
 }]
 
 # Reuse the card parsing of build-jsonld.py so both read the pages identically.
@@ -68,122 +76,131 @@ def short_date(iso):
     return ""
 
 
-def entries(page):
-    """The talk or podcast cards of a page that carry data-featured, plus the page's total."""
-    soup = BeautifulSoup((ROOT / page).read_text(), "html.parser")
+def soup_of(page):
+    return BeautifulSoup((ROOT / page).read_text(), "html.parser")
+
+
+def talks_and_podcasts(page):
+    """The cards of talks.html / podcasts.html that carry data-featured."""
     out = []
-    for card, header, anchor, _ in jsonld.cards(soup):
+    for card, header, anchor, paragraphs in jsonld.cards(soup_of(page)):
         if not card.has_attr("data-featured"):
             continue
         f = jsonld.header_fields(header)
         segments = [s.strip() for s in f["meta"].split("·")]
-        when = jsonld.parse_date(segments[0])
         icon = header.select_one("img")
+        if page == "talks.html":
+            kind = next((b for b in f["badges"] if b in ("Keynote", "Workshop")), "Talk")
+            # venue without the time slot in brackets
+            meta = [re.sub(r"\s*\([^)]*\)\s*$", "", segments[1]).strip()] if len(segments) > 1 else []
+        else:
+            medium = next((b for b in f["badges"] if b in ("Video", "Audio")), "")
+            kind = f"Podcast · {medium}" if medium else "Podcast"
+            meta = segments[1:]
         out.append({
+            "kind": kind,
             "href": f"{page}#{anchor}",
             "title": f["title"],
             "badges": f["badges"],
             "lang": f["lang"],
-            "date": when,
-            "rest": segments[1:],
+            "date": jsonld.parse_date(segments[0]),
+            "meta": meta,
+            "blurb": jsonld.text_of(paragraphs[0]) if paragraphs else "",
             "icon": icon.get("src") if icon else None,
         })
-    total = len(soup.select("main .talk-header"))
-    return out, total
+    return out
 
 
 def articles():
-    """The articles on articles.html that carry data-featured, plus the page's total."""
-    soup = BeautifulSoup((ROOT / "articles.html").read_text(), "html.parser")
-    items = soup.select("main ul.list-unstyled > li")
+    """The articles on articles.html that carry data-featured."""
     out = []
-    for li in items:
+    for li in soup_of("articles.html").select("main ul.list-unstyled > li"):
         if not li.has_attr("data-featured"):
             continue
-        link, small = li.select_one("a"), li.select_one("small")
-        segments = [x.strip() for x in jsonld.text_of(small).split("·")]
+        segments = [x.strip() for x in jsonld.text_of(li.select_one("small")).split("·")]
         flag = li.select_one("span[title]")
         icon = li.select_one("img")
+        blurb = li.select_one("span.text-muted")
         out.append({
-            "href": link.get("href"),
+            "kind": "Article",
+            "href": li.select_one("a").get("href"),
             "title": li.select_one("strong").get_text(" ", strip=True),
-            "badges": [],
             "lang": jsonld.LANGS.get(flag.get("title")) if flag else None,
             "date": jsonld.parse_date(segments[1]) if len(segments) > 1 else None,
             # publisher and co-authors; "edited by ..." is too long for one line
-            "rest": [x.split(",")[0].strip() if x.startswith("with ") else x for x in segments[:1] + segments[2:]],
+            "meta": [x.split(",")[0].strip() if x.startswith("with ") else x
+                     for x in segments[:1] + segments[2:]],
+            "blurb": jsonld.text_of(blurb) if blurb else "",
             "icon": icon.get("src") if icon else None,
         })
-    return out, len(items)
+    return out
 
 
-def item(e, detail):
+def projects():
+    """The project cards on open-source.html that carry data-featured."""
+    out = []
+    for card in soup_of("open-source.html").select("div.card[data-featured]"):
+        title = card.select_one(".card-title")
+        stats = [jsonld.text_of(b) for b in title.select(".stat-badge")]
+        repo = next(a.get("href") for a in card.select("a[href]")
+                    if "github.com" in a.get("href") and "/stargazers" not in a.get("href"))
+        out.append({
+            "kind": "Open source",
+            "href": repo,
+            "title": jsonld.text_of(title, drop=[".badge"]),
+            "meta": stats,
+            "blurb": jsonld.text_of(card.select_one("p.card-text")),
+            "svg": TERMINAL_SVG,
+        })
+    return out
+
+
+def card(e):
     esc = html.escape
-    e = {"badges": [], "lang": None, "date": None, **e}
+    e = {"badges": [], "lang": None, "date": None, "meta": [], **e}
     day = e["date"] if e["date"] and len(e["date"]) == 10 else None
     attrs = f' data-date="{day}"' if day else ""
     if e.get("svg"):
         icon = f'<span class="feed-icon feed-icon-svg" aria-hidden="true">{e["svg"]}</span>'
-    elif e.get("icon"):
-        icon = (f'<img class="feed-icon" src="{esc(e["icon"])}" alt="" width="40" height="40" '
-                f'loading="lazy" decoding="async">')
     else:
-        icon = '<span class="feed-icon" aria-hidden="true"></span>'
+        icon = (f'<img class="feed-icon" src="{esc(e["icon"])}" alt="" width="56" height="56" '
+                f'loading="lazy" decoding="async">')
     flag = ""
     if e["lang"] in FLAGS:
         name, emoji = FLAGS[e["lang"]]
         flag = f'<span class="flag" title="{name}">{emoji}</span> '
     badge = (' <span class="badge badge-upcoming">Upcoming</span>'
              if "Upcoming" in e["badges"] else "")
-    when = short_date(e["date"]) if not badge or day else ""
-    time = (f'<time class="small text-muted text-nowrap" datetime="{e["date"]}">{when}</time>'
-            if when else "")
-    return (
-        f'              <a class="list-group-item list-group-item-action d-flex gap-3 align-items-center" '
-        f'href="{esc(e["href"])}"{attrs}>\n'
-        f'                {icon}\n'
-        f'                <span class="flex-grow-1">\n'
-        f'                  <span class="d-block feed-title">{flag}{esc(e["title"])}{badge}</span>\n'
-        f'                  <span class="d-block small text-muted">{esc(detail)}</span>\n'
-        f'                </span>\n'
-        f'                {time}\n'
-        f'              </a>'
-    ).replace("\n                \n", "\n")
-
-
-def talk_detail(e):
-    venue = re.sub(r"\s*\([^)]*\)\s*$", "", e["rest"][0]).strip() if e["rest"] else ""
-    kind = next((b for b in e["badges"] if b in ("Keynote", "Workshop")), "Talk")
-    if "Online" in e["badges"]:
-        kind += ", online"
-    return " · ".join(x for x in (venue, kind) if x)
-
-
-def podcast_detail(e):
-    kind = next((b for b in e["badges"] if b in ("Video", "Audio", "Article")), "")
-    return " · ".join(x for x in (*e["rest"], kind) if x)
-
-
-def article_detail(e):
-    return " · ".join(x for x in (*e["rest"], "Article") if x)
+    meta = " · ".join(esc(x) for x in e["meta"] if x)
+    when = short_date(e["date"])
+    if when:
+        meta += (" · " if meta else "") + f'<time datetime="{e["date"]}">{when}</time>'
+    return f"""            <div class="col">
+              <article class="card h-100 shadow-sm featured-card"{attrs}>
+                <div class="card-body">
+                  <div class="d-flex align-items-center gap-3 mb-3">
+                    {icon}
+                    <div class="small lh-sm">
+                      <div class="featured-kind">{esc(e["kind"])}</div>
+                      <div class="text-muted mt-1">{meta}</div>
+                    </div>
+                  </div>
+                  <h3 class="h5 card-title feed-title">{flag}<a class="stretched-link" href="{esc(e["href"])}">{esc(e["title"])}</a>{badge}</h3>
+                  <p class="card-text text-muted small featured-blurb mb-0">{esc(e["blurb"])}</p>
+                </div>
+              </article>
+            </div>"""
 
 
 def render():
-    arts, _ = articles()
-    talks, _ = entries("talks.html")
-    pods, _ = entries("podcasts.html")
-    rows = ([item(e, article_detail(e)) for e in arts]
-            + [item(e, talk_detail(e)) for e in talks]
-            + [item(e, podcast_detail(e)) for e in pods]
-            + [item(e, e["detail"]) for e in EXTRA])
+    items = (articles() + talks_and_podcasts("talks.html") + talks_and_podcasts("podcasts.html")
+             + projects() + EXTRA)
     return "\n".join([
         BEGIN,
         '          <section id="featured" class="feed" aria-labelledby="featured-heading">',
         '          <h2 id="featured-heading" class="h4 mb-3">Featured</h2>',
-        '          <div class="card shadow-sm">',
-        '            <div class="list-group list-group-flush" aria-labelledby="featured-heading">',
-        *rows,
-        '            </div>',
+        '          <div class="row row-cols-1 row-cols-md-2 g-3">',
+        *(card(e) for e in items),
         '          </div>',
         "          </section>",
         "          " + END,
