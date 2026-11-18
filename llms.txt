@@ -6,7 +6,7 @@
 
 - [Home](https://simonharrer.com/): Overview of Simon Harrer's books, open source, talks, podcasts, and research.
 - [Books](https://simonharrer.com/books.html): Java by Comparison, Remote Mob Programming, GitOps, the German translation of Data Mesh, his PhD thesis, and a contributed Data Contracts chapter in Effektive Softwarearchitekturen.
-- [Articles](https://simonharrer.com/articles.html): Articles on data products, data contracts, data mesh, and remote mob programming (INNOQ, Java Magazin, and others).
+- [Articles](https://simonharrer.com/articles.html): Articles on data products, data contracts, data mesh, and remote mob programming (martinfowler.com, INNOQ, Java Magazin, and others).
 - [Open Source](https://simonharrer.com/open-source.html): Data Contract CLI, Data Contract Editor, and mob.sh — tools used daily by developers and data teams.
 - [Talks](https://simonharrer.com/talks.html): Conference talks, meetups, and workshops on data contracts, data mesh, data products, dbt, GitOps, remote mob programming, and clean Java.
 - [Podcasts](https://simonharrer.com/podcasts.html): Podcast appearances and interviews on data contracts, data mesh, data governance with AI, and remote mob programming.

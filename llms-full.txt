@@ -54,7 +54,7 @@ Java by Comparison is a book by Simon Harrer, Jörg Lenhard, and Linus Dietz tha
 He maintains the [Data Contract CLI](https://github.com/datacontract/datacontract-cli), a Python tool for validating, testing, and exporting data contracts, and the Data Contract Editor, a web-based editor for ODCS data contracts. He also co-created [mob.sh](https://mob.sh/), a command-line tool for remote mob programming. See the [open source](https://simonharrer.com/open-source.html) page for more.
 
 **Where does Simon Harrer publish articles?**
-He writes on data products, data contracts, data mesh, and remote mob programming for the INNOQ blog, Java Magazin, heise, and other outlets. See the [articles](https://simonharrer.com/articles.html) page for the full list, and the [research](https://simonharrer.com/research.html) page for peer-reviewed publications.
+He writes on data products, data contracts, data mesh, and remote mob programming for martinfowler.com, the INNOQ blog, Java Magazin, heise, and other outlets. See the [articles](https://simonharrer.com/articles.html) page for the full list, and the [research](https://simonharrer.com/research.html) page for peer-reviewed publications.
 
 **How can I book Simon Harrer for a talk or podcast?**
 Email [simon.harrer@entropy-data.com](mailto:simon.harrer@entropy-data.com). He speaks on data contracts, data mesh, data products, and agentic data governance at conferences, meetups, and on podcasts. Past appearances are listed on the [talks](https://simonharrer.com/talks.html) and [podcasts](https://simonharrer.com/podcasts.html) pages, and event organizers can find a copy-ready bio and press photo on the [bio](https://simonharrer.com/bio.html) page.
@@ -73,7 +73,7 @@ Maintaining [datacontract-cli](https://github.com/datacontract/datacontract-cli)
 Next up: Let’s Help Agents to Navigate the API and the Data World at apidays Paris (1–3 December 2026), on how ODCS, OpenAPI and Apache Ossie let agents connect data and APIs without guessing. The German version follows at the 49. TDWI Roundtable Frankfurt on 18 February 2027. Just gave three German sessions: the full-day Datenkontrakte in der Praxis workshop at data2day 2026 in Köln on 6 October, and at the Software Architecture Summit 2026 in Berlin a workshop with Arif Wider, Mit Data Contracts Vertrauen in Daten herstellen (12 October), followed by the keynote Agentic AI ist der nächste große Schritt der generativen KI (13 October).
 Before that: Data Product Builder: Building Your Data Product Contract-first at the POA Summit 2026 in Antwerp on 17 September, and a June that brought two sessions at SummerSOC 2026 in Crete — Overview on Standards for Data Products and Chat with your Enterprise Data — a Data Contracts workshop at Data Mesh Live 2026 in Antwerpen, A Data Marketplace is What Your Agent Needs at the DATA festival in München, and two sessions at TDWI München 2026. Full list on [talks](https://simonharrer.com/talks.html).
 ### Writing & research
-Peer-reviewed work on data contracts, data governance with GenAI, and LLM-bridged data products — see [research](https://simonharrer.com/research.html). Shorter pieces go out on [LinkedIn](https://www.linkedin.com/in/simonharrer/) and the [Entropy Data blog](https://www.entropy-data.com/news) rather than here.
+Just published: [Data Contracts](https://martinfowler.com/articles/data-contracts.html) on martinfowler.com, a long-form article with Arif Wider, edited by Martin Fowler. Peer-reviewed work on data contracts, data governance with GenAI, and LLM-bridged data products — see [research](https://simonharrer.com/research.html). Shorter pieces go out on [LinkedIn](https://www.linkedin.com/in/simonharrer/) and the [Entropy Data blog](https://www.entropy-data.com/news) rather than here.
 ### Where
 Gerolzhofen, Germany. Working remotely with the Entropy Data team.
 
@@ -1071,6 +1071,11 @@ Articles, blog posts, and magazine publications on data contracts, data mesh, re
 🇩🇪 German, 🇺🇸 English · Online Print
 
 Writing lately: shorter pieces go out on [LinkedIn](https://www.linkedin.com/in/simonharrer/) and the [Entropy Data blog](https://www.entropy-data.com/news). Follow me there for new content.
+
+### Data Contracts
+martinfowler.com · November 2026 · with [Arif Wider](https://www.linkedin.com/in/arifwider/), edited by Martin Fowler · Online · English
+https://martinfowler.com/articles/data-contracts.html
+A long-form article on data contracts as API design for data: why people and AI agents need them, what goes into one with ODCS, how they relate to ontologies, data products and data marketplaces, and how to work with them in Git and CI/CD.
 
 ### What is a Data Product?
 INNOQ · July 2023 · with [Jochen Christ](https://www.linkedin.com/in/jochen-christ/) · Online · English, German
