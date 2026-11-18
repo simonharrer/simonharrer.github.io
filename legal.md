@@ -13,8 +13,16 @@ simon.harrer@gmail.com
 
 ## Privacy Policy
 
-This website is a static website and does not collect, store, or process any personal information.
-The use of this website does not require any cookies to be stored on your device.
+This website is a static website. It does not use cookies and does not store anything on your device.
+
+### Web Analytics
+
+This website uses [Umami Cloud](https://umami.is/) (Umami Software, Inc.), a privacy-focused web analytics service, to count page views and to see which pages and links are used.
+Umami sets no cookies or other trackers on your device and does not follow you across websites.
+It processes usage data: the page visited, the referring page, links clicked that leave this website, approximate country, browser, operating system, device type and screen size.
+The European Union region of Umami Cloud is used; place of processing: European Union.
+Legal basis: legitimate interest in understanding which content is read (Art. 6 (1) (f) GDPR).
+See Umami's [privacy policy](https://umami.is/privacy).
 
 ### Third Party Inclusion
 
