@@ -20,7 +20,7 @@ run the generator that covers it.** All of them are idempotent and have a
 | `python3 tools/build-jsonld.py` | `talks.html`, `podcasts.html`, `articles.html`, `open-source.html` | the `<script type="application/ld+json">` block in each of those pages |
 | `python3 tools/build-llms-full.py` | any page | `llms-full.txt` |
 | `python3 tools/build-sitemap.py` | adding or removing a page or a `papers/*.pdf` | `sitemap.xml` |
-| `python3 tools/build-index.py` | `talks.html`, `podcasts.html` | the "Recent & upcoming" feed on `index.html` (the four newest talks and podcasts) |
+| `python3 tools/build-index.py` | `talks.html`, `podcasts.html`, `articles.html` | the "Featured" list on `index.html` (entries marked `data-featured`, plus Entropy Explains) |
 | `python3 tools/check-site.py` | any page | nothing — it only reports, including whether `index.html` is in sync (see below) |
 
 The safe habit is to run all of them before committing:
@@ -67,11 +67,15 @@ The front page restates facts from other pages, and those drifted: in November
 2026 it still advertised four talks from September and October as upcoming.
 `check-site.py` now fails when
 
-- the **"Recent & upcoming" feed** differs from a fresh `build-index.py` run.
-  The feed takes the first four cards of `talks.html` and `podcasts.html` in
-  document order, so keep both pages newest first with anything upcoming on
-  top. The "Upcoming" badge on a talk is set in the browser from `data-date`,
-  so a date passing does not make the generated HTML stale.
+- the **"Featured" list** differs from a fresh `build-index.py` run. The
+  front page shows only hand-picked items: every talk card (`talks.html`),
+  podcast card (`podcasts.html`) or article `<li>` (`articles.html`) with a
+  `data-featured` attribute, articles first, then talks, then podcasts, plus
+  the fixed entries in `EXTRA` in `build-index.py` (Entropy Explains, which
+  has no list page). To feature something else, move the attribute and
+  rerun. The "Upcoming" badge on a talk is set in the browser from
+  `data-date`, so a date passing does not make the generated HTML stale; once
+  a featured talk is over, move `data-featured` to the next one.
 - a **count** in "By the numbers" differs from the cards on `talks.html`,
   `podcasts.html`, `books.html`, `research.html`, or `open-source.html`.
 - the **"Speaking next"** card on `index.html` or the Speaking paragraph on

@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
-"""Regenerate the "Recent & upcoming" feed on index.html from the list pages.
+"""Regenerate the "Featured" list on index.html from the list pages.
 
-The front page shows the newest talks and podcast appearances next to the
-profile. Writing those by hand drifted: in November 2026 the index still
-advertised four talks from September and October as upcoming. So the feed is
-derived from talks.html and podcasts.html, the one place each entry lives.
+The front page shows a handful of hand-picked items next to the profile: the
+newest article, the next talk, a podcast, the Entropy Explains series. Writing
+those by hand drifted: in November 2026 the index still advertised four talks
+from September and October as upcoming. So each item still lives in exactly
+one place. Mark a talk card on talks.html, a podcast card on podcasts.html, or
+an article <li> on articles.html with a `data-featured` attribute, and this
+script copies it to the front page (articles first, then talks, then
+podcasts, each in document order, then the fixed entries in EXTRA).
 
-It takes the first entries of each page in document order. Both pages are kept
-newest first, with anything still to come at the top, so that is "upcoming,
-then most recent". The output depends only on the two pages, never on today's
-date: the "Upcoming" badge on a talk is added in the browser from its
-data-date, exactly as talks.html does it. A talk passing its date therefore
-does not make --check fail.
+The output depends only on the pages, never on today's date: the "Upcoming"
+badge on a talk is added in the browser from its data-date, exactly as
+talks.html does it. A featured talk passing its date therefore does not make
+--check fail; swap the `data-featured` mark to the next talk when it is over.
 
 Run from the repository root after editing talks.html or podcasts.html:
 
@@ -32,7 +34,15 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
-SHOWN = 4  # entries per list
+# Featured items that have no list page of their own.
+EXTRA = [{
+    "href": "https://www.entropy-data.com/learn/entropy-explains",
+    "title": "Entropy Explains",
+    "detail": "Short animated explainers on data contracts, data products, and semantics · Video series",
+    "svg": ('<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16" '
+            'aria-hidden="true" focusable="false"><path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>'
+            '<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/></svg>'),
+}]
 
 # Reuse the card parsing of build-jsonld.py so both read the pages identically.
 _spec = importlib.util.spec_from_file_location("jsonld", ROOT / "tools" / "build-jsonld.py")
@@ -58,17 +68,19 @@ def short_date(iso):
     return ""
 
 
-def entries(page, limit):
+def entries(page):
+    """The talk or podcast cards of a page that carry data-featured, plus the page's total."""
     soup = BeautifulSoup((ROOT / page).read_text(), "html.parser")
     out = []
     for card, header, anchor, _ in jsonld.cards(soup):
+        if not card.has_attr("data-featured"):
+            continue
         f = jsonld.header_fields(header)
         segments = [s.strip() for s in f["meta"].split("·")]
         when = jsonld.parse_date(segments[0])
         icon = header.select_one("img")
         out.append({
-            "page": page,
-            "anchor": anchor,
+            "href": f"{page}#{anchor}",
             "title": f["title"],
             "badges": f["badges"],
             "lang": f["lang"],
@@ -76,19 +88,47 @@ def entries(page, limit):
             "rest": segments[1:],
             "icon": icon.get("src") if icon else None,
         })
-        if len(out) == limit:
-            break
     total = len(soup.select("main .talk-header"))
     return out, total
 
 
+def articles():
+    """The articles on articles.html that carry data-featured, plus the page's total."""
+    soup = BeautifulSoup((ROOT / "articles.html").read_text(), "html.parser")
+    items = soup.select("main ul.list-unstyled > li")
+    out = []
+    for li in items:
+        if not li.has_attr("data-featured"):
+            continue
+        link, small = li.select_one("a"), li.select_one("small")
+        segments = [x.strip() for x in jsonld.text_of(small).split("·")]
+        flag = li.select_one("span[title]")
+        icon = li.select_one("img")
+        out.append({
+            "href": link.get("href"),
+            "title": li.select_one("strong").get_text(" ", strip=True),
+            "badges": [],
+            "lang": jsonld.LANGS.get(flag.get("title")) if flag else None,
+            "date": jsonld.parse_date(segments[1]) if len(segments) > 1 else None,
+            # publisher and co-authors; "edited by ..." is too long for one line
+            "rest": [x.split(",")[0].strip() if x.startswith("with ") else x for x in segments[:1] + segments[2:]],
+            "icon": icon.get("src") if icon else None,
+        })
+    return out, len(items)
+
+
 def item(e, detail):
     esc = html.escape
+    e = {"badges": [], "lang": None, "date": None, **e}
     day = e["date"] if e["date"] and len(e["date"]) == 10 else None
     attrs = f' data-date="{day}"' if day else ""
-    icon = (f'<img class="feed-icon" src="{esc(e["icon"])}" alt="" width="40" height="40" '
-            f'loading="lazy" decoding="async">' if e["icon"]
-            else '<span class="feed-icon" aria-hidden="true"></span>')
+    if e.get("svg"):
+        icon = f'<span class="feed-icon feed-icon-svg" aria-hidden="true">{e["svg"]}</span>'
+    elif e.get("icon"):
+        icon = (f'<img class="feed-icon" src="{esc(e["icon"])}" alt="" width="40" height="40" '
+                f'loading="lazy" decoding="async">')
+    else:
+        icon = '<span class="feed-icon" aria-hidden="true"></span>'
     flag = ""
     if e["lang"] in FLAGS:
         name, emoji = FLAGS[e["lang"]]
@@ -100,7 +140,7 @@ def item(e, detail):
             if when else "")
     return (
         f'              <a class="list-group-item list-group-item-action d-flex gap-3 align-items-center" '
-        f'href="{e["page"]}#{e["anchor"]}"{attrs}>\n'
+        f'href="{esc(e["href"])}"{attrs}>\n'
         f'                {icon}\n'
         f'                <span class="flex-grow-1">\n'
         f'                  <span class="d-block feed-title">{flag}{esc(e["title"])}{badge}</span>\n'
@@ -124,29 +164,27 @@ def podcast_detail(e):
     return " · ".join(x for x in (*e["rest"], kind) if x)
 
 
-def block(title, heading_id, page, items, total, noun, detail):
-    rows = "\n".join(item(e, detail(e)) for e in items)
-    return f"""          <div class="d-flex justify-content-between align-items-baseline mt-4 mb-2">
-            <h3 id="{heading_id}" class="h5 mb-0">{title}</h3>
-            <a href="{page}" class="small">All {total} {noun} <span aria-hidden="true">&rarr;</span></a>
-          </div>
-          <div class="card shadow-sm">
-            <div class="list-group list-group-flush" aria-labelledby="{heading_id}">
-{rows}
-            </div>
-          </div>"""
+def article_detail(e):
+    return " · ".join(x for x in (*e["rest"], "Article") if x)
 
 
 def render():
-    talks, n_talks = entries("talks.html", SHOWN)
-    pods, n_pods = entries("podcasts.html", SHOWN)
+    arts, _ = articles()
+    talks, _ = entries("talks.html")
+    pods, _ = entries("podcasts.html")
+    rows = ([item(e, article_detail(e)) for e in arts]
+            + [item(e, talk_detail(e)) for e in talks]
+            + [item(e, podcast_detail(e)) for e in pods]
+            + [item(e, e["detail"]) for e in EXTRA])
     return "\n".join([
         BEGIN,
-        '          <section id="recent" class="feed" aria-labelledby="recent-heading">',
-        '          <h2 id="recent-heading" class="h4 mb-0">Recent &amp; upcoming</h2>',
-        block("Talks", "recent-talks", "talks.html", talks, n_talks, "talks", talk_detail),
-        block("Podcasts &amp; interviews", "recent-podcasts", "podcasts.html", pods, n_pods,
-              "appearances", podcast_detail),
+        '          <section id="featured" class="feed" aria-labelledby="featured-heading">',
+        '          <h2 id="featured-heading" class="h4 mb-3">Featured</h2>',
+        '          <div class="card shadow-sm">',
+        '            <div class="list-group list-group-flush" aria-labelledby="featured-heading">',
+        *rows,
+        '            </div>',
+        '          </div>',
         "          </section>",
         "          " + END,
     ])
@@ -175,7 +213,7 @@ def main():
         print("stale (run without --check to fix): index.html", file=sys.stderr)
         raise SystemExit(1)
     path.write_text(updated)
-    print("index.html: wrote recent & upcoming feed")
+    print("index.html: wrote featured list")
 
 
 if __name__ == "__main__":
